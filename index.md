@@ -14,25 +14,33 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Synthesis
 - [[overview]] — live portfolio dashboard (Dataview over positions)
+- [[all-in-best-ideas-2026-factcheck]] — verification of the 4 All-In pitches; MGM/TLN/AKTS hold up, GEOD overstated
 
 ## Positions
 _None yet. Real holdings go here — add yours and I'll build the pages._
 
 ## Theses
-- [[mtum-bull]] — momentum as a diversifying sleeve via MTUM; watchlist, conviction 2/5
+_None yet. The 4 pitches above are others' ideas, not adopted — say the word to turn any into your own thesis._
 
 ## Assets
-- [[mtum]] — iShares MSCI USA Momentum Factor ETF; standard retail momentum vehicle
+- [[mgm]] — MGM Resorts; event-driven gaming, Diller $48.30 bid, Osaka 2030 optionality
+- [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA, AI-power-demand play (~$382)
+- [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
+- [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
 
 ## People
-- [[cliff-asness]] — co-founder/CIO of AQR; canonical voice on value & momentum
+- [[aaron-cowen]] — Suvretta Capital; ex-Soros/Cohen; pitched MGM (besties #1)
+- [[dan-dreyfus]] — Bornite Capital; commodities/power; pitched Talen (audience #1)
+- [[oleg-nodelman]] — EcoR1 Capital; value biotech; pitched Aktis
+- [[kyle-samani]] — Multicoin Capital; crypto/DePIN; pitched GEODNET (⚠️ reliability note)
 
 ## Concepts
-- [[momentum-factor]] — trailing 6–12m winners keep winning; diversifies value, carries crash risk
-- [[factor-investing]] — _(stub)_ systematic return drivers (value, momentum, size, quality…)
+- [[ai-power-demand]] — structural data-center electricity demand; the Talen thesis
+- [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
+- [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
 ## Sources
-- [[2026-06-12-quant-corner-momentum]] — podcast primer on the momentum factor _(sample seed)_
+- [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
 
 ## Open stubs (mentioned, not yet written)
-[[value-factor]] · [[momentum-crashes]] · [[AQR]] · [[dana-whitfield]]
+[[barry-diller]] · [[all-in-podcast]] · [[replacement-cost-investing]]
