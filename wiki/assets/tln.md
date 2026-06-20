@@ -13,7 +13,7 @@ updated: 2026-06-19
 ## What it is
 US independent power producer (IPP) in the PJM grid. ~2.2 GW of **nuclear** (Susquehanna) plus
 a natural-gas fleet. A primary beneficiary of surging [[ai-power-demand|data-center power
-demand]] — has a major PPA with Amazon Web Services.
+demand]] — has a major PPA(Power Purchase Agreement) with Amazon Web Services.
 
 ## Current view
 A "buy a hard asset below replacement cost into a structural shortage" play

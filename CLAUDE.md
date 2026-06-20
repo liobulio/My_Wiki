@@ -161,13 +161,17 @@ opened: YYYY-MM-DD
 updated: YYYY-MM-DD
 ---
 ```
-Body: **Summary** · **Conviction rationale** · **Catalysts** · **Risks** ·
-**What would change my mind** (falsifiers) · **Sources** · **Update history** (dated
-bullets — append, don't overwrite).
+Body, in order:
+1. **The Thesis Test** (MANDATORY — a position cannot be opened until all three are answered;
+   see §3.8). The Edge · The Catalyst · The Invalidation.
+2. **Summary** · **Conviction rationale** · **Sources** · **Update history** (dated bullets —
+   append, don't overwrite).
 
 > Positions are the human's real book. Never invent or alter position numbers — only the
 > human supplies weights/prices/conviction. If a source implies a change, propose it and
-> wait for confirmation before editing frontmatter.
+> wait for confirmation before editing frontmatter. **Do not create a position page until the
+> human has answered the Thesis Test (§3.8), especially the Invalidation — that's a risk
+> decision only they can own.**
 
 ### 3.6 Thesis page — `wiki/theses/`
 ```yaml
@@ -181,12 +185,47 @@ opened: YYYY-MM-DD
 updated: YYYY-MM-DD
 ---
 ```
-Body: **Thesis** (one paragraph) · **Supporting evidence** (each bullet sourced) ·
-**Risks / counter-thesis** · **Falsifiers** (what would invalidate it) · **Sources**.
+Body, in order:
+1. **The Thesis Test** (MANDATORY — §3.8): The Edge · The Catalyst · The Invalidation.
+2. **Thesis** (one paragraph) · **Supporting evidence** (each bullet sourced) ·
+   **Risks / counter-thesis** · **Sources**.
+
+> A thesis page is a **tracked thesis**: a stance the human has *adopted as their own view*,
+> not merely an idea a source pitched (those stay on the source/asset page). See §3.8 for who
+> owns what. `status` moves `active → playing-out → invalidated` as reality unfolds; I update
+> it and the `conviction` as new sources arrive, and flag it the moment an Invalidation
+> condition is hit.
 
 ### 3.7 Synthesis pages — `wiki/synthesis/`
 `overview.md` is the portfolio dashboard (see §5). Other synthesis pages are cross-cutting
 analyses, comparisons, and answers worth keeping (see Query, §4.2).
+
+### 3.8 The Thesis Test + ownership (who writes a thesis?)
+Every **tracked thesis** and every **position** must answer three questions up front. A
+position is NOT opened until all three exist — the Invalidation in particular.
+
+- **The Edge** — *Why is the market currently mispricing this asset?* (What do we see that
+  the price doesn't reflect — and why does the gap exist?)
+- **The Catalyst** — *What specific, dated-or-conditional event will force a re-price?* (Not
+  "eventually" — a named event: earnings, a deal close, a data readout, a regulatory ruling.)
+- **The Invalidation** — *At what exact price level, or under what macro condition, is this
+  thesis proven wrong?* A hard number or a specific condition — not a vibe. This is the
+  pre-commitment that defines the exit.
+
+**Ownership — the conviction is yours; the work is mine.**
+
+| You (the human) own | I (the LLM) own |
+|---|---|
+| The decision to **adopt** a stance as your own | **Drafting** the prose and structuring the page |
+| The **conviction** number and **stance** | **Assembling** sourced supporting evidence |
+| **The Invalidation** (your risk line) | **Fact-checking** and surfacing counter-evidence |
+| The Edge & Catalyst (your call; I can propose) | **Maintaining** it — conviction/status updates, flagging hits |
+
+So a tracked thesis is **collaborative but conviction comes from your mouth**: I can *propose*
+a draft from a source (e.g. a pitch), but it stays a proposal — filed on the source/asset
+page, not in `theses/` — until you answer the Thesis Test in your own words and adopt it.
+Then it becomes a tracked thesis I keep current. (This mirrors the position rule: I propose,
+you confirm, I maintain.)
 
 ---
 
@@ -296,6 +335,9 @@ Operation types: `ingest`, `query`, `lint`, `maintenance`. Never rewrite past en
 - **Positions are real.** Treat `positions/` frontmatter as the human's actual book —
   propose changes, get confirmation, never invent numbers. Nothing here is financial advice;
   it's the human's own record of their own decisions.
+- **No position or tracked thesis without the Thesis Test (§3.8).** Every open requires The
+  Edge, The Catalyst, and The Invalidation. Never open one until the human has supplied them —
+  the Invalidation (exact price / macro condition) is theirs to set, not mine to guess.
 - **Append, don't destroy.** Update-history sections and `log.md` are append-only.
 - **Keep it consistent.** Same source referenced the same way everywhere; one entity = one
   page (use `aliases` for alternates).

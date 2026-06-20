@@ -32,3 +32,7 @@ grep "^## \[" log.md | tail -5
 - stubs created (links only): [[barry-diller]], [[all-in-podcast]], [[replacement-cost-investing]]
 - fact-check: MGM ✅ (Diller $48.30 bid / 26.1% / Osaka 2030), TLN ✅ (~$382, AWS PPA, 2.2GW nuclear), AKTS ✅ (mostly — $318M IPO, Ac-225/nectin-4 Fast Track; "$100M Lilly" imprecise), GEOD ⚠️ revenue ~$5M actual vs ~$11M pitched (~2x overstated) + token net-inflationary + disclosed Multicoin conflict.
 - ⚠️ contradiction flagged: [[geod]] pitched revenue vs reported. No positions created (none are real holdings).
+
+## [2026-06-20] maintenance | Schema: added the Thesis Test + thesis-ownership model
+- pages touched: [[CLAUDE]]
+- note: Per user, every position/tracked-thesis must answer The Edge / The Catalyst / The Invalidation before opening (new §3.8). Codified ownership: human owns stance/conviction/invalidation; LLM drafts, evidences, and maintains. A "tracked thesis" = a stance the human has adopted as their own (lives in theses/), vs a pitched idea (stays on source/asset page).

@@ -17,8 +17,7 @@ Four fund managers each pitch one top idea to the All-In besties, modeled on the
 Sohn" format. See the cross-cutting fact-check in [[all-in-best-ideas-2026-factcheck]].
 
 ## TL;DR
-Four single-name pitches: [[mgm|MGM Resorts]] (event-driven gaming), [[tln|Talen Energy]]
-(nuclear/AI power), [[akts|Aktis Oncology]] (radiopharma biotech), and [[geod|GEODNET]] (a
+Four single-name pitches: [[mgm|MGM Resorts]] (event-driven gaming), [[tln|Talen Energy]](nuclear/AI power), [[akts|Aktis Oncology]] (radiopharma biotech), and [[geod|GEODNET]] (a
 crypto/[[depin|DePIN]] RTK network). Independently fact-checked — three hold up well on the
 facts; **GEODNET's headline revenue figures are ~2x overstated** vs reported data.
 
