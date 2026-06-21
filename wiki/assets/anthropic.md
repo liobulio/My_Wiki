@@ -24,15 +24,22 @@ gatekeeper opening ([[ai-gatekeeping]]). ⚠️ This is **one podcast's (Sacks-l
 much of it second-hand reporting; a conflicted source (Sacks = WH AI czar). Recorded neutrally;
 not endorsed.
 
-## The Fable 5 episode (⚠️ attributed claims, not verified)
-- **Mythos** = powerful model held 30 days for cyber testing; **Fable 5** = guardrailed public
-  release (June 9). Commerce Sec **Howard Lutnik** ordered US-citizen-only restriction →
-  Anthropic shut it down entirely.
-- Trigger: [[amzn|Amazon]]/[[andy-jassy]] flagged a **jailbreak**; [[dario-amodei]] called it
-  narrow. WaPo/Semafor (per [[david-sacks]]): the "trusted partners" preview was expanded to
-  ~50 firms without WH consult, including a **reported** China-linked risk (SK Telecom — not
-  confirmed).
-- Outcome: export-control letter; Anthropic now negotiating with the government. "Trust broken."
+## The Fable 5 episode — ✅ fact-checked (2026-06-21)
+- **Verified:** Commerce Dept order (~June 12) barred **all foreign nationals** from
+  **Fable 5** + underlying **Mythos 5**; Anthropic **removed the models entirely** rather than
+  geo-restrict. — [Semafor](https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos),
+  [Anthropic statement](https://www.anthropic.com/news/fable-mythos-access)
+- **Verified:** [[amzn|Amazon]] (largest investor) flagged a **guardrail bypass** — researchers
+  prompted Fable 5 to read a codebase and turn it into a **vulnerability-discovery tool**;
+  [[andy-jassy]] raised it with officials directly. — [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)
+- **⚠️ Upgraded from "unconfirmed" → corroborated:** the China-link concern centers on
+  **SK Telecom**, now **named by multiple outlets** (WaPo via Semafor; Korea JoongAng; Tom's
+  Hardware). Access was revoked at WH request. Caveat: "ties to China" remains a **suspicion**,
+  not proven. — [Korea JoongAng](https://www.koreajoongangdaily.com/business/white-house-officials-pin-anthropic-ai-export-block-on-korean-telecom-report/12726842)
+- **Follow-up (post-episode):** Anthropic opened a **Seoul office** and said models would
+  return "in days." — [TechTimes](https://www.techtimes.com/articles/318668/20260618/fable-5-export-ban-day-six-anthropic-opens-seoul-office-vows-models-back-days.htm)
+- **Still attributed/contested (not independently verifiable):** the Treasury-call-and-refusal
+  narrative and the political-beef framing — both relayed by the conflicted [[david-sacks]].
 
 ## Key data points
 - Status: private; key dependencies = AWS compute + Amazon as investor/host.

@@ -19,8 +19,9 @@ political/philosophical commentary kept as attributed host opinion.
 > ⚠️ **Sourcing caveat.** Much of the Anthropic segment is **contested, second-hand
 > reporting** (cited to Washington Post / Semafor) and opinion. **[[david-sacks]] is the
 > sitting White House AI czar** giving a "readout" of a government action — a direct conflict
-> of interest. Treat claims as *attributed*, not established fact. Hard figures (SpaceX IPO,
-> Cursor deal) are **source-reported — verify** before acting.
+> of interest. Treat claims as *attributed*, not established fact. **Hard figures were
+> fact-checked 2026-06-21** — see the [Fact-check](#fact-check-2026-06-21) section (the SpaceX
+> raise and Iran "$300B" are corrected there).
 
 ## TL;DR
 [[spcx|SpaceX]] completed a record IPO (~$2T cap) and is acquiring Cursor; [[elon-musk]] is
@@ -37,7 +38,8 @@ for host worldview context. Investment-adjacent nugget: hostility to wealth/prop
 
 ## 2. SpaceX IPO + Cursor + trillionaire `[14:27]`
 - **[[spcx|SpaceX]] IPO** (~June 11–12, 2026): priced **$135/sh**, filled the green shoe for an
-  **~$85B raise** (≈3× Saudi Aramco 2019); closed **+19% to $161**, **cap >$2T**; ~**$177** at
+  **~$85B raise** (⚠️ actually ~$75B — see Fact-check) (≈3× Saudi Aramco 2019); closed **+19%
+  to $161**, **cap >$2T**; ~**$177** at
   taping. Briefly 4th-most-valuable (passed AMZN, MSFT), then ~7th (behind TSMC). 2025 revenue
   ~$19B. ~20–30% of the IPO allocated to **retail** (~600–700k Robinhood users).
 - **Cursor acquisition:** [[spcx]] exercised an option to buy **Cursor** (~$4B revenue) for
@@ -79,7 +81,8 @@ unverifiable opinion about a real person** — recorded as a segment, not as fac
 - Iran war (began Feb 28, 2026; ~110 days) → **MOU**, formal signing **June 19, Geneva**,
   mediated by Pakistan. Terms: 60-day ceasefire extension (+ Lebanon), **Strait of Hormuz
   reopening**, Iran gives up enriched uranium under IAEA supervision + freezes program 60 days,
-  sanctions lifted + **$300B reconstruction** (Gulf-funded, not US), US drawdown.
+  sanctions lifted + **$300B reconstruction** (⚠️ reporting says ~$24–25B frozen assets — see
+  Fact-check) (Gulf-funded, not US), US drawdown.
 - **Market read:** Chamath — "market's going to the moon"; Hormuz reopening → **oil flows**
   (risk-on). Unresolved: Israel sign-on, ballistic missiles, future enrichment.
 
@@ -89,7 +92,18 @@ People: [[elon-musk]], [[chamath-palihapitiya]], [[david-sacks]], [[david-friedb
 [[dario-amodei]], [[jason-calacanis]] _(stub)_, [[andy-jassy]] _(stub)_ ·
 Concepts: [[ai-gatekeeping]] · [[oil]] _(stub)_
 
-## Data gaps (for a future lint / fact-check)
-- ⚠️ Verify SpaceX IPO figures ($135 price, ~$85B raise, $2T cap) and the **Cursor/$60B** deal.
-- ⚠️ The SK-Telecom / China-access claim is **reported, not confirmed** — verify before relying.
-- ⚠️ Iran MOU terms are "high-level principles," many undefined — track the codified deal.
+## Fact-check (2026-06-21)
+Verified the episode's hard claims (web sources). Detail on the entity pages.
+- **[[spcx|SpaceX IPO]] — ✅ mostly:** $135/sh, +19% to $161, >$2T cap, passed Amazon — all
+  confirmed. **⚠️ Correction:** raise ~**$75B**, not "$85B" (~$10B overstated).
+- **Cursor deal — ✅:** $60B all-stock, ~$4B ARR (~15×), Q3 close — confirmed.
+- **[[anthropic|Fable 5 ban]] — ✅ corroborated:** Commerce order, Amazon-flagged jailbreak
+  (codebase→vuln tool), and **SK Telecom** named by multiple outlets (China ties = suspicion,
+  not proven). The Treasury-refusal & political-beef framing remain Sacks's contested account.
+- **Iran MOU — ✅ framework, ⚠️ two corrections:** MoU/Geneva/June 19, Hormuz reopening, 60-day
+  ceasefire all confirmed. But the figure is **~$24–25B frozen Iranian assets** (possibly
+  redirected to Gulf reconstruction) — **not the episode's "$300B reconstruction."** And
+  **enriched-uranium removal is NOT yet agreed** — it's an unresolved item for the 60-day
+  talks, despite the episode presenting it as done.
+- **❓ Still unverified:** SpaceX 2025 revenue ~$19B / retail allocation; Pakistan as mediator;
+  Illinois "Pritzker's law" specifics.

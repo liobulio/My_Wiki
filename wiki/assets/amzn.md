@@ -26,6 +26,10 @@ investor + the party that escalated against it) is itself notable.
 - Thesis exposure: gatekeeper/KYC moat (bull) vs open-source/fragmentation (bear,
   [[david-friedberg]]).
 
+## ✅ Fact-check (2026-06-21)
+- **Verified:** Amazon (Anthropic's largest investor) flagged the Fable 5 guardrail bypass;
+  [[andy-jassy]] raised it with administration officials directly. — [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)
+
 ## Related
 People: [[andy-jassy]] _(stub)_ · Assets: [[anthropic]] · Concepts: [[ai-gatekeeping]] ·
 Source: [[2026-06-20-all-in-oligarchs-fable-iran]]

@@ -244,21 +244,31 @@ Source can arrive 4 ways — get it into `raw/` first:
 
 Then run the ingest flow:
 1. **Read** the raw source fully. View any charts.
-2. **Discuss** key takeaways with the human (briefly) — let them steer emphasis.
-3. **Write the source page** in `wiki/sources/` (§3.1).
-4. **Create/update entity pages** the source touches — `assets/`, `people/`, `concepts/`.
+2. **Fact-check (MANDATORY — always fact-check on ingest).** Pull out the source's **hard,
+   checkable claims** — prices, market caps, deal sizes, dates, named events, attributed
+   statistics — and verify each against the web (WebSearch/WebFetch). Record a verdict per
+   claim: ✅ verified · ⚠️ imprecise/overstated (with the correct figure) · ❌ false ·
+   ❓ unverifiable. Cite the source URL for each. **Distinguish facts from forecasts:** a
+   pitcher's price target or an opinion isn't fact-checkable — label it a projection and
+   assess it, don't "verify" it. Put verdicts on the relevant entity pages and a short
+   **Fact-check / Data gaps** block on the source page; surface material errors to the human.
+3. **Discuss** key takeaways with the human (briefly) — let them steer emphasis.
+4. **Write the source page** in `wiki/sources/` (§3.1).
+5. **Create/update entity pages** the source touches — `assets/`, `people/`, `concepts/`.
    Create **stub pages** for important entities mentioned but not yet documented, and link
    them (a `[[link]]` to a not-yet-created page is fine and marks a TODO).
-5. **Update positions & theses** if the source bears on them — but per §3.5, *propose*
+6. **Update positions & theses** if the source bears on them — but per §3.5, *propose*
    position-number changes; don't edit them unilaterally.
-6. **Flag contradictions** — when the source conflicts with an existing claim, note it on
-   both the source page and the affected entity page with `⚠️`.
-7. **Update `index.md`** — add new pages to the right category with one-line summaries;
+7. **Flag contradictions** — when the source conflicts with an existing claim (or the
+   fact-check contradicts the source), note it on both the source page and the affected
+   entity page with `⚠️`.
+8. **Update `index.md`** — add new pages to the right category with one-line summaries;
    refresh summaries that changed.
-8. **Append to `log.md`** — one entry (§6).
+9. **Append to `log.md`** — one entry (§6), including the fact-check headline.
 
 A single ingest typically touches **10–15 pages**. That's expected — the value is in the
-bookkeeping.
+bookkeeping. **Never skip the fact-check** — even when the human doesn't ask; it's the
+default, not an add-on.
 
 ### 4.2 QUERY — answer a question against the wiki
 1. **Read `index.md` first** to find candidate pages. Use search (grep / qmd if installed)
