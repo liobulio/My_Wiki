@@ -32,7 +32,8 @@ and benefiting owners of existing generation (especially firm, carbon-free basel
 - Related approach: [[replacement-cost-investing]].
 
 ## Related
-[[tln]] · [[replacement-cost-investing]] · [[dan-dreyfus]]
+[[tln]] · [[replacement-cost-investing]] · [[dan-dreyfus]] · [[ai-gatekeeping]] (same
+hyperscalers are the marginal power buyers *and* the would-be AI gatekeepers)
 
 ## Sources
 - [[2026-06-12-all-in-best-ideas-pitch]] — Dreyfus's power-cycle framing.
