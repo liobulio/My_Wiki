@@ -43,7 +43,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[kyle-samani]] — Multicoin Capital; crypto/DePIN; pitched GEODNET (⚠️ reliability note)
 
 ## Concepts
-- [[ai-gatekeeping]] — hyperscaler cartel vs open-source fragmentation; the Fable-ban debate
+- [[ai-gatekeeping]] — durable hyperscaler oligopoly vs fragmentation (agree on the pull, split on durability/timescale)
 - [[ai-power-demand]] — structural data-center electricity demand; the Talen thesis
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model

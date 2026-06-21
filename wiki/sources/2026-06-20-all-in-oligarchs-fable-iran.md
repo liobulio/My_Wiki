@@ -68,7 +68,7 @@ for host worldview context. Investment-adjacent nugget: hostility to wealth/prop
   pushes back that beef clearly exists but steelmans that identical steps from Gemini/OpenAI
   would've been approved.
 - **Investment takeaway → [[ai-gatekeeping]]:** [[chamath-palihapitiya]] argues Frontier-Lab
-  mistrust hands **hyperscalers** (AMZN/MSFT/GOOG) a gatekeeper/KYC moat (cartel/oligopoly);
+  mistrust hands **hyperscalers** (AMZN/MSFT/GOOG) a gatekeeper/KYC moat 护城河 (cartel/oligopoly);
   [[david-friedberg]] counters that market forces drive **open-source + stack fragmentation**
   (IBM-mainframe→disaggregation analogy).
 

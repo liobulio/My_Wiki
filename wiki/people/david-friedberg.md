@@ -18,9 +18,11 @@ Podcast]].
 Markets-and-history framing; skeptical of "this time is different" tech doomerism.
 
 ## Notable views (this episode)
-- **[[ai-gatekeeping]] counter-thesis (bear cartel):** market forces drive **open-source +
+- **[[ai-gatekeeping]] thesis (fragmentation):** market forces drive **open-source +
   fragmentation** of the AI stack — chips, clouds, models, apps each disaggregate (IBM
-  mainframe → ISV-era analogy). Bets against a durable 3–4 firm AI oligopoly.
+  mainframe → ISV-era analogy); models commoditize fast. Bets a durable 3–4 firm AI oligopoly
+  **breaks**. (He agrees with [[chamath-palihapitiya]] that the concentration pull exists today;
+  he disputes that it *lasts* — partly a timescale difference. See [[ai-gatekeeping]].)
 - Macro: agency / economic-mobility worldview; anti-state-expansion ("politburo").
 
 ## Sources
