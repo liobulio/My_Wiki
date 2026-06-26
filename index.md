@@ -45,6 +45,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 ## Concepts
 - [[ai-gatekeeping]] — durable hyperscaler oligopoly vs fragmentation (agree on the pull, split on durability/timescale)
 - [[ai-power-demand]] — structural data-center electricity demand; the Talen thesis
+- [[replacement-cost-investing]] — buy a hard asset below rebuild cost (Sam Zell playbook); the Talen setup
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
@@ -53,4 +54,4 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[replacement-cost-investing]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]]
+[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]]
