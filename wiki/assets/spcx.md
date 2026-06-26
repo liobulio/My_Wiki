@@ -35,9 +35,15 @@ earlier in 2026).
 - **❓ Unverified (left as source-reported):** ~$19B 2025 revenue; "7th behind TSMC"; retail
   20–30% / 600–700k Robinhood allocations (IPO explainer says retail allocation was still TBD).
 
+## Other views
+- **[[bill-ackman]] (pre-IPO, 2026-06-03):** underwrite SpaceX **like a VC** (people·opportunity·
+  context·deal) — "one of one," near-monopoly low-cost launch + Starlink; he's in an **xAI SPV**.
+  ⚠️ He pegged it at **"$750B–$1T"** — the actual IPO printed **~$1.77T**, so his pre-IPO range
+  was low. — [[2026-06-03-ackman-market-is-missing]]
+
 ## Related
-People: [[elon-musk]] · Assets: [[tsla]] _(stub)_, [[cursor]] _(stub)_ ·
-Source: [[2026-06-20-all-in-oligarchs-fable-iran]]
+People: [[elon-musk]], [[bill-ackman]] · Assets: [[tsla]] _(stub)_, [[cursor]] _(stub)_ ·
+Sources: [[2026-06-20-all-in-oligarchs-fable-iran]], [[2026-06-03-ackman-market-is-missing]]
 
 ## Position & thesis
 _Not a holding. No user position/thesis yet (user will do theses later)._

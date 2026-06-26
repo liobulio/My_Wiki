@@ -1,7 +1,7 @@
 ---
 type: index
-updated: 2026-06-21
-sources: 2
+updated: 2026-06-26
+sources: 3
 ---
 
 # Index — Investment Wiki
@@ -23,6 +23,8 @@ _None yet. Real holdings go here — add yours and I'll build the pages._
 _None yet. The 4 pitches above are others' ideas, not adopted — say the word to turn any into your own thesis._
 
 ## Assets
+- [[hhh]] — Howard Hughes; Ackman's "Berkshire 2.0" — real-estate compounder + insurance flywheel
+- [[psus]] — Pershing Square USA; Ackman's best-ideas closed-end fund at a deep discount to NAV
 - [[spcx]] — SpaceX; record IPO (~$2T), acquiring Cursor; Tesla-merger watch (⚠️ figures unverified)
 - [[anthropic]] — private AI lab (Claude); Fable 5 govt ban; regulatory-risk focal point
 - [[amzn]] — Amazon/AWS; potential AI-gatekeeper winner; Anthropic host + investor
@@ -32,6 +34,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
 
 ## People
+- [[bill-ackman]] — Pershing Square; activist→quality compounder; building Berkshire 2.0 (HHH)
 - [[elon-musk]] — SpaceX/Tesla; "world's first trillionaire" (paper) on SpaceX IPO
 - [[chamath-palihapitiya]] — All-In host; AI-gatekeeper/KYC thesis (bull hyperscalers)
 - [[david-sacks]] — All-In host + White House AI czar (⚠️ conflict on Anthropic segment)
@@ -46,12 +49,15 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[ai-gatekeeping]] — durable hyperscaler oligopoly vs fragmentation (agree on the pull, split on durability/timescale)
 - [[ai-power-demand]] — structural data-center electricity demand; the Talen thesis
 - [[replacement-cost-investing]] — buy a hard asset below rebuild cost (Sam Zell playbook); the Talen setup
+- [[insurance-float-compounding]] — the Berkshire model: cheap insurance float → invest it; the HHH plan
+- [[founder-led-companies]] — owner-operator advantage; Ackman's quality/disruption-survival lens
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]] — All-In news: SpaceX IPO, Anthropic Fable ban, Iran MOU
 - [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
+- [[2026-06-03-ackman-market-is-missing]] — Bill Ackman: quality compounders, AI disruption, HHH/Berkshire 2.0
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]]
+[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[openai]] · [[ryan-cohen]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]]

@@ -30,9 +30,14 @@ investor + the party that escalated against it) is itself notable.
 - **Verified:** Amazon (Anthropic's largest investor) flagged the Fable 5 guardrail bypass;
   [[andy-jassy]] raised it with administration officials directly. — [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)
 
+## Other views
+- **[[bill-ackman]] owns it and calls it undervalued** — an "old-fashioned compounder" left
+  behind while capital chases chips/energy (2000-style rotation). — [[2026-06-03-ackman-market-is-missing]]
+
 ## Related
-People: [[andy-jassy]] _(stub)_ · Assets: [[anthropic]] · Concepts: [[ai-gatekeeping]] ·
-Source: [[2026-06-20-all-in-oligarchs-fable-iran]]
+People: [[andy-jassy]] _(stub)_, [[bill-ackman]] · Assets: [[anthropic]] · Concepts:
+[[ai-gatekeeping]] · Sources: [[2026-06-20-all-in-oligarchs-fable-iran]],
+[[2026-06-03-ackman-market-is-missing]]
 
 ## Position & thesis
 _Not a holding. No user position/thesis yet._

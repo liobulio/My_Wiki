@@ -20,7 +20,7 @@ when the world needs *more* of that capacity but building new is slow and expens
 - **Replacement cost** = the all-in cost to build equivalent capacity today (not book value,
   not historical cost). Related to **Tobin's Q** (market value ÷ replacement cost; `Q < 1` = the
   market values the asset below the cost to rebuild it).
-- Buy when **EV < replacement cost**. With debt in the capital structure, the **equity** gets
+- Buy when **EV(enterprise value) < replacement cost**. With debt in the capital structure, the **equity** gets
   leveraged upside to closing that gap.
 - The thesis pays off when (a) demand requires **new** capacity, and (b) building new is
   **more expensive / slower** than buying existing assets → existing assets **re-rate up**
