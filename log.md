@@ -70,3 +70,10 @@ grep "^## \[" log.md | tail -5
 
 ## [2026-06-26] maintenance | GameStop/Ryan Cohen clip incomplete — no transcript
 - note: raw/"GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay" (4j9RPGLENNI) has only the description/chapters, NOT the transcript body. NOT ingested. Needs a re-clip with the transcript before it can be processed.
+
+## [2026-06-26] ingest | Ryan Cohen — $56B eBay plan (All-In, 4j9RPGLENNI) [re-clip now has transcript]
+- raw: re-clipped with full transcript (supersedes the 2026-06-26 "incomplete clip" note above)
+- pages touched (8): [[2026-06-24-ryan-cohen-ebay-gamestop]], [[ryan-cohen]], [[gme]], [[ebay]], [[activist-investing]], [[founder-led-companies]] (Cohen example), [[david-friedberg]] (interviewer), [[index]]
+- stubs: [[chewy]], [[live-commerce]]
+- fact-check ✅: eBay bid $56B/$125-sh rejected May 12 2026 (verified); GME Q1 revenue $835.3M +14%, collectibles $348.9M ≈42%, $9.7B cash, $2B buyback (verified). ⚠️ nuance: "$500M of his own money" (into the deal, unfiled ❓) ≠ the ~$35B GameStop pay package he DECLINED (verified). ❓ unverified: GME FCF $333M, eBay "-30M users", Cohen's 3-part plan (projection).
+- cross-links: [[bill-ackman]] "vibes valuation" comment on GameStop ([[2026-06-03-ackman-market-is-missing]]); reinforces [[founder-led-companies]] + [[activist-investing]]. No positions/theses.

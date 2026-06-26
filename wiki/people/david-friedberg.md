@@ -25,5 +25,9 @@ Markets-and-history framing; skeptical of "this time is different" tech doomeris
   he disputes that it *lasts* — partly a timescale difference. See [[ai-gatekeeping]].)
 - Macro: agency / economic-mobility worldview; anti-state-expansion ("politburo").
 
+## Notable interviews (as host)
+- Interviewed [[ryan-cohen]] on the $56B [[ebay]] bid — [[2026-06-24-ryan-cohen-ebay-gamestop]].
+
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
+- [[2026-06-24-ryan-cohen-ebay-gamestop]]

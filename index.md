@@ -1,7 +1,7 @@
 ---
 type: index
 updated: 2026-06-26
-sources: 3
+sources: 4
 ---
 
 # Index — Investment Wiki
@@ -23,6 +23,8 @@ _None yet. Real holdings go here — add yours and I'll build the pages._
 _None yet. The 4 pitches above are others' ideas, not adopted — say the word to turn any into your own thesis._
 
 ## Assets
+- [[gme]] — GameStop; collectibles turnaround + $9.7B cash; Cohen's $56B eBay bid; meme/vibes premium
+- [[ebay]] — eBay; marketplace "great asset, poorly run"; target of GameStop's $56B (rejected) bid
 - [[hhh]] — Howard Hughes; Ackman's "Berkshire 2.0" — real-estate compounder + insurance flywheel
 - [[psus]] — Pershing Square USA; Ackman's best-ideas closed-end fund at a deep discount to NAV
 - [[spcx]] — SpaceX; record IPO (~$2T), acquiring Cursor; Tesla-merger watch (⚠️ figures unverified)
@@ -34,6 +36,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
 
 ## People
+- [[ryan-cohen]] — GameStop chair/CEO; founder of Chewy; founder-operator activist; $56B eBay bid
 - [[bill-ackman]] — Pershing Square; activist→quality compounder; building Berkshire 2.0 (HHH)
 - [[elon-musk]] — SpaceX/Tesla; "world's first trillionaire" (paper) on SpaceX IPO
 - [[chamath-palihapitiya]] — All-In host; AI-gatekeeper/KYC thesis (bull hyperscalers)
@@ -51,6 +54,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[replacement-cost-investing]] — buy a hard asset below rebuild cost (Sam Zell playbook); the Talen setup
 - [[insurance-float-compounding]] — the Berkshire model: cheap insurance float → invest it; the HHH plan
 - [[founder-led-companies]] — owner-operator advantage; Ackman's quality/disruption-survival lens
+- [[activist-investing]] — 13D engagement to force value realization; Ackman & Cohen
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
@@ -58,6 +62,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[2026-06-20-all-in-oligarchs-fable-iran]] — All-In news: SpaceX IPO, Anthropic Fable ban, Iran MOU
 - [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
 - [[2026-06-03-ackman-market-is-missing]] — Bill Ackman: quality compounders, AI disruption, HHH/Berkshire 2.0
+- [[2026-06-24-ryan-cohen-ebay-gamestop]] — Ryan Cohen: GameStop turnaround + the $56B eBay takeover bid
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[openai]] · [[ryan-cohen]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]]
+[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[openai]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]]

@@ -30,10 +30,13 @@ long-horizon calls that a hired CEO won't.
 
 ## Who uses it
 - **[[bill-ackman]]** — explicitly screens for it; ties it to surviving the "SaaS apocalypse."
+- **[[ryan-cohen]]** — the living example: own-money skin-in-the-game, roll-up-sleeves operator;
+  his whole [[ebay]] pitch is founder-operator vs "overpaid, no-skin" professional management.
 - Echoed by [[david-friedberg]] (founder authority to navigate AI change).
 
 ## Related
-[[bill-ackman]] · [[ai-gatekeeping]] (disruption backdrop) · [[insurance-float-compounding]]
+[[bill-ackman]] · [[ryan-cohen]] · [[activist-investing]] · [[ai-gatekeeping]] (disruption
+backdrop) · [[insurance-float-compounding]]
 
 ## Sources
 - [[2026-06-03-ackman-market-is-missing]]
