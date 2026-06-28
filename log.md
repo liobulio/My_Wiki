@@ -77,3 +77,10 @@ grep "^## \[" log.md | tail -5
 - stubs: [[chewy]], [[live-commerce]]
 - fact-check ✅: eBay bid $56B/$125-sh rejected May 12 2026 (verified); GME Q1 revenue $835.3M +14%, collectibles $348.9M ≈42%, $9.7B cash, $2B buyback (verified). ⚠️ nuance: "$500M of his own money" (into the deal, unfiled ❓) ≠ the ~$35B GameStop pay package he DECLINED (verified). ❓ unverified: GME FCF $333M, eBay "-30M users", Cohen's 3-part plan (projection).
 - cross-links: [[bill-ackman]] "vibes valuation" comment on GameStop ([[2026-06-03-ackman-market-is-missing]]); reinforces [[founder-led-companies]] + [[activist-investing]]. No positions/theses.
+
+## [2026-06-28] ingest | All-In ep. 278 — China AI / Micron memory / IPO wave (w8ah_tA0yfg)
+- raw: clipped (guests Gavin Baker, Travis Kalanick)
+- pages touched (~17): NEW [[2026-06-27-allin-china-ai-micron-memory]], [[gavin-baker]], [[travis-kalanick]], [[mu]], [[nvda]], [[cerebras]], [[tsla]] (stub→page), [[openai]] (stub→page), [[zai]], [[hbm-dram-bottleneck]], [[orbital-compute]], [[ai-distillation-open-weights]]; UPDATED [[anthropic]], [[spcx]], [[ai-gatekeeping]] (scoreboard), [[chamath-palihapitiya]], [[david-sacks]], [[index]]
+- stubs: [[cxmt]]
+- fact-check ✅: Micron FQ4 guide ~$50B + HBM sold out + ~$100B take-or-pay (⚠️ podcast "50%/4 customers" imprecise → 16 SCAs); GLM 5.2 (744B MoE, MIT, AAII 51, beats GPT-5.5 at 1/6 cost) ✅; OpenAI Jalapeño/Broadcom ✅; Nvidia bought Groq ~$20B ✅; Cerebras IPO $185→broke deal price, $20B/750MW OpenAI ✅. ⚠️ KEY: Gavin's "Anthropic $3T / $100B revenue" = projection — actual Series H ~$965B at ~$47B run-rate. SpaceX high $225.64, −30% ✅.
+- themes: [[hbm-dram-bottleneck]] (Micron), [[ai-distillation-open-weights]]/[[zai]] feed the [[ai-gatekeeping]] fragmentation scoreboard, [[orbital-compute]]. No positions/theses (per user, theses later).

@@ -41,9 +41,19 @@ earlier in 2026).
   ⚠️ He pegged it at **"$750B–$1T"** — the actual IPO printed **~$1.77T**, so his pre-IPO range
   was low. — [[2026-06-03-ackman-market-is-missing]]
 
+## Update — post-IPO price action + orbital-compute angle (2026-06-27)
+- **Price:** post-IPO high **$225.64**, since **−30%** (≈ low-$150s) — the "~$200, retreated"
+  the besties described. — [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/261995745-spacex-spcx-ipo-price-401-115-valuation-starlink-xai-tradingkey)
+- **Lockup/float:** [[gavin-baker]] notes insiders had 6-mo liquidity windows for a decade (so
+  maybe less of a lockup "wall"); ~half of employees bought the IPO. A NY hedge fund floated
+  shorting the lockup.
+- **[[orbital-compute]] tailwind:** Gavin's first-principles math favors SpaceX's launch+compute
+  stack as terrestrial data centers inflate; reinforces the [[tsla|Tesla]] "Megapod"/merger story.
+
 ## Related
-People: [[elon-musk]], [[bill-ackman]] · Assets: [[tsla]] _(stub)_, [[cursor]] _(stub)_ ·
-Sources: [[2026-06-20-all-in-oligarchs-fable-iran]], [[2026-06-03-ackman-market-is-missing]]
+People: [[elon-musk]], [[bill-ackman]], [[gavin-baker]] · Assets: [[tsla]], [[cursor]] _(stub)_ ·
+Concepts: [[orbital-compute]] · Sources: [[2026-06-20-all-in-oligarchs-fable-iran]],
+[[2026-06-03-ackman-market-is-missing]], [[2026-06-27-allin-china-ai-micron-memory]]
 
 ## Position & thesis
 _Not a holding. No user position/thesis yet (user will do theses later)._

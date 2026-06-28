@@ -1,0 +1,36 @@
+---
+type: asset
+ticker: NVDA
+asset_class: equity
+aliases: [Nvidia]
+tags: [semis, gpu, ai, inference]
+created: 2026-06-28
+updated: 2026-06-28
+---
+
+# NVDA — Nvidia
+
+## What it is
+Dominant AI GPU maker; the demand sink for [[mu|Micron]]'s [[hbm-dram-bottleneck|HBM]]. Bought
+**Groq** (~$20B, Dec 2025) to move into the **inference** era.
+
+## Current view
+Still the center of AI compute, but facing **ASIC competition** ([[openai]]'s Broadcom
+"Jalapeño" chip; Elon's own silicon) and the rise of **open-weight + composable** models
+([[ai-distillation-open-weights]]). [[gavin-baker]] calls Nvidia the potential **"American
+open-source champion"** (could ship a top open model but for **channel conflict** with customers).
+Watch: customers building their own chips (A6/ASIC) incentivizing Nvidia to compete with them.
+
+## ✅ Fact-check (2026-06-28)
+- **Verified:** Nvidia acquired **Groq** assets for **~$20B** (Dec 2025) — its largest deal;
+  founder Jonathan Ross + ~80% of engineers joined; framed as an inference-era bet. —
+  [CNBC](https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html)
+- **Verified context:** [[openai]]+Broadcom "Jalapeño" inference chip (~50% cheaper than GPUs)
+  is the competitive backdrop. — [CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip.html)
+
+## Related
+Concepts: [[hbm-dram-bottleneck]], [[ai-distillation-open-weights]] · Assets: [[mu]], [[cerebras]],
+[[openai]] · People: [[gavin-baker]] · Source: [[2026-06-27-allin-china-ai-micron-memory]]
+
+## Position & thesis
+_Not a holding. No user position/thesis yet._

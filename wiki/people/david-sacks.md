@@ -29,5 +29,11 @@ or political beef (a claim [[jason-calacanis]] disputes on-air).
 - "Paper wealth" framing of [[elon-musk]]'s trillionaire status (machines-that-make-stuff).
 - Bullish the Iran MOU as "a tremendous achievement"; Strait of Hormuz reopening → oil flows.
 
+- `[2026-06-27]` **China AI race / "shock clock":** pro-export, anti-self-handicapping; argues
+  the [[anthropic]] Fable ban may be *what Dario wanted* — an "FAA for AI" approval regime that
+  rewards **regulatory capture** ([[ai-gatekeeping]]); wants models back to market fast. —
+  [[2026-06-27-allin-china-ai-micron-memory]]
+
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
+- [[2026-06-27-allin-china-ai-micron-memory]]

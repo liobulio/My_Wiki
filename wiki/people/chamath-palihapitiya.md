@@ -26,6 +26,11 @@ trail**" view of AI access.
   real; they split only on whether it *lasts* — see [[ai-gatekeeping]].)
 - On [[spcx]]: highest price/sales was at listing; it will "grow into" the valuation.
 - On Iran MOU: "market's going to the moon" (risk-on).
+- `[2026-06-27]` **AI as "the great leveler"** (a Travis-Kalanick-in-your-pocket for everyone);
+  blames AI's bad "brand ambassadors" for the socialist surge. Running a **data-center project**
+  (eyeing Tesla "Megapod"-type modular units); bullish **distributed inference** ([[orbital-compute]]);
+  ex-Groq investor. — [[2026-06-27-allin-china-ai-micron-memory]]
 
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
+- [[2026-06-27-allin-china-ai-micron-memory]]

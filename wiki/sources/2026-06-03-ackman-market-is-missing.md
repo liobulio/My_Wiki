@@ -10,7 +10,7 @@ ingested: 2026-06-26
 raw: "raw/Bill Ackman Here's What the Market is MISSING.md"
 tags: [equities, activist, value, ai, insurance, founder-led]
 ---
-
+ 
 # Bill Ackman — "What the Market is Missing"
 
 [[bill-ackman]] (Pershing Square) interviewed at the All-In Liquidity Summit. Mostly a

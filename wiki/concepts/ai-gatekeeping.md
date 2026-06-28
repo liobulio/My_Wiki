@@ -57,8 +57,20 @@ horizon you believe in decides which side to weight.
 - Whether the Fable export-control letter becomes **standing policy** (model-by-model approval).
 - Emergence of credible open-weight frontier models; neocloud KYC capabilities.
 
+## Scoreboard (evidence as it lands)
+Tracking which way it's actually breaking — concentration (Chamath) vs fragmentation (Friedberg).
+- **2026-06-16 — ➡️ Fragmentation:** China's [[zai|GLM 5.2]] (open-weight, MIT) hits frontier-class
+  coding at ~1/6 cost ([[ai-distillation-open-weights]]). Strong point for **Friedberg**. —
+  [[2026-06-27-allin-china-ai-micron-memory]]
+- **2026-06 — ↔️ Mixed:** the [[anthropic]] Fable ban (concentration/regulatory) coincides with
+  [[david-sacks]] arguing it may *entrench* incumbents (Chamath-side) — yet the open-weight surge
+  routes around it (Friedberg-side).
+- _Next signals:_ neocloud shipping real KYC; a US open-weight champion ([[nvda]]?); Fable letter
+  → standing policy.
+
 ## Related
-[[anthropic]] · [[amzn]] · [[chamath-palihapitiya]] · [[david-friedberg]] · [[ai-power-demand]]
+[[anthropic]] · [[amzn]] · [[zai]] · [[nvda]] · [[ai-distillation-open-weights]] ·
+[[chamath-palihapitiya]] · [[david-friedberg]] · [[ai-power-demand]]
 
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]] — the Fable-ban discussion and both theses.

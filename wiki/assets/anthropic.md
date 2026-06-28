@@ -45,9 +45,20 @@ not endorsed.
 - Status: private; key dependencies = AWS compute + Amazon as investor/host.
 - Risk lens: regulatory/export-control exposure; reliance on hyperscaler distribution.
 
+## Valuation & competition (2026-06-27)
+- **Valuation:** Series H raised **$65B at ~$965B** post-money (~$1T) — most valuable AI startup;
+  run-rate revenue **~$47B** (from $30B; $10B in 2025), ~85% inference gross margins. ⚠️
+  [[gavin-baker]]'s "**worth ~$3T**" and "$100B+ this year" are **bullish projections**, not the
+  mark. — [Anthropic Series H](https://www.anthropic.com/news/series-h), [VentureBeat](https://venturebeat.com/technology/anthropic-says-it-hit-a-30-billion-revenue-run-rate-after-crazy-80x-growth)
+- **Competitive threat:** China's open-weight [[zai|GLM 5.2]] now ~matches Claude on coding at
+  ~1/6 cost ([[ai-distillation-open-weights]]) — pressures frontier pricing power.
+- **Sacks's "regulatory moat" theory:** [[david-sacks]] argues the Fable ban may be *what Dario
+  wanted* — an FAA-for-AI approval regime that entrenches incumbents (regulatory capture).
+
 ## Related
-People: [[dario-amodei]] · Assets: [[amzn]] · Concepts: [[ai-gatekeeping]] ·
-Source: [[2026-06-20-all-in-oligarchs-fable-iran]]
+People: [[dario-amodei]], [[gavin-baker]] · Assets: [[amzn]], [[zai]], [[openai]] · Concepts:
+[[ai-gatekeeping]], [[ai-distillation-open-weights]] · Sources:
+[[2026-06-20-all-in-oligarchs-fable-iran]], [[2026-06-27-allin-china-ai-micron-memory]]
 
 ## Position & thesis
 _Not directly investable. No user position/thesis._

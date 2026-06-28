@@ -1,7 +1,7 @@
 ---
 type: index
-updated: 2026-06-26
-sources: 4
+updated: 2026-06-28
+sources: 5
 ---
 
 # Index — Investment Wiki
@@ -30,6 +30,12 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[spcx]] — SpaceX; record IPO (~$2T), acquiring Cursor; Tesla-merger watch (⚠️ figures unverified)
 - [[anthropic]] — private AI lab (Claude); Fable 5 govt ban; regulatory-risk focal point
 - [[amzn]] — Amazon/AWS; potential AI-gatekeeper winner; Anthropic host + investor
+- [[mu]] — Micron; one of 3 HBM/DRAM makers; blowout quarter; the AI memory bottleneck
+- [[nvda]] — Nvidia; AI GPU king; bought Groq; faces ASIC + open-weight pressure
+- [[cerebras]] — Cerebras (CBRS); inference chips; IPO broke deal price; $20B OpenAI deal
+- [[tsla]] — Tesla; AI-infra angle (Megapod modular DCs, Terrafab memory); SpaceX-merger talk
+- [[openai]] — private frontier lab; Jalapeño/Broadcom chip; ~$4T IPO backlog with Anthropic
+- [[zai]] — Z.ai/Zhipu (China); GLM 5.2 open-weight model; fragmentation-thesis evidence
 - [[mgm]] — MGM Resorts; event-driven gaming, Diller $48.30 bid, Osaka 2030 optionality
 - [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA, AI-power-demand play (~$382)
 - [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
@@ -38,6 +44,8 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 ## People
 - [[ryan-cohen]] — GameStop chair/CEO; founder of Chewy; founder-operator activist; $56B eBay bid
 - [[bill-ackman]] — Pershing Square; activist→quality compounder; building Berkshire 2.0 (HHH)
+- [[gavin-baker]] — Atreides Management; AI-infra/semis investor; HBM-bottleneck & orbital-compute
+- [[travis-kalanick]] — Uber founder; AI startup "Adams"; distributed-compute advocate
 - [[elon-musk]] — SpaceX/Tesla; "world's first trillionaire" (paper) on SpaceX IPO
 - [[chamath-palihapitiya]] — All-In host; AI-gatekeeper/KYC thesis (bull hyperscalers)
 - [[david-sacks]] — All-In host + White House AI czar (⚠️ conflict on Anthropic segment)
@@ -55,6 +63,9 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[insurance-float-compounding]] — the Berkshire model: cheap insurance float → invest it; the HHH plan
 - [[founder-led-companies]] — owner-operator advantage; Ackman's quality/disruption-survival lens
 - [[activist-investing]] — 13D engagement to force value realization; Ackman & Cohen
+- [[hbm-dram-bottleneck]] — memory is THE AI bottleneck; 3 makers; consumer price spillover
+- [[orbital-compute]] — datacenters in space economics as terrestrial build costs inflate
+- [[ai-distillation-open-weights]] — distillation + composable models; China's open-source catch-up
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
@@ -63,6 +74,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
 - [[2026-06-03-ackman-market-is-missing]] — Bill Ackman: quality compounders, AI disruption, HHH/Berkshire 2.0
 - [[2026-06-24-ryan-cohen-ebay-gamestop]] — Ryan Cohen: GameStop turnaround + the $56B eBay takeover bid
+- [[2026-06-27-allin-china-ai-micron-memory]] — China GLM open-source, Micron/HBM crunch, orbital compute, IPO wave
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[tsla]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[openai]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]]
+[[barry-diller]] · [[all-in-podcast]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]] · [[cxmt]]
