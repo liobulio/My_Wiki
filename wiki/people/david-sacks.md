@@ -34,6 +34,13 @@ or political beef (a claim [[jason-calacanis]] disputes on-air).
   rewards **regulatory capture** ([[ai-gatekeeping]]); wants models back to market fast. —
   [[2026-06-27-allin-china-ai-micron-memory]]
 
+- `[2026-07-04]` **Keep the model layer competitive:** frames [[anthropic]]/[[openai]] as an
+  emerging **duopoly** (~$60B/$40B ARR) that Anthropic wants to entrench via regulatory capture;
+  govt should curb monopoly *tactics*, not pick winners. On imports: a Chinese open model "stops
+  being Chinese" once forked/run on US hardware; banning open-source would isolate the US.
+  Confirms the [[anthropic]] Fable ban was **lifted**. — [[2026-07-04-allin-ai-sovereignty]]
+
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
 - [[2026-06-27-allin-china-ai-micron-memory]]
+- [[2026-07-04-allin-ai-sovereignty]]

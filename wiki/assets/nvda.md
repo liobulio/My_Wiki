@@ -28,9 +28,18 @@ Watch: customers building their own chips (A6/ASIC) incentivizing Nvidia to comp
 - **Verified context:** [[openai]]+Broadcom "Jalapeño" inference chip (~50% cheaper than GPUs)
   is the competitive backdrop. — [CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip.html)
 
+## Update — Nemotron / sovereign AI (2026-07-04)
+- **"American open-source champion" is now explicit:** Nvidia's **Nemotron** open models (hybrid
+  Mamba-Transformer MoE) power the **[[pltr|Palantir]] sovereign AI** engine for govt (June 29).
+  Nvidia benefits from a **competitive model layer** — more independent buyers for its chips, no
+  monopsony from 1–2 labs building their own silicon. Reinforces [[ai-sovereignty]] / open-weights.
+- Why now: after [[openai]]'s Jalapeño, Anthropic/AMD chips, and Elon's fab, Nvidia "took the
+  gloves off" on its open-model effort.
+
 ## Related
-Concepts: [[hbm-dram-bottleneck]], [[ai-distillation-open-weights]] · Assets: [[mu]], [[cerebras]],
-[[openai]] · People: [[gavin-baker]] · Source: [[2026-06-27-allin-china-ai-micron-memory]]
+Concepts: [[hbm-dram-bottleneck]], [[ai-distillation-open-weights]], [[ai-sovereignty]] · Assets:
+[[mu]], [[cerebras]], [[openai]], [[pltr]] · People: [[gavin-baker]], [[alex-karp]] · Sources:
+[[2026-06-27-allin-china-ai-micron-memory]], [[2026-07-04-allin-ai-sovereignty]]
 
 ## Position & thesis
 _Not a holding. No user position/thesis yet._

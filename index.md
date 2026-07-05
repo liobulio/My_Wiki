@@ -1,7 +1,7 @@
 ---
 type: index
-updated: 2026-06-28
-sources: 5
+updated: 2026-07-05
+sources: 6
 ---
 
 # Index — Investment Wiki
@@ -36,6 +36,8 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[tsla]] — Tesla; AI-infra angle (Megapod modular DCs, Terrafab memory); SpaceX-merger talk
 - [[openai]] — private frontier lab; Jalapeño/Broadcom chip; ~$4T IPO backlog with Anthropic
 - [[zai]] — Z.ai/Zhipu (China); GLM 5.2 open-weight model; fragmentation-thesis evidence
+- [[pltr]] — Palantir; application/integration layer; Palantir-Nvidia sovereign AI OS (Karp)
+- [[fig]] — Figma; the AI-sovereignty cautionary tale (Anthropic's Claude Design; ~−50% YTD)
 - [[mgm]] — MGM Resorts; event-driven gaming, Diller $48.30 bid, Osaka 2030 optionality
 - [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA, AI-power-demand play (~$382)
 - [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
@@ -46,6 +48,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[bill-ackman]] — Pershing Square; activist→quality compounder; building Berkshire 2.0 (HHH)
 - [[gavin-baker]] — Atreides Management; AI-infra/semis investor; HBM-bottleneck & orbital-compute
 - [[travis-kalanick]] — Uber founder; AI startup "Adams"; distributed-compute advocate
+- [[alex-karp]] — Palantir CEO; leading voice for AI/intelligence sovereignty
 - [[elon-musk]] — SpaceX/Tesla; "world's first trillionaire" (paper) on SpaceX IPO
 - [[chamath-palihapitiya]] — All-In host; AI-gatekeeper/KYC thesis (bull hyperscalers)
 - [[david-sacks]] — All-In host + White House AI czar (⚠️ conflict on Anthropic segment)
@@ -66,6 +69,9 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[hbm-dram-bottleneck]] — memory is THE AI bottleneck; 3 makers; consumer price spillover
 - [[orbital-compute]] — datacenters in space economics as terrestrial build costs inflate
 - [[ai-distillation-open-weights]] — distillation + composable models; China's open-source catch-up
+- [[ai-sovereignty]] — own your compute/models/data/alpha; roll-your-own vs frontier-lab lock-in
+- [[ai-jobs-displacement]] — displacement ≠ loss; RAMP data; human-in-the-loop premium
+- [[california-fiscal-risk]] — CA "balanced budget" illusion; tax exodus, pensions, muni risk
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 
@@ -75,6 +81,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[2026-06-03-ackman-market-is-missing]] — Bill Ackman: quality compounders, AI disruption, HHH/Berkshire 2.0
 - [[2026-06-24-ryan-cohen-ebay-gamestop]] — Ryan Cohen: GameStop turnaround + the $56B eBay takeover bid
 - [[2026-06-27-allin-china-ai-micron-memory]] — China GLM open-source, Micron/HBM crunch, orbital compute, IPO wave
+- [[2026-07-04-allin-ai-sovereignty]] — AI sovereignty (Palantir-Nvidia), Fable un-ban, AI jobs data, CA budget
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]] · [[cxmt]]
+[[barry-diller]] · [[all-in-podcast]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]] · [[cxmt]] · [[tom-brown]] · [[nemotron]]

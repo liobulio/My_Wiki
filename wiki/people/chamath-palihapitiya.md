@@ -31,6 +31,12 @@ trail**" view of AI access.
   (eyeing Tesla "Megapod"-type modular units); bullish **distributed inference** ([[orbital-compute]]);
   ex-Groq investor. — [[2026-06-27-allin-china-ai-micron-memory]]
 
+- `[2026-07-04]` **[[ai-sovereignty]]** (coined "intelligence sovereignty"): as CEO of **8090**,
+  ran their harness on an open model **16.4× cheaper** than Opus 4.8 alone → host [[zai|GLM]] on
+  your own US hardware. Thinks [[openai]] is better-priced than [[anthropic]] (consumer cushion).
+  — [[2026-07-04-allin-ai-sovereignty]]
+
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
 - [[2026-06-27-allin-china-ai-micron-memory]]
+- [[2026-07-04-allin-ai-sovereignty]]

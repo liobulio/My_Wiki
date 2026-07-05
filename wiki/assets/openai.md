@@ -28,10 +28,18 @@ framing ([[2026-06-03-ackman-market-is-missing]]).
   [TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
 - **Verified:** [[cerebras]] compute deal **>$20B / 750 MW** through 2028.
 
+## Update — relative value vs Anthropic (2026-07-04)
+- **~$40B ARR**; half of the [[ai-gatekeeping|model-layer duopoly]] with [[anthropic]] (~$60B).
+- [[chamath-palihapitiya]]: OpenAI equity is **more reasonably priced than Anthropic** — its
+  **consumer business** diversifies revenue and cushions the [[ai-sovereignty|trust]] risk that
+  hits Anthropic harder. But OpenAI also vertically integrates (YC "$2M free tokens" to get at
+  startups' innovations — "there is no free pizza").
+
 ## Related
-Assets: [[anthropic]] (rival/IPO peer), [[nvda]], [[cerebras]] · People: [[sarah-friar]] _(stub)_ ·
-Concepts: [[ai-distillation-open-weights]], [[ai-gatekeeping]] · Source:
-[[2026-06-27-allin-china-ai-micron-memory]]
+Assets: [[anthropic]] (rival/IPO peer), [[nvda]], [[cerebras]] · People: [[sarah-friar]] _(stub)_,
+[[chamath-palihapitiya]] · Concepts: [[ai-distillation-open-weights]], [[ai-gatekeeping]],
+[[ai-sovereignty]] · Sources: [[2026-06-27-allin-china-ai-micron-memory]],
+[[2026-07-04-allin-ai-sovereignty]]
 
 ## Position & thesis
 _Not directly investable (private). No user position/thesis._

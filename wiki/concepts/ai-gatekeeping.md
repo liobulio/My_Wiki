@@ -65,8 +65,14 @@ Tracking which way it's actually breaking — concentration (Chamath) vs fragmen
 - **2026-06 — ↔️ Mixed:** the [[anthropic]] Fable ban (concentration/regulatory) coincides with
   [[david-sacks]] arguing it may *entrench* incumbents (Chamath-side) — yet the open-weight surge
   routes around it (Friedberg-side).
-- _Next signals:_ neocloud shipping real KYC; a US open-weight champion ([[nvda]]?); Fable letter
-  → standing policy.
+- **2026-06-29 — ➡️ Fragmentation:** [[pltr|Palantir]]+[[nvda|Nvidia]] **sovereign AI** (Nemotron
+  open models, own weights) + the enterprise **[[ai-sovereignty|roll-your-own]]** wave — chips +
+  apps + enterprises all pushing for a competitive model layer. — [[2026-07-04-allin-ai-sovereignty]]
+- **2026-07-01 — ↔️ Concentration (but softening):** the Fable ban was **lifted** — no standing
+  policy (Friedberg-side), yet the [[anthropic]]/[[openai]] **model-layer duopoly** (~$60B/$40B ARR)
+  is the concentration core Chamath/Sacks worry gets enshrined.
+- _Next signals:_ neocloud shipping real KYC; a US open-weight champion ([[nvda]] Nemotron — now
+  live); a US open model beating Chinese ([[zai|GLM]]); Fable-style letters → standing policy.
 
 ## Related
 [[anthropic]] · [[amzn]] · [[zai]] · [[nvda]] · [[ai-distillation-open-weights]] ·

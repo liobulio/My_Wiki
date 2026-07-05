@@ -46,7 +46,7 @@ under-16 debate (Canada/UK/Australia/Florida). **Opinion/worldview — not actio
 ## 3. Micron / AI memory crunch `[1:01:49]`
 - **[[mu|Micron]]** blowout: revenue ~4× YoY, **FQ4 guide ~$50B**; 2026 **HBM sold out**;
   take-or-pay floor-price contracts. **[[hbm-dram-bottleneck|DRAM is THE bottleneck]]** (~30–40%
-  of hyperscaler capex). 3 HBM makers (Micron, SK Hynix, Samsung).
+  of hyperscaler capex). 3 HBM makers **(Micron, SK Hynix, Samsung).**
 - **Consumer spillover ("AIL"):** Apple raising prices (MacBook Neo $699→$799; Mac Studio +25%);
   Xbox/Switch/PlayStation too. **CXMT** (China) IPO → cheap consumer DRAM, but can't make AI-grade
   HBM. Elon's **Terrafab** targeting memory (Intel partnership).

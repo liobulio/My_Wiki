@@ -55,10 +55,24 @@ not endorsed.
 - **Sacks's "regulatory moat" theory:** [[david-sacks]] argues the Fable ban may be *what Dario
   wanted* — an FAA-for-AI approval regime that entrenches incumbents (regulatory capture).
 
+## Vertical integration, trust & Fable un-ban (2026-07-04)
+- **✅ Fable/Mythos RESTORED:** Commerce (Lutnick) **lifted export controls ~June 30**; Fable 5
+  back **July 1**. Anthropic agreed to proactively detect risks + set standards; co-founder **Tom
+  Brown replaced [[dario-amodei]]** as lead govt negotiator. — [CNBC](https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html)
+- **⚠️ Trust problem ([[ai-sovereignty]]):** accused of **vertically integrating against its own
+  customers** — Claude Code (after Cursor), **Claude Design** (after [[fig|Figma]]; Figma ~−50% YTD,
+  per The Information), Claude Science/Legal/Financial. The "dominate the model layer → capture the
+  verticals" playbook is exactly why enterprises are moving to roll-your-own. Most **trust-exposed**
+  of the frontier labs.
+- **Model-layer position:** ~**$60B ARR** (podcast; vs the ~$47B run-rate verified in late May) —
+  half of an [[ai-gatekeeping|Anthropic/OpenAI duopoly]] ([[openai]] ~$40B), which Sacks says
+  Anthropic wants to entrench via regulatory capture.
+
 ## Related
-People: [[dario-amodei]], [[gavin-baker]] · Assets: [[amzn]], [[zai]], [[openai]] · Concepts:
-[[ai-gatekeeping]], [[ai-distillation-open-weights]] · Sources:
-[[2026-06-20-all-in-oligarchs-fable-iran]], [[2026-06-27-allin-china-ai-micron-memory]]
+People: [[dario-amodei]], [[gavin-baker]], [[alex-karp]] · Assets: [[amzn]], [[zai]], [[openai]],
+[[fig]], [[pltr]] · Concepts: [[ai-gatekeeping]], [[ai-distillation-open-weights]],
+[[ai-sovereignty]] · Sources: [[2026-06-20-all-in-oligarchs-fable-iran]],
+[[2026-06-27-allin-china-ai-micron-memory]], [[2026-07-04-allin-ai-sovereignty]]
 
 ## Position & thesis
 _Not directly investable. No user position/thesis._

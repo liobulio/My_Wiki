@@ -84,3 +84,10 @@ grep "^## \[" log.md | tail -5
 - stubs: [[cxmt]]
 - fact-check ✅: Micron FQ4 guide ~$50B + HBM sold out + ~$100B take-or-pay (⚠️ podcast "50%/4 customers" imprecise → 16 SCAs); GLM 5.2 (744B MoE, MIT, AAII 51, beats GPT-5.5 at 1/6 cost) ✅; OpenAI Jalapeño/Broadcom ✅; Nvidia bought Groq ~$20B ✅; Cerebras IPO $185→broke deal price, $20B/750MW OpenAI ✅. ⚠️ KEY: Gavin's "Anthropic $3T / $100B revenue" = projection — actual Series H ~$965B at ~$47B run-rate. SpaceX high $225.64, −30% ✅.
 - themes: [[hbm-dram-bottleneck]] (Micron), [[ai-distillation-open-weights]]/[[zai]] feed the [[ai-gatekeeping]] fragmentation scoreboard, [[orbital-compute]]. No positions/theses (per user, theses later).
+
+## [2026-07-05] ingest | All-In ep. 279 — AI Sovereignty Wars (wgdxSCsmS-Q)
+- raw: clipped (besties, no guests)
+- pages touched (~15): NEW [[2026-07-04-allin-ai-sovereignty]], [[alex-karp]], [[pltr]], [[fig]], [[ai-sovereignty]], [[ai-jobs-displacement]], [[california-fiscal-risk]]; UPDATED [[anthropic]] (vertical-integration + Fable un-ban), [[nvda]] (Nemotron/sovereign), [[openai]] (ARR/relative value), [[ai-gatekeeping]] (scoreboard), [[chamath-palihapitiya]], [[david-sacks]], [[david-friedberg]], [[index]]
+- stubs: [[tom-brown]], [[nemotron]]
+- fact-check ✅: Palantir+Nvidia sovereign AI (Nemotron, air-gapped, June 29) ✅; Anthropic Fable un-ban (Lutnick lifted ~June 30, back July 1, Tom Brown replaced Dario) ✅; RAMP study (21,559 firms, +10.2% headcount) ✅; Klarna reversal ✅; CA "balanced" $351B but ~$20–35B/yr structural deficits ✅. ❓ Figma/Claude Design blindside (per The Information); Anthropic ~$60B ARR (vs verified ~$47B May); CA $1.4T/pension specifics (Friedberg).
+- key theme = [[ai-sovereignty]]: enterprises own compute/models/data → bullish [[pltr]]/[[nvda]]/open-weights, pressures [[anthropic]] (trust). Advances the [[ai-gatekeeping]] scoreboard (fragmentation). No positions/theses.

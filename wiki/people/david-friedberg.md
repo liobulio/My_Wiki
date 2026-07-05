@@ -28,6 +28,13 @@ Markets-and-history framing; skeptical of "this time is different" tech doomeris
 ## Notable interviews (as host)
 - Interviewed [[ryan-cohen]] on the $56B [[ebay]] bid — [[2026-06-24-ryan-cohen-ebay-gamestop]].
 
+- `[2026-07-04]` **[[ai-sovereignty]]** (as Ohalo CEO): life-sciences firms refusing Anthropic's
+  data-sharing; "large hub → medium hub → **distributed spoke**." Argues [[ai-jobs-displacement|no
+  present-day AI job loss]] (RAMP data). Detailed **[[california-fiscal-risk]]** teardown (the
+  "balanced budget" is borrowing; exodus + pension liabilities → default/bailout tail).
+  — [[2026-07-04-allin-ai-sovereignty]]
+
 ## Sources
 - [[2026-06-20-all-in-oligarchs-fable-iran]]
 - [[2026-06-24-ryan-cohen-ebay-gamestop]]
+- [[2026-07-04-allin-ai-sovereignty]]
