@@ -1,7 +1,7 @@
 ---
 type: index
-updated: 2026-07-05
-sources: 6
+updated: 2026-08-01
+sources: 7
 ---
 
 # Index — Investment Wiki
@@ -58,6 +58,8 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[dan-dreyfus]] — Bornite Capital; commodities/power; pitched Talen (audience #1)
 - [[oleg-nodelman]] — EcoR1 Capital; value biotech; pitched Aktis
 - [[kyle-samani]] — Multicoin Capital; crypto/DePIN; pitched GEODNET (⚠️ reliability note)
+- [[alexander-lipton]] — ADIA/MIT; heat-potential methods; co-author, OU optimal-exit paper
+- [[marcos-lopez-de-prado]] — Cornell/ADIA/TPT; backtest-rigor authority; co-author, OU optimal-exit paper
 
 ## Concepts
 - [[ai-gatekeeping]] — durable hyperscaler oligopoly vs fragmentation (agree on the pull, split on durability/timescale)
@@ -74,8 +76,10 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[california-fiscal-risk]] — CA "balanced budget" illusion; tax exodus, pensions, muni risk
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
+- [[ou-optimal-exit-rules]] — Sharpe-optimal stop-loss/take-profit/horizon for a mean-reverting spread
 
 ## Sources
+- [[2020-02-08-lipton-lopez-de-prado-ou-exit-rules]] — closed-form optimal exit rules for OU mean-reversion trades
 - [[2026-06-20-all-in-oligarchs-fable-iran]] — All-In news: SpaceX IPO, Anthropic Fable ban, Iran MOU
 - [[2026-06-12-all-in-best-ideas-pitch]] — All-In Best Ideas pitch competition; 4 single-name pitches
 - [[2026-06-03-ackman-market-is-missing]] — Bill Ackman: quality compounders, AI disruption, HHH/Berkshire 2.0

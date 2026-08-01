@@ -27,7 +27,7 @@ data shows **displacement, not loss**. California's "balanced budget" masks stru
 - **[[pltr]] + [[nvda]] "sovereign AI OS":** Palantir deploys Nvidia **Nemotron open models** in
   classified/air-gapped govt environments; agencies own hardware, data, **model weights**.
 - **[[alex-karp]]** (CNBC) rips frontier labs: enterprises want control of "compute, models, data
-  stack, and **alpha**" — don't hand your IP to a provider that will compete with you. →
+  stack, and **alpha**" — don't ha nd your IP to a provider that will compete with you. →
   [[ai-sovereignty]].
 - **[[fig|Figma]] cautionary tale:** [[anthropic]] launched **Claude Design** (its CPO sat on
   Figma's board, resigned 3 days pre-launch); Figma ~−50% YTD. Anthropic also shipped Claude
