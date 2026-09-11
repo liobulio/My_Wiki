@@ -40,3 +40,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 
 ## Update history
 - 2026-09-11 — opened in the wiki from the human's stated holding (5.891 sh, IBKR).
+- 2026-09-11 — 读取 8-K 2026-08-06（[[2026-08-06-ceg-8k-q2-earnings]]）与 10-Q Q2：FERC 批准 CIR 转移、NRC 批准燃料许可 → Crane（TMI-1）2027 重启路径清晰；新签 920 MW 核电 PPA；全年 EPS 指引上调至 $11.50–12.50。⚠️ 关注项：PJM 容量价格上限 $325 延长至 2029/30，无上限出清价本可达 $554.72 — 政策压制上行。Invalidation 状态：ok/ok/ok/ok。

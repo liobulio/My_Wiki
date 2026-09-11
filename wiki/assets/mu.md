@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [Micron, Micron Technology]
 tags: [semis, memory, hbm, dram, ai]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-09-11
 ---
 
 # MU — Micron Technology
@@ -35,3 +35,7 @@ Concepts: [[hbm-dram-bottleneck]] · [[ai-power-demand]] · People: [[gavin-bake
 
 ## Position & thesis
 _Not a holding. No user position/thesis yet._
+
+## Institution views
+- 2026-09-07 [[soochow-securities|东吴证券]] **推荐 MU（与 SNDK）**：存储进入 AI 重构新周期，供给纪律 + HBM 挤出通用 DRAM 供给；FQ3-26 DRAM/NAND ASP 环比 +~60%/+85% ✅ — [[2026-09-07-soochow-memory-cycle-ai]]。机会页：[[mu-sndk-memory-upcycle-2026-09]]。
+

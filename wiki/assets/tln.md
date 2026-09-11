@@ -38,13 +38,18 @@ to AI/power **regulatory risk** (price caps, political backlash on consumer powe
 - **Analyst, not fact:** the $45B replacement cost and $50/$70/$100 FCF ladder are Dreyfus's
   estimates. ⚠️ Note: 12-mo street target ~$472 (≈+31%) — bullish but below his "double+."
 
+## Q2 2026 filings (2026-09-11 read)
+- [[2026-08-05-tln-8k-q2-earnings]]: cleared >10 GW in the 2028/29 PJM BRA at the $325/MW-day cap; ~4 GW of land / data-center
+  contracting options in the pipeline (not yet contracted); $200M buyback, $1.7B capacity left. Q2 GAAP net loss −$92M, EPS −$2.00.
+- ⚠️ Price ~$382 (June) → ~$315 (2026-09-11); cause not yet traced.
+
 ## Key data points
 - Price ~$382; nuclear ~2.2 GW (Susquehanna); AWS PPA up to 1,920 MW (~$18B/2042).
 - Sensitivity flagged by besties: interest rates (PPA discounting) + AI/power regulation.
 
 ## Related
 People: [[dan-dreyfus]] · Concepts: [[ai-power-demand]] · [[replacement-cost-investing]] ·
-Source: [[2026-06-12-all-in-best-ideas-pitch]] · [[all-in-best-ideas-2026-factcheck]]
+Source: [[2026-06-12-all-in-best-ideas-pitch]] · [[all-in-best-ideas-2026-factcheck]] · [[2026-08-05-tln-8k-q2-earnings]]
 
 ## Position & thesis
 **Open position** (5.407 sh, IBKR, since 2026-09-11 in the wiki) — see `wiki/positions/tln.md` and the shared thesis [[ai-power-ipp-bull]]. ⚠️ Price has moved from ~$382 (2026-06-19) to ~$315 (2026-09-11) — cause to be established from filings/news in the first daily brief.

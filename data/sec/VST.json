@@ -2,8 +2,8 @@
  "ticker": "VST",
  "cik": 1692819,
  "name": "Vistra Corp.",
- "fetched": "2026-09-11T15:39:37+00:00",
- "since": "2026-08-01",
+ "fetched": "2026-09-11T15:48:20+00:00",
+ "since": "2026-07-15",
  "filings": [
   {
    "form": "4",
@@ -428,14 +428,57 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/",
-   "is_new": false,
-   "flags": [],
-   "text_path": null,
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "terminat",
+     "count": 6,
+     "snippets": [
+      "l of such Purchaser Group at such time. SECTION 2. Amendments to the Agreement. The Agreement is hereby amended as follows: 2.1 The definition of “Facility Termination Date” set forth in Exhibit I of the Agreement is amended by deleting the date, “July 10, 2026” where it appears therein and replacing it with “July 9, 2027”",
+      "and (ii) above.” -2- SECTION 3. Conditions to Effectiveness. This Amendment shall become effective as of the date hereof, provided that neither the Facility Termination Date nor a Termination Event or Unmatured Termination Event has occurred and subject to (i) the payment of any fees, costs and expenses due and payable to e",
+      "SECTION 3. Conditions to Effectiveness. This Amendment shall become effective as of the date hereof, provided that neither the Facility Termination Date nor a Termination Event or Unmatured Termination Event has occurred and subject to (i) the payment of any fees, costs and expenses due and payable to each Purchaser Agent und"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 2,
+     "snippets": [
+      "y which are defined by reference to the Framework Agreement. 4.5 GOVERNING LAW. This AMENDMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK (WITHOUT REFERENCE TO ITS CONFLICTS OF LAW PROVISIONS (OTHER THAN §5-1401 AND §5-1402 OF THE NEW YORK GENERAL OBLIGATIONS LAW, WHICH S",
+      "together, shall constitute one and the same agreement. SECTION 8. Governing Law. THIS AMENDMENT SHALL BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK (WITHOUT REFERENCE TO ITS CONFLICTS OF LAW PROVISIONS (OTHER THAN §5-1401 AND §5-1402 OF THE NEW YORK GENERAL OBLIGATIONS LAW, WHICH S"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 12 - file: FilingSummary.html Document 12 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>14 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 14 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>15 <FILENAME>0001140361-26-028",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>14 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 14 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>15 <FILENAME>0001140361-26-028619-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 15 - file: 00"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 1,
+     "snippets": [
+      "(C) any indenture, loan agreement, mortgage, deed of trust or other material agreement or instrument to which it is a party or by which it is bound; or (D) any order, writ, judgment, award, injunction or decree binding on or affecting it or any of its property; and (iii) do not result in or require the creation of any Adver"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001140361-26-028619.txt",
    "items_desc": [
     "material definitive agreement",
     "creation of direct financial obligation",
     ""
-   ]
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/0001140361-26-028619-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/0001140361-26-028619-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/0001140361-26-028619.txt",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_ex10-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/ef20077984_ex4-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126028619/R1.htm"
+   ],
+   "text_chars": 49427
   },
   {
    "form": "8-K",

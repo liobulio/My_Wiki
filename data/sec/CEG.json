@@ -2,8 +2,8 @@
  "ticker": "CEG",
  "cik": 1868275,
  "name": "Constellation Energy Corp",
- "fetched": "2026-09-11T15:38:24+00:00",
- "since": "2026-08-01",
+ "fetched": "2026-09-11T15:47:57+00:00",
+ "since": "2026-07-15",
  "filings": [
   {
    "form": "4",
@@ -797,6 +797,80 @@
    "flags": [],
    "text_path": null,
    "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-02",
+   "report_date": "2026-03-31",
+   "accession": "0000905148-26-001496",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001496/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001496/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-03-31",
+   "report_date": "2026-03-31",
+   "accession": "0001868275-26-000045",
+   "primary_doc": "ceg-20260331.htm",
+   "items": [
+    "7.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000045/ceg-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000045/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "Reg FD disclosure",
+    ""
+   ]
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-03-26",
+   "report_date": "2026-03-23",
+   "accession": "0001868275-26-000041",
+   "primary_doc": "ceg-20260323.htm",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000041/ceg-20260323.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000041/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "",
+    ""
+   ]
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-03-20",
+   "report_date": "2026-03-20",
+   "accession": "0001868275-26-000037",
+   "primary_doc": "ceg-20260320.htm",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000037/ceg-20260320.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000037/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "other events",
+    ""
+   ]
   }
  ],
  "metrics": {

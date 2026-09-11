@@ -15,10 +15,10 @@ updated: 2026-09-11
 World's largest asset manager; BII publishes a weekly commentary with tactical over/underweights (Jean Boivin, Wei Li).
 
 ## House view (current)
-_No view recorded yet — filled by the daily brief as sources are ingested._
+- 2026-09-08 — 战术：美股超配(+1)、长端美债低配(−1)、日债低配；日本资金回流是美债风险；偏好现金流能跑赢更高资本成本的公司。主题：AI 基建在瓶颈处（电力、电网、芯片、数据中心）找机会（[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]）。
 
 ## Track record
 _none yet_
 
 ## Sources
-_none yet_
+[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]

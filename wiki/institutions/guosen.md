@@ -15,10 +15,10 @@ updated: 2026-09-11
 Mainland broker; strategy weeklies tracking US–China policy (AI export restrictions).
 
 ## House view (current)
-_No view recorded yet — filled by the daily brief as sources are ingested._
+- 2026-09-11 — 美国对华 AI 限制从芯片延伸到模型/算力/云服务访问（9/8 联合网络安全公告）；ECB 加息、美 PPI 5.4% 构成再通胀背景（[[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]）。
 
 ## Track record
 _none yet_
 
 ## Sources
-_none yet_
+[[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]

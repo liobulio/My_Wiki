@@ -15,10 +15,10 @@ updated: 2026-09-11
 Bond giant; Cyclical/Secular Outlooks, rates and credit views.
 
 ## House view (current)
-_No view recorded yet — filled by the daily brief as sources are ingested._
+- 2026-08-21 — 30 年美债 ~5.3% 由主权债务、AI 长债发行、能源通胀共同推高，本质是实际利率事件；财政是唯一持久锚；当前收益率是买点（[[2026-08-21-pimco-long-term-yields]]）。
 
 ## Track record
 _none yet_
 
 ## Sources
-_none yet_
+[[2026-08-21-pimco-long-term-yields]]

@@ -40,3 +40,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 
 ## Update history
 - 2026-09-11 — opened in the wiki from the human's stated holding (5.407 sh, IBKR).
+- 2026-09-11 — 读取 8-K 2026-08-05（[[2026-08-05-tln-8k-q2-earnings]]）与 10-Q Q2：>10 GW 以 $325 顶格出清；~4 GW 数据中心签约选项管线（尚未签约）；Q2 GAAP 净亏 −$92M / EPS −$2.00。⚠️ 数据缺口：股价 6 月 ~$382 → 9 月 ~$315，原因未追溯。Invalidation：ok/ok/ok/ok。

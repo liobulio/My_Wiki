@@ -2,8 +2,8 @@
  "ticker": "TLN",
  "cik": 1622536,
  "name": "Talen Energy Corp",
- "fetched": "2026-09-11T15:38:30+00:00",
- "since": "2026-08-01",
+ "fetched": "2026-09-11T15:48:02+00:00",
+ "since": "2026-07-15",
  "filings": [
   {
    "form": "10-Q",
@@ -403,7 +403,7 @@
    "items": [],
    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026048330/xslF345X06/wk-form4_1784146095.xml",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026048330/",
-   "is_new": false,
+   "is_new": true,
    "flags": [],
    "text_path": null,
    "items_desc": []

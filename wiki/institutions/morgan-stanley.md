@@ -15,10 +15,10 @@ updated: 2026-09-11
 US bulge-bracket sell-side; public via Ideas + Thoughts on the Market podcast (Mike Wilson, CIO/US equity strategy; Andrew Sheets, cross-asset).
 
 ## House view (current)
-_No view recorded yet — filled by the daily brief as sources are ingested._
+- 2026-09-09 — 云厂商明年 AI 支出 >$1.4T，算力容量 2025→2028 翻两番至 ~120 GW；三种模式 ROIC 25–50%（Nowak）。另：市场定价 9/16 加息概率 ~50/50（Sheets）（[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]）。
 
 ## Track record
 _none yet_
 
 ## Sources
-_none yet_
+[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]
