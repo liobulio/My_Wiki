@@ -5,6 +5,11 @@ tickers: [CEG, TLN, VST]
 stance: bullish
 conviction: 3
 status: active
+invalidations:
+  - 超大规模云厂商电力合约推迟或取消
+  - 核电增容/共址协议被监管（FERC/NRC）限制
+  - 光伏扩容速度超预期
+  - 光伏电厂重建成本下降
 opened: 2026-09-11
 updated: 2026-09-11
 tags: [ai-power, nuclear, ipp, replacement-cost]

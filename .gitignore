@@ -9,3 +9,4 @@ statarb-strategy-lab/
 __pycache__/
 *.pyc
 data/sec/text/
+brief/_*.html

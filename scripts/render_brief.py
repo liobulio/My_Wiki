@@ -246,7 +246,10 @@ def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None)
     th = ctx["theses"].get(thesis_slug)
     inv_labels = []
     if th:
-        inv_labels = re.findall(r"^\s*\d\.\s+\*\*(.+?)\*\*", th["body"], re.M) or re.findall(r"^\s*\d\.\s+(.+)$", th["body"], re.M)
+        inv_labels = th["meta"].get("invalidations") or []
+        if not isinstance(inv_labels, list) or not inv_labels:  # fallback: numbered list under the Invalidation heading
+            sec_txt = th["body"].split("**The Invalidation**", 1)[-1].split("\n## ", 1)[0]
+            inv_labels = [re.sub(r"\s+", " ", x) for x in re.findall(r"^\s*\d\.\s+(.+?)(?=^\s*\d\.|\Z)", sec_txt, re.M | re.S)]
     inv_rows = ""
     for i, s in enumerate(inv):
         icon, lab, cls = STATUS.get(s, STATUS["ok"])
