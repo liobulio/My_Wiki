@@ -129,11 +129,16 @@ statistical arbitrage traders optimizing execution of an already-identified
 pairs trade.
 
 ## Related
-Candidate application: the [[statarb-strategy-lab]] WTI/Brent pairs analysis
-— the first pair tested this session that actually passed cointegration
-robustly (recent-window half-life ≈ 6 days), making it a legitimate
-candidate for this framework rather than the generic entry_z/exit_z rules
-used elsewhere.
+**Tested, not just candidate:** applied to the [[bz-cl-pairs-trade|BZ/CL
+(Brent/WTI) pair]], including a from-scratch implementation of the paper's
+own Volterra/heat-potential numerical method (validated to ~0.1–0.6% against
+the paper's own published Table 1 in two of three test cases). Result: it
+**underperformed a plain Bollinger Band (rolling z-score) rule** on real
+data. See [[bz-cl-pairs-trade]] for the full writeup and the best-supported
+reasons why (objective mismatch between per-trade time-normalized Sharpe and
+portfolio-level annualized Sharpe; frozen training-period parameters vs. a
+rule that adapts daily).
 
 ## Sources
 - [[2020-02-08-lipton-lopez-de-prado-ou-exit-rules]]
+- [[bz-cl-pairs-trade]] — empirical test against real data

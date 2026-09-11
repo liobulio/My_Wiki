@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-08-01
+updated: 2026-08-23
 sources: 7
 ---
 
@@ -15,6 +15,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 ## Synthesis
 - [[overview]] — live portfolio dashboard (Dataview over positions)
 - [[all-in-best-ideas-2026-factcheck]] — verification of the 4 All-In pitches; MGM/TLN/AKTS hold up, GEOD overstated
+- [[bz-cl-pairs-trade]] — Brent/WTI statarb; ⚠️ 19yr walk-forward cuts Sharpe to 0.53–0.67 at −32% DD; β instability; untradeable under ~$189k; not a position
+- [[multisector-pairs-screen]] — ~10 equity sectors screened (metals/financials/industrials/ag, then oil-linked, staples/utilities/REITs/materials/insurance, BRK-MSFT); no survivor
+- [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Positions
 _None yet. Real holdings go here — add yours and I'll build the pages._
@@ -42,6 +45,8 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA, AI-power-demand play (~$382)
 - [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
 - [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
+- [[cl]] — WTI crude futures; US-domestic oil benchmark; statarb pair-mate to BZ
+- [[bz]] — Brent crude futures; international oil benchmark; spiked ~65% on 2026 Hormuz closure
 
 ## People
 - [[ryan-cohen]] — GameStop chair/CEO; founder of Chewy; founder-operator activist; $56B eBay bid
@@ -77,6 +82,7 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[radiopharmaceuticals]] — actinium-225 alpha-emitter cancer therapy; the Aktis modality
 - [[depin]] — token-incentivized physical infrastructure networks; the GEODNET model
 - [[ou-optimal-exit-rules]] — Sharpe-optimal stop-loss/take-profit/horizon for a mean-reverting spread
+- [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
 - [[2020-02-08-lipton-lopez-de-prado-ou-exit-rules]] — closed-form optimal exit rules for OU mean-reversion trades
@@ -88,4 +94,4 @@ _None yet. The 4 pitches above are others' ideas, not adopted — say the word t
 - [[2026-07-04-allin-ai-sovereignty]] — AI sovereignty (Palantir-Nvidia), Fable un-ban, AI jobs data, CA budget
 
 ## Open stubs (mentioned, not yet written)
-[[barry-diller]] · [[all-in-podcast]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[oil]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]] · [[cxmt]] · [[tom-brown]] · [[nemotron]]
+[[barry-diller]] · [[all-in-podcast]] · [[cursor]] · [[andy-jassy]] · [[jason-calacanis]] · [[warren-buffett]] · [[msft]] · [[meta]] · [[sarah-friar]] · [[ron-baron]] · [[salesforce]] · [[chewy]] · [[live-commerce]] · [[cxmt]] · [[tom-brown]] · [[nemotron]]
