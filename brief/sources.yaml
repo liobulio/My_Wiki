@@ -1,0 +1,77 @@
+# Watchlist swept by the daily brief (§4.4). Human-editable. Each entry:
+#   id · institution (wiki/institutions slug) · origin foreign|domestic · url · kind html|rss|json|js|pdf-api
+#   kind=js  → page is client-rendered; the agent uses WebSearch with `site:` + past-week filter (search_hint)
+#   filter   → only items whose title/summary match one of these regexes (domestic API returns hundreds/day)
+foreign:
+  - id: apollo-daily-spark
+    institution: apollo
+    url: https://www.apolloacademy.com/feed/
+    kind: rss
+    note: Torsten Sløk's Daily Spark — one chart + 3 lines per day, macro/rates/credit. Highest signal-per-byte.
+  - id: goldman-insights
+    institution: goldman-sachs
+    url: https://www.goldmansachs.com/insights/articles
+    kind: js
+    search_hint: "site:goldmansachs.com/insights"
+    note: Goldman Sachs Research public articles (Top of Mind, Briefings, Exchanges podcast summaries).
+  - id: morgan-stanley-ideas
+    institution: morgan-stanley
+    url: https://www.morganstanley.com/ideas
+    kind: js
+    search_hint: "site:morganstanley.com/ideas"
+    note: Thoughts on the Market transcripts + Ideas articles (Mike Wilson equity strategy, Andrew Sheets macro).
+  - id: jpm-global-research
+    institution: jpmorgan
+    url: https://www.jpmorgan.com/insights/global-research
+    kind: html
+    note: J.P. Morgan Global Research public pieces (outlooks, sector notes).
+  - id: blackrock-bii-weekly
+    institution: blackrock
+    url: https://www.blackrock.com/corporate/insights/blackrock-investment-institute
+    kind: html
+    note: BlackRock Investment Institute weekly commentary — tactical views table (overweight/underweight).
+  - id: bridgewater-research
+    institution: bridgewater
+    url: https://www.bridgewater.com/research-and-insights
+    kind: html
+    note: Bridgewater public research & Daily Observations excerpts.
+  - id: pimco-insights
+    institution: pimco
+    url: https://www.pimco.com/us/en/insights
+    kind: html
+    note: PIMCO macro / rates / credit views.
+  - id: kkr-insights
+    institution: kkr
+    url: https://www.kkr.com/insights
+    kind: html
+    note: KKR Global Macro & Asset Allocation (Henry McVey).
+  - id: blackstone-insights
+    institution: blackstone
+    url: https://www.blackstone.com/insights/
+    kind: js
+    search_hint: "site:blackstone.com/insights"
+    note: Joe Zidle market views. Direct fetch returns 403 — search only.
+domestic:
+  - id: eastmoney-strategy
+    institution: eastmoney-research-center
+    url: "https://reportapi.eastmoney.com/report/list?industryCode=*&pageSize=100&pageNo=1&qType=2&beginTime={since}&endTime={today}"
+    kind: json
+    pdf_url: "https://pdf.dfcfw.com/pdf/H3_{infoCode}_1.pdf"
+    filter: ["美股", "海外", "美国", "美联储", "纳斯达克", "标普", "全球资产", "海内外", "AI", "算力", "关税", "中概"]
+    note: 东方财富研报中心 · 策略报告 (qType=2). Returns every broker's strategy note; filter by title. orgSName = 券商.
+  - id: eastmoney-macro
+    institution: eastmoney-research-center
+    url: "https://reportapi.eastmoney.com/report/list?industryCode=*&pageSize=100&pageNo=1&qType=3&beginTime={since}&endTime={today}"
+    kind: json
+    pdf_url: "https://pdf.dfcfw.com/pdf/H3_{infoCode}_1.pdf"
+    filter: ["美国", "美联储", "海外", "全球", "通胀", "非农", "关税", "降息", "加息"]
+    note: 东方财富研报中心 · 宏观研究 (qType=3). Empty on some days — not an error.
+  - id: eastmoney-industry
+    institution: eastmoney-research-center
+    url: "https://reportapi.eastmoney.com/report/list?industryCode=*&pageSize=100&pageNo=1&qType=1&beginTime={since}&endTime={today}"
+    kind: json
+    pdf_url: "https://pdf.dfcfw.com/pdf/H3_{infoCode}_1.pdf"
+    filter: ["美股", "海外", "英伟达", "台积电", "AI", "算力", "电力", "核电", "数据中心", "半导体", "存储", "HBM"]
+    note: 东方财富研报中心 · 行业研报 (qType=1). Domestic houses' views on US-listed AI/semis/power chains.
+# Domestic houses whose reports appear through the eastmoney API get their own institution page
+# (e.g. 中信证券 → citic-securities, 中金 → cicc, 华泰 → huatai, 国信 → guosen). The eastmoney page is the channel, not the author.
