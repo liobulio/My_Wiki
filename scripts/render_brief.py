@@ -208,8 +208,12 @@ def sparkline(series, unit, label, w=180, h=44):
     last = f'<circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="3.5" class="last"/>'
     latest = fmt_money(vals[-1], unit)
     delta = ""
-    if len(vals) >= 5 and vals[-5] not in (0, None):  # YoY vs same quarter last year
-        pct = (vals[-1] - vals[-5]) / abs(vals[-5]) * 100
+    # YoY vs the quarter ending 12 months earlier (matched by date, so a missing quarter cannot shift the comparison)
+    last_end = pts[-1][0]
+    yago = f"{int(last_end[:4]) - 1}{last_end[4:7]}"
+    prev = next((v for e, v in pts if e[:7] == yago), None)
+    if prev not in (0, None):
+        pct = (vals[-1] - prev) / abs(prev) * 100
         delta = f'<span class="delta {"up" if pct >= 0 else "down"}">{"+" if pct >= 0 else ""}{pct:.0f}% 同比</span>'
     return (f'<div class="spark"><div class="sl">{esc(label)} <span class="mono">{esc(latest)}</span>{delta}</div>'
             f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{esc(label)} 近{n}季">'
@@ -266,8 +270,8 @@ def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None)
     return (f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3>'
             f'<span class="mono">{price_s}</span><span class="mono">{esc(shares)} 股</span><span class="mono">≈ ${value:,.0f}</span></header>' if value else
             f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3><span class="mono">{price_s}</span></header>') + (
-            f'<div class="wbar" title="占持仓 {w_pos:.1f}% · 占账户 {w_acct:.1f}%"><div style="width:{w_acct:.1f}%"></div>'
-            f'<span>持仓占比 {w_pos:.0f}% · 账户占比 {w_acct:.0f}%</span></div>'
+            f'<div class="wrow"><div class="wbar" title="占持仓 {w_pos:.1f}% · 占账户 {w_acct:.1f}%"><div style="width:{w_acct:.1f}%"></div></div>'
+            f'<span class="wlab">账户占比 {w_acct:.0f}% · 持仓占比 {w_pos:.0f}%</span></div>'
             f'{"<p class=\"note\">" + wikilinks(note) + "</p>" if note else ""}'
             f'<div class="cols"><div><h4>论点失效条件 <a class="wl" href="{obsidian(thesis_slug, "wiki/theses")}">{esc(th["title"] if th else thesis_slug)}</a></h4><ul class="invs">{inv_rows or "<li class=empty>未设置</li>"}</ul></div>'
             f'<div><h4>近 8 季（SEC XBRL）</h4><div class="sparks">{sparks}</div></div></div>'
@@ -317,7 +321,7 @@ ul.views{list-style:none;margin:0;padding:0;display:grid;gap:10px}li.view{backgr
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}.opp{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}.opp .logic{margin:6px 0;font-size:14.5px}.opp .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}
 .opp[data-status=dropped]{opacity:.65}
 article.pos{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:14px}article.pos>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}article.pos h3{margin:0}
-.wbar{position:relative;height:18px;background:var(--seqbg);border-radius:4px;margin:10px 0;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wbar span{position:absolute;left:8px;top:0;font-size:11.5px;line-height:18px;color:var(--ink);mix-blend-mode:difference;color:#fff}
+.wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.cols{grid-template-columns:1fr}}
 ul.invs{list-style:none;padding:0;margin:0;display:grid;gap:6px}li.inv{display:grid;grid-template-columns:22px 40px 1fr;gap:6px;align-items:start;font-size:13.5px;padding:6px 8px;border-radius:6px;border:1px solid var(--border)}
 li.inv .ic{font-weight:700;text-align:center;border-radius:50%;width:20px;height:20px;line-height:20px;font-size:12px;color:#fff}li.inv.good .ic{background:var(--good)}li.inv.warning .ic{background:var(--warning);color:#0b0b0b}li.inv.critical .ic{background:var(--critical)}

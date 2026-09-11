@@ -25,7 +25,11 @@ def test_render_day_structure():
 
 def test_sparkline_and_money():
     s = rb.sparkline([{"end": "2025-03-31", "val": 1e9}, {"end": "2025-06-30", "val": 2e9}], "USD", "营收")
-    assert "<svg" in s and "$2.00B" in s
+    assert "<svg" in s and "$2.00B" in s and "同比" not in s
+    # YoY matches by date: a missing quarter must not shift the comparison
+    gap = [{"end": "2025-03-31", "val": 100}, {"end": "2025-06-30", "val": 200}, {"end": "2025-09-30", "val": 300},
+           {"end": "2025-12-31", "val": 400}, {"end": "2026-06-30", "val": 300}]
+    assert "+50% 同比" in rb.sparkline(gap, "USD", "x")
     assert rb.fmt_money(-1.5e9) == "-$1.50B" and rb.fmt_money(2.5e6) == "$2M"
 
 
