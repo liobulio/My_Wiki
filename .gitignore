@@ -8,3 +8,4 @@ statarb-strategy-lab/
 .DS_Store
 __pycache__/
 *.pyc
+data/sec/text/

@@ -1,0 +1,1302 @@
+{
+ "ticker": "CEG",
+ "cik": 1868275,
+ "name": "Constellation Energy Corp",
+ "fetched": "2026-09-11T15:38:24+00:00",
+ "since": "2026-08-01",
+ "filings": [
+  {
+   "form": "4",
+   "filed": "2026-08-13",
+   "report_date": "2026-08-11",
+   "accession": "0000905148-26-003642",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003642/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003642/",
+   "is_new": true,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-08-06",
+   "report_date": "2026-08-04",
+   "accession": "0000905148-26-003498",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003498/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003498/",
+   "is_new": true,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-08-06",
+   "report_date": "2026-06-30",
+   "accession": "0001868275-26-000104",
+   "primary_doc": "ceg-20260630.htm",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "acquisition",
+     "count": 108,
+     "snippets": [
+      "dated Statements of Changes in Equity | 13 | | Combined Notes to Consolidated Financial Statements | | | 1. Basis of Presentation | 14 | | 2. Mergers, Acquisitions, and Dispositions | 14 | | 3. Regulatory Matters | 18 | | 4. Revenue from Contracts with Customers | 19 | | 5. Segment Information | 21 | | 6. Gov",
+      "rformance, are intended to identify such forward-looking statements. These forward-looking statements include, but are not limited to, statements regarding the acquisition of Calpine Corporation, the pro forma combined company and its operations, strategies and plans, enhancements to investment-grade credit profile, synergies, op",
+      "unities and anticipated future performance and capital structure, and expected accretion to earnings per share and free cash flow. Information adjusted for the acquisition should not be considered a forecast of future results. Forward-looking statements are based on current expectations, estimates and assumptions that involve a n"
+     ]
+    },
+    {
+     "keyword": "PJM",
+     "count": 58,
+     "snippets": [
+      "mberceg:CalpineMember2026-01-072026-01-070001868275ceg:NaturalGasGeothermalBatteryStorageAndSolarAssetsMemberceg:CalpineMember2026-01-072026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-070001868275ceg:ERCOTMemberceg:LSPowerMember2026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-310001868275ceg:NaturalGasG",
+      "sMemberceg:CalpineMember2026-01-072026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-070001868275ceg:ERCOTMemberceg:LSPowerMember2026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-310001868275ceg:NaturalGasGeothermalBatteryStorageAndSolarAssetsMemberceg:LSPowerMember2026-03-012026-03-310001868275ceg:LSPowerM",
+      "8682752027-01-012026-06-3000018682752028-01-012026-06-3000018682752029-01-012026-06-3000018682752030-01-012026-06-3000018682752031-01-012026-06-300001868275ceg:PJMMemberceg:PowerRevenueMemberceg:PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:PJMMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember202"
+     ]
+    },
+    {
+     "keyword": "ERCOT",
+     "count": 52,
+     "snippets": [
+      "5ceg:NaturalGasGeothermalBatteryStorageAndSolarAssetsMemberceg:CalpineMember2026-01-072026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-070001868275ceg:ERCOTMemberceg:LSPowerMember2026-01-070001868275ceg:PJMMemberceg:LSPowerMember2026-01-310001868275ceg:NaturalGasGeothermalBatteryStorageAndSolarAssetsMemberceg:LSPow",
+      "g:MISOMemberceg:PowerRevenueMemberceg:OtherRevenueTypeMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMember2026-04-012026-06-300001868275ceg:ERCOTMemberceg:PowerRevenueMemberceg:PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:ERCOTMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember2",
+      "eg:PowerRevenueMember2026-04-012026-06-300001868275ceg:ERCOTMemberceg:PowerRevenueMemberceg:PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:ERCOTMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember2026-04-012026-06-300001868275ceg:ERCOTMemberceg:PowerRevenueMemberceg:OtherRevenueTypeMember2026-04-01202"
+     ]
+    },
+    {
+     "keyword": "credit agreement",
+     "count": 31,
+     "snippets": [
+      "tirement Obligations | 26 | | 10. Income Taxes | 28 | | 11. Retirement Benefits | 30 | | 12. Derivative Financial Instruments | 30 | | 13. Debt and Credit Agreements | 35 | | 14. Fair Value of Financial Assets and Liabilities | 41 | | 15. Commitments and Contingencies | 46 | | | | | 16. Shareholders' Equity | 4",
+      "ansactions to close by the end of this year. The Brazos Valley Energy Center is currently secured under a project financing arrangement, see Note 13 — Debt and Credit Agreements for additional information. Consideration Transferred The following table summarizes the components of the total merger consideration transferred. There was n",
+      "n classified as Long-term debt due within one year and $12,272 million classified as Long-term debt, in the Consolidated Balance Sheets. See Note 13 — Debt and Credit Agreements for additional information. (d) Goodwill. Represents the excess of the purchase price over the estimated fair value of the net assets acquired. Goodwill recog"
+     ]
+    },
+    {
+     "keyword": "MISO",
+     "count": 30,
+     "snippets": [
+      "ceg:PJMMemberceg:PowerRevenueMemberceg:OtherRevenueTypeMember2026-04-012026-06-300001868275ceg:PJMMemberceg:PowerRevenueMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember20",
+      "ceg:PowerRevenueMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:OtherRevenueTypeMember2026-04-012026",
+      "PowerAndPowerRelatedRevenuesMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:CapacityRevenuesMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMemberceg:OtherRevenueTypeMember2026-04-012026-06-300001868275ceg:MISOMemberceg:PowerRevenueMember2026-04-012026-06-300001868275ceg:ERCOTM"
+     ]
+    },
+    {
+     "keyword": "FERC",
+     "count": 16,
+     "snippets": [
+      "s | | | | | | | | | | GLOSSARY OF TERMS AND ABBREVIATIONS | Other Terms and Abbreviations | | | Exelon | | Exelon Corporation | | | | | | | | | | FERC | | Federal Energy Regulatory Commission | Former ComEd Units | | Braidwood, Byron, Dresden, LaSalle and Quad Cities nuclear generating units | Former PECO U",
+      "y deliverable to the grid, some of which suggested projected in-service dates extending as late as December 2030. In March 2026, we filed a waiver request with FERC to allow the transfer of capacity interconnection rights (CIRs) from Eddystone to Crane with the aim of reducing the number of contingent upgrades that would n",
+      "the Eddystone CIRs to Crane will not affect PJM's ability to operate and dispatch Eddystone for reliability in compliance with the DOE's orders. In June 2026, FERC granted the waiver request. 18 Table of Contents Combined Notes to Consolidated Financial Statements (Dollars in millions, unless otherwise noted) Note 4 —"
+     ]
+    },
+    {
+     "keyword": "NRC",
+     "count": 15,
+     "snippets": [
+      "ntractual elimination under regulatory accounting | | | | NOx | | Nitrogen oxide | | | | | | | NPNS | | Normal Purchase Normal Sale scope exception | NRC | | Nuclear Regulatory Commission | | | | | | | NYISO | | New York ISO | NYMEX | | New York Mercantile Exchange | | | | | | | OCI | | Other Comprehe",
+      "generated from the renewed plant. The restart of the plant and delivery of electricity under the PPA is subject to certain regulatory approvals, including the NRC comprehensive safety and environmental review, as well as permits from relevant state and local agencies. PJM's Phase I System Impact Study for Crane identifie",
+      "| | 442 | | CenterPoint | 471 | | | 430 | | AEP Texas | 163 | | | 149 | | Payables related to Regulatory Agreement Units | $ | 5,914 | | | $ | 5,334 | NRC Minimum Funding Requirements NRC regulations require that licensees of nuclear generating facilities demonstrate reasonable assurance that funds will be availa"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 12,
+     "snippets": [
+      "iously announced as having a planned retirement date of May 31, 2025, but have been required to continue operating as energy-only resources under DOE emergency orders issued in 2025 and 2026 for grid reliability. Transferring the Eddystone CIRs to Crane will not affect PJM's ability to operate and dispatch Eddystone for rel",
+      "iability. Transferring the Eddystone CIRs to Crane will not affect PJM's ability to operate and dispatch Eddystone for reliability in compliance with the DOE's orders. In June 2026, FERC granted the waiver request. 18 Table of Contents Combined Notes to Consolidated Financial Statements (Dollars in millions, unless otherw",
+      "25. See Note 15 — Commitments and Contingencies for additional information. (b)Our commercial paper program is supported by the revolving credit agreement. In order to maintain our commercial paper program in the amounts indicated above, we must have a credit facility in place, at least equal to the amount of our commercia"
+     ]
+    },
+    {
+     "keyword": "ISO-NE",
+     "count": 11,
+     "snippets": [
+      "PA | | Illinois Power Agency | IRA | | Inflation Reduction Act of 2022 | | | | IRS | | Internal Revenue Service | ISO | | Independent System Operator | ISO-NE | | ISO New England Inc. | ITC | | Investment Tax Credit | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | MISO | | M",
+      "nd other revenues. Power revenues and capacity revenues are further disaggregated by ISO/RTO and/or geographic location, which include PJM, MISO, ERCOT, NYISO, ISO-NE, West (which includes operations in CAISO, Arizona and Oregon), SERC (which includes operations in SERC not included in MISO or PJM), SPP, and International Po",
+      "| — | | | $ | 2,868 | | MISO | 264 | | | 8 | | | — | | | 272 | | ERCOT | 422 | | | 97 | | | — | | | 519 | | NYISO | 515 | | | 13 | | | — | | | 528 | | ISO-NE | 655 | | | 2 | | | — | | | 657 | | West | 247 | | | 151 | | | — | | | 398 | | SERC/SPP | 27 | | | 1 | | | — | | | 28 | | International Power | 85 | | |"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 10,
+     "snippets": [
+      "institutions (Lenders) secured by certain customer accounts receivable. The maximum funding limit of the Facility is $1.5 billion and matures December 2027. Draws and repayments related to the Facility will be reflected as Proceeds from short-term borrowings and Repayments of short-term borrowings, respectively, in the C",
+      "will be reflected as Proceeds from short-term borrowings and Repayments of short-term borrowings, respectively, in the Consolidated Statements of Cash Flows. Draws on the Facility bear interest at a commercial paper rate or a Daily One Month Term SOFR or Term SOFR rate, plus an adder of 0.10% per annum. Interest is payabl",
+      "ive credit facilities: | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Facility Type | | Aggregate Bank Commitment | | Facility Draws | | Outstanding Letters of Credit(a) | | Outstanding Commercial Paper(b) | | Total Available Capacity | | June 30, 2026 | | | | | | | | | | | | Revolving"
+     ]
+    },
+    {
+     "keyword": "PPA",
+     "count": 9,
+     "snippets": [
+      "nergy Company | Pension Protection Act | | Pension Protection Act of 2006 | PG&E | | Pacific Gas and Electric Company | PJM | | PJM Interconnection, LLC | PPA | | Power Purchase Agreement | PP&E | | Property, Plant, and Equipment | | | | | | 2 Table of Contents | | | | | | | | | | GLOSSARY OF TERMS AND ABB",
+      "an Energy Center In 2024, we announced the restart of Three Mile Island Unit 1, renamed as the Crane Clean Energy Center. The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant. The restart of the plant and delivery of electricity under the PPA is subject to certai",
+      "pported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant. The restart of the plant and delivery of electricity under the PPA is subject to certain regulatory approvals, including the NRC comprehensive safety and environmental review, as well as permits from relevant state and local a"
+     ]
+    },
+    {
+     "keyword": "co-locat",
+     "count": 6,
+     "snippets": [
+      "he Pastoria Solar Project connects to the grid through the interconnection facilities at our highly efficient 750 MW natural gas-fired Pastoria facility. Also, co-located with the Pastoria Solar Project is the Pastoria Power Bank, a 80 MW/320 MWh Battery Energy Storage System, which came online in July 2026. The Pastoria Power",
+      ", while avoiding PJM purchases of capacity to serve it, as it will be interruptible. The other services include a firm and non-firm contract demand service for co-located load. FERC also directed several PJM compliance filings and a paper hearing. In June 2026, FERC ruled on a number of issues presented in the co-location pape",
+      "ice for co-located load. FERC also directed several PJM compliance filings and a paper hearing. In June 2026, FERC ruled on a number of issues presented in the co-location paper hearing and on several PJM compliance filings implementing directives from the December 2025 order. Importantly, FERC pressed PJM to implement changes"
+     ]
+    },
+    {
+     "keyword": "terminat",
+     "count": 6,
+     "snippets": [
+      "he unaudited pro forma financial information presented above includes adjustments for incremental depreciation and amortization as a result of the fair value determination of the net assets acquired, the effects of the acquisition on tax expense (benefit), and other acquisition accounting adjustments. As discussed in Note 5 —",
+      ",670 | __________ (a)Certain of our contracts contain provisions that allow a counterparty to request additional collateral when there has been a subjective determination that our credit quality has deteriorated, generally termed “adequate assurance”. Due to the subjective nature of these provisions, we estimate the amount of",
+      "onable estimation. Management is sometimes unable to estimate an amount or range of reasonably possible loss, particularly where (1) the damages sought are indeterminate, (2) the proceedings are in the early stages, or (3) the matters involve novel or unsettled legal theories. In such cases, there is considerable uncertainty r"
+     ]
+    },
+    {
+     "keyword": "interconnect",
+     "count": 5,
+     "snippets": [
+      "| | | PECO | | PECO Energy Company | Pension Protection Act | | Pension Protection Act of 2006 | PG&E | | Pacific Gas and Electric Company | PJM | | PJM Interconnection, LLC | PPA | | Power Purchase Agreement | PP&E | | Property, Plant, and Equipment | | | | | | 2 Table of Contents | | | | | | | | | | GLOSSARY O",
+      "K, we are involved in various regulatory and legislative proceedings. The following discusses developments in 2026 and updates to the 2025 Form 10-K. Capacity Interconnection Rights for Crane Clean Energy Center In 2024, we announced the restart of Three Mile Island Unit 1, renamed as the Crane Clean Energy Center. The restart is",
+      "h suggested projected in-service dates extending as late as December 2030. In March 2026, we filed a waiver request with FERC to allow the transfer of capacity interconnection rights (CIRs) from Eddystone to Crane with the aim of reducing the number of contingent upgrades that would need to be completed prior to Crane being fully"
+     ]
+    },
+    {
+     "keyword": "data center",
+     "count": 4,
+     "snippets": [
+      "uisitions, and Dispositions and Note 13 — Debt and Credit Agreements of the Combined Notes to Consolidated Financial Statements for additional information. New Data Center Facility at Freestone Energy Center In the first quarter of 2026, we signed a new 380 MW agreement with Dallas-based CyrusOne, a leading global data center dev",
+      "New Data Center Facility at Freestone Energy Center In the first quarter of 2026, we signed a new 380 MW agreement with Dallas-based CyrusOne, a leading global data center developer and operator, to connect and serve a new data center adjacent to the Freestone Energy Center, in Freestone County, Texas. The agreement provides Cyru",
+      "t quarter of 2026, we signed a new 380 MW agreement with Dallas-based CyrusOne, a leading global data center developer and operator, to connect and serve a new data center adjacent to the Freestone Energy Center, in Freestone County, Texas. The agreement provides CyrusOne with access to power, grid connectivity and site infrastru"
+     ]
+    },
+    {
+     "keyword": "power purchase",
+     "count": 3,
+     "snippets": [
+      "mpany | Pension Protection Act | | Pension Protection Act of 2006 | PG&E | | Pacific Gas and Electric Company | PJM | | PJM Interconnection, LLC | PPA | | Power Purchase Agreement | PP&E | | Property, Plant, and Equipment | | | | | | 2 Table of Contents | | | | | | | | | | GLOSSARY OF TERMS AND ABBREVIATIONS | Other",
+      "of derivative and non-derivative instruments to manage the commodity price risk of our electric generation facilities, including power and gas sales, fuel and power purchases, natural gas transportation and pipeline capacity agreements, and other energy-related products marketed and purchased. To manage these risks, we may enter in",
+      "ria Power Bank, a 80 MW/320 MWh Battery Energy Storage System, which came online in July 2026. The Pastoria Power Bank is contracted and supported by a 15-year power purchase agreement with Pacific Gas and Electric Company. 55 Table of Contents Pin Oak Creek Energy Center In April 2026, our Pin Oak Creek Energy Center achieved co"
+     ]
+    },
+    {
+     "keyword": "notes due",
+     "count": 3,
+     "snippets": [
+      "lowing exhibits are incorporated herein by reference under Rule 12b-32 of the Exchange Act. | | | Exhibit No. | Description | 4.1 | Form of 4.550% Senior Notes due June 1, 2029 (File No. 333-85496, Form 8-K dated May 14, 2026, Exhibit 4.1) | | | 4.2 | Form of 4.800% Senior Notes due January 15, 2032 (File No. 333-854",
+      "n | 4.1 | Form of 4.550% Senior Notes due June 1, 2029 (File No. 333-85496, Form 8-K dated May 14, 2026, Exhibit 4.1) | | | 4.2 | Form of 4.800% Senior Notes due January 15, 2032 (File No. 333-85496, Form 8-K dated May 14, 2026, Exhibit 4.2) | | | 4.3 | Form of 5.300% Senior Notes due June 1, 2036 (File No. 333-854",
+      "4.2 | Form of 4.800% Senior Notes due January 15, 2032 (File No. 333-85496, Form 8-K dated May 14, 2026, Exhibit 4.2) | | | 4.3 | Form of 5.300% Senior Notes due June 1, 2036 (File No. 333-85496, Form 8-K dated May 14, 2026, Exhibit 4.3) | | | Certifications Pursuant to Rule 13a-14(a) and 15d-14(a) of the Exchan"
+     ]
+    },
+    {
+     "keyword": "sanction",
+     "count": 2,
+     "snippets": [
+      "nflict We are closely monitoring developments of the ongoing Russia and Ukraine conflict, including United States, United Kingdom, European Union, and Canadian sanctions, and legislation that may impact exports and imports of Russian nuclear fuel supply and enrichment activities, as well as the potential for Russia to limit fu",
+      "current supply agreements. Geopolitical developments, including the Russia and Ukraine conflict and United States, United Kingdom, European Union, and Canadian sanctions against Russia, have the potential to impact delivery from multiple suppliers in the international uranium processing industry. Non-performance by these count"
+     ]
+    },
+    {
+     "keyword": "denied",
+     "count": 2,
+     "snippets": [
+      "al information on this matter, which is likewise representative of the ongoing proceedings as it pertains to Calpine. In March 2026, the Supreme Court of Texas denied plaintiffs’ petitions for a writ of mandamus in all five bellwether appeals. In July 2026, the Court denied plaintiffs' motions for rehearing. The parties will",
+      "Calpine. In March 2026, the Supreme Court of Texas denied plaintiffs’ petitions for a writ of mandamus in all five bellwether appeals. In July 2026, the Court denied plaintiffs' motions for rehearing. The parties will now return to the Multi-District-Litigation court to effect dismissal of all remaining Winter Storm Uri tor"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "L DOCUMENT <TEXT> Document 121 - file: FilingSummary.html Document 121 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>124 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 124 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>125 <FILENAME>0001868275-26-0",
+      "W XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>124 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 124 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>125 <FILENAME>0001868275-26-000104-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 125 - file:"
+     ]
+    },
+    {
+     "keyword": "Nuclear Regulatory",
+     "count": 1,
+     "snippets": [
+      "l elimination under regulatory accounting | | | | NOx | | Nitrogen oxide | | | | | | | NPNS | | Normal Purchase Normal Sale scope exception | NRC | | Nuclear Regulatory Commission | | | | | | | NYISO | | New York ISO | NYMEX | | New York Mercantile Exchange | | | | | | | OCI | | Other Comprehensive Income | OIESO |"
+     ]
+    },
+    {
+     "keyword": "PUC",
+     "count": 1,
+     "snippets": [
+      "C. We acquired Pin Oak Creek Energy Center's credit agreement pursuant with Texas Energy Fund (TEF), as lender, as administered by the Public Utility of Texas (PUCT). The loan proceeds were used to finance eligible costs for the development (as defined in the agreement), construction, and installation of Pin Oak Creek Ene"
+     ]
+    },
+    {
+     "keyword": "Microsoft",
+     "count": 1,
+     "snippets": [
+      "Center In 2024, we announced the restart of Three Mile Island Unit 1, renamed as the Crane Clean Energy Center. The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant. The restart of the plant and delivery of electricity under the PPA is subject to certain regulatory ap"
+     ]
+    },
+    {
+     "keyword": "delay",
+     "count": 1,
+     "snippets": [
+      "gs by RTOs and their transmission owners that are designed to expedite service to large load (regardless of whether it is co-located) and avoid the expense and delay associated with network upgrades to provide service to these loads. Constellation’s Load Dependent Capacity at Existing Plants (LCEP) proposal, which would exp"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001868275-26-000104.txt",
+   "items_desc": [],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/0001868275-26-000104-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/0001868275-26-000104-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/0001868275-26-000104.txt",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh311.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh312.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh313.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh314.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh321.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh322.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh323.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630x10qxexh324.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R10.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R100.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R101.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R102.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R11.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R12.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R13.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R14.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R15.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R16.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R17.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R18.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R19.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R2.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R20.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R21.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R22.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R23.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R24.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R25.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R26.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R27.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R28.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R29.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R3.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R30.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R31.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R32.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R33.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R34.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R35.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R36.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R37.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R38.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R39.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R4.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R40.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R41.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R42.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R43.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R44.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R45.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R46.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R47.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R48.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R49.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R5.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R50.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R51.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R52.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R53.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R54.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R55.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R56.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R57.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R58.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R59.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R6.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R60.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R61.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R62.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R63.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R64.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R65.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R66.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R67.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R68.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R69.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R7.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R70.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R71.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R72.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R73.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R74.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R75.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R76.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R77.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R78.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R79.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R8.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R80.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R81.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R82.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R83.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R84.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R85.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R86.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R87.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R88.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R89.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R9.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R90.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R91.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R92.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R93.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R94.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R95.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R96.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R97.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R98.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/R99.htm"
+   ],
+   "text_chars": 381685
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-06",
+   "report_date": "2026-08-06",
+   "accession": "0001868275-26-000097",
+   "primary_doc": "ceg-20260806.htm",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "PJM",
+     "count": 18,
+     "snippets": [
+      "| | | | | | | | Electricity Reference Prices(a) | Three Months Ended June 30, | | Six Months Ended June 30, | ISO/RTO | 2026 | | 2025 | | 2026 | | 2025 | PJM - PJM West | $ | 51.40 | | | $ | 42.43 | | | $ | 74.28 | | | $ | 48.06 | | PJM - ComEd | 29.32 | | | 31.09 | | | 40.01 | | | 33.20 | | NYISO - Central | 40",
+      "| | | | | Electricity Reference Prices(a) | Three Months Ended June 30, | | Six Months Ended June 30, | ISO/RTO | 2026 | | 2025 | | 2026 | | 2025 | PJM - PJM West | $ | 51.40 | | | $ | 42.43 | | | $ | 74.28 | | | $ | 48.06 | | PJM - ComEd | 29.32 | | | 31.09 | | | 40.01 | | | 33.20 | | NYISO - Central | 40.51 |",
+      "| | Six Months Ended June 30, | ISO/RTO | 2026 | | 2025 | | 2026 | | 2025 | PJM - PJM West | $ | 51.40 | | | $ | 42.43 | | | $ | 74.28 | | | $ | 48.06 | | PJM - ComEd | 29.32 | | | 31.09 | | | 40.01 | | | 33.20 | | NYISO - Central | 40.51 | | | 37.40 | | | 76.37 | | | 56.36 | | ERCOT - North | 29.58 | | | 32.75 |"
+     ]
+    },
+    {
+     "keyword": "acquisition",
+     "count": 16,
+     "snippets": [
+      "rformance, are intended to identify such forward-looking statements. These forward-looking statements include, but are not limited to, statements regarding the acquisition of Calpine Corporation, the pro forma combined company and its operations, strategies and plans, enhancements to investment-grade credit profile, synergies, op",
+      "unities and anticipated future performance and capital structure, and expected accretion to earnings per share and free cash flow. Information adjusted for the acquisition should not be considered a forecast of future results. Forward-looking statements are based on current expectations, estimates and assumptions that involve a n",
+      "Center), a 606 MW natural gas-fired plant in ERCOT for $860 million before closing adjustments, a key step in satisfying regulatory commitments related to our acquisition of Calpine earlier this year. This marks the last asset sale required by our regulatory commitments under the acquisition. Closing of the sale is subject to th"
+     ]
+    },
+    {
+     "keyword": "ERCOT",
+     "count": 11,
+     "snippets": [
+      ", we entered into an agreement with LS Power to divest the Brazos Valley Energy Center (f/k/a Jack A. Fusco Energy Center), a 606 MW natural gas-fired plant in ERCOT for $860 million before closing adjustments, a key step in satisfying regulatory commitments related to our acquisition of Calpine earlier this year. This mark",
+      ",263 | | | 26,002 | | | 25,440 | | Midwest | 23,112 | | | 23,760 | | | 46,086 | | | 47,356 | | New York | 6,336 | | | 6,632 | | | 12,351 | | | 12,913 | | ERCOT | 2,036 | | | 2,515 | | | 4,388 | | | 5,044 | | Total Nuclear Generation | 44,160 | | | 45,170 | | | 88,827 | | | 90,753 | | | | | | | | | | Natural Gas",
+      "Renewables(a) | | | | | | | | Mid-Atlantic | 611 | | | 810 | | | 1,351 | | | 1,442 | | Midwest | 273 | | | 258 | | | 617 | | | 643 | | | | | | | | | | ERCOT | 3,742 | | | 3,206 | | | 6,480 | | | 6,290 | | Other Power Regions | 1,109 | | | 1,286 | | | 2,852 | | | 3,090 | | Calpine | 24,914 | | | — | | | 51,411"
+     ]
+    },
+    {
+     "keyword": "FERC",
+     "count": 7,
+     "snippets": [
+      "rnings of $2.55 per share for the second quarter of 2026 •Raising full-year Adjusted (non-GAAP) Operating Earnings guidance range to $11.50 – $12.50 per share •FERC grants waiver allowing the transfer of existing Capacity Interconnection Rights (CIR) to Crane Clean Energy Center, and NRC approves Crane Clean Energy Center'",
+      "ffset by unfavorable nuclear outages Recent Developments and Second Quarter Highlights •Progress continues at Crane Clean Energy Center paving way for restart: FERC approved our waiver request to transfer CIRs from the dual fuel Eddystone Units 3 and 4 in Pennsylvania to the Crane Clean Energy Center. This decision clears",
+      "n expected average diluted common shares outstanding of 357 million Nine Mile Point Clean Energy Center ~$2.2B deployed YTD for accretive share repurchases Key FERC and NRC approvals received for Crane Clean Energy Center On path to regulatory clarity in PJM in 2H 2026 Brazos Valley Energy Center sale will satisfy final DO"
+     ]
+    },
+    {
+     "keyword": "uprate",
+     "count": 7,
+     "snippets": [
+      "ontract duration of 18.5 years 890 MWs of existing generation Diverse, investment grade customers Dresden Clean Energy Center Customer commitment enables 30 MW uprate at Dresden Clean Energy Center Contracts begin 2029-2031 and are fully ramped by 2032 (1) Includes long-term agreement for 176 MWs announced on June 23, 2026 (",
+      "based companies $425K in annual charitable giving to support local education, workforce development, and community needs Fleet Positioned to Add ~1,100 MWs of Uprates (4) (1) Polling conducted by Susquehanna Polling & Research (2) Murphy, D., Berkman, M., & Chang, W. (2024, September 20). Economic impacts of establishing th",
+      "omic impacts of establishing the Crane Clean Energy Center (CCEC). The Brattle Group. (3) Impacts from 20 years of operations (4) Includes previously announced uprates and 900 MWs of uprates possible with customer support * Left picture: Crane fundraiser to raise money for the Londonderry Township Volunteer Fire Department;"
+     ]
+    },
+    {
+     "keyword": "PPA",
+     "count": 5,
+     "snippets": [
+      "ions in 2027. •Helping our customers meet their evolving energy needs: We have signed an additional 920 megawatts (MW) of long-term power purchase agreements (PPA) for clean, reliable nuclear generation with a diverse set of investment grade customers. These agreements are for 15-20 years in duration and are set to begin",
+      "ation with a diverse set of investment grade customers. These agreements are for 15-20 years in duration and are set to begin in 2029 through 2032. Among these PPAs, our 176 MW agreement with Walmart will enable a 30 MW capacity expansion at our Dresden Clean Energy Center in Illinois and facilitate additional investments",
+      "ngs* of $2.55 per share (1) Raising full-year Adjusted Operating Earnings* guidance range to $11.50 - $12.50 per share (1) Signed ~920 MWs of long-term nuclear PPAs Note: GAAP to Non-GAAP reconciliations for Adjusted Operating Earnings* can be found on page 30 of the Appendix (1) Q2 2026 earnings per share is based on ave"
+     ]
+    },
+    {
+     "keyword": "NRC",
+     "count": 4,
+     "snippets": [
+      "ange to $11.50 – $12.50 per share •FERC grants waiver allowing the transfer of existing Capacity Interconnection Rights (CIR) to Crane Clean Energy Center, and NRC approves Crane Clean Energy Center's fuel license •Signed an additional 920 megawatts of long-term power purchase agreements for clean, reliable generation •E",
+      "regulatory hurdle for the plant restart, we expect the transfer to expedite its ability to deliver reliable emissions-free power to the grid. Additionally, the NRC has approved a fuel license amendment request for the Crane Clean Energy Center — a major milestone moving us closer to restarting operations in 2027. •Helpin",
+      "ransaction to close by the end of this year. •License renewal applications for two New York nuclear units: We have filed license renewal applications with the NRC to extend the operations of the Ginna Clean Energy Center and the Nine Mile Point Unit 1 reactor in upstate New York to 2049. If approved, the units' operating"
+     ]
+    },
+    {
+     "keyword": "ISO-NE",
+     "count": 4,
+     "snippets": [
+      "| | | 76.37 | | | 56.36 | | ERCOT - North | 29.58 | | | 32.75 | | | 35.12 | | | 32.07 | | ERCOT - Houston | 32.62 | | | 36.95 | | | 35.59 | | | 34.34 | | ISO-NE - Southeast Massachusetts | 48.18 | | | 40.31 | | | 83.50 | | | 72.53 | | CAISO - NP15 | 17.28 | | | 26.62 | | | 23.14 | | | 33.79 | | | | | | | | | |",
+      "| $ | 89.65 | | PJM - ComEd | 289.67 | | | 109.25 | | | 279.80 | | | 69.09 | | NYISO - Rest of State | 195.67 | | | 132.89 | | | 154.00 | | | 109.61 | | ISO-NE - Rest of Pool(b) | 84.99 | | | 83.17 | | | 84.68 | | | 82.87 | | | | | | | | | | ZEC Reference Prices(a) | Three Months Ended June 30, | | Six Months End",
+      "6,225 $329 2,575 $333 Total Fossil/Other (6) 6,150 6,600 2,950 MISO Volume (MW) Price ($/MWd) Volume (MW) Price ($/MWd) Total Nuclear (3) 1,100 $217 1,100 $126 ISO-NE Volume (MW) Price ($/MWd) Volume (MW) Price ($/MWd) Volume (MW) Price ($/MWd) Fossil/Other NEMA/SEMA (7) 1,075 $87 1,025 $85 875 $118 NH/ME 1,150 $83 1,250 $85"
+     ]
+    },
+    {
+     "keyword": "interconnect",
+     "count": 4,
+     "snippets": [
+      "ing full-year Adjusted (non-GAAP) Operating Earnings guidance range to $11.50 – $12.50 per share •FERC grants waiver allowing the transfer of existing Capacity Interconnection Rights (CIR) to Crane Clean Energy Center, and NRC approves Crane Clean Energy Center's fuel license •Signed an additional 920 megawatts of long-term power",
+      "Backstop Procurement (RBP) and Interim Resource Adequacy Service (IRAS), formerly Connect and Manage Existing generation will provide speed to power with load interconnection reforms Regulatory Progress is Improving Clarity for Large Load Customers 7 Clarity to Come By Year’s EndClarity Already Achieved Bilateral matching is ongo",
+      "’s request to run the RBP this fall for remaining capacity needs with results known by year-end PJM will file revised tariffs for new transmission services and interconnection of large loads FERC to rule on IRAS curtailment proposal, which should resolve an area of uncertainty among stakeholders PJM Cycle 1 interconnection studies"
+     ]
+    },
+    {
+     "keyword": "power purchase",
+     "count": 2,
+     "snippets": [
+      "onnection Rights (CIR) to Crane Clean Energy Center, and NRC approves Crane Clean Energy Center's fuel license •Signed an additional 920 megawatts of long-term power purchase agreements for clean, reliable generation •Entered into agreement to divest the Brazos Valley Energy Center (f/k/a Jack A. Fusco Energy Center) •Filed license",
+      "closer to restarting operations in 2027. •Helping our customers meet their evolving energy needs: We have signed an additional 920 megawatts (MW) of long-term power purchase agreements (PPA) for clean, reliable nuclear generation with a diverse set of investment grade customers. These agreements are for 15-20 years in duration and"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 46 - file: FilingSummary.html Document 46 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>49 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 49 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>50 <FILENAME>0001868275-26-000",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>49 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 49 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>50 <FILENAME>0001868275-26-000097-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 50 - file: 00"
+     ]
+    },
+    {
+     "keyword": "MISO",
+     "count": 1,
+     "snippets": [
+      "3) 15,550 15,550 15,525 Fossil/Other (4) BGE 325 $466 375 $329 375 $333 Other PJM (5) 5,825 $270 6,225 $329 2,575 $333 Total Fossil/Other (6) 6,150 6,600 2,950 MISO Volume (MW) Price ($/MWd) Volume (MW) Price ($/MWd) Total Nuclear (3) 1,100 $217 1,100 $126 ISO-NE Volume (MW) Price ($/MWd) Volume (MW) Price ($/MWd) Volume ("
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 1,
+     "snippets": [
+      "federal tax revenue adds $16B to PA GDP (2,3) ~3,400 in-state direct and indirect jobs created (2) Supporting Local Businesses $373M+ of contracts and purchase orders sourced from PA based companies $425K in annual charitable giving to support local education, workforce development, and community needs Fleet Positioned to A"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001868275-26-000097.txt",
+   "items_desc": [
+    "results of operations",
+    "Reg FD disclosure",
+    ""
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/0001868275-26-000097-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/0001868275-26-000097-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/0001868275-26-000097.txt",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806992.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/R1.htm"
+   ],
+   "text_chars": 108699
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-05",
+   "report_date": "2026-08-04",
+   "accession": "0001868275-26-000089",
+   "primary_doc": "ceg-20260804.htm",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/ceg-20260804.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 14 - file: FilingSummary.html Document 14 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>17 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 17 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>18 <FILENAME>0001868275-26-000",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>17 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 17 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>18 <FILENAME>0001868275-26-000089-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 18 - file: 00"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001868275-26-000089.txt",
+   "items_desc": [
+    "",
+    ""
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/0001868275-26-000089-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/0001868275-26-000089-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/0001868275-26-000089.txt",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/ceg-20260804.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/ceg-202608058kexh991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000089/R1.htm"
+   ],
+   "text_chars": 26367
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-14",
+   "report_date": "2026-07-14",
+   "accession": "0001868275-26-000080",
+   "primary_doc": "ceg-20260714.htm",
+   "items": [
+    "8.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000080/ceg-20260714.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000080/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "other events"
+   ]
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-01",
+   "report_date": "2026-06-30",
+   "accession": "0000905148-26-003139",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003139/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826003139/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-06-02",
+   "report_date": "2026-06-01",
+   "accession": "0001104659-26-069482",
+   "primary_doc": "tm2616531d1_8k.htm",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926069482/tm2616531d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000110465926069482/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "other events",
+    ""
+   ]
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-11",
+   "report_date": "2026-03-31",
+   "accession": "0001868275-26-000067",
+   "primary_doc": "ceg-20260331.htm",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000067/ceg-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000067/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-11",
+   "report_date": "2026-05-11",
+   "accession": "0001868275-26-000063",
+   "primary_doc": "ceg-20260511.htm",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "results of operations",
+    "Reg FD disclosure",
+    ""
+   ]
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-01",
+   "report_date": "2026-04-28",
+   "accession": "0001868275-26-000050",
+   "primary_doc": "ceg-20260428.htm",
+   "items": [
+    "5.07"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000050/ceg-20260428.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000050/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    ""
+   ]
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001966",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001966/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001966/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001965",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001965/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001965/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001964",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001964/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001964/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001963",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001963/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001963/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001962",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001962/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001962/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001961",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001961/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001961/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001960",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001960/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001960/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001959",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001959/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001959/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001958",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001958/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001958/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-04-30",
+   "report_date": "2026-04-28",
+   "accession": "0000905148-26-001957",
+   "primary_doc": "xslF345X06/form4.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001957/xslF345X06/form4.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826001957/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  }
+ ],
+ "metrics": {
+  "Revenues": {
+   "tag": "Revenues",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 6550000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 5382000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 6788000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 6101000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 6570000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 6074000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 11122000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 7504000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  },
+  "NetIncomeLoss": {
+   "tag": "NetIncomeLoss",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 1200000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 852000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 118000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 839000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 930000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 432000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 1590000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 513000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  },
+  "EPSDiluted": {
+   "tag": "EarningsPerShareDiluted",
+   "unit": "USD/shares",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 3.82,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 2.72,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 0.38,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 2.67,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 2.97,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 1.38,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 4.49,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 1.42,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  },
+  "OperatingIncomeLoss": {
+   "tag": "OperatingIncomeLoss",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 1467000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 972000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 451000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 951000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 1086000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 598000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 2332000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 580000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  },
+  "OperatingCashFlow": {
+   "tag": "NetCashProvidedByUsedInOperatingActivities",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": -112000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2024-12-31",
+     "val": -1016000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 107000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 1477000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2025-09-30",
+     "val": 1848000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2025-12-31",
+     "val": 805000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 425000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 1128000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": true
+    }
+   ]
+  },
+  "Capex": {
+   "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 552000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2024-12-31",
+     "val": 729000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2025-03-31",
+     "val": 806000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 767000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2025-09-30",
+     "val": 390000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": true
+    },
+    {
+     "end": "2025-12-31",
+     "val": 986000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": true
+    },
+    {
+     "end": "2026-03-31",
+     "val": 1275000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 1246000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": true
+    }
+   ]
+  },
+  "LongTermDebt": {
+   "tag": "LongTermDebtNoncurrent",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 7378000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 7384000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": false
+    },
+    {
+     "end": "2025-03-31",
+     "val": 7321000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 7286000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 7269000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 7250000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-03-31",
+     "val": 16994000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 19111000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  },
+  "Cash": {
+   "tag": "CashAndCashEquivalentsAtCarryingValue",
+   "unit": "USD",
+   "series": [
+    {
+     "end": "2024-09-30",
+     "val": 1793000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2024-12-31",
+     "val": 3022000000,
+     "fp": "FY",
+     "form": "10-K",
+     "derived": false
+    },
+    {
+     "end": "2025-03-31",
+     "val": 1846000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-06-30",
+     "val": 1974000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-09-30",
+     "val": 3959000000,
+     "fp": "Q3",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2025-12-31",
+     "val": 3641000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-03-31",
+     "val": 800000000,
+     "fp": "Q1",
+     "form": "10-Q",
+     "derived": false
+    },
+    {
+     "end": "2026-06-30",
+     "val": 697000000,
+     "fp": "Q2",
+     "form": "10-Q",
+     "derived": false
+    }
+   ]
+  }
+ },
+ "sic": "Electric Services",
+ "fiscal_year_end": "1231"
+}
