@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [Talen Energy, Talen Energy Corporation]
 tags: [power, nuclear, ai-power, data-center, ipp]
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-09-11
 ---
 
 # TLN — Talen Energy
@@ -47,4 +47,4 @@ People: [[dan-dreyfus]] · Concepts: [[ai-power-demand]] · [[replacement-cost-i
 Source: [[2026-06-12-all-in-best-ideas-pitch]] · [[all-in-best-ideas-2026-factcheck]]
 
 ## Position & thesis
-_Not a holding. Pitched idea. No user position._
+**Open position** (5.407 sh, IBKR, since 2026-09-11 in the wiki) — see `wiki/positions/tln.md` and the shared thesis [[ai-power-ipp-bull]]. ⚠️ Price has moved from ~$382 (2026-06-19) to ~$315 (2026-09-11) — cause to be established from filings/news in the first daily brief.

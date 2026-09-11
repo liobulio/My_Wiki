@@ -1,0 +1,5 @@
+# Human-owned settings for the daily brief. The agent never edits the numbers here.
+account: IBKR
+account_total_usd: 7200        # total account value as stated by the human on 2026-09-11; cash = total − positions
+timezone: America/Toronto
+lookback_days: 7               # first-run / catch-up window when no previous brief exists
