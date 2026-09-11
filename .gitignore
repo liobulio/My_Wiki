@@ -4,3 +4,7 @@
 .obsidian/cache
 .trash/
 .DS_Store
+statarb-strategy-lab/
+.DS_Store
+__pycache__/
+*.pyc
