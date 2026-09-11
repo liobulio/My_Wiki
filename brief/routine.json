@@ -1,0 +1,18 @@
+{
+  "_note": "Cloud routine body for claude.ai/code/routines (RemoteTrigger create). Blocked 2026-09-11: claude.ai needs the GitHub account connected first (https://claude.ai/code/routines → connect GitHub, grant access to liobulio/My_Wiki). Cron is UTC: 11:00 UTC = 07:00 America/Toronto in EDT (06:00 in EST — change to `0 12 * * 1-5` after the November clock change if 07:00 local matters).",
+  "name": "daily-us-brief",
+  "cron_expression": "0 11 * * 1-5",
+  "enabled": true,
+  "job_config": {
+    "ccr": {
+      "environment_id": "env_01CnzCNjN1MAp86pNZhK1j5p",
+      "session_context": {
+        "model": "claude-opus-5",
+        "sources": [{"git_repository": {"url": "https://github.com/liobulio/My_Wiki"}}],
+        "allowed_tools": ["Bash", "Read", "Write", "Edit", "Glob", "Grep", "WebFetch", "WebSearch"]
+      },
+      "events": [{"data": {"uuid": "3f9c2a7e-6b41-4d8a-9e2f-7c1b5a0d4e88", "session_id": "", "type": "user", "parent_tool_use_id": null,
+        "message": {"role": "user", "content": "You are the maintainer of this personal investment wiki (an Obsidian vault). Produce today's daily US-equity institutional brief.\n\nSteps:\n1. Read `CLAUDE.md` in full — it is the schema every page must follow (§4.4 describes this BRIEF operation).\n2. Read `.claude/skills/daily-brief/SKILL.md` and follow it step by step: sweep `brief/sources.yaml` (foreign + domestic public research) and any new files in `raw/`; ingest each kept source per CLAUDE.md §4.1 with the mandatory fact-check; run `python3 scripts/sec_fetch.py --since <last brief date>` and READ every flagged/new 8-K, 10-Q, 10-K for the open positions in `wiki/positions/` — regulator-restricted contracts (FERC / NRC / PUC / export control) and Items 1.01/1.02/8.01 first; write `filing` source pages and update each position's Update history and `invalidation_status` against the thesis in `wiki/theses/`; write `wiki/briefs/<today>.md` with the ```json brief-data``` block; create/update `wiki/opportunities/` pages for explicit buy ideas (never set status adopted — only the human can); run `python3 scripts/prices.py` then `python3 scripts/render_brief.py --date <today>`; update `index.md` and append a `brief` entry to `log.md`.\n3. Commit everything with message `Daily brief <today>: <headline>` and push to `origin main` (git pull --rebase first if the push is rejected).\n\nRules: today's date is `date +%F`. Chinese for the 梳理/views/logic, original language for quotes, tickers and numbers. Never edit `raw/`. Never change `shares`, `entry_*`, `conviction` or open/close a position. Every view must cite an ingested source page; a news article is a lead — cite the filing or the institution's own page. If a site is unreachable, note it in log.md and continue: a thin brief beats no brief. If `pdftotext` is missing, try `pip install pypdf` or read PDFs with the Read tool. Finish by printing the brief's headline and the list of pages touched."}}}]
+    }
+  }
+}
