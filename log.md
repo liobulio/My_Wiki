@@ -145,3 +145,7 @@ grep "^## \[" log.md | tail -5
 - 外资桶留空（`us_equity: []`）：Apollo RSS 未更新至 09-12 后、BlackRock BII 最新仍为 09-08（上期已 ingest）、Goldman/MS 客户端渲染页无干净的 09-11 后条目 —— 不硬凑。
 - ⚠️ 运行说明：本期由 **GitHub Actions** 首次跑通（云端 routine 因沙箱出网 403 + 无 GitHub 写权限而放弃）。运行在写完 wiki 页面后触及账户用量上限中断，HTML 渲染与 index/log 记账由本地补完；提交信息 `leftover files from the runner` 为 workflow 兜底步骤所生成，非正常提交。
 
+## [2026-09-14] maintenance | 复核 SEC 文件步骤：确认三家零新增（RISEC 8-K 尚未到期）
+- 承前 09-14 brief 的未解项（`efts.sec.gov` 全文检索 403，未能定位 [[ceg]] RISEC 收购对应 8-K）。改用权威口径 **data.sec.gov/submissions** 直连复核：CEG 最新文件为 2026-08-21 Form 144，无收购 8-K；`sec_fetch.py --since 2026-09-11` 重跑，三家（CEG/TLN/VST）均 0 新增、0 flag，`data/sec/*.json` 仅刷新 `fetched` 时间戳。
+- 结论：RISEC 于 9/12（周五）宣布，Item 1.01 8-K 法定期限为 4 个工作日（约 9/18），期间 9/13–14 为周末 → **当前尚无对应文件属正常**，`filings_read: 0` 准确、非抓取失败。三项 Invalidation 维持 ok×4。下期（≥9/15）优先确认 RISEC 8-K 是否入档。
+
