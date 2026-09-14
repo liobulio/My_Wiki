@@ -49,13 +49,19 @@ def positions_tickers() -> list:
 
 
 def main(argv):
-    tickers = [t.upper() for t in argv] or positions_tickers()
+    out_path, rest = None, []
+    for x in argv:
+        if x.startswith("--out="):
+            out_path = x.split("=", 1)[1]
+        else:
+            rest.append(x)
+    tickers = [t.upper() for t in rest] or positions_tickers()
     out = {"asof": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "quotes": {}}
     for t in tickers:
         out["quotes"][t] = fetch_quote(t)
         time.sleep(0.3)
-    (ROOT / "data").mkdir(exist_ok=True)
-    dest = ROOT / "data" / "prices.json"
+    dest = pathlib.Path(out_path) if out_path else (ROOT / "data" / "prices.json")
+    dest.parent.mkdir(parents=True, exist_ok=True)
     ok = {t: q for t, q in out["quotes"].items() if "price" in q}
     if not ok and dest.exists():
         print("all quotes failed — prices.json left untouched (stale cache kept)")

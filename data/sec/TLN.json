@@ -2,9 +2,313 @@
  "ticker": "TLN",
  "cik": 1622536,
  "name": "Talen Energy Corp",
- "fetched": "2026-09-14T02:14:39+00:00",
- "since": "2026-09-07",
+ "fetched": "2026-09-11T15:48:02+00:00",
+ "since": "2026-07-15",
  "filings": [
+  {
+   "form": "10-Q",
+   "filed": "2026-08-05",
+   "report_date": "2026-06-30",
+   "accession": "0001622536-26-000066",
+   "primary_doc": "tln-20260630.htm",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "PJM",
+     "count": 105,
+     "snippets": [
+      "ions Talen’s estimated future fixed fee performance obligations primarily include capacity volumes awarded, net of capacity repurchases by the Company, through PJM BRAs and incremental PJM capacity auctions, and components of capacity contracts with customers for which consideration is fixed and determinable. See Note 9 f",
+      "ture fixed fee performance obligations primarily include capacity volumes awarded, net of capacity repurchases by the Company, through PJM BRAs and incremental PJM capacity auctions, and components of capacity contracts with customers for which consideration is fixed and determinable. See Note 9 for additional information",
+      "y auctions, and components of capacity contracts with customers for which consideration is fixed and determinable. See Note 9 for additional information on the PJM BRAs. Future performance obligations that were unsatisfied or partially unsatisfied were: | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |"
+     ]
+    },
+    {
+     "keyword": "acquisition",
+     "count": 54,
+     "snippets": [
+      "asset retirement obligation is a legal obligation associated with the disposal or retirement from service of a tangible long-lived asset that results from the acquisition, construction or development, or the normal operations of a long-lived asset, except for certain obligations of lessees. + References Reference 1: http://www.",
+      "ith respect to the RCF and 1.75% with respect to the TLB-1 and TLB-2). Upsizes and Extensions. •In June 2026, in connection with the closing of the Cornerstone Acquisition, TES (i) upsized the existing RCF (including its revolving LC capacity) from $900 million to $1.35 billion; and (ii) upsized its existing $1.1 billion LCF to $",
+      "1 of each year. The net proceeds from the issuance and sale of the Unsecured Notes due 2031 and 2033 were used to (i) fund the cash portion of the Cornerstone Acquisition; and (ii) redeem the Company’s outstanding Secured Notes. Additionally, in June 2026, in connection with the closing of the Cornerstone Acquisition, TES entere"
+     ]
+    },
+    {
+     "keyword": "FERC",
+     "count": 35,
+     "snippets": [
+      "deral and state agencies and other bodies that exercise regulatory authority in the various regions where we conduct business, including but not limited to the FERC; the DOE; the NRC; the North American Energy Reliability Corporation (“NERC”); the Federal Communications Commission; and state public utility commissions. In",
+      "ulatory agencies; and (ii) changes in market design, tariff structure, capacity auctions, and (or) pricing rules. PJM Capacity Market Reform. In June 2023, the FERC accepted a request by PJM to delay certain PJM Base Residual Auctions in order for PJM to propose market reforms. In early 2024, the FERC accepted portions of",
+      "rm. In June 2023, the FERC accepted a request by PJM to delay certain PJM Base Residual Auctions in order for PJM to propose market reforms. In early 2024, the FERC accepted portions of PJM’s proposed market changes and PJM scheduled certain PJM BRAs on a delayed basis. In September 2024, the Sierra Club and other organiza"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 26,
+     "snippets": [
+      "L DOCUMENT <TEXT> Document 116 - file: FilingSummary.html Document 116 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>119 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 119 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>120 <FILENAME>0001622536-26-0",
+      "W XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>119 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 119 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>120 <FILENAME>0001622536-26-000066-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 120 - file:",
+      "benefit (expense) | | $ | 37 | | | $ | (25) | | | $ | 19 | | | $ | 27 | | X | - References No definition available. + Details | Name: | us-gaap_IncomeTaxDisclosureAbstract | Namespace Prefix: | us-gaap_ | Data Type: | xbrli:stringItemType | Balance Type: | na | Period Type: | duration | X | -"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 15,
+     "snippets": [
+      "The hedging strategies deployed by our commercial and treasury organizations manage and (or) balance these risks within a structured risk management program in order to minimize near-term future cash flow volatility. Our risk management committee, comprised of certain senior management members across the organization, overs",
+      "y auctions, and (or) pricing rules. PJM Capacity Market Reform. In June 2023, the FERC accepted a request by PJM to delay certain PJM Base Residual Auctions in order for PJM to propose market reforms. In early 2024, the FERC accepted portions of PJM’s proposed market changes and PJM scheduled certain PJM BRAs on a delayed b",
+      "istrict of Columbia filed a complaint against PJM asking the FERC to find that PJM’s existing capacity market rules are unjust and unreasonable and to issue an order requiring certain short-term and longer-term changes to PJM’s capacity market rules. In response, PJM made two FERC filings in December 2024 to address what th"
+     ]
+    },
+    {
+     "keyword": "delay",
+     "count": 7,
+     "snippets": [
+      "in market design, tariff structure, capacity auctions, and (or) pricing rules. PJM Capacity Market Reform. In June 2023, the FERC accepted a request by PJM to delay certain PJM Base Residual Auctions in order for PJM to propose market reforms. In early 2024, the FERC accepted portions of PJM’s proposed market changes and P",
+      "in order for PJM to propose market reforms. In early 2024, the FERC accepted portions of PJM’s proposed market changes and PJM scheduled certain PJM BRAs on a delayed basis. In September 2024, the Sierra Club and other organizations filed a complaint at the FERC challenging PJM’s rules establishing must-offer exceptions fo",
+      "not limited to potential revisions to the treatment of RMR resources. As a result, in October 2024, PJM formally requested, which the FERC approved, six-month delays to the scheduled PJM BRAs for the 2028/2029 and 2029/2030 PJM Capacity Years to June 2026 and December 2026, respectively. The 2028/2029 PJM BRA was held in J"
+     ]
+    },
+    {
+     "keyword": "notes due",
+     "count": 7,
+     "snippets": [
+      "dated Statement of Operations primarily consisting of the derecognition of TLB-1 capitalized original issuance discount and deferred financing costs. Unsecured Notes due 2031 and 2033. In April 2026, TES issued in private placement transactions not involving a public offering, and each at par: (i) $1.5 billion in aggregate prin",
+      "d in private placement transactions not involving a public offering, and each at par: (i) $1.5 billion in aggregate principal amount of 6.125% Senior Unsecured Notes due 2031, with interest payable on May 1 and November 1 of each year; and (ii) $2.5 billion in aggregate principal amount of 6.375% Senior Unsecured Notes due 2033",
+      "ured Notes due 2031, with interest payable on May 1 and November 1 of each year; and (ii) $2.5 billion in aggregate principal amount of 6.375% Senior Unsecured Notes due 2033, with interest payable on May 1 and November 1 of each year. The net proceeds from the issuance and sale of the Unsecured Notes due 2031 and 2033 were use"
+     ]
+    },
+    {
+     "keyword": "interconnect",
+     "count": 6,
+     "snippets": [
+      "ments. The Maryland Office of People's Counsel and the Independent Market Monitor filed protests, and the FERC is expected to make a decision by mid-September. Interconnection of Large Loads. In October 2025, DOE directed the FERC to consider reforms to expedite and facilitate how large loads interconnect to the interstate transmi",
+      "ecision by mid-September. Interconnection of Large Loads. In October 2025, DOE directed the FERC to consider reforms to expedite and facilitate how large loads interconnect to the interstate transmission system. DOE stated that the Federal Power Act permits the FERC to exert jurisdiction over load interconnections even though it h",
+      "tate how large loads interconnect to the interstate transmission system. DOE stated that the Federal Power Act permits the FERC to exert jurisdiction over load interconnections even though it has not historically done so. DOE provided a draft advance notice of proposed rulemaking (“ANOPR”) and directed the FERC to initiate rulemak"
+     ]
+    },
+    {
+     "keyword": "denied",
+     "count": 6,
+     "snippets": [
+      "ipants. These cases were transferred to a single multi-district litigation (MDL) court. In January 2023, the MDL court ruled on various motions to dismiss, but denied the motions to dismiss filed by the generator defendants. In December 2023, the Texas First Court of Appeals granted a mandamus petition and instructed the MDL",
+      "he plaintiffs filed for mandamus relief in the Texas Supreme Court seeking to overturn the Texas First Court of Appeals. In March 2026, the Texas Supreme Court denied the plaintiffs’ requests. While Talen expects the dismissal ruling to be applied broadly to all Uri cases against Talen’s former subsidiaries, the cases remain",
+      "len’s motion to intervene. Plaintiffs filed a motion asking the court to reconsider its decision to hold the case in abeyance. The U.S. District Court for D.C. denied that motion in November 2025. The D.C. Circuit Court of Appeals granted the EPA’s motion for an abeyance and Talen’s motion to intervene in October 2025. In Ma"
+     ]
+    },
+    {
+     "keyword": "complaint",
+     "count": 6,
+     "snippets": [
+      "ions of PJM’s proposed market changes and PJM scheduled certain PJM BRAs on a delayed basis. In September 2024, the Sierra Club and other organizations filed a complaint at the FERC challenging PJM’s rules establishing must-offer exceptions for PJM BRA participation by RMR resources. In October 2024, PJM announced it had concer",
+      "g must-offer exceptions for PJM BRA participation by RMR resources. In October 2024, PJM announced it had concerns about the FERC considering the Sierra Club’s complaints about RMR resources in isolation and therefore intended to file a Section 205 proceeding under the Federal Power Act seeking the FERC’s approval of to-be-dete",
+      "nsumer Advocates, comprised of consumer advocacy groups and government entities from Illinois, Maryland, New Jersey, Ohio, and the District of Columbia filed a complaint against PJM asking the FERC to find that PJM’s existing capacity market rules are unjust and unreasonable and to issue an order requiring certain short-term an"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 5,
+     "snippets": [
+      "process of seeking an extension through 2028; however, we cannot be certain that such extension will be executed on similar terms or at all. Winter Storm Uri Lawsuits. In connection with the sale of Talen’s generating facilities in Texas in May 2024, the Company retained certain potential liabilities relating to claims f",
+      "” proposal, that is designed to address how new data center load connects to the grid. Environmental Matters Extensive federal, state, and local environmental laws and regulations are applicable to our business, including those related to air emissions, water discharges, hazardous substances, and solid waste management. F",
+      "xecutive actions and the environmental rules continue to be uncertain. Further, costs may increase significantly if the requirements or scope of environmental laws or regulations, or similar rules, are expanded or changed in other ways. EPA CSAPR and Nitrogen Oxides (“NOx”) Requirements. Coal-fired generation facilities,"
+     ]
+    },
+    {
+     "keyword": "co-locat",
+     "count": 4,
+     "snippets": [
+      "PJM’s ultimate proposal to be in place for the 2028/2029 PJM BRA. In December 2025, however, the FERC issued an order in a show cause proceeding on large loads co-located with generation. The FERC directed PJM to submit an informational report containing, among other items, all of the CIFP proposals. The FERC also found that t",
+      "port containing, among other items, all of the CIFP proposals. The FERC also found that the PJM tariff was unjust and unreasonable as to the interconnection of co-located loads. The FERC requested tariff revisions be submitted over the next 30-60 days and established a hearing schedule, which began in February 2026, to establi",
+      "ge load interconnection process; (ii) cost allocation; (iii) providing new transmission services for flexible large loads; (iv) behind the meter generation and co-located loads; and (v) developing a process to study generating facilities that serve electrically proximate and co-located loads. PJM has 60 days to respond. Additi"
+     ]
+    },
+    {
+     "keyword": "terminat",
+     "count": 4,
+     "snippets": [
+      "ch cannot be completely eliminated, is managed through a number of practices such as ongoing reviews of counterparty creditworthiness, prepayment, inclusion of termination rights in contracts which are triggered by certain events of default, and executing master netting arrangements that permit amounts between parties to be of",
+      "new wastewater treatment equipment, if necessary, will not be known until each applicable state where the active generation facilities operate makes its own determination with respect to NPDES permit renewals with new limits and associated timing. As a result of the future permit conditions, additional capital expenditures an",
+      "ading Arrangements, by Individual | | Rule 10b5-1 Arrangement Adopted | false | Non-Rule 10b5-1 Arrangement Adopted | false | Rule 10b5-1 Arrangement Terminated | false | Non-Rule 10b5-1 Arrangement Terminated | false | X | - References Reference 1: http://www.xbrl.org/2003/role/presentationRef -Publisher"
+     ]
+    },
+    {
+     "keyword": "data center",
+     "count": 3,
+     "snippets": [
+      "omers quickly and reliably. The CIFP stakeholders represented a wide range of views about resource allocations, costs, and how the addition of large loads like data centers to PJM should be managed in the context of the capacity market. The Company was an active participant in the CIFP process and submitted a joint proposal among",
+      "e held in May and June 2026. At the end of the process, PJM stakeholders approved an alternative proposed by the Joint Electric Distribution Companies with the Data Center Coalition. This alternative proposal included a backstop procurement based on a voluntary “registry-based subscription model” rather than forecasted demand and",
+      "$555/MWd. The proposal is now pending at the FERC. PJM also plans to file an “Interim Resource Adequacy Service” proposal, that is designed to address how new data center load connects to the grid. Environmental Matters Extensive federal, state, and local environmental laws and regulations are applicable to our business, includi"
+     ]
+    },
+    {
+     "keyword": "NRC",
+     "count": 2,
+     "snippets": [
+      "rates, probabilistic cash flow models, and discount rates. The Company may be required to revise or recognize new AROs as a result of regulatory changes by the NRC, the EPA, Montana Department of Environmental Quality (the “MDEQ”) or other regulatory entities. Additionally, revisions may result from scope of work amendmen",
+      "ncies and other bodies that exercise regulatory authority in the various regions where we conduct business, including but not limited to the FERC; the DOE; the NRC; the North American Energy Reliability Corporation (“NERC”); the Federal Communications Commission; and state public utility commissions. In addition, the RTOs"
+     ]
+    },
+    {
+     "keyword": "credit agreement",
+     "count": 2,
+     "snippets": [
+      "Facilities TES is the borrower/issuer under all the Company’s debt and credit facilities. As of June 30, 2026, TES was not in default under any of its debt or credit agreements. Long-Term Debt | | | | | | | | | | | | | | | | | | | | | | | | Interest Rate (a) | | June 30, 2026 | | December 31, 2025 | TLB-1 | | 5.39 % | | $ | 8",
+      "not permitted under the LCF, which can only be used for LCs. Financing Transactions During the second quarter 2026, TES entered into various amendments to the Credit Agreement. Repricing Transactions. In May 2026, TES repriced the RCF, TLB-1 and TLB-2 to each bear interest at: •A variable interest rate equal to the highest of: (i) th"
+     ]
+    },
+    {
+     "keyword": "behind the meter",
+     "count": 1,
+     "snippets": [
+      "ariff in five key areas: (i) large load interconnection process; (ii) cost allocation; (iii) providing new transmission services for flexible large loads; (iv) behind the meter generation and co-located loads; and (v) developing a process to study generating facilities that serve electrically proximate and co-located loads. PJM has 60"
+     ]
+    },
+    {
+     "keyword": "protest",
+     "count": 1,
+     "snippets": [
+      "nt for cost-of-living adjustments to wages and additional project investments. The Maryland Office of People's Counsel and the Independent Market Monitor filed protests, and the FERC is expected to make a decision by mid-September. Interconnection of Large Loads. In October 2025, DOE directed the FERC to consider reforms to e"
+     ]
+    },
+    {
+     "keyword": "Amazon",
+     "count": 1,
+     "snippets": [
+      "ontext of the capacity market. The Company was an active participant in the CIFP process and submitted a joint proposal amongst itself, Constellation, Calpine, Amazon, Microsoft, and Google representing the group’s collective views on the best approach to large load additions. Neither the joint proposal nor any of the other"
+     ]
+    },
+    {
+     "keyword": "Microsoft",
+     "count": 1,
+     "snippets": [
+      "f the capacity market. The Company was an active participant in the CIFP process and submitted a joint proposal amongst itself, Constellation, Calpine, Amazon, Microsoft, and Google representing the group’s collective views on the best approach to large load additions. Neither the joint proposal nor any of the other proposals s"
+     ]
+    },
+    {
+     "keyword": "Google",
+     "count": 1,
+     "snippets": [
+      "market. The Company was an active participant in the CIFP process and submitted a joint proposal amongst itself, Constellation, Calpine, Amazon, Microsoft, and Google representing the group’s collective views on the best approach to large load additions. Neither the joint proposal nor any of the other proposals submitted rec"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001622536-26-000066.txt",
+   "items_desc": [],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/0001622536-26-000066-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/0001622536-26-000066-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/0001622536-26-000066.txt",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R10.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R11.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R12.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R13.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R14.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R15.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R16.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R17.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R18.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R19.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R2.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R20.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R21.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R22.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R23.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R24.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R25.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R26.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R27.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R28.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R29.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R3.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R30.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R31.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R32.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R33.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R34.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R35.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R36.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R37.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R38.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R39.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R4.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R40.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R41.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R42.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R43.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R44.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R45.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R46.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R47.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R48.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R49.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R5.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R50.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R51.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R52.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R53.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R54.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R55.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R56.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R57.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R58.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R59.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R6.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R60.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R61.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R62.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R63.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R64.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R65.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R66.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R67.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R68.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R69.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R7.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R70.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R71.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R72.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R73.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R74.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R75.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R76.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R77.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R78.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R79.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R8.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R80.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R81.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R82.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R83.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R84.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R85.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R86.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R87.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R88.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R89.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R9.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R90.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R91.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R92.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R93.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R94.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R95.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R96.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R97.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/R98.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex311302certif.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex312302certif.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex321906certif.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex46firstsuppl.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex47firstsuppl.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex48secondsupp.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tec-20260630ex49secondsupp.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm"
+   ],
+   "text_chars": 775929
+  },
   {
    "form": "8-K",
    "filed": "2026-08-05",
@@ -17,13 +321,92 @@
    ],
    "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/tln-20260805.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/",
-   "is_new": false,
-   "flags": [],
-   "text_path": null,
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "acquisition",
+     "count": 12,
+     "snippets": [
+      "oss) Attributable to Stockholders of $(92) million. ▪Second quarter Adjusted EBITDA of $374 million and Adjusted Free Cash Flow of $212 million. ▪Completed the acquisition of the Waterford Energy Center, Darby Generating Station, and the Lawrenceburg Power Plant (collectively, the “Cornerstone Acquisition”) in June 2026. ▪Raisin",
+      "million. ▪Completed the acquisition of the Waterford Energy Center, Darby Generating Station, and the Lawrenceburg Power Plant (collectively, the “Cornerstone Acquisition”) in June 2026. ▪Raising 2026 Adjusted EBITDA and Adjusted Free Cash Flow guidance ranges to $2,025 million - $2,225 million and $1,200 million - $1,350 milli",
+      "r results, earning $374 million of Adjusted EBITDA and $212 million of Adjusted Free Cash Flow. With strong year-to-date results and closing of the Cornerstone Acquisition, we are raising our 2026 guidance as well as increasing the 2027 and 2028 outlooks,” said Talen Chief Executive Officer Mac McFarland. He continued, “We remain"
+     ]
+    },
+    {
+     "keyword": "notes due",
+     "count": 4,
+     "snippets": [
+      "LLC (“TES”) issued in private placement transactions not involving a public offering: (i) $1.5 billion in aggregate principal amount of 6.125% senior unsecured notes due 2031; and (ii) $2.5 billion in aggregate principal amount of 6.375% senior unsecured notes due 2033. The net proceeds from the issuance and sale of the unsecur",
+      "billion in aggregate principal amount of 6.125% senior unsecured notes due 2031; and (ii) $2.5 billion in aggregate principal amount of 6.375% senior unsecured notes due 2033. The net proceeds from the issuance and sale of the unsecured notes due 2031 and 2033 were used to (i) fund the Cornerstone Acquisition; and (ii) redeem i",
+      "31; and (ii) $2.5 billion in aggregate principal amount of 6.375% senior unsecured notes due 2033. The net proceeds from the issuance and sale of the unsecured notes due 2031 and 2033 were used to (i) fund the Cornerstone Acquisition; and (ii) redeem in full $1.2 billion of outstanding 8.625% senior secured notes due 2030. Addi"
+     ]
+    },
+    {
+     "keyword": "data center",
+     "count": 2,
+     "snippets": [
+      "325.00 per megawatt-day (“MWd”) for the MAAC, PPL, and RTO locational deliverability areas. ▪Progressing pipeline of approximately 4 GW of land development and data center contracting options. HOUSTON, August 5, 2026 – Talen Energy Corporation (“Talen,” “TEC”, the “Company,” “we,” or “our”) (NASDAQ: TLN), a leading independent po",
+      "awatt produced. Talen is also powering the digital infrastructure revolution. We are well-positioned to serve this growing industry, as artificial intelligence data centers increasingly demand more reliable power. Talen is headquartered in Houston, Texas. For more information, visit https://www.talenenergy.com/. Investor Relation"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 11 - file: FilingSummary.html Document 11 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>13 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 13 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>14 <FILENAME>0001622536-26-000",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>13 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 13 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>14 <FILENAME>0001622536-26-000065-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 14 - file: 00"
+     ]
+    },
+    {
+     "keyword": "PJM",
+     "count": 1,
+     "snippets": [
+      "n under our Share Repurchase Program (“SRP”), with $1.7 billion of capacity remaining through December 2028. ▪Cleared over 10 gigawatts (“GW”) in the 2028/2029 PJM Base Residual Auction at $325.00 per megawatt-day (“MWd”) for the MAAC, PPL, and RTO locational deliverability areas. ▪Progressing pipeline of approximately 4"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 1,
+     "snippets": [
+      "Taryne.Williams@talenenergy.com Forward-Looking Statements This communication contains forward-looking statements within the meaning of the federal securities laws, which statements are subject to substantial risks and uncertainties. These forward-looking statements are intended to qualify for the safe harbor from liabili"
+     ]
+    },
+    {
+     "keyword": "terminat",
+     "count": 1,
+     "snippets": [
+      "airments, obsolescence, and net realizable value charges; (x) interest expense; (xi) income taxes; (xii) legal settlements, liquidated damages, and contractual terminations; (xiii) development expenses; (xiv) noncontrolling interests, except where otherwise noted; and (xv) other adjustments. Such adjustments are computed consi"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001622536-26-000065.txt",
    "items_desc": [
     "results of operations",
     ""
-   ]
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/0001622536-26-000065-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/0001622536-26-000065-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/0001622536-26-000065.txt",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/a20260805q22026earningsrel.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/R1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000065/tln-20260805.htm"
+   ],
+   "text_chars": 47112
+  },
+  {
+   "form": "4",
+   "filed": "2026-07-15",
+   "report_date": "2026-07-15",
+   "accession": "0001628280-26-048330",
+   "primary_doc": "xslF345X06/wk-form4_1784146095.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026048330/xslF345X06/wk-form4_1784146095.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026048330/",
+   "is_new": true,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
   },
   {
    "form": "8-K",
@@ -44,6 +427,20 @@
     "Reg FD disclosure",
     ""
    ]
+  },
+  {
+   "form": "4",
+   "filed": "2026-06-17",
+   "report_date": "2026-06-15",
+   "accession": "0001628280-26-043879",
+   "primary_doc": "xslF345X06/wk-form4_1781727028.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026043879/xslF345X06/wk-form4_1781727028.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026043879/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
   },
   {
    "form": "8-K",
@@ -74,6 +471,244 @@
    ]
   },
   {
+   "form": "4",
+   "filed": "2026-06-08",
+   "report_date": "2026-06-08",
+   "accession": "0001628280-26-041583",
+   "primary_doc": "xslF345X06/wk-form4_1780950135.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026041583/xslF345X06/wk-form4_1780950135.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026041583/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038578",
+   "primary_doc": "xslF345X06/wk-form4_1779921263.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038578/xslF345X06/wk-form4_1779921263.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038578/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038577",
+   "primary_doc": "xslF345X06/wk-form4_1779921238.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038577/xslF345X06/wk-form4_1779921238.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038577/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038576",
+   "primary_doc": "xslF345X06/wk-form4_1779921221.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038576/xslF345X06/wk-form4_1779921221.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038576/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038575",
+   "primary_doc": "xslF345X06/wk-form4_1779921203.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038575/xslF345X06/wk-form4_1779921203.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038575/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038574",
+   "primary_doc": "xslF345X06/wk-form4_1779921183.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038574/xslF345X06/wk-form4_1779921183.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038574/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038573",
+   "primary_doc": "xslF345X06/wk-form4_1779921167.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038573/xslF345X06/wk-form4_1779921167.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038573/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038572",
+   "primary_doc": "xslF345X06/wk-form4_1779921145.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038572/xslF345X06/wk-form4_1779921145.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038572/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038571",
+   "primary_doc": "xslF345X06/wk-form4_1779921119.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038571/xslF345X06/wk-form4_1779921119.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038571/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038570",
+   "primary_doc": "xslF345X06/wk-form4_1779921096.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038570/xslF345X06/wk-form4_1779921096.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038570/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038569",
+   "primary_doc": "xslF345X06/wk-form4_1779921074.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038569/xslF345X06/wk-form4_1779921074.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038569/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038567",
+   "primary_doc": "xslF345X06/wk-form4_1779921042.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038567/xslF345X06/wk-form4_1779921042.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038567/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038566",
+   "primary_doc": "xslF345X06/wk-form4_1779921014.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038566/xslF345X06/wk-form4_1779921014.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038566/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038565",
+   "primary_doc": "xslF345X06/wk-form4_1779920986.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038565/xslF345X06/wk-form4_1779920986.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038565/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038564",
+   "primary_doc": "xslF345X06/wk-form4_1779920960.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038564/xslF345X06/wk-form4_1779920960.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038564/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038563",
+   "primary_doc": "xslF345X06/wk-form4_1779920929.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038563/xslF345X06/wk-form4_1779920929.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038563/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "4",
+   "filed": "2026-05-27",
+   "report_date": "2026-05-22",
+   "accession": "0001628280-26-038562",
+   "primary_doc": "xslF345X06/wk-form4_1779920894.xml",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038562/xslF345X06/wk-form4_1779920894.xml",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828026038562/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
    "form": "8-K",
    "filed": "2026-05-21",
    "report_date": "2026-05-20",
@@ -90,6 +725,78 @@
    "text_path": null,
    "items_desc": [
     "material definitive agreement",
+    ""
+   ]
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-07",
+   "report_date": "2026-05-05",
+   "accession": "0001622536-26-000039",
+   "primary_doc": "tln-20260505.htm",
+   "items": [
+    "5.07"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000039/tln-20260505.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000039/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    ""
+   ]
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-05-05",
+   "report_date": "2026-03-31",
+   "accession": "0001622536-26-000036",
+   "primary_doc": "tln-20260331.htm",
+   "items": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": []
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-05",
+   "report_date": "2026-05-05",
+   "accession": "0001622536-26-000035",
+   "primary_doc": "tln-20260505.htm",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000035/tln-20260505.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000035/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "results of operations",
+    ""
+   ]
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-17",
+   "report_date": "2026-04-17",
+   "accession": "0001622536-26-000030",
+   "primary_doc": "tln-20260417.htm",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000030/tln-20260417.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000030/",
+   "is_new": false,
+   "flags": [],
+   "text_path": null,
+   "items_desc": [
+    "other events",
     ""
    ]
   }

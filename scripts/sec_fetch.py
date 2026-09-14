@@ -269,6 +269,18 @@ def fulltext_search(q: str, ciks: list, since: str, until: str = None) -> dict:
     return {"query": q, "total": d.get("hits", {}).get("total", {}).get("value"), "hits": hits}
 
 
+def merge_filings(old_filings: list, new_filings: list) -> list:
+    """Union by accession number so a run with a narrow --forms/--since never discards filing
+    history it didn't happen to re-fetch. A freshly-fetched filing overwrites its cached copy
+    outright (it may have gained text/flags, or a corrected is_new for THIS run's --since);
+    anything else survives from the cache but is_new is forced false — that flag is only
+    meaningful relative to the --since of the run that computed it."""
+    by_acc = {f["accession"]: dict(f, is_new=False) for f in old_filings}
+    for f in new_filings:
+        by_acc[f["accession"]] = f
+    return sorted(by_acc.values(), key=lambda f: f["filed"], reverse=True)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", nargs="?", default="fetch", choices=["fetch", "search"])
@@ -277,7 +289,11 @@ def main(argv=None):
     ap.add_argument("--tickers", nargs="*", default=None)
     ap.add_argument("--forms", default="8-K,10-Q,10-K,4")
     ap.add_argument("--text-forms", default="8-K,10-Q,10-K", help="forms whose documents are downloaded + flagged")
+    ap.add_argument("--data-dir", default=None, help="override the data/sec directory — use a scratch path for sandboxed sanity checks, never the committed cache")
     a = ap.parse_args(argv)
+    global DATA
+    if a.data_dir:
+        DATA = pathlib.Path(a.data_dir)
     tickers = [t.upper() for t in (a.tickers or load_positions())]
     cm = cik_map()
     if a.cmd == "search":
@@ -295,15 +311,23 @@ def main(argv=None):
         except Exception as e:  # noqa: BLE001
             res = {"ticker": t, "cik": cik, "name": name, "error": str(e), "filings": [], "metrics": {}}
         dest = DATA / f"{t}.json"
-        if res.get("error") and dest.exists():  # network failure: keep the cached filings/metrics, just stamp the error
+        old = None
+        if dest.exists():
             try:
-                cached = json.loads(dest.read_text()); cached["last_fetch_error"] = res["error"]
-                cached["last_fetch_attempt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-                dest.write_text(json.dumps(cached, indent=1, ensure_ascii=False))
-                res = cached
+                old = json.loads(dest.read_text())
             except Exception:  # noqa: BLE001
+                old = None
+        if res.get("error"):  # network failure: keep the cached filings/metrics, just stamp the error
+            if old is not None:
+                old["last_fetch_error"] = res["error"]
+                old["last_fetch_attempt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+                dest.write_text(json.dumps(old, indent=1, ensure_ascii=False))
+                res = old
+            else:
                 dest.write_text(json.dumps(res, indent=1, ensure_ascii=False))
         else:
+            if old is not None:  # merge — never let a narrower --forms/--since silently drop history
+                res["filings"] = merge_filings(old.get("filings", []), res.get("filings", []))
             dest.write_text(json.dumps(res, indent=1, ensure_ascii=False))
         new = [f for f in res["filings"] if f.get("is_new")]
         flagged = [f for f in new if f.get("flags")]

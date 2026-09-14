@@ -45,8 +45,15 @@ jobs:
       - name: Sanity — scripts run and tests pass on the runner
         run: |
           python -m pytest -q tests/
-          python scripts/sec_fetch.py --since "$(date -d '7 days ago' +%F)" --forms 8-K | tail -5
-          python scripts/prices.py | tail -3
+          # Egress + script smoke test only — MUST write to a scratch path, never the committed
+          # data/sec or data/prices.json cache. sec_fetch.py's --forms/--since here are
+          # deliberately narrow for speed; pointing it at the real cache once corrupted 20+
+          # filings of history down to 5 (see commit fixing this) because sec_fetch used to
+          # overwrite wholesale instead of merging. It now merges safely, but this check has no
+          # reason to touch production files at all, so it doesn't.
+          mkdir -p /tmp/sanity-data
+          python scripts/sec_fetch.py --since "$(date -d '7 days ago' +%F)" --forms 8-K --data-dir /tmp/sanity-data | tail -5
+          python scripts/prices.py --out=/tmp/sanity-data/prices.json | tail -3
 
       - name: Git identity
         run: |

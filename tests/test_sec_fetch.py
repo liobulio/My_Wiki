@@ -39,3 +39,27 @@ def test_quarterly_series_instant_dedupes():
 def test_html_to_text():
     t = html_to_text("<html><head><title>x</title><style>a{}</style></head><body><p>Item&nbsp;1.01</p><div>Entry into a <b>Material</b> Agreement</div></body></html>")
     assert "Item 1.01" in t and "Entry into a Material Agreement" in t and "a{}" not in t
+
+
+def test_merge_filings_preserves_history_not_in_new_fetch():
+    from sec_fetch import merge_filings
+    old = [
+        {"accession": "A1", "form": "10-Q", "filed": "2026-05-01", "is_new": True, "flags": []},
+        {"accession": "A2", "form": "4", "filed": "2026-06-01", "is_new": True, "flags": []},
+    ]
+    # a run scoped to --forms 8-K only fetched one brand-new 8-K; it must not evict A1/A2
+    new = [{"accession": "A3", "form": "8-K", "filed": "2026-09-14", "is_new": True, "flags": [{"keyword": "FERC"}]}]
+    merged = merge_filings(old, new)
+    accs = {f["accession"]: f for f in merged}
+    assert set(accs) == {"A1", "A2", "A3"}
+    assert accs["A1"]["is_new"] is False and accs["A2"]["is_new"] is False  # stale is_new demoted
+    assert accs["A3"]["is_new"] is True  # freshly fetched, is_new as computed this run
+    assert [f["accession"] for f in merged] == ["A3", "A2", "A1"]  # newest-filed first
+
+
+def test_merge_filings_fresh_fetch_overwrites_cached_copy():
+    from sec_fetch import merge_filings
+    old = [{"accession": "A1", "form": "8-K", "filed": "2026-09-01", "is_new": True, "flags": [], "text_path": None}]
+    new = [{"accession": "A1", "form": "8-K", "filed": "2026-09-01", "is_new": False, "flags": [{"keyword": "PPA"}], "text_path": "x.txt"}]
+    merged = merge_filings(old, new)
+    assert len(merged) == 1 and merged[0]["text_path"] == "x.txt" and merged[0]["flags"]
