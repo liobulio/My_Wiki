@@ -1,0 +1,91 @@
+name: daily-us-brief
+
+on:
+  schedule:
+    - cron: "0 11 * * 1-5"      # 07:00 America/Toronto in EDT (06:00 in EST — switch to "0 12" after the Nov clock change)
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Override the lookback start date (YYYY-MM-DD); empty = last brief date"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: System deps (pdftotext for domestic research PDFs)
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils
+          pip install -q pyyaml youtube-transcript-api pytest
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: Sanity — scripts run and tests pass on the runner
+        run: |
+          python -m pytest -q tests/
+          python scripts/sec_fetch.py --since "$(date -d '7 days ago' +%F)" --forms 8-K | tail -5
+          python scripts/prices.py | tail -3
+
+      - name: Git identity
+        run: |
+          git config user.name "daily-brief bot"
+          git config user.email "hengkun.zhang@mail.mcgill.ca"
+
+      - name: Run the daily-brief skill (Claude Code headless)
+        env:
+          # One of the two: a subscription token from `claude setup-token`, or an API key (pay-per-token).
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SINCE_OVERRIDE: ${{ github.event.inputs.since }}
+        run: |
+          TODAY=$(date +%F)
+          claude -p \
+            --model opus \
+            --dangerously-skip-permissions \
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch" \
+            "You are the maintainer of this personal investment wiki (an Obsidian vault). Produce today's daily US-equity institutional brief for $TODAY. ${SINCE_OVERRIDE:+Use $SINCE_OVERRIDE as the SINCE date.}
+
+          Steps: (1) Read CLAUDE.md in full — it is the schema every page must follow (§4.4 describes this BRIEF operation). (2) Read .claude/skills/daily-brief/SKILL.md and follow it step by step: sweep brief/sources.yaml (foreign + domestic public research, incl. the All-In podcast transcript routes) and any new files in raw/; ingest each kept source per CLAUDE.md §4.1 with the mandatory fact-check; run python3 scripts/sec_fetch.py --since <SINCE> and READ every flagged/new 8-K, 10-Q, 10-K for the open positions in wiki/positions/ — regulator-restricted contracts (FERC / NRC / PUC / export control) and Items 1.01/1.02/8.01 first; write filing source pages and update each position's Update history and invalidation_status against the thesis in wiki/theses/; write wiki/briefs/$TODAY.md with the json brief-data block; create/update wiki/opportunities/ pages for explicit buy ideas, always filling proposed edge/catalyst/invalidation (never set status adopted — only the human can); run python3 scripts/prices.py then python3 scripts/render_brief.py --date $TODAY; update index.md and append a brief entry to log.md. (3) Commit everything with message 'Daily brief $TODAY: <headline>' and push to origin main (git pull --rebase origin main first if the push is rejected).
+
+          Rules: Chinese for the 梳理/views/logic, original language for quotes, tickers and numbers. Never edit raw/. Never change shares, entry_*, conviction or open/close a position. Every view must cite an ingested source page; a news article is a lead — cite the filing or the institution's own page. If a site is unreachable, note it in log.md and continue: a thin brief beats no brief. Finish by printing the brief's headline and the list of pages touched."
+
+      - name: Ensure everything is pushed (belt and braces)
+        if: always()
+        run: |
+          git status --short | head -20
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A && git commit -q -m "Daily brief $(date +%F): leftover files from the runner" || true
+          fi
+          git pull --rebase origin main || true
+          git push origin HEAD:main || echo "push failed (see above)"
+
+      - name: Upload the rendered brief as a run artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brief-${{ github.run_id }}
+          path: |
+            brief/*.html
+          if-no-files-found: ignore

@@ -18,3 +18,9 @@ cp brief/launchd/com.mywiki.daily-brief.plist ~/Library/LaunchAgents/ && launchc
 ```
 Runs weekdays 07:00 local via `scripts/run_daily_brief_local.sh` (Claude Code headless, model opus, `caffeinate` keeps the Mac awake).
 Logs: `logs/daily-brief-<date>.log`. Manual run: `scripts/run_daily_brief_local.sh`. Unload: `launchctl unload ~/Library/LaunchAgents/com.mywiki.daily-brief.plist`.
+
+## GitHub Actions (recommended runner)
+`.github/workflows/daily-brief.yml` runs the same skill on a GitHub-hosted runner (full outbound network, `GITHUB_TOKEN` can push
+to `main`) weekdays 11:00 UTC, or on demand via **Actions → daily-us-brief → Run workflow**. One repository secret is required:
+`CLAUDE_CODE_OAUTH_TOKEN` (run `claude setup-token` on your Mac and paste the token into Settings → Secrets → Actions) — or
+`ANTHROPIC_API_KEY` for pay-per-token API billing. The rendered HTML is also attached to each run as an artifact.
