@@ -10,3 +10,4 @@ __pycache__/
 *.pyc
 data/sec/text/
 brief/_*.html
+logs/

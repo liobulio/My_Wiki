@@ -8,3 +8,13 @@ Regenerate locally: `python3 scripts/prices.py && python3 scripts/render_brief.p
 The cloud routine `daily-us-brief` runs `.claude/skills/daily-brief/SKILL.md` weekdays 07:00 America/Toronto
 and pushes to `main`; pull (`git pull`, or the Obsidian Git plugin) to see new pages in Obsidian.
 Wiki links in the HTML use `obsidian://` URLs and open the page in the `My_Wiki` vault.
+
+## Local fallback (launchd)
+The cloud routine's sandbox blocks direct HTTPS to sec.gov and the institution sites (verified 2026-09-13: only
+WebSearch works there). Until that environment allows outbound network access, run the same skill on this Mac:
+
+```bash
+cp brief/launchd/com.mywiki.daily-brief.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/com.mywiki.daily-brief.plist
+```
+Runs weekdays 07:00 local via `scripts/run_daily_brief_local.sh` (Claude Code headless, model opus, `caffeinate` keeps the Mac awake).
+Logs: `logs/daily-brief-<date>.log`. Manual run: `scripts/run_daily_brief_local.sh`. Unload: `launchctl unload ~/Library/LaunchAgents/com.mywiki.daily-brief.plist`.
