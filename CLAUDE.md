@@ -267,13 +267,19 @@ logic: "<the buy logic in one sentence — what has to be true>"
 institutions: ["[[goldman-sachs]]"]     # every house that has voiced it, first one first
 first_seen: YYYY-MM-DD
 status: new | watching | adopted | dropped
+edge: "<PROPOSED — why the market misprices it, in one sentence>"
+catalyst: "<PROPOSED — the dated-or-conditional event that forces a re-price>"
+invalidation: "<PROPOSED — the price level or condition that proves it wrong>"
 sources: ["[[source-page]]"]
 updated: YYYY-MM-DD
 ---
 ```
-Body: **Logic** (expanded) · **Who says so** (dated, per institution, with the quote) ·
+Body: **Thesis Test (proposed)** — Edge · Catalyst · Invalidation, each one paragraph, drafted
+by me from the sources and **labelled as a proposal** (§3.8: I propose, the human adopts) ·
+**Logic** (expanded) · **Who says so** (dated, per institution, with the quote) ·
 **What would kill it** · **Sources**. An opportunity is *someone else's* idea until the human
-runs the Thesis Test (§3.8) — then `status: adopted` and a `theses/` page is created.
+answers the Thesis Test in their own words — then `status: adopted`, a `theses/` page is
+created and the proposal is replaced by their answers.
 
 ### 3.11 Brief page — `wiki/briefs/YYYY-MM-DD.md`
 ```yaml

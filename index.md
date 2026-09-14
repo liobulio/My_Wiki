@@ -31,11 +31,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[ai-power-ipp-bull]] — shared bull thesis for CEG/TLN/VST: nuclear-heavy IPPs below replacement cost into rising power demand; catalyst = hyperscaler PPAs; 4 condition-based invalidations (human's own words, 2026-09-11)
 
 ## Opportunities
-- [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（new, 2026-09-11）
-- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛；与现有持仓同逻辑（new）
+- [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（new, 2026-09-11；含提案版 Edge/Catalyst/Invalidation）
+- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛；与现有持仓同逻辑（new；含提案版 Thesis Test）
 
 ## Institutions
-- 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]]
+- 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
 - 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets

@@ -182,7 +182,13 @@ def opp_card(ctx, slug, today=None):
     tk = f'<span class="tk big">{esc(m["ticker"])}</span>' if m.get("ticker") else ""
     return (f'<div class="opp" data-status="{esc(st)}">{tk}<h3><a class="wl" href="{obsidian(slug, "wiki/opportunities")}">{esc(m.get("title") or o["title"])}</a></h3>'
             f'<p class="logic">{esc(m.get("logic", ""))}</p>'
-            f'<div class="who">{"".join(badge(ctx, i) for i in insts)}</div>'
+            + ("".join(f'<div class="tt"><span class="lab">{lab}</span>{esc(m.get(k))}</div>'
+                       for k, lab in (("edge", "Edge"), ("catalyst", "Catalyst"), ("invalidation", "Invalidation")) if m.get(k))
+               and f'<details class="ttest"><summary>Thesis Test（提案）</summary>'
+                   + "".join(f'<div class="tt"><span class="lab">{lab}</span>{esc(m.get(k))}</div>'
+                             for k, lab in (("edge", "Edge"), ("catalyst", "Catalyst"), ("invalidation", "Invalidation")) if m.get(k))
+                   + '</details>' or "")
+            + f'<div class="who">{"".join(badge(ctx, i) for i in insts)}</div>'
             f'<div class="meta"><span class="chip st-{esc(st)}">{OPP_STATUS.get(st, st)}</span>'
             f'{"<span class=\"chip new\">今日新增</span>" if is_new else ""}<span>首次出现 {esc(m.get("first_seen", ""))}</span></div></div>')
 
@@ -319,7 +325,7 @@ ul.views{list-style:none;margin:0;padding:0;display:grid;gap:10px}li.view{backgr
 .lc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-bottom:10px}.ba{display:grid;grid-template-columns:1fr 1fr;gap:12px}.ba .lab{display:block;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 @media(max-width:640px){.ba{grid-template-columns:1fr}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}.opp{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}.opp .logic{margin:6px 0;font-size:14.5px}.opp .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}
-.opp[data-status=dropped]{opacity:.65}
+.opp[data-status=dropped]{opacity:.65}.ttest{margin:6px 0}.tt{font-size:13px;margin:4px 0;padding-left:8px;border-left:2px solid var(--grid)}.tt .lab{display:inline-block;min-width:82px;font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 article.pos{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:14px}article.pos>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}article.pos h3{margin:0}
 .wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.cols{grid-template-columns:1fr}}

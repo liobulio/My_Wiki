@@ -7,7 +7,7 @@ import render_brief as rb
 def _ctx():
     ctx = rb.build_ctx()
     ctx["opportunities"]["test-opp"] = {"slug": "test-opp", "title": "t", "body": "", "meta": {
-        "ticker": "VST", "title": "测试机会", "logic": "逻辑一句话", "institutions": ["[[cicc]]"], "first_seen": "2026-01-02", "status": "new"}}
+        "ticker": "VST", "title": "测试机会", "logic": "逻辑一句话", "institutions": ["[[cicc]]"], "first_seen": "2026-01-02", "status": "new", "edge": "E1", "catalyst": "C1", "invalidation": "I1"}}
     return ctx
 
 
@@ -17,6 +17,7 @@ def test_render_day_structure():
     h = rb.render_day(brief, _ctx())
     assert 'data-origin="foreign"' in h and 'data-origin="domestic"' in h
     assert "观点变化" in h and "逻辑一句话" in h and "测试头条" in h
+    assert "Thesis Test（提案）" in h and ">I1<" in h
     assert "<svg" in h  # sparkline from live SEC cache (TLN)
     assert 'class="inv warning"' in h
     assert not re.search(r'<(script|link)[^>]+(src|href)="https?://', h)

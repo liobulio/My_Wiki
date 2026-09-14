@@ -51,6 +51,13 @@ foreign:
     kind: js
     search_hint: "site:blackstone.com/insights"
     note: Joe Zidle market views. Direct fetch returns 403 — search only.
+  - id: all-in-podcast
+    institution: all-in-podcast
+    url: https://allinchamathjason.libsyn.com/rss
+    kind: rss
+    youtube_feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCESLZhusAkFfsNsApnjF_Cg
+    transcript: ["https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg/<episode-slug>", "youtube-transcript-api (pip install --break-system-packages youtube-transcript-api or a venv; video id from youtube_feed)", "fallback: RSS description = chapter list with timestamps; ingest as description-only and flag 'transcript missing — human to supply'"]
+    note: All-In Podcast (Chamath, Calacanis, Sacks, Friedberg) — weekly Friday episode, ~1.5h; the wiki's original source stream (see wiki/people/). Try transcript routes in order; podscripts.co slug = libsyn slug (verified 2026-09-13: full transcript ~107k chars, fetch with a browser UA).
 domestic:
   - id: eastmoney-strategy
     institution: eastmoney-research-center

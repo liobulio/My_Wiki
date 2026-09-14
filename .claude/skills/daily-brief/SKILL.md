@@ -21,6 +21,11 @@ echo "last brief: ${LAST:-none}"
 ## 1. Sweep institutions (foreign + domestic)
 For every entry in `brief/sources.yaml`:
 - `kind: rss` → fetch the feed; take items with pubDate > SINCE; fetch each item page.
+  For **podcasts** (entry has `transcript:`): the RSS description is only the chapter list. Get the
+  transcript via the listed routes in order — podscripts.co page (slug = libsyn slug), then
+  `pip install youtube-transcript-api` + video id from `youtube_feed`, else ingest the chapter list only
+  and write `⚠️ transcript missing — human to supply` on the source page. Attribute views to the
+  host who said them ([[chamath-palihapitiya]] etc.) *and* the institution page `all-in-podcast`.
 - `kind: html` → fetch the page; find pieces dated > SINCE (links + dates); fetch each.
 - `kind: js` → WebSearch `"<search_hint>"` with a past-week filter (and the institution name +
   "outlook" / "equity strategy" / "macro"); open the top dated hits.
@@ -75,7 +80,9 @@ the ```json brief-data``` block. Rules:
 - `opportunities`: for each explicit buy idea create/update `wiki/opportunities/<slug>.md`
   (§3.10; `logic` = the one sentence the human needs; list every house that voiced it;
   `status: new` on first sight, `watching` when a second house echoes it; never `adopted` —
-  only the human can adopt). Slug: `<ticker-or-theme>-<yyyy-mm>`.
+  only the human can adopt). Slug: `<ticker-or-theme>-<yyyy-mm>`. **Always fill `edge`, `catalyst`,
+  `invalidation`** in the frontmatter as PROPOSALS (§3.8): the invalidation must be a concrete price
+  level or condition drawn from the source's own risk list, never a vibe.
 - `positions`: one entry per open position — `note` (Chinese, 1–3 sentences: what the new
   filings mean for the thesis), `filings` (accessions you read), `invalidation_status`.
 Empty buckets are fine — say so; never pad.
