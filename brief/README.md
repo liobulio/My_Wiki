@@ -17,7 +17,9 @@
 
 ## 怎么看
 
-- **手机**：直接点上面表格里的日期，GitHub 原生渲染 Markdown。仓库是私有的，只有你能看。
+- **手机（网页版，推荐）**：Cloudflare Pages 私有站点，书签 `<你的站点>/latest` 永远是最新一期
+  （`_redirects` 每次渲染自动更新指向）。完整 HTML：迷你图、机构徽章、可折叠原文。配置见文末。
+- **手机（Markdown 版，零配置）**：直接点上面表格里的日期，GitHub App 原生渲染。仓库是私有的，只有你能看。
 - **电脑**：同名 `.html` 是完整网页版（迷你图、机构徽章、可折叠原文），下载后用浏览器打开；
   `index.html` 是总览（历史简报、累积的机会看板、持仓看板）。
 - **Obsidian**：`git pull` 后在 `wiki/briefs/` 看结构化原文，所有 `[[链接]]` 可跳转。
@@ -50,3 +52,38 @@
 `launchd/com.mywiki.daily-brief.plist` + `../scripts/run_daily_brief_local.sh` 可在本机跑同一套流程
 （工作日 07:00 本地时间，Claude Code headless，`caffeinate` 防休眠）。GitHub Actions 正常时不需要它。
 安装：`cp brief/launchd/com.mywiki.daily-brief.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/com.mywiki.daily-brief.plist`
+
+---
+
+## Cloudflare Pages 私有站点（一次性配置，约 10 分钟）
+
+免费：Pages 免费版不限流量/请求、每月 500 次构建（我们每月约 20 次）；Zero Trust Access 免费版含 50 个用户，你只需 1 个。
+
+**1. 建站**
+1. 注册/登录 <https://dash.cloudflare.com> → 左侧 **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
+2. 授权 GitHub，**只勾选 `liobulio/My_Wiki` 这一个仓库**（私有仓可用，免费版支持）
+3. 构建设置——三项都要改：
+
+   | 字段 | 填什么 |
+   |---|---|
+   | Framework preset | **None** |
+   | Build command | **留空** |
+   | Build output directory | **`brief`** |
+
+4. **Save and Deploy**。约 1 分钟后拿到 `xxx.pages.dev` 网址。
+
+> ⚠️ 部署完成到你配好 Access 之间，这个网址是**公开可访问**的。先别分享，立刻做第 2 步。
+
+**2. 上锁（关键，别跳过）**
+1. 左侧 **Zero Trust**（首次进入会让你起一个 team name，随便取；选 **Free** 方案）
+2. **Access → Applications → Add an application → Self-hosted**
+3. Application name 随意；Session Duration 建议 **1 month**（省得每天登录）
+4. Public hostname 填你的 `xxx.pages.dev`（子域留空、域名选 `pages.dev`、路径留空）
+5. **Add policy**：Action = **Allow**，Include = **Emails** → 填 `hengkun.zhang@mail.mcgill.ca`
+6. 保存。再打开网址会先要求邮箱验证码，只有你能进。
+
+**3. 手机上**
+打开 `https://xxx.pages.dev/latest` → 收验证码登录一次 → 加到主屏幕。之后每天早上直接点，永远是最新一期。
+
+**注意**：这等于把简报（含你的真实持仓）托管在 Cloudflare 上。`_headers` 已设 `noindex` 防搜索引擎收录，
+Access 负责鉴权；但托管方本身能看到文件，这是选择 Pages 的固有取舍。不想要就删掉这个项目，GitHub Markdown 版照常可用。
