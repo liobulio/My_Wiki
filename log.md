@@ -136,3 +136,12 @@ grep "^## \[" log.md | tail -5
 - invalidation status: CEG/TLN/VST all ok×4; FERC+NRC approvals for Crane are reverse evidence on condition ②. Watch items: PJM price cap through 2029/30; TLN −18% since June untraced; TLN 4 GW pipeline = options, not contracts.
 - rendered: brief/2026-09-11.html + brief/index.html.
 
+## [2026-09-14] brief | 加息天平倾斜 + AI 电力主线强化；SEC 零新增文件；首次由 GitHub Actions 跑通
+- pages touched (19): NEW sources ×5（[[2026-09-11-donghai-securities-us-cpi-aug]]、[[2026-09-12-guosen-ai-compute-roi]]、[[2026-09-13-guosen-multiasset-hike-gold]]、[[2026-09-13-guojin-compute-mainline-power]]、[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]）、NEW institutions ×2（[[donghai-securities]]、[[guojin-securities]]）；UPDATED [[guosen]]、[[soochow-securities]] house views、[[ceg]]、[[ai-power-demand]]、[[ai-infra-power-grid-bottlenecks-2026-09]]（new → **watching**）、positions ×3、[[2026-09-14]]、[[index]]、[[log]]
+- 宏观：8 月核心 CPI 环比 +0.3% 超预期 → 9/16 加息概率 70%→80%+（[[donghai-securities]]）；10Y 本周 +18BP 逼近 5%，黄金脱敏于利率（[[guosen]]）。较 09-11 简报的「50/50」框架是**实质抬升**，Apollo 9/5 的加息预测方向得到验证。
+- 行业：国信自下而上测算 **2027 起数据中心落地算力仅为芯片理论量的 50–60%**（电网年新增仅 10–15 GW、持证技工是最严卡点）；国金引 DOE（AIDC 用电占比 2028 → 6.7–12%）、NERC（北美夏峰十年 +224 GW）；东吴梳理 Google–Fortum 22 年核电 PPA、NextEra 重启 615 MW、MA 州 100% 清洁自备电令。三家内资独立佐证 [[ai-infra-power-grid-bottlenecks-2026-09]] → 升为 watching。
+- 持仓：`sec_fetch.py --since 2026-09-11` 三家**均无新增 8-K/10-Q/10-K**；filings_read: 0。[[ceg]] $7.15 亿收购壳牌 RISEC（609 MW CCGT，ISO-NE，2027Q1 交割）✅ 已核 —— 以**新闻 lead** 记录，未能定位对应 8-K（`efts.sec.gov` 全文检索 403）。四项 Invalidation 全部 ok×4；利率上行属 thesis 既列风险，非失效条件。
+- ⚠️ 承前未解：[[tln]] 6→9 月 −18% 仍未追溯到具体 catalyst，下期优先。
+- 外资桶留空（`us_equity: []`）：Apollo RSS 未更新至 09-12 后、BlackRock BII 最新仍为 09-08（上期已 ingest）、Goldman/MS 客户端渲染页无干净的 09-11 后条目 —— 不硬凑。
+- ⚠️ 运行说明：本期由 **GitHub Actions** 首次跑通（云端 routine 因沙箱出网 403 + 无 GitHub 写权限而放弃）。运行在写完 wiki 页面后触及账户用量上限中断，HTML 渲染与 index/log 记账由本地补完；提交信息 `leftover files from the runner` 为 workflow 兜底步骤所生成，非正常提交。
+

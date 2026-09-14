@@ -1,7 +1,7 @@
 ---
 type: index
-updated: 2026-09-11
-sources: 22
+updated: 2026-09-14
+sources: 27
 ---
 
 # Index — Investment Wiki
@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-14]] — 加息天平倾斜（核心 CPI 环比 0.3%，9/16 概率 70%→80%+，10Y +18BP 逼近 5%）；AI 电力主线强化（国信：2027 起落地算力仅为芯片理论量 50–60%；Google–Fortum 22 年核电 PPA）；CEG $7.15 亿收购 RISEC ✅；SEC 本期零新增文件 → `brief/2026-09-14.html`
 - [[2026-09-11]] — 首期美股机构简报：9/16 FOMC 加息分歧（Apollo 预期加息 vs 中银国际）；AI 基建 120 GW；CEG Crane 获 FERC/NRC 批准；PJM $325 上限；新机会 MU/SNDK → `brief/2026-09-11.html`
 
 ## Positions
@@ -32,11 +33,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Opportunities
 - [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（new, 2026-09-11；含提案版 Edge/Catalyst/Invalidation）
-- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛；与现有持仓同逻辑（new；含提案版 Thesis Test）
+- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛，2026-09-14 再获国信/国金/东吴三家内资佐证（**watching**；含提案版 Thesis Test）
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[gme]] — GameStop; collectibles turnaround + $9.7B cash; Cohen's $56B eBay bid; meme/vibes premium
@@ -100,6 +101,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] — 东吴：AIDC 缺电周报；Google–Fortum 22 年核电 PPA、NextEra 重启 615 MW、MA 州 100% 清洁自备电令、CEG 收购 RISEC
+- [[2026-09-13-guojin-compute-mainline-power]] — 国金：算力主线 + 电力约束是行业 Beta；DOE AIDC 用电占比 2028 升至 6.7–12%、NERC 北美夏峰十年 +224 GW
+- [[2026-09-13-guosen-multiasset-hike-gold]] — 国信多资产：核心通胀 +0.3% 推升加息预期；10Y 本周 +18BP 逼近 5%；黄金脱敏于利率
+- [[2026-09-12-guosen-ai-compute-roi]] — 国信：AI 算力四重约束；2027 起数据中心落地算力仅为芯片理论量的 50–60%，电网年增仅 10–15 GW
+- [[2026-09-11-donghai-securities-us-cpi-aug]] — 东海证券：8 月 CPI 同比 3.4%/核心 2.4%，核心环比 0.3% 超预期；9/16 加息概率 70%→80%+
 - [[2026-09-11-apollo-daily-spark-ai-roi]] — Apollo/Sløk: 69% deploy AI, 29% quantify results; "who can prove the ROI"
 - [[2026-09-05-apollo-daily-spark-strong-jobs-cpi]] — Apollo/Sløk: strong jobs + ISM prices → **expects a Fed hike on 9/16** ✅ jobs +162k verified
 - [[2026-09-08-blackrock-bii-weekly-japan-us-bonds]] — BII weekly: Japan repatriation risk to USTs; US equities OW, long USTs UW; AI-bottleneck theme (power, grids)
