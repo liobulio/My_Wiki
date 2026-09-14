@@ -3,14 +3,14 @@ type: opportunity
 ticker:
 title: "主题：AI 基建的瓶颈——电力、电网、数据中心"
 logic: "云厂商明年 AI 支出 >$1.4T、算力容量到 2028 翻两番至 ~120 GW，而电力/电网/芯片是扩张的物理瓶颈——瓶颈环节的定价权高于 AI 应用层。"
-institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]"]
+institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]", "[[guosen]]", "[[guojin-securities]]", "[[soochow-securities]]"]
 first_seen: 2026-09-11
-status: new
+status: watching
 edge: "AI 应用层的回报仍不可验证，但算力扩张的物理瓶颈（电力、电网、数据中心）建设周期长、审批受监管，需求由已公布的 capex 指引锁定——瓶颈资产的定价权高于应用层，而市场按公用事业/周期股给它们估值。"
 catalyst: "云厂商三季报（2026-10 下旬）维持或上修 2027 capex 指引；PJM/ERCOT 大负荷互联新规落地；新的超大规模云厂商 PPA 签约。"
 invalidation: "任一超大规模云厂商下修 capex 指引或推迟数据中心项目；PJM 容量价格上限进一步下调或延长到 2030 以后；AI ROI 证伪导致算力租赁价格（如 B200 小时租金）持续下跌。"
-sources: ["[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]", "[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]", "[[2026-05-28-goldman-sp500-8000]]"]
-updated: 2026-09-11
+sources: ["[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]", "[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]", "[[2026-05-28-goldman-sp500-8000]]", "[[2026-09-12-guosen-ai-compute-roi]]", "[[2026-09-13-guojin-compute-mainline-power]]", "[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]"]
+updated: 2026-09-14
 ---
 
 # 主题：AI 基建的瓶颈——电力、电网、数据中心
@@ -21,7 +21,7 @@ updated: 2026-09-11
 > 由我起草的**提案**。与已采纳的 [[ai-power-ipp-bull]] 同源，但这里跟踪的是机构叙事本身，不是你的持仓论点。
 
 - **Edge** — AI 应用层的回报仍不可验证（Apollo），但算力扩张的物理瓶颈——电力、电网、数据中心——建设周期长、审批受监管，需求由已公布的 capex 指引锁定。瓶颈环节的定价权高于应用层，而市场仍按公用事业/周期股的框架给它们估值。
-- **Catalyst** — 云厂商三季报（2026-10 下旬）维持或上修 2027 capex 指引；FERC 2025-12 裁定后 PJM 的大负荷互联新规落地；新的超大规模云厂商 PPA 签约（CEG 本季已新签 920 MW）。
+- **Catalyst** — 云厂商三季报（2026-10 下旬）维持或上修 2027 capex 指引；FERC 2025-12 裁定后 PJM 的大负荷互联新规落地；新的超大规模云厂商 PPA 签约（CEG 本季已新签 920 MW；2026-09 又见 **Google–Fortum 22 年核电 PPA**，[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]）。
 - **Invalidation** — 任一超大规模云厂商下修 capex 指引或推迟数据中心项目；PJM 容量价格上限进一步下调或延长到 2030 以后；AI ROI 证伪导致算力租赁价格持续下跌。
 
 ## Logic
@@ -33,6 +33,9 @@ updated: 2026-09-11
 - 2026-09-08 [[blackrock]]：AI infrastructure — "opportunities where bottlenecks are appearing: power, grids, chips and data centers."
 - 2026-09-09 [[morgan-stanley]]（Nowak）："compute capacity is potentially going to quadruple from 2025 to 2028, reaching roughly 120 gigawatts."
 - 2026-05-28 [[goldman-sachs]]（Snider）：AI-infrastructure beneficiaries ≈ half of 2026 S&P earnings growth; utilities among beneficiaries.
+- 2026-09-12 [[guosen]]：电力（北美电网年增仅 10–15 GW）+ 建设能力是算力落地瓶颈，2027 起落地算力仅芯片理论量的 **50%–60%**，落地稀缺→现货高 ROI（[[2026-09-12-guosen-ai-compute-roi]]）。
+- 2026-09-13 [[guojin-securities]]：**电力约束构成算力建设的行业 Beta**；DOE AIDC 用电占比 4.4%→6.7-12%（2028）、NERC 北美夏峰 +224 GW（十年）（[[2026-09-13-guojin-compute-mainline-power]]）。
+- 2026-09-13 [[soochow-securities]]：一周 AIDC 电力事件密集——Google–Fortum 22 年核电 PPA、NextEra 重启核电、CEG 收 609 MW 燃气电站、MA 100% 清洁自备电令（[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]）。
 
 ## What would kill it
 - 云厂商 capex 指引下修（[[ai-power-ipp-bull]] 的 Invalidation ①）；

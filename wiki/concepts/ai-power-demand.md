@@ -29,7 +29,18 @@ and benefiting owners of existing generation (especially firm, carbon-free basel
 
 ## Who / where it shows up
 - [[tln|Talen Energy]] (nuclear + gas, AWS PPA) — the wiki's first expression of this thesis.
+- [[ceg]] / [[vst]] — the wiki's [[ai-power-ipp-bull]] book.
 - Related approach: [[replacement-cost-investing]].
+
+## Supply/demand data points (dated)
+- **DOE**: AIDC share of total US electricity 4.4% (2023) → **6.7%–12% (2028)**; **NERC**: +224 GW to
+  North-American summer peak load over the next decade, data centers the main driver
+  ([[2026-09-13-guojin-compute-mainline-power]], 2026-09-13).
+- Supply is the bottleneck: North-American grid adds only **10–15 GW/yr**; 2026H1 only 6.7 GW of DC
+  actually landed → 2027 real compute ≈ 50–60% of chip-implied ([[2026-09-12-guosen-ai-compute-roi]]).
+- Hyperscaler long-term nuclear PPAs continuing: **Google–Fortum 22-yr Loviisa PPA** (up to 50% of
+  plant, 2030–2049) + €13B Finland build; NextEra restarting Duane Arnold (615 MW) on a $1.9B DOE loan
+  ([[2026-09-13-soochow-power-scarcity-nuclear-ppa]], 2026-09).
 
 ## Related
 [[tln]] · [[replacement-cost-investing]] · [[dan-dreyfus]] · [[ai-gatekeeping]] (same
@@ -37,3 +48,4 @@ hyperscalers are the marginal power buyers *and* the would-be AI gatekeepers)
 
 ## Sources
 - [[2026-06-12-all-in-best-ideas-pitch]] — Dreyfus's power-cycle framing.
+- [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-13-guojin-compute-mainline-power]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] — 2026-09 supply/demand data.
