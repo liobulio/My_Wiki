@@ -91,6 +91,9 @@ Empty buckets are fine — say so; never pad.
 ```bash
 python3 scripts/prices.py && python3 scripts/render_brief.py --date "$(date +%F)"
 ```
+This writes three things: `brief/<date>.html` (desktop), **`brief/<date>.md` (the phone version —
+GitHub renders it natively in its mobile app, so this is what the human actually reads each day)**,
+and it refreshes the dated index at the top of `brief/README.md`. Don't hand-write any of them.
 Open `brief/<date>.html` mentally: every view has a badge, every opportunity has a logic line
 and at least one institution, every position card has a note.
 

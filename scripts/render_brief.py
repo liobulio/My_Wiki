@@ -404,6 +404,242 @@ def render_index(ctx):
     return page("美股机构简报 · 总览", body)
 
 
+# ---------- phone-readable Markdown digest (rendered natively by GitHub on mobile) ----------
+WIKI_FOLDERS = ("sources", "institutions", "assets", "positions", "theses", "opportunities", "concepts", "people", "synthesis", "briefs")
+
+
+def wikilinks_to_text(text):
+    """[[slug|alias]] -> alias, [[slug]] -> slug, and drop markdown emphasis. For plain-text contexts
+    such as table cells, where a stray | or [ ] would break the rendering."""
+    t = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", lambda m: m.group(2), text)
+    t = re.sub(r"\[\[([^\]]+)\]\]", lambda m: m.group(1), t)
+    return re.sub(r"[*_`]", "", t)
+
+
+def md_link_target(ctx, slug):
+    """Where does this wikilink slug live? Returns a repo-relative path from brief/, or None."""
+    # order matters: a bare ticker like [[ceg]] means the ASSET page (positions carry `asset: "[[ceg]]"`),
+    # even though wiki/positions/ceg.md shares the basename.
+    for key, folder in (("sources", "sources"), ("institutions", "institutions"), ("opportunities", "opportunities"),
+                        ("theses", "theses")):
+        if slug in ctx.get(key, {}):
+            return f"../wiki/{folder}/{slug}.md"
+    for folder in WIKI_FOLDERS:  # fall back to a filesystem probe for pages we don't preload
+        if (ROOT / "wiki" / folder / f"{slug}.md").exists():
+            return f"../wiki/{folder}/{slug}.md"
+    return None
+
+
+def md_links(text, ctx):
+    """[[slug|alias]] / [[slug]] -> a tappable relative GitHub link, or plain text if the page is missing."""
+    def alias(m):
+        slug, label = m.group(1).strip(), m.group(2).strip()
+        target = md_link_target(ctx, slug)
+        return f"[{label}]({target})" if target else label
+
+    def plain(m):
+        slug = m.group(1).strip()
+        target = md_link_target(ctx, slug)
+        return f"[{slug}]({target})" if target else slug
+
+    t = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", alias, text)
+    return re.sub(r"\[\[([^\]]+)\]\]", plain, t)
+
+
+def md_view(ctx, v, ctx_idx, n):
+    src = source_info(ctx, v.get("source", ""))
+    url = v.get("url") or src["url"]
+    origin = v.get("origin") or inst_origin(ctx, v.get("institution", ""))
+    tag = "外资" if origin == "foreign" else "内资"
+    name = inst_name(ctx, v.get("institution", ""))
+    inst_target = md_link_target(ctx, v.get("institution", ""))
+    inst_md = f"[{name}]({inst_target})" if inst_target else name
+    chg = " · **△ 观点变化**" if v.get("is_change") else ""
+    tickers = (" · " + " ".join(f"`{t}`" for t in v.get("tickers", []) or [])) if v.get("tickers") else ""
+    out = [f"**{ctx_idx}. {tag} · {inst_md}**{chg}{tickers}", "", v.get("view", "")]
+    quote = (v.get("quote") or "").strip()
+    if quote:
+        out += ["", "<details><summary>原文</summary>", "", f"> {quote}", "", "</details>"]
+    links = []
+    src_target = md_link_target(ctx, v.get("source", ""))
+    if src_target:
+        links.append(f"[wiki: {src['title']}]({src_target})")
+    if url:
+        links.append(f"[原文 ↗]({url})")
+    if links:
+        out += ["", " · ".join(links)]
+    return "\n".join(out)
+
+
+def md_section_views(ctx, title, items):
+    if not items:
+        return f"### {title}\n\n_今日无新增。_\n"
+    body = "\n\n".join(md_view(ctx, v, i + 1, len(items)) for i, v in enumerate(items))
+    return f"### {title}（{len(items)}）\n\n{body}\n"
+
+
+def md_opportunity(ctx, slug, today=None):
+    o = ctx["opportunities"].get(slug)
+    if not o:
+        return f"- `{slug}`（缺少页面）"
+    m = o["meta"]
+    insts = m.get("institutions") or []
+    insts = [re.sub(r"[\[\]]", "", i) for i in (insts if isinstance(insts, list) else [insts])]
+    names = " · ".join(inst_name(ctx, i) for i in insts)
+    st = OPP_STATUS.get(m.get("status", "new"), m.get("status", "new"))
+    tk = f"`{m['ticker']}` " if m.get("ticker") else ""
+    target = md_link_target(ctx, slug)
+    title = m.get("title") or o["title"]
+    head = f"#### {tk}[{title}]({target})" if target else f"#### {tk}{title}"
+    out = [head, "", f"**逻辑** — {m.get('logic', '')}", "",
+           f"状态 **{st}** · 首次出现 {m.get('first_seen', '')} · 出自 {names}"]
+    tt = [(k, lab) for k, lab in (("edge", "Edge 我们看到什么"), ("catalyst", "Catalyst 什么会触发重估"), ("invalidation", "Invalidation 什么证明它错了")) if m.get(k)]
+    if tt:
+        out += ["", "<details><summary>Thesis Test（我起草的提案，未经你采纳）</summary>", ""]
+        out += [f"- **{lab}** — {m.get(k)}" for k, lab in tt]
+        out += ["", "</details>"]
+    return "\n".join(out)
+
+
+def md_position(ctx, ticker, note=None, brief_filings=None, inv_override=None):
+    pos = next((p for p in ctx["positions"].values() if str(p["meta"].get("ticker", "")).upper() == ticker), None)
+    meta = pos["meta"] if pos else {}
+    sec = ctx["sec"].get(ticker, {})
+    q = ctx["prices"].get("quotes", {}).get(ticker, {})
+    price = q.get("price")
+    shares = float(meta.get("shares") or 0)
+    value = price * shares if price else None
+    total = sum((ctx["prices"].get("quotes", {}).get(str(p["meta"].get("ticker", "")).upper(), {}).get("price") or 0) * float(p["meta"].get("shares") or 0)
+                for p in ctx["positions"].values() if p["meta"].get("status") != "closed")
+    acct = float(ctx["config"].get("account_total_usd") or 0) or total
+    w_pos = value / total * 100 if value and total else 0
+    w_acct = value / acct * 100 if value and acct else 0
+    name = sec.get("name") or q.get("name") or ticker
+    out = [f"### {ticker} — {name}", ""]
+    line = f"**${price:,.2f}**" if price else "价格未知"
+    if value:
+        line += f" · {shares:g} 股 ≈ **${value:,.0f}** · 账户占比 {w_acct:.0f}% · 持仓占比 {w_pos:.0f}%"
+    out += [line, ""]
+    if note:
+        out += [md_links(note, ctx), ""]
+
+    inv = inv_override or meta.get("invalidation_status") or []
+    thesis_slug = re.sub(r"[\[\]]", "", str(meta.get("thesis", "")))
+    th = ctx["theses"].get(thesis_slug)
+    inv_labels = []
+    if th:
+        inv_labels = th["meta"].get("invalidations") or []
+        if not isinstance(inv_labels, list) or not inv_labels:
+            sec_txt = th["body"].split("**The Invalidation**", 1)[-1].split("\n## ", 1)[0]
+            inv_labels = [re.sub(r"\s+", " ", x) for x in re.findall(r"^\s*\d\.\s+(.+?)(?=^\s*\d\.|\Z)", sec_txt, re.M | re.S)]
+    if inv:
+        icons = {"ok": "✅", "watch": "⚠️", "hit": "❌"}
+        th_target = md_link_target(ctx, thesis_slug)
+        th_md = f"[{th['title'] if th else thesis_slug}]({th_target})" if th_target else (th["title"] if th else thesis_slug)
+        out += [f"**失效条件** — {th_md}", ""]
+        for i, st in enumerate(inv):
+            lab = STATUS.get(st, STATUS["ok"])[1]
+            txt = re.sub(r"[*_]", "", inv_labels[i]) if i < len(inv_labels) else f"条件 {i + 1}"
+            out.append(f"- {icons.get(st, '✅')} **{lab}** — {txt}")
+        out.append("")
+
+    m = sec.get("metrics", {})
+    rows = [("营收", "Revenues"), ("净利润", "NetIncomeLoss"), ("经营现金流", "OperatingCashFlow"), ("稀释 EPS", "EPSDiluted")]
+    ends = []
+    for _, key in rows:
+        for x in m.get(key, {}).get("series", []):
+            if x["end"] not in ends:
+                ends.append(x["end"])
+    ends = sorted(ends)[-4:]
+    if ends:
+        out += ["<details><summary>近 4 季（SEC XBRL）</summary>", "",
+                "| 指标 | " + " | ".join(e[:7] for e in ends) + " |",
+                "|---|" + "---|" * len(ends)]
+        for lab, key in rows:
+            series = {x["end"]: x["val"] for x in m.get(key, {}).get("series", [])}
+            unit = m.get(key, {}).get("unit")
+            cells = [fmt_money(series[e], unit) if e in series else "–" for e in ends]
+            out.append(f"| {lab} | " + " | ".join(cells) + " |")
+        out += ["", "</details>", ""]
+
+    filings = [f for f in sec.get("filings", []) if f.get("is_new") or (brief_filings and f["accession"] in brief_filings)]
+    filings = sorted(filings, key=lambda f: f["filed"], reverse=True)[:8]
+    if filings:
+        out += [f"**新申报（{len(filings)}）**", ""]
+        for f in filings:
+            items = " ".join(f"`{i} {ITEM_DESC.get(i, '')}`".strip() for i in f.get("items", []) if i != "9.01")
+            flags = " ".join(f"`{x['keyword']}×{x['count']}`" for x in (f.get("flags") or [])[:5])
+            out.append(f"- **{f['form']}** {FORM_DESC.get(f['form'], '')} {f['filed']} {items} [EDGAR ↗]({f['url']})"
+                       + (f"\n  {flags}" if flags else ""))
+        out.append("")
+    else:
+        out += ["_本期无新申报。_", ""]
+    return "\n".join(out)
+
+
+def render_markdown(brief, ctx):
+    """The phone version: GitHub renders this natively in its mobile app, private repo and all."""
+    d = brief["data"]
+    date = brief["date"]
+    meta = brief["meta"]
+    out = [f"# 美股机构简报 {date}", "",
+           f"_{fmt_date_cn(date)} · 来源 {meta.get('sources_ingested', '')} · 申报 {meta.get('filings_read', '')} · 新机会 {meta.get('opportunities_new', '')}_", ""]
+    if brief["prose"]:
+        out += [md_links(brief["prose"].strip(), ctx), ""]
+    out += ["---", ""]
+    out.append(md_section_views(ctx, "宏观", d["macro"]))
+    out.append(md_section_views(ctx, "行业", d["industry"]))
+    out.append(md_section_views(ctx, "美股观点", d["us_equity"]))
+
+    if d["logic_changes"]:
+        out.append(f"### 行业逻辑变化（{len(d['logic_changes'])}）\n")
+        for x in d["logic_changes"]:
+            out += [f"**{x.get('sector', '')}** — {inst_name(ctx, x.get('institution', ''))}", "",
+                    f"- 之前：{x.get('before', '')}", f"- 现在：{x.get('after', '')}", ""]
+    else:
+        out.append("### 行业逻辑变化\n\n_今日没有记录到行业逻辑的变化。_\n")
+
+    if d["opportunities"]:
+        out.append(f"### 买入机会（{len(d['opportunities'])}）\n")
+        out += [md_opportunity(ctx, s, date) + "\n" for s in d["opportunities"]]
+    else:
+        out.append("### 买入机会\n\n_今日没有新的买入机会。_\n")
+
+    out.append("## 我的持仓\n")
+    by_t = {str(p.get("ticker", "")).upper(): p for p in d["positions"]}
+    for pos in sorted(ctx["positions"].values(), key=lambda p: str(p["meta"].get("ticker"))):
+        if pos["meta"].get("status") == "closed":
+            continue
+        t = str(pos["meta"].get("ticker", "")).upper()
+        bp = by_t.get(t, {})
+        out.append(md_position(ctx, t, bp.get("note"), set(bp.get("filings") or []), bp.get("invalidation_status")))
+
+    out += ["---", "",
+            f"_不构成投资建议 —— 个人知识库的自动整理。网页版：`brief/{date}.html`（下载后用浏览器打开）。_"]
+    return "\n".join(out) + "\n"
+
+
+def update_briefs_readme(ctx, out_dir):
+    """Keep a dated index at the top of brief/README.md so the folder itself is the phone entry point."""
+    readme = out_dir / "README.md"
+    start, end = "<!-- BRIEFS:START -->", "<!-- BRIEFS:END -->"
+    rows = ["| 日期 | 头条 |", "|---|---|"]
+    for b in sorted(ctx["briefs"], key=lambda b: b["date"], reverse=True):
+        summary = wikilinks_to_text(b["prose"]).replace("\n", " ").strip()
+        summary = re.sub(r"^\**头条\**[：:]\s*", "", summary)
+        summary = summary.replace("|", "/")  # a raw pipe would break the table row
+        summary = re.sub(r"\s+", " ", summary)[:110]
+        rows.append(f"| [{b['date']}]({b['date']}.md) | {summary} |")
+    block = start + "\n\n## 每日简报（手机版）\n\n手机上直接点日期即可阅读；网页版是同名 `.html`。\n\n" + "\n".join(rows) + "\n\n" + end
+    text = readme.read_text(encoding="utf-8") if readme.exists() else "# brief/\n"
+    if start in text and end in text:
+        text = re.sub(re.escape(start) + r".*?" + re.escape(end), lambda _: block, text, flags=re.S)
+    else:
+        text = text.rstrip("\n") + "\n\n" + block + "\n"
+    readme.write_text(text, encoding="utf-8")
+    return readme
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=None)
@@ -419,8 +655,11 @@ def main(argv=None):
     for b in briefs:
         (out / f"{b['date']}.html").write_text(render_day(b, ctx), encoding="utf-8")
         print("wrote", out / f"{b['date']}.html")
+        (out / f"{b['date']}.md").write_text(render_markdown(b, ctx), encoding="utf-8")
+        print("wrote", out / f"{b['date']}.md")
     (out / "index.html").write_text(render_index(ctx), encoding="utf-8")
     print("wrote", out / "index.html")
+    print("wrote", update_briefs_readme(ctx, out))
     return 0
 
 

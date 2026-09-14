@@ -123,4 +123,5 @@ jobs:
           name: brief-${{ github.run_id }}
           path: |
             brief/*.html
+            brief/*.md
           if-no-files-found: ignore
