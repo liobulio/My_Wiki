@@ -55,7 +55,22 @@ def main(argv):
         out["quotes"][t] = fetch_quote(t)
         time.sleep(0.3)
     (ROOT / "data").mkdir(exist_ok=True)
-    (ROOT / "data" / "prices.json").write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    dest = ROOT / "data" / "prices.json"
+    ok = {t: q for t, q in out["quotes"].items() if "price" in q}
+    if not ok and dest.exists():
+        print("all quotes failed — prices.json left untouched (stale cache kept)")
+        for t, q in out["quotes"].items():
+            print(t, q.get("error"))
+        return 1
+    if len(ok) < len(out["quotes"]) and dest.exists():  # partial failure: keep the old quote for the failed tickers
+        try:
+            old = json.loads(dest.read_text()).get("quotes", {})
+            for t, q in out["quotes"].items():
+                if "price" not in q and "price" in old.get(t, {}):
+                    out["quotes"][t] = dict(old[t], stale=True, error=q.get("error"))
+        except Exception:  # noqa: BLE001
+            pass
+    dest.write_text(json.dumps(out, indent=2, ensure_ascii=False))
     for t, q in out["quotes"].items():
         print(t, q.get("price", q.get("error")))
     return 0

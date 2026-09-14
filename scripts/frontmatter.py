@@ -111,6 +111,8 @@ def split_frontmatter(text: str):
             meta = None
     if meta is None:
         meta = parse_yaml_subset(block)
+    else:
+        meta = {k: ("" if v is None else v) for k, v in meta.items()}
     return meta, text[m.end():]
 
 

@@ -294,7 +294,17 @@ def main(argv=None):
             res = process_ticker(t, cik, name, a.since, forms, want)
         except Exception as e:  # noqa: BLE001
             res = {"ticker": t, "cik": cik, "name": name, "error": str(e), "filings": [], "metrics": {}}
-        (DATA / f"{t}.json").write_text(json.dumps(res, indent=1, ensure_ascii=False))
+        dest = DATA / f"{t}.json"
+        if res.get("error") and dest.exists():  # network failure: keep the cached filings/metrics, just stamp the error
+            try:
+                cached = json.loads(dest.read_text()); cached["last_fetch_error"] = res["error"]
+                cached["last_fetch_attempt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+                dest.write_text(json.dumps(cached, indent=1, ensure_ascii=False))
+                res = cached
+            except Exception:  # noqa: BLE001
+                dest.write_text(json.dumps(res, indent=1, ensure_ascii=False))
+        else:
+            dest.write_text(json.dumps(res, indent=1, ensure_ascii=False))
         new = [f for f in res["filings"] if f.get("is_new")]
         flagged = [f for f in new if f.get("flags")]
         summary.append(f"{t}: {len(res['filings'])} filings kept, {len(new)} new since {a.since}, {len(flagged)} with flags"

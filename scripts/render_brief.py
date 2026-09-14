@@ -180,6 +180,7 @@ def opp_card(ctx, slug, today=None):
     st = m.get("status", "new")
     is_new = today and str(m.get("first_seen")) == today
     tk = f'<span class="tk big">{esc(m["ticker"])}</span>' if m.get("ticker") else ""
+    new_chip = '<span class="chip new">今日新增</span>' if is_new else ""
     return (f'<div class="opp" data-status="{esc(st)}">{tk}<h3><a class="wl" href="{obsidian(slug, "wiki/opportunities")}">{esc(m.get("title") or o["title"])}</a></h3>'
             f'<p class="logic">{esc(m.get("logic", ""))}</p>'
             + ("".join(f'<div class="tt"><span class="lab">{lab}</span>{esc(m.get(k))}</div>'
@@ -190,7 +191,7 @@ def opp_card(ctx, slug, today=None):
                    + '</details>' or "")
             + f'<div class="who">{"".join(badge(ctx, i) for i in insts)}</div>'
             f'<div class="meta"><span class="chip st-{esc(st)}">{OPP_STATUS.get(st, st)}</span>'
-            f'{"<span class=\"chip new\">今日新增</span>" if is_new else ""}<span>首次出现 {esc(m.get("first_seen", ""))}</span></div></div>')
+            f'{new_chip}<span>首次出现 {esc(m.get("first_seen", ""))}</span></div></div>')
 
 
 def section_opps(ctx, slugs, today):
@@ -273,13 +274,16 @@ def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None)
     fl = "".join(filing_row(f, sec.get("cik")) for f in filings) or '<li class="empty">本期无新申报。</li>'
     name = sec.get("name") or q.get("name") or ticker
     price_s = f"${price:,.2f}" if price else "–"
+    note_html = '<p class="note">' + wikilinks(note) + '</p>' if note else ""
+    shares_html = f'<span class="mono">{esc(shares)} 股</span><span class="mono">≈ ${value:,.0f}</span>' if value else ""
+    thesis_title = th["title"] if th else thesis_slug
+    inv_html = inv_rows or "<li class=empty>未设置</li>"
     return (f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3>'
-            f'<span class="mono">{price_s}</span><span class="mono">{esc(shares)} 股</span><span class="mono">≈ ${value:,.0f}</span></header>' if value else
-            f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3><span class="mono">{price_s}</span></header>') + (
+            f'<span class="mono">{price_s}</span>{shares_html}</header>'
             f'<div class="wrow"><div class="wbar" title="占持仓 {w_pos:.1f}% · 占账户 {w_acct:.1f}%"><div style="width:{w_acct:.1f}%"></div></div>'
             f'<span class="wlab">账户占比 {w_acct:.0f}% · 持仓占比 {w_pos:.0f}%</span></div>'
-            f'{"<p class=\"note\">" + wikilinks(note) + "</p>" if note else ""}'
-            f'<div class="cols"><div><h4>论点失效条件 <a class="wl" href="{obsidian(thesis_slug, "wiki/theses")}">{esc(th["title"] if th else thesis_slug)}</a></h4><ul class="invs">{inv_rows or "<li class=empty>未设置</li>"}</ul></div>'
+            f'{note_html}'
+            f'<div class="cols"><div><h4>论点失效条件 <a class="wl" href="{obsidian(thesis_slug, "wiki/theses")}">{esc(thesis_title)}</a></h4><ul class="invs">{inv_html}</ul></div>'
             f'<div><h4>近 8 季（SEC XBRL）</h4><div class="sparks">{sparks}</div></div></div>'
             f'<h4>新申报 <span class="n">{len(filings)}</span></h4><ul class="filings">{fl}</ul>'
             f'<div class="src"><a class="wl" href="{obsidian(ticker.lower(), "wiki/positions")}">wiki 持仓页</a> · <a class="wl" href="{obsidian(ticker.lower(), "wiki/assets")}">资产页</a></div></article>')
@@ -294,7 +298,8 @@ def section_positions(ctx, brief_positions):
         t = str(pos["meta"].get("ticker", "")).upper()
         bp = by_t.get(t, {})
         cards += position_card(ctx, t, bp.get("note"), set(bp.get("filings") or []), bp.get("invalidation_status"))
-    return f'<section id="positions"><h2>我的持仓 <span class="n">{len(ctx["positions"])}</span></h2>{cards or "<p class=empty>暂无持仓。</p>"}</section>'
+    cards = cards or "<p class=empty>暂无持仓。</p>"
+    return f'<section id="positions"><h2>我的持仓 <span class="n">{len(ctx["positions"])}</span></h2>{cards}</section>'
 
 
 CSS = """
@@ -371,9 +376,12 @@ def render_day(brief, ctx):
 
 def render_index(ctx):
     briefs = sorted(ctx["briefs"], key=lambda b: b["date"], reverse=True)
-    rows = "".join(f'<tr><td><a href="{esc(b["date"])}.html">{esc(fmt_date_cn(b["date"]))}</a></td>'
-                   f'<td>{esc((re.sub(r"[*\[\]]", "", b["prose"]).split(chr(10))[0])[:140])}</td>'
-                   f'<td class="mono">{esc(b["meta"].get("sources_ingested", ""))} / {esc(b["meta"].get("filings_read", ""))} / {esc(b["meta"].get("opportunities_new", ""))}</td></tr>' for b in briefs)
+    rows = ""
+    for b in briefs:
+        summary = re.sub(r"[*\[\]]", "", b["prose"]).split("\n")[0][:140]
+        counts = " / ".join(esc(b["meta"].get(k, "")) for k in ("sources_ingested", "filings_read", "opportunities_new"))
+        rows += (f'<tr><td><a href="{esc(b["date"])}.html">{esc(fmt_date_cn(b["date"]))}</a></td>'
+                 f'<td>{esc(summary)}</td><td class="mono">{counts}</td></tr>')
     opps = sorted(ctx["opportunities"].values(), key=lambda o: (str(o["meta"].get("status")), str(o["meta"].get("first_seen"))), reverse=True)
     groups = ""
     for st in ("new", "watching", "adopted", "dropped"):
@@ -384,8 +392,10 @@ def render_index(ctx):
     pos_section = section_positions(ctx, latest["data"]["positions"] if latest else [])
     inst_rows = "".join(f'<tr><td>{badge(ctx, s)}</td><td>{esc(i["meta"].get("kind", ""))}</td><td><a href="{esc(i["meta"].get("watch_url", ""))}" target="_blank" rel="noopener">{esc(i["meta"].get("watch_url", ""))[:60]}</a></td></tr>'
                         for s, i in sorted(ctx["institutions"].items(), key=lambda kv: (kv[1]["meta"].get("origin", ""), kv[0])))
-    body = (f'<header class="top"><h1>美股机构简报 · 总览</h1><span class="sub">{len(briefs)} 期 · 最新 {esc(latest["date"] if latest else "—")}</span>'
-            f'<nav>{f"<a href=\"{esc(latest["date"])}.html\">最新一期</a>" if latest else ""}</nav></header>'
+    latest_link = f'<a href="{esc(latest["date"])}.html">最新一期</a>' if latest else ""
+    latest_date = latest["date"] if latest else "—"
+    body = (f'<header class="top"><h1>美股机构简报 · 总览</h1><span class="sub">{len(briefs)} 期 · 最新 {esc(latest_date)}</span>'
+            f'<nav>{latest_link}</nav></header>'
             '<nav class="toc"><a href="#briefs">每日简报</a><a href="#opps">机会看板</a><a href="#positions">持仓</a><a href="#insts">机构</a></nav>'
             f'<section id="briefs"><h2>每日简报</h2><table class="list"><tr><th>日期</th><th>头条</th><th>来源/申报/新机会</th></tr>{rows or "<tr><td colspan=3 class=empty>还没有简报</td></tr>"}</table></section>'
             f'<section id="opps"><h2>买入机会看板 <span class="n">{len(opps)}</span></h2>{groups or "<p class=empty>还没有记录任何机会。</p>"}</section>'
