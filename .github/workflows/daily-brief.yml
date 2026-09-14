@@ -60,11 +60,33 @@ jobs:
           git config user.name "daily-brief bot"
           git config user.email "hengkun.zhang@mail.mcgill.ca"
 
-      - name: Run the daily-brief skill (Claude Code headless)
+      - name: Sanitize auth secrets
+        # GitHub Actions secrets preserve embedded whitespace and newlines byte-for-byte. A
+        # trailing newline picked up from copy-pasting the output of `claude setup-token` breaks
+        # any HTTP header built from the raw value (observed failure: "API Error: Header 14 has
+        # invalid value", with the masked value printed across two lines, which is itself the
+        # tell that the secret holds a newline). Strip ALL whitespace defensively, then re-mask
+        # the cleaned value so it still redacts in logs.
         env:
-          # One of the two: a subscription token from `claude setup-token`, or an API key (pay-per-token).
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RAW_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RAW_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$RAW_OAUTH" ]; then
+            CLEAN=$(printf '%s' "$RAW_OAUTH" | tr -d '[:space:]')
+            echo "::add-mask::$CLEAN"
+            echo "CLAUDE_CODE_OAUTH_TOKEN=$CLEAN" >> "$GITHUB_ENV"
+            echo "OAuth token sanitized (length ${#CLEAN})"
+          fi
+          if [ -n "$RAW_API_KEY" ]; then
+            CLEAN=$(printf '%s' "$RAW_API_KEY" | tr -d '[:space:]')
+            echo "::add-mask::$CLEAN"
+            echo "ANTHROPIC_API_KEY=$CLEAN" >> "$GITHUB_ENV"
+            echo "API key sanitized (length ${#CLEAN})"
+          fi
+
+      - name: Run the daily-brief skill (Claude Code headless)
+        # Auth comes from the sanitized values exported to $GITHUB_ENV by the previous step.
+        env:
           SINCE_OVERRIDE: ${{ github.event.inputs.since }}
         run: |
           TODAY=$(date +%F)
