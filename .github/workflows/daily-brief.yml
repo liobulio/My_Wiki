@@ -2,7 +2,11 @@ name: daily-us-brief
 
 on:
   schedule:
-    - cron: "0 11 * * 1-5"      # 07:00 America/Toronto in EDT (06:00 in EST — switch to "0 12" after the Nov clock change)
+    # Deliberately NOT on the hour. GitHub queues scheduled workflows and delays them under load,
+    # and the top of the hour is the most congested slot — the 2026-09-14 run was 5h45m late at
+    # "0 11". An odd off-peak minute usually lands much closer to the requested time. GitHub may
+    # still delay or drop a scheduled run entirely; it is best-effort, not a guarantee.
+    - cron: "38 10 * * 1-5"     # 06:38 America/Toronto in EDT (05:38 in EST — switch to "38 11" after the Nov clock change)
   workflow_dispatch:
     inputs:
       since:
