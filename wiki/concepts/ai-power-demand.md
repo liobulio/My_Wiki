@@ -4,7 +4,7 @@ category: term
 aliases: [data center power demand, power shortage thesis, electricity supercycle]
 tags: [power, nuclear, ai, macro]
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-09-15
 ---
 
 # AI power demand
@@ -41,6 +41,12 @@ and benefiting owners of existing generation (especially firm, carbon-free basel
 - Hyperscaler long-term nuclear PPAs continuing: **Google–Fortum 22-yr Loviisa PPA** (up to 50% of
   plant, 2030–2049) + €13B Finland build; NextEra restarting Duane Arnold (615 MW) on a $1.9B DOE loan
   ([[2026-09-13-soochow-power-scarcity-nuclear-ppa]], 2026-09).
+- **IEA**: global data-center electricity 415 TWh (2024) → **945 TWh (2030)**, ~doubling; share of total
+  power 1.5% (2014) → 3% (2030). NVIDIA GPU TDP 300W → **1400W (GB300)**; rack-level VeraRubin 2300W (2026)
+  → VR300 3600W (2027), driving 800VDC ([[2026-09-14-dongguan-aidc-power]], 2026-09).
+- **Demand confirmation (US-listed)**: Oracle Q1 FY27 delivered **850 MW** of additional datacenter capacity
+  in a single quarter; TSMC ([[tsm]]) Aug 2026 revenue +53.3% YoY on AI demand — AI capex cycle not rolling over
+  ([[2026-09-14-soochow-us-weekly-hike-risk]], [[2026-09-14-donghai-electronics-tsmc]]).
 
 ## Related
 [[tln]] · [[replacement-cost-investing]] · [[dan-dreyfus]] · [[ai-gatekeeping]] (same
@@ -49,3 +55,4 @@ hyperscalers are the marginal power buyers *and* the would-be AI gatekeepers)
 ## Sources
 - [[2026-06-12-all-in-best-ideas-pitch]] — Dreyfus's power-cycle framing.
 - [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-13-guojin-compute-mainline-power]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] — 2026-09 supply/demand data.
+- [[2026-09-14-dongguan-aidc-power]] — IEA 数据中心用电翻倍 + 英伟达功耗路线/800VDC. [[2026-09-14-donghai-electronics-tsmc]] — TSMC AI 需求确认.

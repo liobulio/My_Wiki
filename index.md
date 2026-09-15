@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-15]] — FOMC 前瞻（9/16–17 加息近确定）；[[spdb-international|浦银国际]]由"9 月不加息"→"9 月或加息 25bp"（唯一立场反转）；东吴：真正风险是"是否**连续**加息"；PPI +5.4%、油价破 $100；TSMC +53.3%、Oracle 交付 850MW、IEA 用电 2030 翻倍——AI 需求侧确认；SEC 零新增 → `brief/2026-09-15.html`
 - [[2026-09-14]] — 加息天平倾斜（核心 CPI 环比 0.3%，9/16 概率 70%→80%+，10Y +18BP 逼近 5%）；AI 电力主线强化（国信：2027 起落地算力仅为芯片理论量 50–60%；Google–Fortum 22 年核电 PPA）；CEG $7.15 亿收购 RISEC ✅；SEC 本期零新增文件 → `brief/2026-09-14.html`
 - [[2026-09-11]] — 首期美股机构简报：9/16 FOMC 加息分歧（Apollo 预期加息 vs 中银国际）；AI 基建 120 GW；CEG Crane 获 FERC/NRC 批准；PJM $325 上限；新机会 MU/SNDK → `brief/2026-09-11.html`
 
@@ -33,11 +34,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Opportunities
 - [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（new, 2026-09-11；含提案版 Edge/Catalyst/Invalidation）
-- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛，2026-09-14 再获国信/国金/东吴三家内资佐证（**watching**；含提案版 Thesis Test）
+- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛 + 国信/国金/东吴内资佐证；2026-09-15 Oracle 交付 850MW/TSMC/IEA 再确认需求侧（**watching**；含提案版 Thesis Test）
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[gme]] — GameStop; collectibles turnaround + $9.7B cash; Cohen's $56B eBay bid; meme/vibes premium
@@ -48,7 +49,8 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[anthropic]] — private AI lab (Claude); Fable 5 govt ban; regulatory-risk focal point
 - [[amzn]] — Amazon/AWS; potential AI-gatekeeper winner; Anthropic host + investor
 - [[mu]] — Micron; one of 3 HBM/DRAM makers; FQ3-26 DRAM/NAND ASP +60%/+85%; 东吴 推荐 (2026-09-07)
-- [[nvda]] — Nvidia; AI GPU king; bought Groq; faces ASIC + open-weight pressure
+- [[nvda]] — Nvidia; AI GPU king; bought Groq; faces ASIC + open-weight pressure; TDP 300W→1400W (GB300) → 800VDC (2026-09-15)
+- [[tsm]] — TSMC; foundry leader, Nvidia's main advanced-node supplier; Aug-2026 revenue +53.3% YoY record; AI-demand upstream read (2026-09-15)
 - [[cerebras]] — Cerebras (CBRS); inference chips; IPO broke deal price; $20B OpenAI deal
 - [[tsla]] — Tesla; AI-infra angle (Megapod modular DCs, Terrafab memory); SpaceX-merger talk
 - [[openai]] — private frontier lab; Jalapeño/Broadcom chip; ~$4T IPO backlog with Anthropic
@@ -101,6 +103,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-14-soochow-us-weekly-hike-risk]] — 东吴美股周观点：宏观压力是最大风险，真正风险是"是否**连续**加息"；PPI +5.4%、CME 加息概率 60.4%→88.1%；Oracle +30% ✅
+- [[2026-09-14-donghai-electronics-tsmc]] — 东海电子：台积电 8 月营收 +53.3% 创新高 ✅；指引 2026 美元营收 +40%、capex $60–64B；半导体估值高分位
+- [[2026-09-14-dongguan-aidc-power]] — 东莞：AIDC 800V 高压直流迭代；IEA 全球数据中心用电 2024 415TWh→2030 945TWh 翻倍；英伟达 TDP 300W→1400W（A 股标的，背景）
+- [[2026-09-12-spdb-intl-cpi-25bp]] — 浦银国际：8 月核心 CPI 环比 0.29% + 非农 16.2 万超预期 → **由"9 月不加息"改判"9 月或加息 25bp"**（立场反转）；不给连续加息指引
 - [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] — 东吴：AIDC 缺电周报；Google–Fortum 22 年核电 PPA、NextEra 重启 615 MW、MA 州 100% 清洁自备电令、CEG 收购 RISEC
 - [[2026-09-13-guojin-compute-mainline-power]] — 国金：算力主线 + 电力约束是行业 Beta；DOE AIDC 用电占比 2028 升至 6.7–12%、NERC 北美夏峰十年 +224 GW
 - [[2026-09-13-guosen-multiasset-hike-gold]] — 国信多资产：核心通胀 +0.3% 推升加息预期；10Y 本周 +18BP 逼近 5%；黄金脱敏于利率

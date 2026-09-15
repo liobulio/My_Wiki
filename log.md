@@ -149,3 +149,13 @@ grep "^## \[" log.md | tail -5
 - 承前 09-14 brief 的未解项（`efts.sec.gov` 全文检索 403，未能定位 [[ceg]] RISEC 收购对应 8-K）。改用权威口径 **data.sec.gov/submissions** 直连复核：CEG 最新文件为 2026-08-21 Form 144，无收购 8-K；`sec_fetch.py --since 2026-09-11` 重跑，三家（CEG/TLN/VST）均 0 新增、0 flag，`data/sec/*.json` 仅刷新 `fetched` 时间戳。
 - 结论：RISEC 于 9/12（周五）宣布，Item 1.01 8-K 法定期限为 4 个工作日（约 9/18），期间 9/13–14 为周末 → **当前尚无对应文件属正常**，`filings_read: 0` 准确、非抓取失败。三项 Invalidation 维持 ok×4。下期（≥9/15）优先确认 RISEC 8-K 是否入档。
 
+
+## [2026-09-15] brief | FOMC 前瞻：加息近确定，焦点转向"是否连续加息"；浦银国际唯一立场反转；SEC 零新增文件
+- pages touched (18): NEW sources ×4（[[2026-09-14-soochow-us-weekly-hike-risk]]、[[2026-09-12-spdb-intl-cpi-25bp]]、[[2026-09-14-donghai-electronics-tsmc]]、[[2026-09-14-dongguan-aidc-power]]）、NEW institutions ×2（[[spdb-international]]、[[dongguan-securities]]）、NEW asset [[tsm]]；UPDATED [[soochow-securities]]/[[donghai-securities]] house views、[[nvda]]、[[ai-power-demand]]、[[ai-infra-power-grid-bottlenecks-2026-09]]、positions ×3、[[2026-09-15]]、[[index]]、[[log]]
+- 宏观/美股：本周 **FOMC（9/16–17）**加息近板上钉钉。[[spdb-international|浦银国际]]把路径判断由"9 月不加息"**改判"9 月或加息 25bp"**（8 月核心 CPI 环比 0.29% + 非农 16.2 万双双超预期）——本期唯一 `logic_change`；但判断 Fed 不会给连续加息指引。[[soochow-securities|东吴]]美股周观点呼应又略有张力：真正风险不是"是否加息"（已定价），而是"**是否连续加息**"，市场或借长端上行压制估值（本周道指 −1.6%）。8 月 PPI **+5.4%**、油价因美伊冲突**破 $100** ✅ 已核。
+- 行业/AI 需求侧：[[tsm|台积电]] 8 月营收 **+53.3% 创新高**（前 8 月 +39.3%）✅；Oracle Q1 FY27 单季交付 **850 MW** 数据中心容量、营收 +30% ✅；东莞引 IEA 全球数据中心用电 2030 翻倍至 **945 TWh**、英伟达 TDP 300W→1400W。均为 [[ai-power-demand]] / [[ai-infra-power-grid-bottlenecks-2026-09]] 的需求侧确认（非新机构，opportunities_new: 0）。
+- 持仓：`sec_fetch.py --since 2026-09-14` 三家（CEG/TLN/VST）**均 0 新增、0 flags**，filings_read: 0。承前 09-14 maintenance 的优先项——[[ceg]] RISEC 收购（9/12 宣布）对应 **Item 1.01 8-K 至 9/15 仍未入档**：CEG 最新文件为 2026-08-13 Form 4，法定期限约 9/18（4 个工作日），当前无档属正常，继续下期确认。四项 Invalidation 全部 ok×4（维护性更新，非持仓数字变动）。
+- ⚠️ 承前未解：[[tln]] 6→9 月 −18% 仍未追溯到具体 catalyst，下期优先。
+- 去重：东海证券 09-11 CPI 报告（infoCode AP202609141829350601）经核对与上期 [[2026-09-11-donghai-securities-us-cpi-aug]] 为同一篇，已跳过。
+- 外资桶留空（macro 仅内资）：Apollo Daily Spark RSS 无 09-14 后新条目、BlackRock/Goldman/MS 客户端渲染页无干净的 09-14 后日期条目——与前两期一致，不硬凑。
+- rendered: brief/2026-09-15.html + brief/2026-09-15.md（手机版）+ brief/index.html + README。全部硬数据 web 核实通过（PPI 5.4%、核心 CPI 0.3%、非农 16.2 万、油价破 $100、Oracle $19.35B、TSMC +53.3%）。

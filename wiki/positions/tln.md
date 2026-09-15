@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-15
 ---
 
 # TLN — Talen Energy (open position)
@@ -42,3 +42,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-11 — opened in the wiki from the human's stated holding (5.407 sh, IBKR).
 - 2026-09-11 — 读取 8-K 2026-08-05（[[2026-08-05-tln-8k-q2-earnings]]）与 10-Q Q2：>10 GW 以 $325 顶格出清；~4 GW 数据中心签约选项管线（尚未签约）；Q2 GAAP 净亏 −$92M / EPS −$2.00。⚠️ 数据缺口：股价 6 月 ~$382 → 9 月 ~$315，原因未追溯。Invalidation：ok/ok/ok/ok。
 - 2026-09-14 — brief：`sec_fetch.py --since 2026-09-11` **无新增文件**。行业面为正向：Google–Fortum 22 年核电 PPA、NextEra 重启核电、DOE/NERC 电力需求数据强化 firm baseload 稀缺（[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]、[[2026-09-13-guojin-compute-mainline-power]]）。⚠️ 未解：6→9 月 −18% 仍未追溯到具体 catalyst。宏观：加息预期升温、10Y 逼近 5%（利率敏感性风险）。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-15 — brief：`sec_fetch.py --since 2026-09-14` **无新增文件**。需求侧继续走强（Oracle 单季交付 850 MW、TSMC +53.3%、IEA 用电 2030 翻倍），强化 firm baseload 稀缺（[[2026-09-14-donghai-electronics-tsmc]]、[[2026-09-14-dongguan-aidc-power]]）。⚠️ 未解：6→9 月 −18% 仍未追溯到具体 catalyst，下期继续优先。宏观：本周 FOMC（9/16–17），PPI +5.4%、油价破 $100、CME 加息概率 88.1%（[[2026-09-14-soochow-us-weekly-hike-risk]]）→ 利率敏感性风险。Invalidation 状态：ok/ok/ok/ok（不变）。

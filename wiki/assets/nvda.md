@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [Nvidia]
 tags: [semis, gpu, ai, inference]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-09-15
 ---
 
 # NVDA — Nvidia
@@ -35,6 +35,11 @@ Watch: customers building their own chips (A6/ASIC) incentivizing Nvidia to comp
   monopsony from 1–2 labs building their own silicon. Reinforces [[ai-sovereignty]] / open-weights.
 - Why now: after [[openai]]'s Jalapeño, Anthropic/AMD chips, and Elon's fab, Nvidia "took the
   gloves off" on its open-model effort.
+
+## Update — power roadmap / AI demand (2026-09-15)
+- **功耗路线抬升电力主线**：GPU TDP 300W → **1400W (GB300)**；整机柜 VeraRubin 2300W (2026) → VR300 3600W (2027)，
+  英伟达力推 **800VDC** 架构 → 直接放大 [[ai-power-demand]]（[[2026-09-14-dongguan-aidc-power]]）。
+- **上游需求确认**：[[tsm|台积电]] 8 月营收 +53.3% YoY 创新高，主要系 AI 先进制程拉货（[[2026-09-14-donghai-electronics-tsmc]]）。
 
 ## Related
 Concepts: [[hbm-dram-bottleneck]], [[ai-distillation-open-weights]], [[ai-sovereignty]] · Assets:
