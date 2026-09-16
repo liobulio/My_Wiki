@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-16]] — FOMC 今日开会（9/16–17）；10Y 一度触及 **5.04%**（2007 以来首次）后回落；[[spdb-international|浦银国际]]策略：利率上行有序、系统性风险低、**AI 仍是主线**（Q3 +28.7%）；[[dongxing-securities|东兴]]：**不排除连续加息**、10Y 目标 4.7–5%；SEC 零新增、Invalidation ok×4 → `brief/2026-09-16.html`
 - [[2026-09-15]] — FOMC 前瞻（9/16–17 加息近确定）；[[spdb-international|浦银国际]]由"9 月不加息"→"9 月或加息 25bp"（唯一立场反转）；东吴：真正风险是"是否**连续**加息"；PPI +5.4%、油价破 $100；TSMC +53.3%、Oracle 交付 850MW、IEA 用电 2030 翻倍——AI 需求侧确认；SEC 零新增 → `brief/2026-09-15.html`
 - [[2026-09-14]] — 加息天平倾斜（核心 CPI 环比 0.3%，9/16 概率 70%→80%+，10Y +18BP 逼近 5%）；AI 电力主线强化（国信：2027 起落地算力仅为芯片理论量 50–60%；Google–Fortum 22 年核电 PPA）；CEG $7.15 亿收购 RISEC ✅；SEC 本期零新增文件 → `brief/2026-09-14.html`
 - [[2026-09-11]] — 首期美股机构简报：9/16 FOMC 加息分歧（Apollo 预期加息 vs 中银国际）；AI 基建 120 GW；CEG Crane 获 FERC/NRC 批准；PJM $325 上限；新机会 MU/SNDK → `brief/2026-09-11.html`
@@ -38,9 +39,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
+- [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）；持仓长久期现金流的利率敏感性来源
 - [[gme]] — GameStop; collectibles turnaround + $9.7B cash; Cohen's $56B eBay bid; meme/vibes premium
 - [[ebay]] — eBay; marketplace "great asset, poorly run"; target of GameStop's $56B (rejected) bid
 - [[hhh]] — Howard Hughes; Ackman's "Berkshire 2.0" — real-estate compounder + insurance flywheel
@@ -85,6 +87,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[marcos-lopez-de-prado]] — Cornell/ADIA/TPT; backtest-rigor authority; co-author, OU optimal-exit paper
 
 ## Concepts
+- [[federal-reserve-rate-path]] — 美联储加息路径；焦点从"加不加息"转向"加几次息/是否连续加息"；卖方分布（浦银/东兴/东吴）与观测工具（CME/OIS/点阵图）
 - [[ai-gatekeeping]] — durable hyperscaler oligopoly vs fragmentation (agree on the pull, split on durability/timescale)
 - [[ai-power-demand]] — structural data-center electricity demand; the Talen thesis
 - [[replacement-cost-investing]] — buy a hard asset below rebuild cost (Sam Zell playbook); the Talen setup
@@ -103,6 +106,8 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-16-spdb-intl-rates-equity]] — 浦银国际策略：本轮 10Y 上行由实际利率主导（YTD +52.9bp）、系统性风险低（60 日 +49bp < 95% 分位）；焦点转"加几次息"；相较加息，盈利/AI/油价对美股影响更大，**AI 仍是主线**、指数靠盈利（Q3 +28.7%）
+- [[2026-09-16-dongxing-cpi-continuous-hike]] — 东兴证券：8 月 CPI 核心环比 0.3% 超预期、核心服务通胀止跌；政策利率"宽松临界"，**若油价高企不排除连续加息（12 月再加）**；上调 10Y 目标 4.7–5%
 - [[2026-09-14-soochow-us-weekly-hike-risk]] — 东吴美股周观点：宏观压力是最大风险，真正风险是"是否**连续**加息"；PPI +5.4%、CME 加息概率 60.4%→88.1%；Oracle +30% ✅
 - [[2026-09-14-donghai-electronics-tsmc]] — 东海电子：台积电 8 月营收 +53.3% 创新高 ✅；指引 2026 美元营收 +40%、capex $60–64B；半导体估值高分位
 - [[2026-09-14-dongguan-aidc-power]] — 东莞：AIDC 800V 高压直流迭代；IEA 全球数据中心用电 2024 415TWh→2030 945TWh 翻倍；英伟达 TDP 300W→1400W（A 股标的，背景）

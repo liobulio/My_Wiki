@@ -159,3 +159,11 @@ grep "^## \[" log.md | tail -5
 - 去重：东海证券 09-11 CPI 报告（infoCode AP202609141829350601）经核对与上期 [[2026-09-11-donghai-securities-us-cpi-aug]] 为同一篇，已跳过。
 - 外资桶留空（macro 仅内资）：Apollo Daily Spark RSS 无 09-14 后新条目、BlackRock/Goldman/MS 客户端渲染页无干净的 09-14 后日期条目——与前两期一致，不硬凑。
 - rendered: brief/2026-09-15.html + brief/2026-09-15.md（手机版）+ brief/index.html + README。全部硬数据 web 核实通过（PPI 5.4%、核心 CPI 0.3%、非农 16.2 万、油价破 $100、Oracle $19.35B、TSMC +53.3%）。
+
+## [2026-09-16] brief | FOMC 今日开会；浦银"利率上行有序/AI 仍是主线"vs 东兴"不排除连续加息"；SEC 零新增
+- pages touched: [[2026-09-16]], [[2026-09-16-spdb-intl-rates-equity]], [[2026-09-16-dongxing-cpi-continuous-hike]], [[spdb-international]], [[dongxing-securities]], [[federal-reserve-rate-path]], [[us-treasury-10y]], [[ceg]], [[tln]], [[vst]], index.md
+- sources ingested: 2（东方财富研报中心：浦银国际 09-16 利率→中美股市策略；东兴证券 09-16 8 月 CPI 点评·连续加息）。跳过 联储/万联/中邮 三篇 8 月 CPI 反应（与上期重复）；行业页当日为 A 股链条，无美股电力标的 → industry 空；外资公开源无 09-15 后新篇（Apollo/BlackRock/Goldman/MS）。
+- filings read: 0 —— `sec_fetch.py --since 2026-09-15` 确认 [[ceg]]/[[tln]]/[[vst]] 均 0 新增文件、0 flags。
+- invalidation flags: 无新增；三家 ok×4 不变（维护性更新）。长久期现金流利率敏感性为 [[ai-power-ipp-bull]] 既列风险，非失效条件。
+- fact-check: 10Y 一度触及 5.04%（2007-07 以来首次）✅；8 月 CPI 0.4%/3.4%、核心 0.3%/2.4% ✅；FactSet Q3 +28.7% ✅；加息概率 CME ~88%（浦银口径 >90%，⚠️ 略高）；SP500 fwd P/E 19.1x projection-adjacent。
+- opportunities_new: 0（两篇均宏观/策略，无显式买入标的）。
