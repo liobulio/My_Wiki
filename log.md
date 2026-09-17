@@ -176,3 +176,12 @@ grep "^## \[" log.md | tail -5
 - logic_changes: 1 —— [[guosen|国信]] 自 9/12"如需加息，一次足矣"边际转鹰为 9/17"不排除年内再加一次"（is_change=true）。
 - fact-check: 加息 25bp 至 3.75%–4.00%、12–0 全票、16/18 官员年内看再加息、沃什任主席、2023-07 以来首次加息 ✅（CNBC/Kiplinger + 四家券商交叉核实）；点阵图 12/4/2/0 分布、2026/27 利率中值 4.1%、2028 才降息 ✅（四家一致）；国信当日盘中数据（标普 −0.8%/纳指 −0.7%、2Y +13bp/10Y +7bp、美元 +0.6%）与中银"会前期货隐含 ~3.8 次"为 data point，未逐位复核。
 - opportunities_new: 0（四篇均宏观/策略，无显式买入标的）。
+
+## [2026-09-17] brief | 重跑增补：FOMC 后续路径纳入第三种落点——东方金诚"平台观察期"、粤开 K 型分化+泰勒规则量化
+- pages touched: [[2026-09-17]], [[2026-09-17-dongfang-jincheng-fomc-hawkish-hike]], [[2026-09-17-yuekai-fomc-k-shaped]], [[dongfang-jincheng]], [[yuekai-securities]], index.md, brief/2026-09-17.{html,md}
+- context: 当日简报已于本日建档（4 篇 FOMC 点评）。本次重跑复扫东方财富 09-17 策略/宏观/行业 API，复核 SEC——[[ceg]]/[[tln]]/[[vst]] 仍 0 新增、0 flags。
+- sources ingested: +2（原 4 → 6）。改判上一版跳过的两篇：[[dongfang-jincheng|东方金诚]]（评级机构，给出"一次预防性加息→高利率平台观察期"的第三种落点、新增声明删"供应冲击"→能源通胀转持续性）、[[yuekai-securities|粤开证券]]（12 页宏观深度，非快评：泰勒规则失业率口径 3.88% vs GDP 口径 4.09%、差 21bp；统一利率放大 K 型分化；直指美股"AI 牛市"能否免疫高利率——切中持仓风险背景）。仍跳过 万联(港股资金面)/国元国际/国投期货 等一次性快评。
+- filings read: 0 —— `sec_fetch.py --since 2026-09-16` 三家均 0 新增、0 flags。
+- invalidation flags: 无新增；ceg/tln/vst 均 ok×4 不变。粤开点出的"AI 牛市对高利率的敞口"归入 [[ai-power-ipp-bull]] 既列风险，非失效条件。
+- fact-check: 两篇的 FOMC 硬数据（25bp 至 3.75%–4.00%、12–0 全票、点阵图中值 4.1%、16/18 年内再加、核心 PCE 3.4%、8 月 CPI 3.4%/核心环比 0.3%）与当日已核验来源交叉一致 ✅；泰勒规则 3.88%/4.09%、"平台观察期"、"AI 牛市免疫高利率"为机构测算/判断（projection，非核验项）；会后市场快照（10Y 破 5%、DXY 100.3、金价 $4265）为粤开记录，与国信当日方向一致（data point）。
+- opportunities_new: 0（两篇均宏观，无显式买入标的）。新增 TODO 链接 [[taylor-rule]]（概念页待写）。

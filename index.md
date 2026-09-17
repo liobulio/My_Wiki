@@ -20,7 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
-- [[2026-09-17]] — **靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**（2023-07 以来首次）；点阵图 16/18 年内看再加、2028 才降息；[[guosen|国信]]自"一次足矣"转"不排除年内再加一次"（△），[[boci|中银]]"点阵图仍不及市场 ~3.8 次"、[[donghai-securities|东海]]"K 型经济不支持连续加息"、[[spdb-international|浦银]]"开始⋯暗含后续或再加"；SEC 零新增、Invalidation ok×4 → `brief/2026-09-17.html`
+- [[2026-09-17]] — **靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**（2023-07 以来首次）；点阵图 16/18 年内看再加、2028 才降息；后续路径三种落点：[[guosen|国信]]（转"不排除年内再加一次"△）/[[spdb-international|浦银]]"暗含后续或再加"、[[boci|中银]]/[[donghai-securities|东海]]"点阵图不及市场·K 型不支持连续加息"、[[dongfang-jincheng|东方金诚]]"一次预防性加息→高利率平台观察期"；[[yuekai-securities|粤开]]泰勒规则 3.88% vs 4.09%、直指"AI 牛市能否免疫高利率"；SEC 零新增、Invalidation ok×4 → `brief/2026-09-17.html`
 - [[2026-09-16]] — FOMC 今日开会（9/16–17）；10Y 一度触及 **5.04%**（2007 以来首次）后回落；[[spdb-international|浦银国际]]策略：利率上行有序、系统性风险低、**AI 仍是主线**（Q3 +28.7%）；[[dongxing-securities|东兴]]：**不排除连续加息**、10Y 目标 4.7–5%；SEC 零新增、Invalidation ok×4 → `brief/2026-09-16.html`
 - [[2026-09-15]] — FOMC 前瞻（9/16–17 加息近确定）；[[spdb-international|浦银国际]]由"9 月不加息"→"9 月或加息 25bp"（唯一立场反转）；东吴：真正风险是"是否**连续**加息"；PPI +5.4%、油价破 $100；TSMC +53.3%、Oracle 交付 850MW、IEA 用电 2030 翻倍——AI 需求侧确认；SEC 零新增 → `brief/2026-09-15.html`
 - [[2026-09-14]] — 加息天平倾斜（核心 CPI 环比 0.3%，9/16 概率 70%→80%+，10Y +18BP 逼近 5%）；AI 电力主线强化（国信：2027 起落地算力仅为芯片理论量 50–60%；Google–Fortum 22 年核电 PPA）；CEG $7.15 亿收购 RISEC ✅；SEC 本期零新增文件 → `brief/2026-09-14.html`
@@ -40,7 +40,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）；持仓长久期现金流的利率敏感性来源
@@ -111,6 +111,8 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[2026-09-17-guosen-fomc-warsh]] — 国信证券"认清沃什"：12–0 加息 25bp、中性偏鹰；长债不降关键在财政赤字、沃什避谈缩表；当日标普 −0.8%/2Y +13bp/10Y +7bp；较自身"一次足矣"边际转鹰
 - [[2026-09-17-boci-fomc-less-optimistic]] — 中银证券"还是不如市场乐观"：加息属"预防性加息"；点阵图本轮中值 2 次 < 会前期货隐含 ~3.8 次；长债扭转需财政改善 + 地缘缓解
 - [[2026-09-17-donghai-fomc-hike-landed]] — 东海证券"靴子落地"：加息重塑联储独立性、压低长端期限溢价上行风险；但 K 型经济 + 劳动力弱平衡不支持周期性连续加息
+- [[2026-09-17-dongfang-jincheng-fomc-hawkish-hike]] — 东方金诚（评级机构）"后续加息概率上升"：声明删"供应冲击"、能源通胀转持续性；给出第三种落点——一次预防性加息后进入"高利率平台观察期"，非连续加息
+- [[2026-09-17-yuekai-fomc-k-shaped]] — 粤开证券"K 型分化下的加息逻辑"：泰勒规则失业率口径 3.88% vs GDP 口径 4.09%（差 21bp）；统一利率放大 K 型分化；美股"AI 牛市"能否免疫高利率存更大不确定性
 - [[2026-09-16-spdb-intl-rates-equity]] — 浦银国际策略：本轮 10Y 上行由实际利率主导（YTD +52.9bp）、系统性风险低（60 日 +49bp < 95% 分位）；焦点转"加几次息"；相较加息，盈利/AI/油价对美股影响更大，**AI 仍是主线**、指数靠盈利（Q3 +28.7%）
 - [[2026-09-16-dongxing-cpi-continuous-hike]] — 东兴证券：8 月 CPI 核心环比 0.3% 超预期、核心服务通胀止跌；政策利率"宽松临界"，**若油价高企不排除连续加息（12 月再加）**；上调 10Y 目标 4.7–5%
 - [[2026-09-14-soochow-us-weekly-hike-risk]] — 东吴美股周观点：宏观压力是最大风险，真正风险是"是否**连续**加息"；PPI +5.4%、CME 加息概率 60.4%→88.1%；Oracle +30% ✅
