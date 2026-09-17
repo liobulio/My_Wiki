@@ -6,7 +6,7 @@ aliases: [国信, Guosen]
 watch_url: 
 tags: []
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-17
 ---
 
 # 国信证券
@@ -16,6 +16,11 @@ Mainland broker; strategy weeklies tracking US–China policy (AI export restric
 tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asset macro desk (董德志).
 
 ## House view (current)
+- 2026-09-17 — **9月FOMC点评"认清沃什"**：12–0 加息 25bp 至 3.75%–4.00%、中性偏鹰。增量三点：沃什稳物价
+  决心被低估（"today was our decision"）；**长债不降关键在财政赤字能否收敛**（加息→再融资成本↑→发债→期限
+  溢价↑的反馈）；沃什避谈缩表、不愿市场同时交易"加息+缩表"。当日**标普 −0.8%/纳指 −0.7%、2Y +13bp/10Y +7bp、
+  美元 +0.6%**。⚠️ **较自身 9/12"如需加息，一次足矣"边际转鹰**：现口径"不能排除年内再加一次"
+  （[[2026-09-17-guosen-fomc-warsh]]）。
 - 2026-09-13 — 多资产周报：核心 CPI 环比 0.3% → **加息预期升温**，美债 10 年本周 **+18BP**（逼近 5%）；
   黄金"脱敏"于利率（边际买盘为央行/配置盘）（[[2026-09-13-guosen-multiasset-hike-gold]]）。
 - 2026-09-12 — AI 算力 ROI 测算：**2027 起数据中心落地算力仅为芯片理论量的 50%–60%**，电力（北美电网
@@ -26,4 +31,4 @@ tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asse
 _none yet_
 
 ## Sources
-[[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
+[[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]

@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-17]] — **靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**（2023-07 以来首次）；点阵图 16/18 年内看再加、2028 才降息；[[guosen|国信]]自"一次足矣"转"不排除年内再加一次"（△），[[boci|中银]]"点阵图仍不及市场 ~3.8 次"、[[donghai-securities|东海]]"K 型经济不支持连续加息"、[[spdb-international|浦银]]"开始⋯暗含后续或再加"；SEC 零新增、Invalidation ok×4 → `brief/2026-09-17.html`
 - [[2026-09-16]] — FOMC 今日开会（9/16–17）；10Y 一度触及 **5.04%**（2007 以来首次）后回落；[[spdb-international|浦银国际]]策略：利率上行有序、系统性风险低、**AI 仍是主线**（Q3 +28.7%）；[[dongxing-securities|东兴]]：**不排除连续加息**、10Y 目标 4.7–5%；SEC 零新增、Invalidation ok×4 → `brief/2026-09-16.html`
 - [[2026-09-15]] — FOMC 前瞻（9/16–17 加息近确定）；[[spdb-international|浦银国际]]由"9 月不加息"→"9 月或加息 25bp"（唯一立场反转）；东吴：真正风险是"是否**连续**加息"；PPI +5.4%、油价破 $100；TSMC +53.3%、Oracle 交付 850MW、IEA 用电 2030 翻倍——AI 需求侧确认；SEC 零新增 → `brief/2026-09-15.html`
 - [[2026-09-14]] — 加息天平倾斜（核心 CPI 环比 0.3%，9/16 概率 70%→80%+，10Y +18BP 逼近 5%）；AI 电力主线强化（国信：2027 起落地算力仅为芯片理论量 50–60%；Google–Fortum 22 年核电 PPA）；CEG $7.15 亿收购 RISEC ✅；SEC 本期零新增文件 → `brief/2026-09-14.html`
@@ -106,6 +107,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-17-spdb-intl-fomc-hike-hawkish]] — 浦银国际：9 月 FOMC 如期加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰；点阵图/SEP 暗示年内再加 25bp、2028 才降息；沃什"start to show we are serious"暗含后续或再加；兑现其 9/12 路径判断
+- [[2026-09-17-guosen-fomc-warsh]] — 国信证券"认清沃什"：12–0 加息 25bp、中性偏鹰；长债不降关键在财政赤字、沃什避谈缩表；当日标普 −0.8%/2Y +13bp/10Y +7bp；较自身"一次足矣"边际转鹰
+- [[2026-09-17-boci-fomc-less-optimistic]] — 中银证券"还是不如市场乐观"：加息属"预防性加息"；点阵图本轮中值 2 次 < 会前期货隐含 ~3.8 次；长债扭转需财政改善 + 地缘缓解
+- [[2026-09-17-donghai-fomc-hike-landed]] — 东海证券"靴子落地"：加息重塑联储独立性、压低长端期限溢价上行风险；但 K 型经济 + 劳动力弱平衡不支持周期性连续加息
 - [[2026-09-16-spdb-intl-rates-equity]] — 浦银国际策略：本轮 10Y 上行由实际利率主导（YTD +52.9bp）、系统性风险低（60 日 +49bp < 95% 分位）；焦点转"加几次息"；相较加息，盈利/AI/油价对美股影响更大，**AI 仍是主线**、指数靠盈利（Q3 +28.7%）
 - [[2026-09-16-dongxing-cpi-continuous-hike]] — 东兴证券：8 月 CPI 核心环比 0.3% 超预期、核心服务通胀止跌；政策利率"宽松临界"，**若油价高企不排除连续加息（12 月再加）**；上调 10Y 目标 4.7–5%
 - [[2026-09-14-soochow-us-weekly-hike-risk]] — 东吴美股周观点：宏观压力是最大风险，真正风险是"是否**连续**加息"；PPI +5.4%、CME 加息概率 60.4%→88.1%；Oracle +30% ✅

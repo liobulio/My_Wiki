@@ -6,7 +6,7 @@ aliases: [浦银国际, SPDB International, 浦银国际证券]
 watch_url: https://www.spdbi.com
 tags: []
 created: 2026-09-15
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 # 浦银国际
@@ -17,6 +17,10 @@ updated: 2026-09-16
 经东方财富研报中心分发。
 
 ## House view (current)
+- 2026-09-17 — **路径判断兑现**：9/16 FOMC 如期加息 25bp 至 3.75%–4.00%、**12–0 全票**、表态继续偏鹰。
+  点阵图/SEP 暗示**年内还将再加 25bp**（全年共 50bp）、2027 维持 4.1%、**2028 才重启降息**；沃什"start to
+  show we are serious"，浦银读"开始"一词**暗含后续或再加息**。提示 SEP 或未计入月底 PCE 口径调整、年底 PCE 有
+  高估风险（[[2026-09-17-spdb-intl-fomc-hike-hawkish]]）。
 - 2026-09-16 — **策略延伸（非路径反转）**：FOMC 前夜发主题策略，判断本轮长端利率上行以**实际利率**为主
   （YTD +52.9bp）、系统性风险偏低（60 日 10Y +49bp < 95% 分位阈值 ~87bp）；焦点从"加不加息"转向"**加几次息**"
   （OIS 计入 ~3.6 次）；结论**相较加息，盈利/AI/油价对美股影响更大，AI 仍是主线**，指数上行靠盈利（Q3 FactSet +28.7%）。
@@ -28,7 +32,7 @@ updated: 2026-09-16
 
 ## Track record
 - 前序观点（报告清单）：8/31《沃什再次放鹰，美联储 9 月会加息吗？》→ 9/12 转为"9 月或加息 25bp"，路径判断
-  在 CPI/NFP 公布后进一步转鹰。_结果待 9/16–17 FOMC 验证。_
+  在 CPI/NFP 公布后进一步转鹰。✅ **9/16 FOMC 加息 25bp 兑现该路径判断。**
 
 ## Sources
-[[2026-09-16-spdb-intl-rates-equity]] · [[2026-09-12-spdb-intl-cpi-25bp]]
+[[2026-09-17-spdb-intl-fomc-hike-hawkish]] · [[2026-09-16-spdb-intl-rates-equity]] · [[2026-09-12-spdb-intl-cpi-25bp]]

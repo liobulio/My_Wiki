@@ -167,3 +167,12 @@ grep "^## \[" log.md | tail -5
 - invalidation flags: 无新增；三家 ok×4 不变（维护性更新）。长久期现金流利率敏感性为 [[ai-power-ipp-bull]] 既列风险，非失效条件。
 - fact-check: 10Y 一度触及 5.04%（2007-07 以来首次）✅；8 月 CPI 0.4%/3.4%、核心 0.3%/2.4% ✅；FactSet Q3 +28.7% ✅；加息概率 CME ~88%（浦银口径 >90%，⚠️ 略高）；SP500 fwd P/E 19.1x projection-adjacent。
 - opportunities_new: 0（两篇均宏观/策略，无显式买入标的）。
+
+## [2026-09-17] brief | 靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票偏鹰（2023-07 以来首次），内资在"后续路径"上分歧
+- pages touched: [[2026-09-17]], [[2026-09-17-spdb-intl-fomc-hike-hawkish]], [[2026-09-17-guosen-fomc-warsh]], [[2026-09-17-boci-fomc-less-optimistic]], [[2026-09-17-donghai-fomc-hike-landed]], [[spdb-international]], [[guosen]], [[boci]], [[donghai-securities]], [[ceg]], [[tln]], [[vst]], index.md
+- sources ingested: 4（东方财富研报中心 09-17 FOMC 决议点评：国信"认清沃什"·中银"不如市场乐观"·东海"靴子落地"·浦银"加息偏鹰"）。均为已建档、可追踪立场演变的券商。跳过 万联/国元国际/国投期货/东方金诚/粤开 等同题一次性快评（高度重复）；行业页 09-17 为 A 股链条（半导体设备/CoWoS/光通信/电力设备）无美股电力标的 → industry 空；外资公开源无 09-16 后新篇（Apollo/BlackRock/Goldman/MS）；All-In 本周新集未落地。
+- filings read: 0 —— `sec_fetch.py --since 2026-09-16` 确认 [[ceg]]/[[tln]]/[[vst]] 均 0 新增文件、0 flags。
+- invalidation flags: 无新增；三家 ok×4 不变（维护性更新）。FOMC 加息推升的长久期现金流利率敏感性为 [[ai-power-ipp-bull]] 既列风险，非失效条件。
+- logic_changes: 1 —— [[guosen|国信]] 自 9/12"如需加息，一次足矣"边际转鹰为 9/17"不排除年内再加一次"（is_change=true）。
+- fact-check: 加息 25bp 至 3.75%–4.00%、12–0 全票、16/18 官员年内看再加息、沃什任主席、2023-07 以来首次加息 ✅（CNBC/Kiplinger + 四家券商交叉核实）；点阵图 12/4/2/0 分布、2026/27 利率中值 4.1%、2028 才降息 ✅（四家一致）；国信当日盘中数据（标普 −0.8%/纳指 −0.7%、2Y +13bp/10Y +7bp、美元 +0.6%）与中银"会前期货隐含 ~3.8 次"为 data point，未逐位复核。
+- opportunities_new: 0（四篇均宏观/策略，无显式买入标的）。
