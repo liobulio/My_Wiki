@@ -3,14 +3,14 @@ type: opportunity
 ticker: MU
 title: "存储新周期：美光 (MU) / 闪迪 (SNDK)"
 logic: "AI（HBM、服务器 DDR5、企业级 SSD）把存储需求从消费电子周期修复变成结构性增量，而 2022–23 减产与 HBM 挤出压低了供给弹性——只要云厂商 capex 不掉头，涨价周期比历次更长。"
-institutions: ["[[soochow-securities]]"]
+institutions: ["[[soochow-securities]]", "[[green-dahua-futures]]"]
 first_seen: 2026-09-11
-status: new
+status: watching
 edge: "市场仍按历次消费电子周期给存储股定价（涨价必然带来扩产与暴跌），但本轮供给弹性被 2022–23 减产与 HBM 挤出压住，AI 需求是结构性而非库存性——周期更长、更高。"
 catalyst: "美光 FY26Q4 财报（预计 2026-09 下旬）与 DRAM/NAND 合约价继续环比上涨；云厂商三季报维持或上修 capex 指引。"
 invalidation: "DRAM 或 NAND 合约价出现环比下跌，或任一原厂宣布大幅扩产/制程迁移提前；或超大规模云厂商下修 capex 指引——任一出现即提案失效。"
-sources: ["[[2026-09-07-soochow-memory-cycle-ai]]"]
-updated: 2026-09-11
+sources: ["[[2026-09-07-soochow-memory-cycle-ai]]", "[[2026-09-18-greendh-futures-ai-reaccel]]"]
+updated: 2026-09-18
 ---
 
 # 存储新周期：MU / SNDK
@@ -29,6 +29,7 @@ updated: 2026-09-11
 
 ## Who says so
 - 2026-09-07 [[soochow-securities|东吴证券]]（张良卫）："推荐：闪迪（SNDK.O）、美光科技（MU.O）；建议关注 SK 海力士、三星电子。" — [[2026-09-07-soochow-memory-cycle-ai]]
+- 2026-09-18 [[green-dahua-futures|格林大华期货]]（供给侧确认，非直接买入 MU/SNDK）：SK 海力士 CEO 称存储短缺**持续至 2030 年底**、$7200 亿扩产；**三星/美光/SK 的 DRAM+HBM 2027 产能已全数分配、NAND 预售一空**；马斯克称存储供给年增 ~20% 而需求 ~200%（[[2026-09-18-greendh-futures-ai-reaccel]]）——供给弹性受压这条腿被第二家机构佐证 → status 升 `watching`。
 - 既有 wiki 佐证：[[gavin-baker]] 的 HBM 瓶颈论（[[2026-06-27-allin-china-ai-micron-memory]]）。
 
 ## What would kill it

@@ -185,3 +185,11 @@ grep "^## \[" log.md | tail -5
 - invalidation flags: 无新增；ceg/tln/vst 均 ok×4 不变。粤开点出的"AI 牛市对高利率的敞口"归入 [[ai-power-ipp-bull]] 既列风险，非失效条件。
 - fact-check: 两篇的 FOMC 硬数据（25bp 至 3.75%–4.00%、12–0 全票、点阵图中值 4.1%、16/18 年内再加、核心 PCE 3.4%、8 月 CPI 3.4%/核心环比 0.3%）与当日已核验来源交叉一致 ✅；泰勒规则 3.88%/4.09%、"平台观察期"、"AI 牛市免疫高利率"为机构测算/判断（projection，非核验项）；会后市场快照（10Y 破 5%、DXY 100.3、金价 $4265）为粤开记录，与国信当日方向一致（data point）。
 - opportunities_new: 0（两篇均宏观，无显式买入标的）。新增 TODO 链接 [[taylor-rule]]（概念页待写）。
+
+## [2026-09-18] brief | 加息落地次日叙事转回"AI 资本开支还能加速多久"——格林大华把 AI 电力/内存需求量化到每 GW；东兴 vs 东海对"是否连续加息"分歧
+- pages touched: [[2026-09-18]], [[2026-09-18-greendh-futures-ai-reaccel]], [[2026-09-18-dongxing-fomc-oil]], [[2026-09-18-guosen-us-bull-bears]], [[green-dahua-futures]], [[dongxing-securities]], [[guosen]], [[mu-sndk-memory-upcycle-2026-09]], [[ai-infra-power-grid-bottlenecks-2026-09]], [[ceg]], [[tln]], [[vst]], index.md, brief/2026-09-18.{html,md}
+- sources ingested: 3（各占一桶，重信号不注水）：宏观 [[2026-09-18-dongxing-fomc-oil|东兴·加息防高油价扩散]]（会后第一框架、与东海"不支持连续加息"张力）、行业 [[2026-09-18-greendh-futures-ai-reaccel|格林大华·AI 投资再加速]]（把 AI 电力/内存需求量化到每 GW，直切持仓；新建机构页 [[green-dahua-futures]]）、美股 [[2026-09-18-guosen-us-bull-bears|国信策略·美股长牛背后大小熊]]（回应"AI 牛市 vs 高利率"）。09-18 API 余下多为 FOMC 后续快评，与上期三种落点高度重复，跳过。外资公开源无新篇（Apollo 最新 09-16 < SINCE；BlackRock/GS/MS 客户端无干净新条目；All-In 周五集未落地）。
+- filings read: 0 —— `sec_fetch.py --since 2026-09-17` [[ceg]]/[[tln]]/[[vst]] 三家均 0 新增、0 flags。
+- invalidation flags: 无新增；ceg/tln/vst 均 ok×4 不变。格林大华的"每 GW"需求量化强化 firm 电力稀缺（正向，不触发失效条件）；东兴维持 10Y 4.7–5%、不排除连续加息 → 长久期利率敏感性属 [[ai-power-ipp-bull]] 既列风险，非 Invalidation。
+- fact-check: ✅ Nebius 10/1 起 GPU 云涨 ~20%（H100 $3.85→$4.50 / B300 $7.85→$9.50、年内累计 ~56%，Benzinga/HostingJournalist）；✅ Broadcom Q3 AI 收入 $16.7B +221% YoY / +54% QoQ、指引 FY27 ~$1150 亿 / FY28 ~$2300 亿（Broadcom IR + CNBC）；✅ Oracle Q1 FY27 单季 850 MW（前期已核）。SemiAnalysis"2028 两家垄断 70–80% 算力"、Anthropic 2030 GDP 情景、"$11 万亿 capex"、Nvidia/Broadcom 未来财年指引均为投影/情景（不核验）。⚠️ 格林大华季报图注多处张冠李戴数据来源（编辑瑕疵，不影响已核硬数据）；国信正文将 1998 LTCM 误写为"1990/07-09"（排版笔误）。
+- opportunities_new: 0；两页更新——[[mu-sndk-memory-upcycle-2026-09]] 供给紧张获第二家机构（格林大华）佐证 → new 升 watching；[[ai-infra-power-grid-bottlenecks-2026-09]] 追加"每 GW"量化证据、机构名单 +1（[[green-dahua-futures]]）。

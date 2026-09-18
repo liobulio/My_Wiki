@@ -3,14 +3,14 @@ type: opportunity
 ticker:
 title: "主题：AI 基建的瓶颈——电力、电网、数据中心"
 logic: "云厂商明年 AI 支出 >$1.4T、算力容量到 2028 翻两番至 ~120 GW，而电力/电网/芯片是扩张的物理瓶颈——瓶颈环节的定价权高于 AI 应用层。"
-institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]", "[[guosen]]", "[[guojin-securities]]", "[[soochow-securities]]"]
+institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]", "[[guosen]]", "[[guojin-securities]]", "[[soochow-securities]]", "[[green-dahua-futures]]"]
 first_seen: 2026-09-11
 status: watching
 edge: "AI 应用层的回报仍不可验证，但算力扩张的物理瓶颈（电力、电网、数据中心）建设周期长、审批受监管，需求由已公布的 capex 指引锁定——瓶颈资产的定价权高于应用层，而市场按公用事业/周期股给它们估值。"
 catalyst: "云厂商三季报（2026-10 下旬）维持或上修 2027 capex 指引；PJM/ERCOT 大负荷互联新规落地；新的超大规模云厂商 PPA 签约。"
 invalidation: "任一超大规模云厂商下修 capex 指引或推迟数据中心项目；PJM 容量价格上限进一步下调或延长到 2030 以后；AI ROI 证伪导致算力租赁价格（如 B200 小时租金）持续下跌。"
 sources: ["[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]", "[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]", "[[2026-05-28-goldman-sp500-8000]]", "[[2026-09-12-guosen-ai-compute-roi]]", "[[2026-09-13-guojin-compute-mainline-power]]", "[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]"]
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # 主题：AI 基建的瓶颈——电力、电网、数据中心
@@ -37,6 +37,7 @@ updated: 2026-09-15
 - 2026-09-13 [[guojin-securities]]：**电力约束构成算力建设的行业 Beta**；DOE AIDC 用电占比 4.4%→6.7-12%（2028）、NERC 北美夏峰 +224 GW（十年）（[[2026-09-13-guojin-compute-mainline-power]]）。
 - 2026-09-13 [[soochow-securities]]：一周 AIDC 电力事件密集——Google–Fortum 22 年核电 PPA、NextEra 重启核电、CEG 收 609 MW 燃气电站、MA 100% 清洁自备电令（[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]）。
 - 2026-09-15 需求侧确认（非新机构）：**Oracle Q1 FY27 单季交付 850 MW** 数据中心容量、[[tsm|台积电]] 8 月营收 +53.3% 创高、IEA 全球数据中心用电 2030 翻倍至 945 TWh（[[2026-09-14-donghai-electronics-tsmc]]、[[2026-09-14-dongguan-aidc-power]]）——瓶颈需求由 capex/交付进度持续锁定。
+- 2026-09-18 [[green-dahua-futures|格林大华期货]]：把瓶颈量化到"每 GW"——Nvidia Vera Rubin **每 GW 营收机会 ~$400 亿**、Broadcom 每 GW 算力成本 ~$200–300 亿、SpaceX 目标**在线电力 20 GW**、Oracle 到期 GPU **溢价 20% 续约**；结论"AI 投资或再次加速、全球进入加息周期"（[[2026-09-18-greendh-futures-ai-reaccel]]）。
 
 ## What would kill it
 - 云厂商 capex 指引下修（[[ai-power-ipp-bull]] 的 Invalidation ①）；

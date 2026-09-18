@@ -6,7 +6,7 @@ aliases: [国信, Guosen]
 watch_url: 
 tags: []
 created: 2026-09-11
-updated: 2026-09-17
+updated: 2026-09-18
 ---
 
 # 国信证券
@@ -16,6 +16,10 @@ Mainland broker; strategy weeklies tracking US–China policy (AI export restric
 tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asset macro desk (董德志).
 
 ## House view (current)
+- 2026-09-18 — **策略团队（荀玉根）："美股长牛背后有大小熊"**（报告封面日 9/11，本期分发扫到）：1982
+  年后美股牛长熊短（道指年化 10.0%）；大熊（2 次）源于盈利估值双杀（标普 −50%+），小熊（8 次）源于
+  事件催化、**平均 −23.5%/3.4 个月**后延续长牛——为"AI 牛市 vs 高利率"提供历史标尺
+  （[[2026-09-18-guosen-us-bull-bears]]）。（注：此为**总量策略团队**，区别于下列宏观/海外科技团队。）
 - 2026-09-17 — **9月FOMC点评"认清沃什"**：12–0 加息 25bp 至 3.75%–4.00%、中性偏鹰。增量三点：沃什稳物价
   决心被低估（"today was our decision"）；**长债不降关键在财政赤字能否收敛**（加息→再融资成本↑→发债→期限
   溢价↑的反馈）；沃什避谈缩表、不愿市场同时交易"加息+缩表"。当日**标普 −0.8%/纳指 −0.7%、2Y +13bp/10Y +7bp、
@@ -31,4 +35,4 @@ tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asse
 _none yet_
 
 ## Sources
-[[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
+[[2026-09-18-guosen-us-bull-bears]] · [[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
