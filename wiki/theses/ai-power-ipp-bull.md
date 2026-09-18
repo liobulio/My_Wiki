@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-18
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -53,6 +53,11 @@ See [[ai-power-demand]].
   (~$18B through 2042) — [[2026-06-12-all-in-best-ideas-pitch]], [[tln]] fact-check.
 - Replacement-cost gap for TLN (~$25B EV vs ~$45B replacement, Dreyfus estimate, not fact) —
   [[2026-06-12-all-in-best-ideas-pitch]].
+- Market-side confirmation of firm-power scarcity (2026-09-17): [[brad-gerstner]] (Altimeter),
+  a large AI-long fund, calls **"power equipment is sold out"**, grid-interconnection delays and
+  permitting the binding constraint — enough that even the leading labs' 2027 build (43 GW) is
+  "too aggressive" (~25 GW real); total US compute "<40 GW". A demand-side buyer conceding the
+  supply squeeze ([[2026-09-17-all-in-gerstner-no-bubble]]).
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

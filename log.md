@@ -193,3 +193,12 @@ grep "^## \[" log.md | tail -5
 - invalidation flags: 无新增；ceg/tln/vst 均 ok×4 不变。格林大华的"每 GW"需求量化强化 firm 电力稀缺（正向，不触发失效条件）；东兴维持 10Y 4.7–5%、不排除连续加息 → 长久期利率敏感性属 [[ai-power-ipp-bull]] 既列风险，非 Invalidation。
 - fact-check: ✅ Nebius 10/1 起 GPU 云涨 ~20%（H100 $3.85→$4.50 / B300 $7.85→$9.50、年内累计 ~56%，Benzinga/HostingJournalist）；✅ Broadcom Q3 AI 收入 $16.7B +221% YoY / +54% QoQ、指引 FY27 ~$1150 亿 / FY28 ~$2300 亿（Broadcom IR + CNBC）；✅ Oracle Q1 FY27 单季 850 MW（前期已核）。SemiAnalysis"2028 两家垄断 70–80% 算力"、Anthropic 2030 GDP 情景、"$11 万亿 capex"、Nvidia/Broadcom 未来财年指引均为投影/情景（不核验）。⚠️ 格林大华季报图注多处张冠李戴数据来源（编辑瑕疵，不影响已核硬数据）；国信正文将 1998 LTCM 误写为"1990/07-09"（排版笔误）。
 - opportunities_new: 0；两页更新——[[mu-sndk-memory-upcycle-2026-09]] 供给紧张获第二家机构（格林大华）佐证 → new 升 watching；[[ai-infra-power-grid-bottlenecks-2026-09]] 追加"每 GW"量化证据、机构名单 +1（[[green-dahua-futures]]）。
+
+## [2026-09-18] brief | 重跑增补：外资桶补入 All-In/Brad Gerstner（Altimeter）"这不是 2000 泡沫"+"power equipment sold out" 双向切中持仓
+- 背景：09-18 简报已产出并提交（c71b5a0），本次为同日重跑。重扫确认：SEC `sec_fetch --since 2026-09-17` 三家（[[ceg]]/[[tln]]/[[vst]]）**0 新增、0 flags**；东方财富 09-18 策略/宏观/行业已全量扫过，前次已取三篇高信号（东兴/格林大华/国信），其余为 FOMC 点评重复或 A 股/华为链越界。
+- 新增来源（外资桶，前次为空）：重扫 All-In libsyn feed 落地一批嘉宾专访，筛出唯一高信号且直切持仓的一集——[[2026-09-17-all-in-gerstner-no-bubble]]（09-17 发布、会前录制）。经 podscripts.co 取得部分机器转录（~16.6k 字）。
+- pages touched: [[2026-09-17-all-in-gerstner-no-bubble]]（新源）、[[brad-gerstner]]（新人物页）、[[all-in-podcast]]（House view +1）、[[ai-infra-power-grid-bottlenecks-2026-09]]（机构 +1、Who says so +1）、[[ai-power-ipp-bull]]（supporting evidence +1）、[[2026-09-18]] 简报（sources_ingested 3→4、us_equity +1、三仓 note 补 Gerstner 佐证）、index.md、raw/2026-09-17-all-in-gerstner-no-bubble.md、brief/2026-09-18.{html,md}
+- sources ingested: 1（Gerstner／All-In）| filings read: 0 | opportunities new: 0
+- 核实：NVDA ~14× 完税 GAAP、"not 2000"、半导体=纳指 70% ✅（Gerstner 自述框架，FourWeekMBA 佐证）；"两实验室 2028 控 >半算力" ✅（SemiAnalysis/Dylan Patel 投影）；⚠️ 2027 GW 数字为投影且与公开 SemiAnalysis 略有出入（Gerstner 43GW 总/14GW 实验室 vs 公开 ~50GW/~18GW），标注投影不作事实核实。
+- invalidation flags: 无变动，三仓 ok×4（Gerstner 为叙事佐证，非文件/非持仓数字变动）；利率敏感性（Gerstner"10Y 到 5.5% 对股市是重负"）仍属既列风险。
+- 其余同期 All-In 专访（Satya Nadella、Dina Powell McCormick 数据中心、JD Vance、Nick Shirley）按"重信号不注水"未纳入；Apollo Daily Spark 最新 09-16（<SINCE，跳过）。

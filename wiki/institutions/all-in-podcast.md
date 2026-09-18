@@ -6,7 +6,7 @@ aliases: [All-In, All-In Pod, 全能播客, allinpod]
 watch_url: https://allinchamathjason.libsyn.com/rss
 tags: [podcast, tech, macro, venture]
 created: 2026-09-13
-updated: 2026-09-13
+updated: 2026-09-18
 ---
 
 # All-In Podcast
@@ -19,6 +19,7 @@ hosts' personal ones and [[david-sacks]] carries a White House AI-czar conflict.
 [[2026-07-04-allin-ai-sovereignty]].
 
 ## House view (current)
+- 2026-09-17 — guest [[brad-gerstner]] (Altimeter) 市场检阅："**这不是 2000 年泡沫**"，[[nvda]] ~14× 完税 GAAP、行情 earnings-driven（EPS +26%）、**半导体=纳指涨幅 70%**；但整场行情已 priced，胜负取决于 AI 实验室**月度营收**（run-rate $100B→年底需 $180B）；三大风险监管/**电力**/利率，"**power equipment is sold out**"→2027 的 43 GW 扩张太激进（实际 ~25 GW），直接印证 [[ai-power-ipp-bull]]；仓位 medium、"don't Yolo" ([[2026-09-17-all-in-gerstner-no-bubble]]).
 - 2026-07-04 — enterprises should own compute/models/data ([[ai-sovereignty]]); Anthropic/OpenAI model duopoly; AI jobs = displacement not loss ([[2026-07-04-allin-ai-sovereignty]]).
 - 2026-06-27 — HBM/DRAM is the AI bottleneck ([[gavin-baker]]); open-weight fragmentation ([[2026-06-27-allin-china-ai-micron-memory]]).
 - 2026-06-12 — Best Ideas: [[mgm]], [[tln]], [[akts]], [[geod]] ([[2026-06-12-all-in-best-ideas-pitch]]).
@@ -28,4 +29,4 @@ hosts' personal ones and [[david-sacks]] carries a White House AI-czar conflict.
 - TLN pitch 2026-06-12 at ~$382 → ~$315 on 2026-09-11 (−18%); MGM/AKTS/GEOD outcomes not yet tracked.
 
 ## Sources
-[[2026-06-12-all-in-best-ideas-pitch]] · [[2026-06-20-all-in-oligarchs-fable-iran]] · [[2026-06-27-allin-china-ai-micron-memory]] · [[2026-07-04-allin-ai-sovereignty]]
+[[2026-09-17-all-in-gerstner-no-bubble]] · [[2026-06-12-all-in-best-ideas-pitch]] · [[2026-06-20-all-in-oligarchs-fable-iran]] · [[2026-06-27-allin-china-ai-micron-memory]] · [[2026-07-04-allin-ai-sovereignty]]
