@@ -6,7 +6,7 @@ aliases: [东海证券, Donghai Securities, 东海]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-14
-updated: 2026-09-17
+updated: 2026-09-21
 ---
 
 # 东海证券
@@ -17,6 +17,10 @@ CPI / NFP / Fed；另有电子行业团队（方霁）覆盖半导体/消费电�
 (东海期货, a separate entity).
 
 ## House view (current)
+- 2026-09-20 — 资产配置周报（刘思佳）：**如何看待美国炼油企业股价新高**——美国几乎不新建炼厂→供给刚性，
+  叠加全球炼油活动收缩、柴油裂解价差走阔（EIA 9/14 柴油零售 $6.29/加仑创名义新高），VLO/PBF/DK/DINO 股价
+  创历史新高。核心是"**无新增供给 + 需求稳定 → 存量重资产重估**"（与本仓重置成本框架同源）
+  （[[2026-09-20-donghai-us-refiners-highs]]）。
 - 2026-09-17 — **9月FOMC点评"靴子落地"**（刘思佳）：加息 25bp 符合预期（会前 CME >90%），有助**重塑美联储
   独立性、压低长端期限溢价上行风险**；12 票全票、分歧收敛。但**K 型经济 + 劳动力弱平衡不支持周期性连续加息**，
   沃什称金融条件非限制性、本次仅"撤除一部分宽松"。CME：10 月加息约 5 成、年内再加一次接近 9 成
@@ -33,4 +37,4 @@ CPI / NFP / Fed；另有电子行业团队（方霁）覆盖半导体/消费电�
 _none yet_
 
 ## Sources
-[[2026-09-17-donghai-fomc-hike-landed]] · [[2026-09-14-donghai-electronics-tsmc]] · [[2026-09-11-donghai-securities-us-cpi-aug]]
+[[2026-09-20-donghai-us-refiners-highs]] · [[2026-09-17-donghai-fomc-hike-landed]] · [[2026-09-14-donghai-electronics-tsmc]] · [[2026-09-11-donghai-securities-us-cpi-aug]]

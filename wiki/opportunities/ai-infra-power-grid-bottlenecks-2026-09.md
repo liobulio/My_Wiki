@@ -3,14 +3,14 @@ type: opportunity
 ticker:
 title: "主题：AI 基建的瓶颈——电力、电网、数据中心"
 logic: "云厂商明年 AI 支出 >$1.4T、算力容量到 2028 翻两番至 ~120 GW，而电力/电网/芯片是扩张的物理瓶颈——瓶颈环节的定价权高于 AI 应用层。"
-institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]", "[[guosen]]", "[[guojin-securities]]", "[[soochow-securities]]", "[[green-dahua-futures]]", "[[all-in-podcast]]"]
+institutions: ["[[blackrock]]", "[[morgan-stanley]]", "[[goldman-sachs]]", "[[guosen]]", "[[guojin-securities]]", "[[soochow-securities]]", "[[green-dahua-futures]]", "[[all-in-podcast]]", "[[huaxin-securities]]"]
 first_seen: 2026-09-11
 status: watching
 edge: "AI 应用层的回报仍不可验证，但算力扩张的物理瓶颈（电力、电网、数据中心）建设周期长、审批受监管，需求由已公布的 capex 指引锁定——瓶颈资产的定价权高于应用层，而市场按公用事业/周期股给它们估值。"
 catalyst: "云厂商三季报（2026-10 下旬）维持或上修 2027 capex 指引；PJM/ERCOT 大负荷互联新规落地；新的超大规模云厂商 PPA 签约。"
 invalidation: "任一超大规模云厂商下修 capex 指引或推迟数据中心项目；PJM 容量价格上限进一步下调或延长到 2030 以后；AI ROI 证伪导致算力租赁价格（如 B200 小时租金）持续下跌。"
 sources: ["[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]]", "[[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]]", "[[2026-05-28-goldman-sp500-8000]]", "[[2026-09-12-guosen-ai-compute-roi]]", "[[2026-09-13-guojin-compute-mainline-power]]", "[[2026-09-13-soochow-power-scarcity-nuclear-ppa]]"]
-updated: 2026-09-18
+updated: 2026-09-21
 ---
 
 # 主题：AI 基建的瓶颈——电力、电网、数据中心
@@ -39,6 +39,9 @@ updated: 2026-09-18
 - 2026-09-15 需求侧确认（非新机构）：**Oracle Q1 FY27 单季交付 850 MW** 数据中心容量、[[tsm|台积电]] 8 月营收 +53.3% 创高、IEA 全球数据中心用电 2030 翻倍至 945 TWh（[[2026-09-14-donghai-electronics-tsmc]]、[[2026-09-14-dongguan-aidc-power]]）——瓶颈需求由 capex/交付进度持续锁定。
 - 2026-09-17 [[all-in-podcast]]（guest [[brad-gerstner]]，Altimeter）：市场侧确认——"**power equipment is sold out**"、电网互联延迟、许可与地方阻力，使 SemiAnalysis 2027 的 43 GW 扩张"太激进"，实际约 25 GW；全美总算力 <40 GW。一个大型 AI 多头基金亲口承认电力是硬瓶颈，正是本机会的 Edge（[[2026-09-17-all-in-gerstner-no-bubble]]）。
 - 2026-09-18 [[green-dahua-futures|格林大华期货]]：把瓶颈量化到"每 GW"——Nvidia Vera Rubin **每 GW 营收机会 ~$400 亿**、Broadcom 每 GW 算力成本 ~$200–300 亿、SpaceX 目标**在线电力 20 GW**、Oracle 到期 GPU **溢价 20% 续约**；结论"AI 投资或再次加速、全球进入加息周期"（[[2026-09-18-greendh-futures-ai-reaccel]]）。
+- 2026-09-20 [[soochow-securities|东吴证券]]：引 TrendForce 把瓶颈量化到 GW——2026 全球数据中心用电 **161 GW（+31% YoY）**、2030 达 **491 GW**、**供需缺口 268 GW**（电网可供 222.6 GW）；Nebius 10/1 第二轮 GPU 提价印证算力偏紧（[[2026-09-20-soochow-overseas-compute-power]]）。
+- 2026-09-21 [[huaxin-securities|华鑫证券]]：**AI capex 从"算力设备扩容"转向"算力+能源基础设施协同"**，核心矛盾从算力移到电力；电力基础设施"建设周期更长、供给约束更强、与算力同步性更高"，是下一阶段 AI capex 景气最持续环节（[[2026-09-21-huaxin-ai-infra-power]]）。
+- 2026-09-21 信用侧提示（非本机会 Edge，但影响估值）：[[kaiyuan-securities|开源]]/[[guojin-securities|国金]]——Oracle 毛利率降、FCF 自 FY25Q4 转负，Oracle 5Y CDS 219.66、CoreWeave >900 bp；AI 举债的**融资成本**是瓶颈叙事的隐性风险（[[2026-09-20-kaiyuan-oracle-nebius-cds]]、[[2026-09-21-guojin-oracle-rpo-margin]]）。
 
 ## What would kill it
 - 云厂商 capex 指引下修（[[ai-power-ipp-bull]] 的 Invalidation ①）；
@@ -46,4 +49,4 @@ updated: 2026-09-18
 - AI ROI 证伪（[[2026-09-11-apollo-daily-spark-ai-roi]]）。
 
 ## Sources
-[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]] · [[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]] · [[2026-05-28-goldman-sp500-8000]] · [[2026-09-17-all-in-gerstner-no-bubble]]
+[[2026-09-08-blackrock-bii-weekly-japan-us-bonds]] · [[2026-09-09-morgan-stanley-nowak-ai-spending-payoff]] · [[2026-05-28-goldman-sp500-8000]] · [[2026-09-17-all-in-gerstner-no-bubble]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-21-huaxin-ai-infra-power]] · [[2026-09-20-kaiyuan-oracle-nebius-cds]]

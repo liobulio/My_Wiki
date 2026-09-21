@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-21]] — **AI 资本开支的两面：电力更紧 vs 融资更贵**：需求面 [[soochow-securities|东吴]]引 TrendForce（2026 数据中心用电 161 GW/+31%、2030 缺口 268 GW ✅）+ [[huaxin-securities|华鑫]]"核心矛盾从算力移到电力"；融资面 [[kaiyuan-securities|开源]]（Oracle RPO $664B ✅、但算力厂商 CDS 走阔：Oracle 219.66/CoreWeave >900bp）+ [[guojin-securities|国金]]（Oracle 毛利率降/FCF 转负）；非 AI 重置成本案例 [[donghai-securities|东海]]美国炼油商新高（柴油裂解创纪录 ✅）→ 新机会 [[us-refiners-replacement-cost-2026-09]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-21.html`
 - [[2026-09-18]] — **加息落地次日，叙事转回"AI 资本开支还能加速多久"**：[[green-dahua-futures|格林大华期货]]把 AI 需求量化到每 GW（Nebius GPU 再涨 ~20%/B300 年内 +56% ✅、Broadcom AI $16.7B +221% ✅、Nvidia Vera Rubin ~$400 亿/GW、SpaceX 目标 20 GW 在线电力、SK 海力士短缺至 2030）；[[dongxing-securities|东兴]]"加息防高油价扩散、不排除年内连续加息、10Y 4.7–5%"vs [[donghai-securities|东海]]"不支持连续加息"；[[guosen|国信策略]]"美股长牛背后大小熊"（小熊 −23.5%/3.4 月，非终结长牛）；重跑补入外资桶 [[brad-gerstner|All-In/Gerstner]]"这不是 2000 泡沫"+"power equipment sold out"双向切中；SEC 零新增、Invalidation ok×4 → `brief/2026-09-18.html`
 - [[2026-09-17]] — **靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**（2023-07 以来首次）；点阵图 16/18 年内看再加、2028 才降息；后续路径三种落点：[[guosen|国信]]（转"不排除年内再加一次"△）/[[spdb-international|浦银]]"暗含后续或再加"、[[boci|中银]]/[[donghai-securities|东海]]"点阵图不及市场·K 型不支持连续加息"、[[dongfang-jincheng|东方金诚]]"一次预防性加息→高利率平台观察期"；[[yuekai-securities|粤开]]泰勒规则 3.88% vs 4.09%、直指"AI 牛市能否免疫高利率"；SEC 零新增、Invalidation ok×4 → `brief/2026-09-17.html`
 - [[2026-09-16]] — FOMC 今日开会（9/16–17）；10Y 一度触及 **5.04%**（2007 以来首次）后回落；[[spdb-international|浦银国际]]策略：利率上行有序、系统性风险低、**AI 仍是主线**（Q3 +28.7%）；[[dongxing-securities|东兴]]：**不排除连续加息**、10Y 目标 4.7–5%；SEC 零新增、Invalidation ok×4 → `brief/2026-09-16.html`
@@ -36,12 +37,13 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[ai-power-ipp-bull]] — shared bull thesis for CEG/TLN/VST: nuclear-heavy IPPs below replacement cost into rising power demand; catalyst = hyperscaler PPAs; 4 condition-based invalidations (human's own words, 2026-09-11)
 
 ## Opportunities
-- [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（**watching** 2026-09-18；格林大华佐证供给侧——SK 海力士短缺至 2030、DRAM+HBM 2027 产能售罄；含提案版 Edge/Catalyst/Invalidation）
-- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛 + 国信/国金/东吴内资佐证；2026-09-18 格林大华把瓶颈量化到每 GW（Vera Rubin ~$400 亿/GW、SpaceX 20 GW）（**watching**；含提案版 Thesis Test）
+- [[us-refiners-replacement-cost-2026-09]] — 美国独立炼油商（VLO/PBF/DK/DINO）：供给刚性下的存量重估——美国几乎不新建炼厂 + 柴油裂解创纪录（$102.20/桶 ✅）→ 与电力 IPP 同源的重置成本框架（**new** 2026-09-21，[[donghai-securities|东海]]；含提案版 Edge/Catalyst/Invalidation）
+- [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（**watching** 2026-09-21；格林大华 + 开源"长约锁供给"佐证——SK 海力士短缺至 2030、DRAM+HBM 2027 产能售罄；含提案版 Edge/Catalyst/Invalidation）
+- [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛 + 国信/国金/东吴/华鑫内资佐证；2026-09-20 东吴引 TrendForce 缺口 268 GW、信用侧 CDS 走阔提示（**watching** 2026-09-21；含提案版 Thesis Test）
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）；持仓长久期现金流的利率敏感性来源
@@ -109,6 +111,12 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-20-soochow-overseas-compute-power]] — 东吴证券（陈海进）海外算力周跟踪"算力提价与电力趋紧并行"：Nebius 10/1 第二轮提价（H100+17%/B300+21%）；引 TrendForce——2026 数据中心用电 161 GW/+31%、2030 491 GW、缺口 268 GW ✅；格芯–Marvell 硅锗卡位 CPO/NPO（[[ceg]]/[[tln]]/[[vst]]）
+- [[2026-09-21-huaxin-ai-infra-power]] — 华鑫证券（臧天律）电力设备周报："AI 基建核心矛盾从算力移到电力"；capex 从"算力设备扩容"转向"算力+能源协同"；电力基础设施是下一阶段景气持续性最强环节，维持"推荐"（[[ceg]]/[[tln]]/[[vst]]）
+- [[2026-09-20-kaiyuan-oracle-nebius-cds]] — 开源证券（初敏）综合周报："Oracle 云基建翻倍、Nebius 再提价、算力厂商 CDS 走阔"：Oracle RPO $664B ✅、但 Oracle 5Y CDS 219.66/CoreWeave >900bp、Oracle FCF 转负；判断"竞争从规模扩张转向营收质量与盈利能力"（[[ai-power-ipp-bull]] 利率/融资敏感性前哨）
+- [[2026-09-21-guojin-oracle-rpo-margin]] — 国金证券 AI 周观察"Oracle 逐渐兑现 RPO"：单季交付 850MW/30 万 GPU、OCI 利用率 97.9%、约一半 RPO 未来 36 月兑现；软肋——"毛利率正在降低、FCF 自 FY25Q4 转负"（与开源 CDS 互补）
+- [[2026-09-20-kaiyuan-storage-upcycle]] — 开源证券（张越）计算机周报"AI 需求驱动存储景气上行"：SRAM/DRAM/NAND 分层协同；关键"云厂商长约锁定供应→存储价格与议价权获支撑"——为 [[mu-sndk-memory-upcycle-2026-09]] 添第三家佐证
+- [[2026-09-20-donghai-us-refiners-highs]] — 东海证券（刘思佳）资产配置周报"如何看待美国炼油企业股价新高"：美国几乎不新建炼厂→供给刚性 + 柴油裂解创纪录 ✅，VLO/PBF/DK/DINO 新高；"无新增供给+需求稳定→存量重估"与电力 IPP 同源（新机会 [[us-refiners-replacement-cost-2026-09]]）
 - [[2026-09-17-all-in-gerstner-no-bubble]] — All-In（嘉宾 [[brad-gerstner]]／Altimeter）"这不是 2000 年泡沫"市场检阅：NVDA ~14× 完税 GAAP、半导体=纳指涨幅 70%、行情盈利驱动；胜负系于 AI 实验室月度营收（run-rate $100B→年底需 $180B）；"power equipment is sold out"→2027 年 43 GW 太激进（~25 GW），亲口确认 firm 电力稀缺（[[ceg]]/[[tln]]/[[vst]]）
 - [[2026-09-18-greendh-futures-ai-reaccel]] — 格林大华期货（于军礼）季报"AI 投资或再次加速"：Nebius GPU 涨 ~20%/B300 +56% ✅、Broadcom AI $16.7B +221% ✅、Nvidia Vera Rubin ~$400 亿/GW、SpaceX 20 GW 在线电力、SK 海力士短缺至 2030；结论"全球进入加息周期，债市是金丝雀"——强化 AI 电力/内存稀缺（[[ceg]]/[[tln]]/[[vst]]/[[mu]]）
 - [[2026-09-18-dongxing-fomc-oil]] — 东兴证券（康明怡）9 月 FOMC 点评"加息以防止高油价压力扩散"：政策利率处"宽松临界"、若油价高企不排除年内连续加息、维持 10Y 4.7–5%、本次加息对美股影响不大；与东海"不支持连续加息"形成张力

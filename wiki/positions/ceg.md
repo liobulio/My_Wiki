@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-18
+updated: 2026-09-21
 ---
 
 # CEG — Constellation Energy (open position)
@@ -46,3 +46,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-16 — brief：`sec_fetch.py --since 2026-09-15` **无新增 8-K/10-Q/10-K、0 flags**。RISEC 收购 8-K 尚未到披露窗口，下期继续盯。今日进入 **FOMC 会议（9/16–17）**；10Y 美债 9/14 一度触及 **5.04%** 后回落（[[us-treasury-10y]]），[[2026-09-16-spdb-intl-rates-equity|浦银]]判断上行有序、系统性风险低、AI 仍是主线，而 [[2026-09-16-dongxing-cpi-continuous-hike|东兴]]警示不排除连续加息、10Y 目标上探 5%——长久期现金流利率敏感性抬升属 [[ai-power-ipp-bull]] **既列风险**，非 Invalidation。无监管/合约事件触及四条失效条件。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-17 — brief：`sec_fetch.py --since 2026-09-16` **无新增 8-K/10-Q/10-K、0 flags**。**FOMC 靴子落地——9/16 加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**，点阵图/SEP 暗示年内或再加 25bp（[[2026-09-17-spdb-intl-fomc-hike-hawkish]]、[[2026-09-17-guosen-fomc-warsh]]、[[2026-09-17-boci-fomc-less-optimistic]]、[[2026-09-17-donghai-fomc-hike-landed]]）。加息当日美股走弱、长短端美债齐升——**长久期现金流利率敏感性抬升属 [[ai-power-ipp-bull]] 既列风险，非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。无监管/合约事件触及四条失效条件。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-18 — brief：`sec_fetch.py --since 2026-09-17` **无新增 8-K/10-Q/10-K、0 flags**。需求侧再获强化：[[2026-09-18-greendh-futures-ai-reaccel|格林大华期货]]把 AI 电力需求量化到"每 GW"——Nvidia Vera Rubin 每 GW 营收机会 ~$400 亿、SpaceX 目标在线电力 **20 GW**、Oracle 单季 850 MW/GPU 溢价 20% 续约——firm 电力稀缺逻辑持续被 capex 与交付进度锁定（不触发任何 Invalidation）。宏观：[[2026-09-18-dongxing-fomc-oil|东兴]]"加息防高油价扩散、不排除年内连续加息、10Y 4.7–5%"——利率敏感性抬升属既列风险，非 Invalidation。RISEC 收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-21 — brief：`sec_fetch.py --since 2026-09-18` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。电力稀缺逻辑再获两家内资量化背书：[[2026-09-20-soochow-overseas-compute-power|东吴]] 引 TrendForce——2026 全球数据中心用电 **161 GW（+31% YoY）**、2030 达 491 GW、**供需缺口 268 GW**（电网可供 222.6 GW，已核实）；[[2026-09-21-huaxin-ai-infra-power|华鑫]] 判断"AI capex 核心矛盾从算力移到电力"。均利好 firm 供给稀缺（不触发任何 Invalidation）。⚠️ 新风险面（非 Invalidation）：[[2026-09-20-kaiyuan-oracle-nebius-cds|开源]]/[[2026-09-21-guojin-oracle-rpo-margin|国金]] 指 AI 基建融资端承压——Oracle 5Y CDS 219.66、CoreWeave >900bp、Oracle FCF 自 FY25Q4 转负——AI 举债推高折现率，属 [[ai-power-ipp-bull]] **既列的利率/融资敏感性风险**。Invalidation 状态：ok/ok/ok/ok（不变）。

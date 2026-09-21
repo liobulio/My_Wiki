@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-18
+updated: 2026-09-21
 ---
 
 # TLN — Talen Energy (open position)
@@ -46,3 +46,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-16 — brief：`sec_fetch.py --since 2026-09-15` **无新增文件、0 flags**。⚠️ 未解：6→9 月 −18% 仍未追溯到具体 catalyst，下期继续优先。今日进入 **FOMC（9/16–17）**；10Y 9/14 一度触及 **5.04%** 后回落（[[us-treasury-10y]]），[[2026-09-16-spdb-intl-rates-equity|浦银]]判上行有序/AI 仍是主线、[[2026-09-16-dongxing-cpi-continuous-hike|东兴]]警示连续加息——利率敏感性属既列风险，非 Invalidation。无监管/合约事件触及失效条件。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-17 — brief：`sec_fetch.py --since 2026-09-16` **无新增文件、0 flags**。**FOMC 加息 25bp 至 3.75%–4.00%、12–0 偏鹰兑现**（[[2026-09-17-guosen-fomc-warsh]] 等四家）；加息当日美股跌、美债齐升——利率敏感性属既列风险，非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。firm baseload 稀缺逻辑不变，无监管/合约事件触及失效条件。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-18 — brief：`sec_fetch.py --since 2026-09-17` **无新增文件、0 flags**。需求侧继续走强：[[2026-09-18-greendh-futures-ai-reaccel|格林大华期货]]汇集 Nebius GPU 云再涨 ~20%（B300 年内 +56%）、Broadcom AI 收入 +221%、SpaceX 目标 20 GW 在线电力——AI 负荷把 firm baseload 推向持续偏紧，利好 TLN 未签约的可调度容量（不触发失效条件）。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。宏观利率敏感性（[[2026-09-18-dongxing-fomc-oil|东兴]] 维持 10Y 4.7–5%）属既列风险，非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-21 — brief：`sec_fetch.py --since 2026-09-18` **无新增文件、0 flags**。firm baseload 稀缺再获量化佐证：[[2026-09-20-soochow-overseas-compute-power|东吴]] 引 TrendForce（2030 数据中心用电缺口 **268 GW**）、[[2026-09-21-huaxin-ai-infra-power|华鑫]]"矛盾从算力移到电力"——利好 TLN 未签约的可调度容量（Susquehanna–AWS 之外仍有余量）。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。新风险面：AI 基建融资端 CDS 走阔（[[2026-09-20-kaiyuan-oracle-nebius-cds|开源]]）——属既列利率/融资敏感性风险，非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。

@@ -202,3 +202,14 @@ grep "^## \[" log.md | tail -5
 - 核实：NVDA ~14× 完税 GAAP、"not 2000"、半导体=纳指 70% ✅（Gerstner 自述框架，FourWeekMBA 佐证）；"两实验室 2028 控 >半算力" ✅（SemiAnalysis/Dylan Patel 投影）；⚠️ 2027 GW 数字为投影且与公开 SemiAnalysis 略有出入（Gerstner 43GW 总/14GW 实验室 vs 公开 ~50GW/~18GW），标注投影不作事实核实。
 - invalidation flags: 无变动，三仓 ok×4（Gerstner 为叙事佐证，非文件/非持仓数字变动）；利率敏感性（Gerstner"10Y 到 5.5% 对股市是重负"）仍属既列风险。
 - 其余同期 All-In 专访（Satya Nadella、Dina Powell McCormick 数据中心、JD Vance、Nick Shirley）按"重信号不注水"未纳入；Apollo Daily Spark 最新 09-16（<SINCE，跳过）。
+
+## [2026-09-21] brief | AI 资本开支的两面：电力更紧（东吴 TrendForce 268GW 缺口/华鑫"矛盾从算力移到电力"）vs 融资更贵（开源 CDS 走阔/国金 Oracle 毛利率降）；新机会 美国炼油商重置成本
+- SINCE = 2026-09-18（上期简报，独占）。周一取东方财富研报中心 09-19/09-20/09-21 策略/宏观/行业；09-18 报告多为 FOMC 后续点评（上期已覆盖），不重复。按"重信号不注水"选 6 篇。
+- sources ingested: 6 | filings read: 0 | opportunities new: 1
+- 新增来源：[[2026-09-20-soochow-overseas-compute-power]]（东吴·电力趋紧，TrendForce 161GW/+31%、2030 缺口 268GW）、[[2026-09-21-huaxin-ai-infra-power]]（华鑫·电力设备）、[[2026-09-20-kaiyuan-storage-upcycle]]（开源·存储）、[[2026-09-20-kaiyuan-oracle-nebius-cds]]（开源·Oracle/Nebius/CDS）、[[2026-09-21-guojin-oracle-rpo-margin]]（国金·Oracle 毛利率/FCF）、[[2026-09-20-donghai-us-refiners-highs]]（东海·美国炼油商新高）
+- 新机构页：[[kaiyuan-securities]]（开源证券）、[[huaxin-securities]]（华鑫证券）。institution House view 更新：[[soochow-securities]]、[[guojin-securities]]、[[donghai-securities]]。
+- 新机会页：[[us-refiners-replacement-cost-2026-09]]（东海，status new，已填提案 edge/catalyst/invalidation）。更新机会页：[[ai-infra-power-grid-bottlenecks-2026-09]]（+东吴 TrendForce/+华鑫/+信用侧 CDS 提示、机构 +1）、[[mu-sndk-memory-upcycle-2026-09]]（+开源"长约锁供给"、机构 +1）。
+- pages touched: 上述 6 源 + 2 新机构 + 3 机构更新 + 1 新机会 + 2 机会更新 + [[ceg]]/[[tln]]/[[vst]]（Update history +1、ok×4 不变）、[[2026-09-21]] 简报、index.md、raw/（6 份 pdftotext 抽取文本）、brief/2026-09-21.{html,md}、brief/README.md
+- 核实：Oracle FY27Q1 营收 $19.3B+30%/OCI+121%/RPO $664B（+$209B YoY）/EPS $1.92/指引 ≥$90B ✅（Oracle 官方 2026-09-10）；TrendForce 2026 用电 161GW/+31%、2030 491GW、缺口 268GW ✅；美国柴油裂解创纪录（ULSD 一度 $102.20/桶）✅。⚠️ CoreWeave CDS 报告"900bp"vs 公开 ~855bp（取盘中高点、标近似）；⚠️ 东海炼油个股 YTD 涨幅（VLO+158% 等）高于 Benzinga/CNBC 的 +80%+，可能取不同基点，标"偏高待核实"（"创新高"方向无争议）。
+- invalidation flags: 无变动，三仓 ok×4（无新增 SEC 文件、0 flags；新研报为叙事佐证，非文件/持仓数字变动）；利率/融资敏感性（AI 举债推高折现率、算力厂商 CDS 走阔）仍属既列风险，非 Invalidation。
+- 未取到的桶：macro=[]（本窗口无专门宏观策略新源）；外资——Apollo Daily Spark RSS 仅返回无日期播客条目、Goldman AM Pulse 最新 09-08（<SINCE）、Goldman/MS 客户端页仅见旧年度 S&P 目标、All-In 无窗口内新集转录——均记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
