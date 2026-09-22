@@ -6,15 +6,20 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 
 # 东吴证券
 
 ## Who
-苏州的中型券商；电子/存储团队（张良卫）；另有汽零/机器人/"缺电主线"团队（黄细里）维护 AIDC 缺电指数。
+苏州的中型券商；电子/存储团队（张良卫）；另有汽零/机器人/"缺电主线"团队（黄细里）维护 AIDC 缺电指数；
+策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-09-22 — 美股周观点（策略 陈梦/葛晓媛）：**加息落地后如何应对**——只要加息周期温和，股市应**更多锚定
+  盈利而非利率**，利率上行"更多压制科技股估值，而非改变 AI 产业景气和盈利趋势"，**看好大盘科技/通信服务**；
+  当前经济**不具备连续加息基础**；核心风险是 AI 债务融资成本上升与**油价**（Brent $104.87、霍尔木兹受限、
+  美国柴油创纪录）。⚠️ 上周美股**公用事业领跌**（利率驱动）。下周关注中美元首会晤（[[2026-09-22-soochow-us-weekly-post-hike]]）。
 - 2026-09-20 — 海外算力周跟踪（电子 陈海进）：**算力提价与电力趋紧并行**——Nebius 10/1 第二轮全线提价
   （H100 +17%、B300 +21%）；引 TrendForce：2026 全球数据中心用电 **161 GW（+31% YoY）**、2030 达 491 GW、
   **缺口 268 GW**，"用电高增 vs 并网/输电扩容错配"成算力落地核心瓶颈；格芯–Marvell 硅锗扩产卡位 CPO/NPO
@@ -32,4 +37,4 @@ updated: 2026-09-21
 _none yet_
 
 ## Sources
-[[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]

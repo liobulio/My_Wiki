@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-22]] — **加息落地后如何应对：利率压估值 ≠ 改 AI 景气**：利率面 [[guoxin-securities|国新]]补齐 FOMC 当日定价（10Y 收 5.021% 新高、10 月加息概率近 60%、"加息非治本之策"）+ [[soochow-securities|东吴]]"不具备连续加息基础、股市回归盈利锚、看好大盘科技"（⚠️ 上周美股公用事业领跌）；需求面 [[china-post-securities|中邮]]引 **IAEA 连续第六年上调核电装机**（2050 高 1045 GW/2060 1284 GW ✅）+ [[pacific-securities|太平洋]] AMAT FY26Q3（DRAM 占比 22%→26%、含 HBM 封装 +52% YoY ✅）；新建 [[amat]] 资产页、[[guoxin-securities]]/[[china-post-securities]] 机构页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-22.html`
 - [[2026-09-21]] — **AI 资本开支的两面：电力更紧 vs 融资更贵**：需求面 [[soochow-securities|东吴]]引 TrendForce（2026 数据中心用电 161 GW/+31%、2030 缺口 268 GW ✅）+ [[huaxin-securities|华鑫]]"核心矛盾从算力移到电力"；融资面 [[kaiyuan-securities|开源]]（Oracle RPO $664B ✅、但算力厂商 CDS 走阔：Oracle 219.66/CoreWeave >900bp）+ [[guojin-securities|国金]]（Oracle 毛利率降/FCF 转负）；非 AI 重置成本案例 [[donghai-securities|东海]]美国炼油商新高（柴油裂解创纪录 ✅）→ 新机会 [[us-refiners-replacement-cost-2026-09]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-21.html`
 - [[2026-09-18]] — **加息落地次日，叙事转回"AI 资本开支还能加速多久"**：[[green-dahua-futures|格林大华期货]]把 AI 需求量化到每 GW（Nebius GPU 再涨 ~20%/B300 年内 +56% ✅、Broadcom AI $16.7B +221% ✅、Nvidia Vera Rubin ~$400 亿/GW、SpaceX 目标 20 GW 在线电力、SK 海力士短缺至 2030）；[[dongxing-securities|东兴]]"加息防高油价扩散、不排除年内连续加息、10Y 4.7–5%"vs [[donghai-securities|东海]]"不支持连续加息"；[[guosen|国信策略]]"美股长牛背后大小熊"（小熊 −23.5%/3.4 月，非终结长牛）；重跑补入外资桶 [[brad-gerstner|All-In/Gerstner]]"这不是 2000 泡沫"+"power equipment sold out"双向切中；SEC 零新增、Invalidation ok×4 → `brief/2026-09-18.html`
 - [[2026-09-17]] — **靴子落地：美联储加息 25bp 至 3.75%–4.00%、12–0 全票、偏鹰**（2023-07 以来首次）；点阵图 16/18 年内看再加、2028 才降息；后续路径三种落点：[[guosen|国信]]（转"不排除年内再加一次"△）/[[spdb-international|浦银]]"暗含后续或再加"、[[boci|中银]]/[[donghai-securities|东海]]"点阵图不及市场·K 型不支持连续加息"、[[dongfang-jincheng|东方金诚]]"一次预防性加息→高利率平台观察期"；[[yuekai-securities|粤开]]泰勒规则 3.88% vs 4.09%、直指"AI 牛市能否免疫高利率"；SEC 零新增、Invalidation ok×4 → `brief/2026-09-17.html`
@@ -43,10 +44,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
-- [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）；持仓长久期现金流的利率敏感性来源
+- [[amat]] — Applied Materials；WFE 设备龙头，DRAM/HBM/先进封装订单占比是 AI 存储 capex 上游读数；FY26Q3 DRAM 占比 22%→26%（含 HBM 封装 +52% YoY）
+- [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）、FOMC 后收 5.021% 新高；持仓长久期现金流的利率敏感性来源
 - [[gme]] — GameStop; collectibles turnaround + $9.7B cash; Cohen's $56B eBay bid; meme/vibes premium
 - [[ebay]] — eBay; marketplace "great asset, poorly run"; target of GameStop's $56B (rejected) bid
 - [[hhh]] — Howard Hughes; Ackman's "Berkshire 2.0" — real-estate compounder + insurance flywheel
@@ -111,6 +113,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-22-soochow-us-weekly-post-hike]] — 东吴证券（陈梦/葛晓媛）美股周观点"加息落地后如何应对"：加息温和则**股市锚定盈利而非利率**、利率压科技股估值不改 AI 景气，看好大盘科技/通信服务；不具备连续加息基础；核心风险 AI 债务融资成本 + 油价；⚠️ 上周美股公用事业领跌（[[ceg]]/[[tln]]/[[vst]]）
+- [[2026-09-22-cpost-iaea-nuclear-uprate]] — 中邮证券（苏千叶等）电力设备点评："IAEA 第六次上调核电装机预期"——2050 高情景 1045 GW（去年 992）、2060 1284 GW/低 696 GW、SMR 120/284 GW ✅；驱动能源安全+可负担转型；为 [[ai-power-ipp-bull]] 需求侧宏观佐证（标的为 A 股核电设备）
+- [[2026-09-22-guoxin-sec-fed-hawkish-hike]] — 国新证券（郝大明）9 月 FOMC 解读"3 年首次加息且鹰派"：补齐市场定价 10Y 收 5.021% 新高/2Y 4.725%/10 月加息概率近 60%；独家判断"加息非治本之策"（通胀源自中东油价、续加取决战事）；A 股公用事业等类债防御
+- [[2026-09-22-pacific-electronics-ai-memory]] — 太平洋证券（张世杰）电子点评 AMAT FY26Q3：营收 $91.15 亿(+24.8%)、**DRAM 占比 22%→26%（含 HBM 封装 +52% YoY 创纪录）**、6 款 DRAM/先进封装新设备配 12/16 层 HBM；AI 存储 capex 回暖设备侧实证（[[amat]]、[[mu-sndk-memory-upcycle-2026-09]]；⚠️ EPS 口径 GAAP $3.17 vs 非 GAAP $3.50）
 - [[2026-09-20-soochow-overseas-compute-power]] — 东吴证券（陈海进）海外算力周跟踪"算力提价与电力趋紧并行"：Nebius 10/1 第二轮提价（H100+17%/B300+21%）；引 TrendForce——2026 数据中心用电 161 GW/+31%、2030 491 GW、缺口 268 GW ✅；格芯–Marvell 硅锗卡位 CPO/NPO（[[ceg]]/[[tln]]/[[vst]]）
 - [[2026-09-21-huaxin-ai-infra-power]] — 华鑫证券（臧天律）电力设备周报："AI 基建核心矛盾从算力移到电力"；capex 从"算力设备扩容"转向"算力+能源协同"；电力基础设施是下一阶段景气持续性最强环节，维持"推荐"（[[ceg]]/[[tln]]/[[vst]]）
 - [[2026-09-20-kaiyuan-oracle-nebius-cds]] — 开源证券（初敏）综合周报："Oracle 云基建翻倍、Nebius 再提价、算力厂商 CDS 走阔"：Oracle RPO $664B ✅、但 Oracle 5Y CDS 219.66/CoreWeave >900bp、Oracle FCF 转负；判断"竞争从规模扩张转向营收质量与盈利能力"（[[ai-power-ipp-bull]] 利率/融资敏感性前哨）

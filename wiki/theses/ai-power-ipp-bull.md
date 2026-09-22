@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-18
+updated: 2026-09-22
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -58,6 +58,10 @@ See [[ai-power-demand]].
   permitting the binding constraint — enough that even the leading labs' 2027 build (43 GW) is
   "too aggressive" (~25 GW real); total US compute "<40 GW". A demand-side buyer conceding the
   supply squeeze ([[2026-09-17-all-in-gerstner-no-bubble]]).
+- Nuclear-demand backdrop (2026-09-22): **IAEA 连续第六年上调**全球核电装机预期——2050 高情景 1045 GW（去年 992）、
+  2060 高情景 1284 GW（~3.4× 2025 的 377 GW），驱动为能源安全 + 可负担转型（[[2026-09-22-cpost-iaea-nuclear-uprate]]，✅ 已核）。
+  权威机构对 firm、carbon-free 电力长期需求的上修，与本仓存量核电稀缺定价同向（供给侧扩张主要在 2030 后的 SMR/新建，
+  不改变本十年存量 firm 电力偏紧）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

@@ -213,3 +213,14 @@ grep "^## \[" log.md | tail -5
 - 核实：Oracle FY27Q1 营收 $19.3B+30%/OCI+121%/RPO $664B（+$209B YoY）/EPS $1.92/指引 ≥$90B ✅（Oracle 官方 2026-09-10）；TrendForce 2026 用电 161GW/+31%、2030 491GW、缺口 268GW ✅；美国柴油裂解创纪录（ULSD 一度 $102.20/桶）✅。⚠️ CoreWeave CDS 报告"900bp"vs 公开 ~855bp（取盘中高点、标近似）；⚠️ 东海炼油个股 YTD 涨幅（VLO+158% 等）高于 Benzinga/CNBC 的 +80%+，可能取不同基点，标"偏高待核实"（"创新高"方向无争议）。
 - invalidation flags: 无变动，三仓 ok×4（无新增 SEC 文件、0 flags；新研报为叙事佐证，非文件/持仓数字变动）；利率/融资敏感性（AI 举债推高折现率、算力厂商 CDS 走阔）仍属既列风险，非 Invalidation。
 - 未取到的桶：macro=[]（本窗口无专门宏观策略新源）；外资——Apollo Daily Spark RSS 仅返回无日期播客条目、Goldman AM Pulse 最新 09-08（<SINCE）、Goldman/MS 客户端页仅见旧年度 S&P 目标、All-In 无窗口内新集转录——均记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
+
+## [2026-09-22] brief | 加息落地后如何应对——东吴"股市锚定盈利而非利率、利率压估值≠改AI景气"vs国新"10Y收5.021%新高/10月加息概率近60%、加息非治本"；需求侧IAEA第六次上调核电装机 + AMAT FY26Q3 HBM设备放量；SEC三家0新增、Invalidation ok×4
+- SINCE = 2026-09-21（上期简报，独占）。周一取东方财富研报中心 09-21/09-22 策略/宏观/行业（宏观 qType=3 当日 0 命中）；多篇"加息利空落地"策略周报与 09-17 FOMC 复盘重叠，仅取国新（含新增市场定价+"非治本"独家判断）代表当日宏观。按"重信号不注水"选 4 篇。
+- sources ingested: 4 | filings read: 0 | opportunities new: 0
+- 新增来源：[[2026-09-22-soochow-us-weekly-post-hike]]（东吴·美股周观点·加息落地后如何应对）、[[2026-09-22-cpost-iaea-nuclear-uprate]]（中邮·IAEA 第六次上调核电装机）、[[2026-09-22-guoxin-sec-fed-hawkish-hike]]（国新·9 月 FOMC 解读）、[[2026-09-22-pacific-electronics-ai-memory]]（太平洋·AMAT FY26Q3）
+- 新机构页：[[china-post-securities]]（中邮证券）、[[guoxin-securities]]（国新证券，注意与既有 [[guosen|国信证券]] 区分）。institution House view 更新：[[soochow-securities]]、[[pacific-securities]]。
+- 新资产页：[[amat]]（Applied Materials，stub）。资产更新：[[us-treasury-10y]]（+10Y 收 5.021% 新高、2Y 4.725%、10 月加息概率近 60%）。thesis 支撑证据 +1：[[ai-power-ipp-bull]]（IAEA 核电需求上修）。机会更新：[[mu-sndk-memory-upcycle-2026-09]]（+太平洋 AMAT 设备侧佐证、机构 +1）。
+- pages touched: 上述 4 源 + 2 新机构 + 2 机构更新 + 1 新资产 + [[us-treasury-10y]] + [[ai-power-ipp-bull]] + [[mu-sndk-memory-upcycle-2026-09]] + [[ceg]]/[[tln]]/[[vst]]（Update history +1、ok×4 不变）、[[2026-09-22]] 简报、index.md、raw/（4 份 pdftotext 抽取文本）、brief/2026-09-22.{html,md}、brief/README.md
+- 核实：IAEA 连续第六年上调、2050 高情景 1045GW（去年 992）、2060 高 1284GW/低 696GW ✅（IAEA/World Nuclear News，2025 基准 377.1GW/413 台）；AMAT FY26Q3 营收 ~$9.12B(+25%)、DRAM 含 HBM 封装 +52% YoY 创纪录、Q4 指引中值 $10.25B ✅；8 月零售 +1.2%（预期 0.8%）✅；FOMC 25bp 至 3.75%–4.00%、10Y ~5.02% 新高 ✅（09-17 已核）。⚠️ 东吴柴油 $6.45/加仑高于最近确认值（9/7 $5.967、EIA 9/14 $6.29），点位偏高待核（"创纪录"方向无争议）；⚠️ 东吴 Brent $104.87/WTI $100.30 为周内数（EIA 8 月 Brent 均价 ~$91），未逐日核；⚠️ AMAT EPS 口径——太平洋 GAAP $3.17(+43%) vs 公司非 GAAP $3.50(+41%)，引用须注明。
+- invalidation flags: 无变动，三仓 ok×4（无新增 SEC 文件、0 flags；IAEA/AMAT 为需求侧佐证，利率上行属既列利率/融资敏感性风险，均非 Invalidation）。⚠️ 记：东吴指上周美股公用事业领跌（利率驱动的估值波动），本仓 IPP 短期或同此——属估值层面，不触及四条失效条件。
+- 未取到的桶：macro 仅 1 篇（国新，其余当日加息复盘与上期重叠）；剔除 09-22 太平洋《新能源+AI·十五五新型电力系统》（中国储能政策/A 股主题，出范围）；外资——Apollo Daily Spark RSS 窗口内无新条目（最新 09-16）、Goldman/MS/BlackRock 客户端页与 All-In 无窗口内新内容——均记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
