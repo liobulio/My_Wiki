@@ -224,3 +224,14 @@ grep "^## \[" log.md | tail -5
 - 核实：IAEA 连续第六年上调、2050 高情景 1045GW（去年 992）、2060 高 1284GW/低 696GW ✅（IAEA/World Nuclear News，2025 基准 377.1GW/413 台）；AMAT FY26Q3 营收 ~$9.12B(+25%)、DRAM 含 HBM 封装 +52% YoY 创纪录、Q4 指引中值 $10.25B ✅；8 月零售 +1.2%（预期 0.8%）✅；FOMC 25bp 至 3.75%–4.00%、10Y ~5.02% 新高 ✅（09-17 已核）。⚠️ 东吴柴油 $6.45/加仑高于最近确认值（9/7 $5.967、EIA 9/14 $6.29），点位偏高待核（"创纪录"方向无争议）；⚠️ 东吴 Brent $104.87/WTI $100.30 为周内数（EIA 8 月 Brent 均价 ~$91），未逐日核；⚠️ AMAT EPS 口径——太平洋 GAAP $3.17(+43%) vs 公司非 GAAP $3.50(+41%)，引用须注明。
 - invalidation flags: 无变动，三仓 ok×4（无新增 SEC 文件、0 flags；IAEA/AMAT 为需求侧佐证，利率上行属既列利率/融资敏感性风险，均非 Invalidation）。⚠️ 记：东吴指上周美股公用事业领跌（利率驱动的估值波动），本仓 IPP 短期或同此——属估值层面，不触及四条失效条件。
 - 未取到的桶：macro 仅 1 篇（国新，其余当日加息复盘与上期重叠）；剔除 09-22 太平洋《新能源+AI·十五五新型电力系统》（中国储能政策/A 股主题，出范围）；外资——Apollo Daily Spark RSS 窗口内无新条目（最新 09-16）、Goldman/MS/BlackRock 客户端页与 All-In 无窗口内新内容——均记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
+
+## [2026-09-23] brief | AI 行情"1998 而非 2000"——中银 FCF 分化框架 + 华鑫 NVDA/AVGO 硬件端强现金流实证
+- sources ingested: 4 — [[2026-09-22-boci-ai-mainline-recheck]]（中银·AI 主线再审视，头条）、[[2026-09-23-huaxin-nvda-rubin]]（华鑫·NVDA FY27Q2）、[[2026-09-23-huaxin-avgo-ai-semi]]（华鑫·AVGO FY26Q3）、[[2026-09-23-dongfang-jincheng-overseas-hike]]（东方金诚·海外周报）
+- pages touched: [[2026-09-23]] brief · 4 source pages · institutions [[boci]]/[[dongfang-jincheng]]/[[huaxin-securities]] · assets [[avgo]]（new stub）/[[nvda]]（FY27Q2 + Rubin）· thesis [[ai-power-ipp-bull]]（需求侧硬数据 + 中银利率约束）· positions [[ceg]]/[[tln]]/[[vst]] · index.md
+- filings read: 0 — `sec_fetch.py --since 2026-09-22` 三家（CEG/TLN/VST）均 0 新增、0 flags；无新 `raw/` 文件（近日大体量 All-In 转录均为 6–7 月存量、已建源页）
+- invalidation flags: 无——三家 Invalidation ok×4 不变（维护性更新）。中银"利率是核心估值约束"+ 东方金诚 10Y 周收 5.01% 属既列利率/融资敏感性风险，非 Invalidation
+- opportunities: opportunities_new 0；NVDA/AVGO 为共识大市值、作本仓需求侧佐证，不新建 opportunity
+- fact-check ✅: NVDA FY27Q2 营收 $96.2B/DC $89B(+117%)/非GAAP EPS $2.22/Q3 指引 $108B（NVIDIA 官方）；AVGO FY26Q3 营收 $29.59B/AI 半导体 $16.7B(+221%)/FCF $13.7B(46% 营收)/Q4 AI $21.7B（Broadcom 官方）；美国 8 月零售 +1.2%（控制组 +1.4%，Census）；日央行加息至 1.25%/31 年最高/7:2（CNBC）。📌 指引/评级/"1998 vs 2000"框架为投影/判断
+- is_change: 仅中银 true（本家由 FOMC 利率视角转入 AI 周期定位/FCF 分化产业框架）；logic_changes 空（非板块评级反转）
+- 外资桶：Apollo RSS 窗口内仅存量长文（无 dated 日更）、Goldman/MS/BlackRock/All-In 客户端渲染页无窗口内新内容——记"本窗口无新可取外资源"，按"薄简报也好过没有"继续
+- rendered: brief/2026-09-23.html · brief/2026-09-23.md · brief/index.html

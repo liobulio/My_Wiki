@@ -6,7 +6,7 @@ aliases: [中银国际, BOC International]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-09-17
+updated: 2026-09-23
 ---
 
 # 中银国际 (BOCI)
@@ -15,6 +15,7 @@ updated: 2026-09-17
 中国银行旗下投行（香港）；宏观策略报告面向离岸客户（禁止在中国内地发布）。
 
 ## House view (current)
+- 2026-09-22 — **"AI 主线震荡期的逻辑再审视：1998 而非 2000"**（王君/郭晓希）：AI Capex 扩张未见拐点、产业主线未被证伪，但**龙头 FCF 分化**——硬件公司高位、应用层承压走弱、产业链进入"负债融资"、利率敏感度上升；**美债高位震荡是当前最核心的估值约束**。历史对标 1998 末–1999 初预警区间（英伟达=思科卖铲人，硬件端见顶滞后于建网方），非 2000 顶部。配置从"赛道 β"转向"现金流质量 α"，优先 FCF 稳定/CAPEX 效率高的硬件龙头，跟踪未来 2–3 季 EPS 预期边际变化（[[2026-09-22-boci-ai-mainline-recheck]]）。
 - 2026-09-17 — **9月FOMC点评"还是不如市场乐观"**：加息 25bp 属**"预防性加息"**；关键差——**9 月点阵图最激进
   委员本轮也仅 3 次（含本次）、中值本轮 2 次**，而会前期货隐含 **~3.8 次**，即联储路径比市场更温和。长端美债
   要扭转颓势仍需**财政赤字暂时改善 + 地缘冲突缓解**（[[2026-09-17-boci-fomc-less-optimistic]]）。
@@ -24,4 +25,4 @@ updated: 2026-09-17
 _none yet_
 
 ## Sources
-[[2026-09-17-boci-fomc-less-optimistic]] · [[2026-09-09-boci-us-jobs-data-fed]]
+[[2026-09-22-boci-ai-mainline-recheck]] · [[2026-09-17-boci-fomc-less-optimistic]] · [[2026-09-09-boci-us-jobs-data-fed]]

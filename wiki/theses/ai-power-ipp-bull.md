@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-22
+updated: 2026-09-23
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -62,6 +62,11 @@ See [[ai-power-demand]].
   2060 高情景 1284 GW（~3.4× 2025 的 377 GW），驱动为能源安全 + 可负担转型（[[2026-09-22-cpost-iaea-nuclear-uprate]]，✅ 已核）。
   权威机构对 firm、carbon-free 电力长期需求的上修，与本仓存量核电稀缺定价同向（供给侧扩张主要在 2030 后的 SMR/新建，
   不改变本十年存量 firm 电力偏紧）。
+- 需求侧硬数据（2026-09-23）：AI 算力龙头季报实证 capex/交付未退坡——**[[nvda|英伟达]] FY27Q2 数据中心 $89B/+117%、
+  Rubin 全面量产**（部署于 CoreWeave/谷歌/Azure/Oracle/Nebius）、**[[avgo|博通]] AI 半导体 $16.7B/+221%、FCF $13.7B**
+  （华鑫，[[2026-09-23-huaxin-nvda-rubin]]、[[2026-09-23-huaxin-avgo-ai-semi]]，✅ 已核）。算力交付放量=数据中心 firm 电力
+  需求刚性延续。⚠️ 同期 [[2026-09-22-boci-ai-mainline-recheck|中银]]"1998 而非 2000"框架提示：硬件端 FCF 高位、应用/云层
+  FCF 转负→负债融资→**利率是核心估值约束**——重申本仓既列利率/融资敏感性风险（非 Invalidation）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-22
+updated: 2026-09-23
 ---
 
 # TLN — Talen Energy (open position)
@@ -48,3 +48,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-18 — brief：`sec_fetch.py --since 2026-09-17` **无新增文件、0 flags**。需求侧继续走强：[[2026-09-18-greendh-futures-ai-reaccel|格林大华期货]]汇集 Nebius GPU 云再涨 ~20%（B300 年内 +56%）、Broadcom AI 收入 +221%、SpaceX 目标 20 GW 在线电力——AI 负荷把 firm baseload 推向持续偏紧，利好 TLN 未签约的可调度容量（不触发失效条件）。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。宏观利率敏感性（[[2026-09-18-dongxing-fomc-oil|东兴]] 维持 10Y 4.7–5%）属既列风险，非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-21 — brief：`sec_fetch.py --since 2026-09-18` **无新增文件、0 flags**。firm baseload 稀缺再获量化佐证：[[2026-09-20-soochow-overseas-compute-power|东吴]] 引 TrendForce（2030 数据中心用电缺口 **268 GW**）、[[2026-09-21-huaxin-ai-infra-power|华鑫]]"矛盾从算力移到电力"——利好 TLN 未签约的可调度容量（Susquehanna–AWS 之外仍有余量）。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。新风险面：AI 基建融资端 CDS 走阔（[[2026-09-20-kaiyuan-oracle-nebius-cds|开源]]）——属既列利率/融资敏感性风险，非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-22 — brief：`sec_fetch.py --since 2026-09-21` **无新增文件、0 flags**。firm/清洁电力长期需求再获权威上修：[[2026-09-22-cpost-iaea-nuclear-uprate|中邮]]引 **IAEA 连续第六年上调**核电装机预期（2060 高情景 1284 GW，已核）——利好 TLN 未签约的可调度核电容量。AI 存储/算力 capex 未退坡：[[2026-09-22-pacific-electronics-ai-memory|太平洋]]记 AMAT FY26Q3 DRAM/HBM 设备放量（间接支撑数据中心用电刚性）。⚠️ 利率面：[[2026-09-22-guoxin-sec-fed-hawkish-hike|国新]]（10Y 收 5.021% 新高、10 月加息概率近 60%）vs [[2026-09-22-soochow-us-weekly-post-hike|东吴]]（不具备连续加息基础、利率压估值不改 AI 景气）——续加持续性两家分歧，属既列利率敏感性风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-23 — brief：`sec_fetch.py --since 2026-09-22` **无新增文件、0 flags**。算力交付实证 firm baseload 需求刚性：[[2026-09-23-huaxin-nvda-rubin|华鑫]]记 NVDA FY27Q2 数据中心 **$89B/+117%、Rubin 全面量产**、[[2026-09-23-huaxin-avgo-ai-semi|AVGO]] AI 半导体 $16.7B/+221%——利好 TLN 未签约的可调度容量（Susquehanna–AWS 之外余量）。宏观 [[2026-09-23-dongfang-jincheng-overseas-hike|东方金诚]]：美日加息、10Y 周收 5.01%、8 月零售强韧。⚠️ [[2026-09-22-boci-ai-mainline-recheck|中银]]"1998 而非 2000"——利率是核心估值约束，属既列利率敏感性风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
