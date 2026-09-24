@@ -49,6 +49,10 @@ Watch: customers building their own chips (A6/ASIC) incentivizing Nvidia to comp
 - **中银"思科类比"**：[[2026-09-22-boci-ai-mainline-recheck|中银]]把英伟达对标科网中的**思科**（卖铲人，硬件端见顶滞后于建网方），
   当前定位 1998 末–1999 初而非 2000 顶部——硬件端 FCF/景气高位由本季 DC $89B 实证。
 
+## Update — CLSA 机架经济性 / 5–6 年经济寿命（2026-09-24）
+- **CLSA（中信里昂，经 中信证券财富管理(香港)）逆"2028 见顶"**：算力短缺持续到 2030、上游半导体大盘股仍便宜；GPU vs ASIC 争论"比 ASIC 支持者认为的更复杂"——**"只有一款芯片，即英伟达能够有把握地宣称拥有 5–6 年的经济寿命"**，按机架经济性 NVDA 与 [[amd]] 占优（[[2026-09-24-clsa-if26-ai-questions]]）。
+- 与上文 ASIC 竞争叙事（Jalapeño 等）形成对照：CLSA 认为**通用型 GPU 的资产寿命优势被低估**，是硬件端周期"未见顶"的核心论据；对本仓 [[ai-power-ipp-bull]] 为需求侧（用电时间跨度延到 2030）背书。
+
 ## Related
 Concepts: [[hbm-dram-bottleneck]], [[ai-distillation-open-weights]], [[ai-sovereignty]], [[ai-power-demand]] · Assets:
 [[mu]], [[cerebras]], [[openai]], [[pltr]] · People: [[gavin-baker]], [[alex-karp]] · Sources:

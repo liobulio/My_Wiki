@@ -244,3 +244,11 @@ grep "^## \[" log.md | tail -5
 - opportunities: 0 new（CSCO 为共识大市值、作本仓需求侧佐证，不新建 opportunity）。
 - 外资桶：Apollo RSS 窗口内仅存量长文（无 dated 日更）；Goldman/MS/BlackRock/All-In 无窗口内新内容——记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
 - render: prices.py（CEG 263.88 / TLN 300.34 / VST 137.97）→ render_brief.py 生成 brief/2026-09-24.{html,md} + index.html/README.md/_redirects。
+
+## [2026-09-24] brief | 补录 中信里昂 CLSA·IF26"AI 的最大问题"——逆"2028 见顶"共识、算力短缺持续到 2030（第 6 篇）
+- 背景：当日简报首版已发（5 篇、commit 039139e）。同日重跑，`sec_fetch.py --since 2026-09-23` 三家（[[ceg]]/[[tln]]/[[vst]]）仍 **0 新增、0 flags**、无新 `raw/`；东财策略桶（qType=2）午后新上架一篇未 ingested、直贴本仓：[[citic-securities|中信证券经纪(香港)]] 转述中信里昂 CLSA《AI: The biggest questions at IF26》（AP202609241829847586）→ 补入为第 6 篇（`sources_ingested: 5→6`）。宏观桶(qType=3)空；行业桶(qType=1)余项为已录（思科）或既定剔除（Fabrinet/Lumentum/Coherent 光互联、太空算力/A 股）。
+- pages touched: [[2026-09-24-clsa-if26-ai-questions]]（new source）· [[citic-securities]]（录入首条 House view + 加 CLSA/中信里昂/CSIWM 别名）· [[amd]]（new stub）· [[nvda]]（CLSA 机架经济性/5–6 年寿命）· [[ai-power-ipp-bull]]（需求侧证据 + $3.5T@2035 ROI 远端约束）· [[2026-09-24]] brief（us_equity +1、headline/方法备注/持仓 note）· index.md · brief/2026-09-24.{html,md} + index.html/README.md/_redirects
+- filings read: 0（同上，Invalidation ok×4 不变——CLSA 为需求侧景气框架，不触及四条失效条件）
+- fact-check: ✅ 第 33 届 CITIC CLSA Investors' Forum 2026-09-21~24 香港君悦（clsa.com）——CLSA 报告 2026-09-22 落在会期内。📌 模型/投影（算力短缺至 2030、2028 见顶为误、半导体便宜/软件贵、tokens +20× YTD、NVDA 5–6 年经济寿命、$3.5T@2035 ROI）作情景评估、不作真伪核实；方向与 NVDA/AVGO/Cisco 季报强需求一致。⚠️ 文首自述"投资/产品专员撰写、非研报"——作 CLSA 观点二手转述引用。
+- is_change: false（[[citic-securities]] 此前无 House view 记录，首条不计为"变化"，与本期 [[wukuang-securities]] 处理一致）；logic_changes 空（非板块评级反转）；opportunities_new 0（NVDA/AMD 为共识大市值、作需求侧佐证，不新建 opportunity）
+- render: prices.py（CEG 259.61 / TLN 295.905 / VST 136.68）→ render_brief.py 重生成 brief/2026-09-24.{html,md} + index.html
