@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-24]] — **加息落地一周后：卖方在"再加几次"上收敛**：宏观 [[spdb-international|浦银]]（沃什周期？12 月或再加、**非连续加息**、年底布伦特上调 90–100）+ [[wukuang-securities|五矿]]（点阵中值 4.1%、年内再加一次、**加息风险仍在但市场反应钝化**）；配置 [[boci|中银]]资产配置月报**"中债美股占优"**（美股上调、**美债下调**）；框架 [[wukuang-securities|五矿 AI 革命]]把 **"电力/并网/高速互联"列为海外稀缺基础设施首选**（背书本仓）；需求侧 [[huaxin-securities|华鑫·思科]] FY2026 hyperscaler AI 基础设施订单 **$9.3B/~4.5×、FY27 $7.5B（+87.5%）**（✅）；新建 [[wukuang-securities]] 机构页、[[csco]] 资产页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-24.html`
 - [[2026-09-23]] — **AI 行情"1998 而非 2000"**：[[boci|中银国际]]策略深度——AI capex 未见拐点但龙头 FCF 分化（硬件高位/应用云层转负→负债融资→利率敏感度升）、**美债高位是核心估值约束**、英伟达=思科卖铲人、赛道 β→现金流质量 α；本仓映射由 [[huaxin-securities|华鑫]] 记 **NVDA FY27Q2 数据中心 $89B/+117%、Rubin 全面量产** + **AVGO AI 半导体 $16.7B/+221%、FCF $13.7B/46% 营收**（✅）实证；宏观 [[dongfang-jincheng|东方金诚]] 美日加息、10Y 周收 5.01%、8 月零售 +1.2%；新建 [[avgo]] 资产页、更新 [[nvda]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-23.html`
 - [[2026-09-22]] — **加息落地后如何应对：利率压估值 ≠ 改 AI 景气**：利率面 [[guoxin-securities|国新]]补齐 FOMC 当日定价（10Y 收 5.021% 新高、10 月加息概率近 60%、"加息非治本之策"）+ [[soochow-securities|东吴]]"不具备连续加息基础、股市回归盈利锚、看好大盘科技"（⚠️ 上周美股公用事业领跌）；需求面 [[china-post-securities|中邮]]引 **IAEA 连续第六年上调核电装机**（2050 高 1045 GW/2060 1284 GW ✅）+ [[pacific-securities|太平洋]] AMAT FY26Q3（DRAM 占比 22%→26%、含 HBM 封装 +52% YoY ✅）；新建 [[amat]] 资产页、[[guoxin-securities]]/[[china-post-securities]] 机构页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-22.html`
 - [[2026-09-21]] — **AI 资本开支的两面：电力更紧 vs 融资更贵**：需求面 [[soochow-securities|东吴]]引 TrendForce（2026 数据中心用电 161 GW/+31%、2030 缺口 268 GW ✅）+ [[huaxin-securities|华鑫]]"核心矛盾从算力移到电力"；融资面 [[kaiyuan-securities|开源]]（Oracle RPO $664B ✅、但算力厂商 CDS 走阔：Oracle 219.66/CoreWeave >900bp）+ [[guojin-securities|国金]]（Oracle 毛利率降/FCF 转负）；非 AI 重置成本案例 [[donghai-securities|东海]]美国炼油商新高（柴油裂解创纪录 ✅）→ 新机会 [[us-refiners-replacement-cost-2026-09]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-21.html`
@@ -45,9 +46,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
+- [[csco]] — Cisco Systems；AI 数据中心网络/高速互联供应商；FY2026 hyperscaler AI 基础设施订单 $9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）；本仓需求侧佐证（2026-09-24）
 - [[amat]] — Applied Materials；WFE 设备龙头，DRAM/HBM/先进封装订单占比是 AI 存储 capex 上游读数；FY26Q3 DRAM 占比 22%→26%（含 HBM 封装 +52% YoY）
 - [[avgo]] — Broadcom；定制 AI 加速器（ASIC）+ AI 网络龙头；FY26Q3 AI 半导体 $16.7B/+221%、**FCF $13.7B/占营收 46.2%**——硬件龙头 FCF 高位的代表（2026-09-23）
 - [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）、FOMC 后收 5.021% 新高；持仓长久期现金流的利率敏感性来源
@@ -115,6 +117,11 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-24-spdb-us-macro-warsh-hike]] — 浦银国际（金晓雯）月度美国宏观"沃什开启新一轮加息周期？"：9 月偏鹰加息落地，**10 月或按兵、12 月或再加 25bp、但"非新一轮连续加息周期"**；中东升级、**年底布伦特上调至 90–100 美元/桶**；8 月"K 型分化加深"（零售 +1.2% vs 制造/地产弱）；下行风险明列"AI 投资泡沫破裂"（[[ceg]]/[[tln]]/[[vst]] 利率敏感性）
+- [[2026-09-24-wukuang-fed-sep-review]] — 五矿证券（尤春野）美联储 9 月点评"加息风险仍在但市场反应钝化"：+25bp 至 3.75%–4%、12-0；**2026/2027 点阵中值均 4.1%**（6 月 3.8%/3.6%）、年内再加一次（12 人 +25/4 人 +50/2 人不加）；连续大幅加息缺乏依据；会后长端回落、美股回升 ✅
+- [[2026-09-24-boci-allocation-china-bonds-us-equity]] — 中银国际（王君/郭晓希）资产配置月报"中债美股占优，A 股震荡分化"（改进 BL 模型）：**美股仓位重新上调、美债下调为一致方向**、美元维持低位；中美"库存筑顶"、Q4 及明年进入被动补库→主动去库（[[ceg]]/[[tln]]/[[vst]] β 正面/利率高位）
+- [[2026-09-24-wukuang-ai-revolution]] — 五矿证券（尤春野）AI 革命系列之一"从历史坐标到产业时钟"：AI = 工业革命级 GPT、基础设施高强度扩建期、无系统性过剩；**"海外重点关注电力、并网和高速互联"**（背书 [[ai-power-ipp-bull]]）；⚠️ 五大云厂 capex/收入比 59.2%→128.3%（2023→2026H1）、回报要求上升
+- [[2026-09-22-huaxin-cisco-ai-network]] — 华鑫证券（任春阳/谢孟津）思科（CSCO）点评"AI 网络订单加速兑现"：FY26Q4 营收 $17.3B/+18%、非 GAAP EPS $1.22；**FY2026 hyperscaler AI 基础设施订单 $9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）**、FY27 指引 +15% ✅（[[csco]]、需求侧硬数据）
 - [[2026-09-22-boci-ai-mainline-recheck]] — 中银国际（王君/郭晓希）策略深度"AI 主线震荡期的逻辑再审视"：**1998 而非 2000**——AI capex 未见拐点但龙头 FCF 分化（硬件高位/应用云层转负→负债融资→利率敏感度升）、**美债高位是核心估值约束**、英伟达=思科卖铲人；配置赛道 β→现金流质量 α，跟踪 2–3 季 EPS 预期（[[nvda]]/[[ceg]]/[[tln]]/[[vst]]）
 - [[2026-09-23-huaxin-nvda-rubin]] — 华鑫证券（任春阳/谢孟津）英伟达 FY27Q2 点评：营收 $96.2B/+106%、**数据中心 $89B/+117%、占比 92.5%**、Rubin 全面量产（CoreWeave/谷歌/Azure/Oracle/Nebius）、Q3 指引 $108B ✅；算力交付=数据中心 firm 电力刚性（[[nvda]]、[[ai-power-ipp-bull]]）
 - [[2026-09-23-huaxin-avgo-ai-semi]] — 华鑫证券（任春阳/谢孟津）博通 FY26Q3 点评：营收 $29.59B/+86%、**AI 半导体 $16.7B/+221%**、**FCF $13.7B（+95%、占营收 46.2%）** ✅——中银"硬件龙头 FCF 高位"直接实证；Q4 AI 指引 $217 亿/+236%（[[avgo]]）

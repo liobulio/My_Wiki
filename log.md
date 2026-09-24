@@ -235,3 +235,12 @@ grep "^## \[" log.md | tail -5
 - is_change: 仅中银 true（本家由 FOMC 利率视角转入 AI 周期定位/FCF 分化产业框架）；logic_changes 空（非板块评级反转）
 - 外资桶：Apollo RSS 窗口内仅存量长文（无 dated 日更）、Goldman/MS/BlackRock/All-In 客户端渲染页无窗口内新内容——记"本窗口无新可取外资源"，按"薄简报也好过没有"继续
 - rendered: brief/2026-09-23.html · brief/2026-09-23.md · brief/index.html
+
+## [2026-09-24] brief | 加息落地一周后卖方在"再加几次"上收敛——浦银/五矿"年内再加一次、非连续"、中银配置"中债美股占优"、五矿AI框架把"电力/并网/高速互联"列为海外稀缺基础设施首选、华鑫思科FY2026 AI订单$9.3B/~4.5×
+- pages touched: [[2026-09-24-spdb-us-macro-warsh-hike]], [[2026-09-24-wukuang-fed-sep-review]], [[2026-09-24-boci-allocation-china-bonds-us-equity]], [[2026-09-24-wukuang-ai-revolution]], [[2026-09-22-huaxin-cisco-ai-network]], [[wukuang-securities]]（新）, [[csco]]（新）, [[boci]], [[spdb-international]], [[huaxin-securities]], [[ai-power-ipp-bull]], [[ceg]], [[tln]], [[vst]], [[2026-09-24]], index.md, brief/2026-09-24.{html,md}
+- sources ingested: 5（宏观 2：浦银·沃什加息周期 / 五矿·Fed 9 月点评；美股策略 2：中银·资产配置月报 / 五矿·AI 革命框架；行业 1：华鑫·思科 AI 网络）。剔除华鑫其余美股光互联/网络点评（Fabrinet/Ciena/Lumentum/Credo/Coherent/Astera/Tower）、开源国产算力、浦银 Muse、信通院太空算力、A 股晨报/北交所/ESG。
+- filings read: 0 — `sec_fetch.py --since 2026-09-23` 三家（CEG/TLN/VST）均 0 新增、0 flags。Invalidation ok×4 不变（无监管/合约事件触及四条失效条件）。
+- fact-check: ✅ 思科 FY26Q4 $17.3B/+18%、FY26 $63.3B/+12%、非 GAAP EPS $1.22/+23%、AI 基础设施订单 FY26 $9.3B（~4.5×）、FY27 $7.5B、FY27 指引 $72.2–73.4B/+15%、OCF $14.2B（Cisco IR/newsroom+Investing.com/Fierce）；✅ Fed 9 月 +25bp 至 3.75%–4%、12-0、2026/2027 点阵中值 4.1%、16/18 至少再加一次、沃什未提交点（Investing.com/Chase/KuCoin）。📌 12 月加息/年底油价/指引/评级/AI"工业革命级"/capex 收入比 128% 为投影，作情景评估。
+- opportunities: 0 new（CSCO 为共识大市值、作本仓需求侧佐证，不新建 opportunity）。
+- 外资桶：Apollo RSS 窗口内仅存量长文（无 dated 日更）；Goldman/MS/BlackRock/All-In 无窗口内新内容——记"本窗口无新可取外资源"，按"薄简报也好过没有"继续。
+- render: prices.py（CEG 263.88 / TLN 300.34 / VST 137.97）→ render_brief.py 生成 brief/2026-09-24.{html,md} + index.html/README.md/_redirects。

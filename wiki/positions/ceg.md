@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 
 # CEG — Constellation Energy (open position)
@@ -49,3 +49,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-21 — brief：`sec_fetch.py --since 2026-09-18` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。电力稀缺逻辑再获两家内资量化背书：[[2026-09-20-soochow-overseas-compute-power|东吴]] 引 TrendForce——2026 全球数据中心用电 **161 GW（+31% YoY）**、2030 达 491 GW、**供需缺口 268 GW**（电网可供 222.6 GW，已核实）；[[2026-09-21-huaxin-ai-infra-power|华鑫]] 判断"AI capex 核心矛盾从算力移到电力"。均利好 firm 供给稀缺（不触发任何 Invalidation）。⚠️ 新风险面（非 Invalidation）：[[2026-09-20-kaiyuan-oracle-nebius-cds|开源]]/[[2026-09-21-guojin-oracle-rpo-margin|国金]] 指 AI 基建融资端承压——Oracle 5Y CDS 219.66、CoreWeave >900bp、Oracle FCF 自 FY25Q4 转负——AI 举债推高折现率，属 [[ai-power-ipp-bull]] **既列的利率/融资敏感性风险**。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-22 — brief：`sec_fetch.py --since 2026-09-21` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。核电需求侧再获权威背书：[[2026-09-22-cpost-iaea-nuclear-uprate|中邮]]引 **IAEA 连续第六年上调**核电装机预期（2050 高情景 1045 GW、2060 1284 GW，已核）——firm/清洁电力长期需求上修，与本仓存量核电稀缺定价同向（不触发失效条件）。⚠️ 利率面：[[2026-09-22-guoxin-sec-fed-hawkish-hike|国新]]记 FOMC 当日 **10Y 收 5.021%（2023-10 以来新高）、10 月加息概率近 60%**；[[2026-09-22-soochow-us-weekly-post-hike|东吴]]则判"不具备连续加息基础、股市回归盈利锚、利率压估值不改 AI 景气"，并提示上周美股**公用事业领跌**（利率驱动的估值波动）——长久期现金流利率敏感性属**既列风险，非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-23 — brief：`sec_fetch.py --since 2026-09-22` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。需求侧硬数据：[[2026-09-23-huaxin-nvda-rubin|华鑫]]记 NVDA FY27Q2 数据中心 **$89B/+117%、Rubin 全面量产**（CoreWeave/谷歌/Azure/Oracle/Nebius）、[[2026-09-23-huaxin-avgo-ai-semi|AVGO]] AI 半导体 $16.7B/+221%——算力交付放量=数据中心 firm 电力需求刚性（利好，不触发失效条件）。宏观：[[2026-09-23-dongfang-jincheng-overseas-hike|东方金诚]]记美日双双加息、10Y 周收 5.01%、8 月零售 +1.2% 强韧。⚠️ [[2026-09-22-boci-ai-mainline-recheck|中银]]"1998 而非 2000"框架——硬件端 FCF 高位（NVDA/AVGO 实证）、应用层 FCF 转负→**利率是核心估值约束**——重申长久期现金流利率敏感性属**既列风险，非 Invalidation**。RISEC 收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-24 — brief：`sec_fetch.py --since 2026-09-23` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。需求侧硬数据延续：[[2026-09-22-huaxin-cisco-ai-network|华鑫·思科]]记 FY2026 hyperscaler AI 基础设施订单 **$9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）**——AI 数据中心建设/用电未退坡（利好，不触发失效条件）；[[2026-09-24-wukuang-ai-revolution|五矿·AI 革命框架]]把**"电力、并网、高速互联"列为海外持续稀缺基础设施首选**（第三方框架背书本仓核电稀缺定价）。⚠️ 利率面：[[2026-09-24-spdb-us-macro-warsh-hike|浦银]]（12 月或再加、非连续、年底布伦特上调至 90–100）、[[2026-09-24-wukuang-fed-sep-review|五矿]]（点阵中值 4.1%、年内再加一次、市场反应钝化）、[[2026-09-24-boci-allocation-china-bonds-us-equity|中银配置月报]]（美股上调、**美债下调**）——利率维持高位属**既列风险，非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。

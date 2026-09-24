@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-23
+updated: 2026-09-24
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -67,6 +67,7 @@ See [[ai-power-demand]].
   （华鑫，[[2026-09-23-huaxin-nvda-rubin]]、[[2026-09-23-huaxin-avgo-ai-semi]]，✅ 已核）。算力交付放量=数据中心 firm 电力
   需求刚性延续。⚠️ 同期 [[2026-09-22-boci-ai-mainline-recheck|中银]]"1998 而非 2000"框架提示：硬件端 FCF 高位、应用/云层
   FCF 转负→负债融资→**利率是核心估值约束**——重申本仓既列利率/融资敏感性风险（非 Invalidation）。
+- 框架背书（2026-09-24）：**[[2026-09-24-wukuang-ai-revolution|五矿证券]]** 的 AI 产业周期长报把 **"电力、并网和高速互联"明确列为"海外持续稀缺的基础设施"首选**——独立第三方框架直接对齐本仓 firm 电力稀缺定价；并以铁路/电气化/互联网类比论证"基础设施高强度扩建期、现有数据不支持系统性过剩"。需求侧硬数据同步延续：[[2026-09-22-huaxin-cisco-ai-network|思科]] FY2026 hyperscaler AI 基础设施订单 **$9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）**（华鑫，✅ 已核）——数据中心建设/用电未退坡。⚠️ 五矿同篇提示五大云厂 capex/收入比升至 128%、回报要求上升——若应用付费不能持续扩大，扩建（含电力需求）可持续性存疑，属需求侧远端风险（Invalidation #1 的上游）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis
