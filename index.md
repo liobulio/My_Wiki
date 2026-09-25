@@ -20,7 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
-- [[2026-09-25]] — **以 SEC 文件为主轴：VST 完成 $1.5B 初级次级票据（再融资、非新增杠杆）**：读全文判定为纯融资——[[2026-09-24-vst-8k-junior-subordinated-notes|8-K Items 1.01/8.01]]完成发行 **$850M 7.000% + $650M 7.250%（2057）**票据、Vistra 担保，用途赎回其 8.0%/7.0% 永续优先股（reset 2026-10/12），terminat/AWS/cancel/PPA 均为契约样板条款误报、**无电力合约/监管事件触及失效条件**；唯一读数——**VST 长久期混合资本新发成本 ~7%**（利率/融资敏感性既列风险的具体标尺）。研报仅新增偏鸽注脚 [[nanhua-futures|南华期货]]（新建机构页）判"**这次加息可能是结束而非起点、连续加息定价过满**"、列四结构性约束；外资桶本窗口无 dated 新内容；[[ceg]]/[[tln]] 0 新增、Invalidation ok×4 不变 → `brief/2026-09-25.html`
+- [[2026-09-25]] — **SEC 主轴 + 补录利率/光互联两条研报线**：持仓 [[2026-09-24-vst-8k-junior-subordinated-notes|VST 8-K]]完成 **$1.5B 初级次级票据（$850M 7.000% + $650M 7.250%，2057）**、Vistra 担保、赎回 8.0%/7.0% 永续优先股——纯再融资/非新增杠杆，标记全为契约样板误报、**无失效条件触及**；读数 **VST 混合资本新发成本 ~7%**。宏观两端张力——[[2026-09-25-apollo-daily-spark-higher-for-longer|Apollo·Slok]]"higher-for-longer 先压最弱、CCC ~15%、move up in quality"（本仓属投资级"强资产负债表"一端）vs [[nanhua-futures|南华期货]]"这次加息可能是结束而非起点"。行业补录 [[huaxin-securities|华鑫]] **AI 光互联三连**（[[fn|Fabrinet]]/[[lite|Lumentum]]/[[cohr|Coherent]] FY26Q4 +34%~+109%，✅ 全核验）→ 新机会 [[ai-optical-interconnect-2026-09]]（new）；[[ceg]]/[[tln]] 0 新增、Invalidation ok×4 不变 → `brief/2026-09-25.html`
 - [[2026-09-24]] — **加息落地一周后：卖方在"再加几次"上收敛**：宏观 [[spdb-international|浦银]]（沃什周期？12 月或再加、**非连续加息**、年底布伦特上调 90–100）+ [[wukuang-securities|五矿]]（点阵中值 4.1%、年内再加一次、**加息风险仍在但市场反应钝化**）；配置 [[boci|中银]]资产配置月报**"中债美股占优"**（美股上调、**美债下调**）；框架 [[wukuang-securities|五矿 AI 革命]]把 **"电力/并网/高速互联"列为海外稀缺基础设施首选**（背书本仓）；需求侧 [[huaxin-securities|华鑫·思科]] FY2026 hyperscaler AI 基础设施订单 **$9.3B/~4.5×、FY27 $7.5B（+87.5%）**（✅）+ [[citic-securities|中信里昂 CLSA]]**逆"2028 见顶"、算力短缺至 2030**（IF26）；新建 [[wukuang-securities]] 机构页、[[csco]]/[[amd]] 资产页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-24.html`
 - [[2026-09-23]] — **AI 行情"1998 而非 2000"**：[[boci|中银国际]]策略深度——AI capex 未见拐点但龙头 FCF 分化（硬件高位/应用云层转负→负债融资→利率敏感度升）、**美债高位是核心估值约束**、英伟达=思科卖铲人、赛道 β→现金流质量 α；本仓映射由 [[huaxin-securities|华鑫]] 记 **NVDA FY27Q2 数据中心 $89B/+117%、Rubin 全面量产** + **AVGO AI 半导体 $16.7B/+221%、FCF $13.7B/46% 营收**（✅）实证；宏观 [[dongfang-jincheng|东方金诚]] 美日加息、10Y 周收 5.01%、8 月零售 +1.2%；新建 [[avgo]] 资产页、更新 [[nvda]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-23.html`
 - [[2026-09-22]] — **加息落地后如何应对：利率压估值 ≠ 改 AI 景气**：利率面 [[guoxin-securities|国新]]补齐 FOMC 当日定价（10Y 收 5.021% 新高、10 月加息概率近 60%、"加息非治本之策"）+ [[soochow-securities|东吴]]"不具备连续加息基础、股市回归盈利锚、看好大盘科技"（⚠️ 上周美股公用事业领跌）；需求面 [[china-post-securities|中邮]]引 **IAEA 连续第六年上调核电装机**（2050 高 1045 GW/2060 1284 GW ✅）+ [[pacific-securities|太平洋]] AMAT FY26Q3（DRAM 占比 22%→26%、含 HBM 封装 +52% YoY ✅）；新建 [[amat]] 资产页、[[guoxin-securities]]/[[china-post-securities]] 机构页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-22.html`
@@ -41,6 +41,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[ai-power-ipp-bull]] — shared bull thesis for CEG/TLN/VST: nuclear-heavy IPPs below replacement cost into rising power demand; catalyst = hyperscaler PPAs; 4 condition-based invalidations (human's own words, 2026-09-11)
 
 ## Opportunities
+- [[ai-optical-interconnect-2026-09]] — AI 光互联三龙头（FN/LITE/COHR）：数据中心光连接需求加速——1.6T/CPO/OCS 从机架间向机架内渗透抬升单位算力光器件用量；FY26Q4 收入同比 +34%~+109%、指引续升（**new** 2026-09-25，[[huaxin-securities|华鑫]]；含提案版 Edge/Catalyst/Invalidation）
 - [[us-refiners-replacement-cost-2026-09]] — 美国独立炼油商（VLO/PBF/DK/DINO）：供给刚性下的存量重估——美国几乎不新建炼厂 + 柴油裂解创纪录（$102.20/桶 ✅）→ 与电力 IPP 同源的重置成本框架（**new** 2026-09-21，[[donghai-securities|东海]]；含提案版 Edge/Catalyst/Invalidation）
 - [[mu-sndk-memory-upcycle-2026-09]] — 东吴证券 推荐 MU/SNDK：AI 重构的存储新周期（**watching** 2026-09-21；格林大华 + 开源"长约锁供给"佐证——SK 海力士短缺至 2030、DRAM+HBM 2027 产能售罄；含提案版 Edge/Catalyst/Invalidation）
 - [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛 + 国信/国金/东吴/华鑫内资佐证；2026-09-20 东吴引 TrendForce 缺口 268 GW、信用侧 CDS 走阔提示（**watching** 2026-09-21；含提案版 Thesis Test）
@@ -50,6 +51,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · [[nanhua-futures]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
+- [[fn]] — Fabrinet；高速光模块/光互联精密代工（EMS）；FY26Q4 收入 $1.316B/+45%、数据中心 $669M/+68%/占 51%、总债务为零；AI 光互联需求侧实证（2026-09-25）
+- [[lite]] — Lumentum；光子/激光器件与光通信系统；FY26Q4 收入 $1.006B/+109.3%、组件+系统双翻倍、1.6T/OCS 导入加速；AI 光互联上游龙头（2026-09-25）
+- [[cohr]] — Coherent；光子材料—器件—系统一体化（InP/CPO/硅光）；FY26Q4 收入 $2.046B/+33.8%、DC&Comms $1.615B/+58.6%/占 79%、FY26 capex $1.103B（2026-09-25）
 - [[csco]] — Cisco Systems；AI 数据中心网络/高速互联供应商；FY2026 hyperscaler AI 基础设施订单 $9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）；本仓需求侧佐证（2026-09-24）
 - [[amd]] — Advanced Micro Devices（stub）；第二大 AI GPU/DC CPU；CLSA 判 GPU vs ASIC 中"通用型 GPU（NVDA/AMD）占优"（2026-09-24）
 - [[amat]] — Applied Materials；WFE 设备龙头，DRAM/HBM/先进封装订单占比是 AI 存储 capex 上游读数；FY26Q3 DRAM 占比 22%→26%（含 HBM 封装 +52% YoY）
@@ -119,6 +123,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-25-apollo-daily-spark-higher-for-longer]] — Apollo（Torsten Slok）Daily Spark"Higher for Longer Hits the Lowest Rated"：higher-for-longer 慢性挤压低质量信用，2021–22 vintage CCC 借款人撞再融资墙、**CCC 收益率 ~15%**，痛点集中于高杠杆 PE 科技/医疗/可选消费；"move up in quality / invest in companies with earnings"；本仓属投资级"强资产负债表"一端、VST ~7% 新发成本印证再融资成本上行（利率既列风险、非 Invalidation）
+- [[2026-09-22-huaxin-fabrinet]] — 华鑫（任春阳/谢孟津）Fabrinet（FN）FY26Q4：收入 $1.316B/+45%、**数据中心 $669M/+68%/占 51%**、总债务为零、FY26 $4.64B/EPS $14.09；AI 光互联制造需求主线（✅ 对 8-K 核验通过）
+- [[2026-09-22-huaxin-lumentum]] — 华鑫 Lumentum（LITE）FY26Q4：收入 $1.006B/+109.3%、组件+系统双翻倍、毛利率 50.4%、1.6T/OCS 导入加速（$7.8B 可转债转股一次性非现金损失致 GAAP 亏损，非经营）（✅）
+- [[2026-09-22-huaxin-coherent]] — 华鑫 Coherent（COHR）FY26Q4：收入 $2.046B/+33.8%、**DC&Comms $1.615B/+58.6%/占 79%**、FY26 capex $1.103B（去年 $441M）、InP 产能 2026 末翻倍（✅）
 - [[2026-09-24-vst-8k-junior-subordinated-notes]] — **VST 8-K（Items 1.01/8.01）** 完成 **$1.5B 初级次级票据**发行（$850M 7.000% + $650M 7.250%，2057、Vistra 担保），用途赎回 8.0%/7.0% 永续优先股——**融资/再融资、非新增杠杆**；terminat/AWS/cancel/PPA 均为契约样板条款误报，无电力/监管事件；混合资本成本 ~7%（[[ai-power-ipp-bull]] 利率敏感性读数、ok×4 不变）✅
 - [[2026-09-19-nanhua-macro-fed-hawkish]] — 南华期货（翟帅男）宏观周报"美联储 9 月议息偏鹰，但无需过度悲观"：定性"中性偏鹰+修复信誉"，逆共识判**这次加息可能是结束而非起点、市场对连续加息定价过满**；列反对连续加息的四约束（经济不过热/为降息腾空间/2027 票委换届偏鸽/联邦债务 >$40T 财政约束 ✅）；美债短端定价政策、长端定价信誉（[[ceg]]/[[tln]]/[[vst]] 利率敏感性偏鸽侧注脚）
 - [[2026-09-24-spdb-us-macro-warsh-hike]] — 浦银国际（金晓雯）月度美国宏观"沃什开启新一轮加息周期？"：9 月偏鹰加息落地，**10 月或按兵、12 月或再加 25bp、但"非新一轮连续加息周期"**；中东升级、**年底布伦特上调至 90–100 美元/桶**；8 月"K 型分化加深"（零售 +1.2% vs 制造/地产弱）；下行风险明列"AI 投资泡沫破裂"（[[ceg]]/[[tln]]/[[vst]] 利率敏感性）

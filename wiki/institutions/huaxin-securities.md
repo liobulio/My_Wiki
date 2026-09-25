@@ -6,7 +6,7 @@ aliases: [华鑫, CFSC, Huaxin Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-21
-updated: 2026-09-23
+updated: 2026-09-25
 ---
 
 # 华鑫证券
@@ -17,6 +17,7 @@ updated: 2026-09-23
 研报中心（[[eastmoney-research-center]]）渠道分发。
 
 ## House view (current)
+- 2026-09-22 — **美股 AI 光互联三连点评（2026-09-24 分发）**（任春阳/谢孟津）：维持"推荐"——[[fn|Fabrinet]] FY26Q4 收入 **$1.316B/+45%**、数据中心 $669M/+68%/占 51%、总债务为零；[[lite|Lumentum]] FY26Q4 收入 **$1.006B/+109.3%**、组件+系统双翻倍、1.6T/OCS 导入加速（$7.8B 可转债转股一次性非现金损失致 GAAP 亏损）；[[cohr|Coherent]] FY26Q4 收入 **$2.046B/+33.8%**、数据中心与通信 $1.615B/+58.6%/占 79%、FY26 capex $1.103B 大幅扩产（InP 产能 2026 末翻倍）。三家均把增长归于 **AI 数据中心光互联需求加速**——需求侧 AI 建设/用电未退坡的硬数据（[[2026-09-22-huaxin-fabrinet]]、[[2026-09-22-huaxin-lumentum]]、[[2026-09-22-huaxin-coherent]]）。
 - 2026-09-22 — **思科（CSCO）"AI 网络订单加速兑现"**（任春阳/谢孟津，2026-09-24 分发）：维持"推荐"——FY2026 超大规模云客户 **AI 基础设施订单 $9.3B（约 4.5× YoY）**、当年收入约 $4B、**FY27 预计 $7.5B（+87.5%）**；hyperscaler AI 收入占比 FY25<2%→FY26 ~6%；FY26 营收 $63.3B/+12%、OCF $14.2B。AI 网络订单加速 = 数据中心建设/用电未退坡的需求侧硬数据（[[2026-09-22-huaxin-cisco-ai-network]]）。
 - 2026-09-23 — **美股 AI 半导体龙头 FY 季报点评系列**（任春阳/谢孟津）：维持"推荐"——[[nvda|英伟达]] FY27Q2 数据中心
   $890 亿/+117%、Rubin 全面量产（[[2026-09-23-huaxin-nvda-rubin]]）；[[avgo|博通]] FY26Q3 AI 半导体 $167 亿/+221%、
@@ -31,4 +32,4 @@ updated: 2026-09-23
 _none yet_
 
 ## Sources
-[[2026-09-23-huaxin-nvda-rubin]] · [[2026-09-23-huaxin-avgo-ai-semi]] · [[2026-09-21-huaxin-ai-infra-power]]
+[[2026-09-23-huaxin-nvda-rubin]] · [[2026-09-23-huaxin-avgo-ai-semi]] · [[2026-09-22-huaxin-cisco-ai-network]] · [[2026-09-22-huaxin-fabrinet]] · [[2026-09-22-huaxin-lumentum]] · [[2026-09-22-huaxin-coherent]] · [[2026-09-21-huaxin-ai-infra-power]]

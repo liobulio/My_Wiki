@@ -76,6 +76,7 @@ See [[ai-power-demand]].
   判"这次加息可能是**结束**而非起点、市场对连续加息定价过满"（列四结构性约束：经济不过热/为降息腾空间/2027 票委换届偏鸽/
   联邦债务 >$40T 财政约束）——若成立、长端见顶回落，利好长久期 PPA 现金流估值；但南华同时提示美债长端"定价信誉"、因供给/QT
   扰动易维持高位波动，利率维持高位仍属既列风险。
+- 需求侧硬数据（2026-09-25）：AI 光互联价值链 FY26Q4 全面大超预期——**[[fn|Fabrinet]]** 收入 $1.316B/+45%、数据中心 $669M/+68%/占 51%；**[[lite|Lumentum]]** 收入 $1.006B/+109.3%、组件+系统双翻倍、1.6T/OCS 导入加速；**[[cohr|Coherent]]** 收入 $2.046B/+33.8%、DC&Comms $1.615B/+58.6%/占 79%、FY26 capex $1.103B 大幅扩产（华鑫，[[2026-09-22-huaxin-fabrinet]]/[[2026-09-22-huaxin-lumentum]]/[[2026-09-22-huaxin-coherent]]，✅ 全核验）——光连接由机架间向机架内延伸、指引续升，数据中心建设/用电未退坡的又一第三方实证（背书需求侧时间跨度；非直接电力标的）。宏观侧 **[[apollo|Apollo·Slok]]** "higher-for-longer 先压最弱资产负债表、CCC ~15%、move up in quality"（[[2026-09-25-apollo-daily-spark-higher-for-longer]]）——本仓三家均为投资级"强资产负债表"一端，非受压主体，但印证再融资成本上行（呼应 VST ~7% 读数、既列风险）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis
