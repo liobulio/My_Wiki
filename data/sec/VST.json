@@ -2,9 +2,156 @@
  "ticker": "VST",
  "cik": 1692819,
  "name": "Vistra Corp.",
- "fetched": "2026-09-24T15:29:33+00:00",
- "since": "2026-09-23",
+ "fetched": "2026-09-25T12:43:05+00:00",
+ "since": "2026-09-24",
  "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-09-24",
+   "report_date": "2026-09-24",
+   "accession": "0001140361-26-037577",
+   "primary_doc": "ef20082680_8k.htm",
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "terminat",
+     "count": 97,
+     "snippets": [
+      "t and (D) at the Applicable Time, neither the Company nor the Parent was or is an “ineligible issuer,” as defined in Rule 405, without taking account of any determination by the Commission pursuant to Rule 405 that it is not necessary that either the Company or the Parent be considered an ineligible issuer. (viii) Independe",
+      "ended to be qualified under Section 401 of the Internal Revenue Code of 1986, as amended, and the regulations promulgated thereunder has received a favorable determination letter from the IRS with respect to its qualification; (ii) each of the Parent and its subsidiaries has fulfilled its obligations, if any, under Section 51",
+      "vided in this Section 4 and Sections 6 and 7 hereof, the Underwriters shall pay their own expenses, including the fees and disbursements of their counsel. (b) Termination of Agreement. If this Agreement is terminated by the Representative(s) in accordance with the provisions of Section 5, Section 9(a) or Section 10 hereof, th"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 73,
+     "snippets": [
+      "tic shelf registration statement. Each of the Registration Statement and any post-effective amendment thereto has become effective under the 1933 Act. No stop order suspending the effectiveness of the Registration Statement or any post-effective amendment thereto has been issued under the 1933 Act, no notice of objection o",
+      "post-effective amendment thereto pursuant to Rule 401(g)(2) of the 1933 Act Regulations (“Rule 401(g)(2)”) has been received by the Company or the Parent, no order preventing or suspending the use of any preliminary prospectus or the Prospectus or any amendment or supplement thereto has been issued and no proceedings for",
+      "losure Package, included, includes or will include an untrue statement of a material fact or omitted, omits or will omit to state a material fact necessary in order to make the statements therein, in the light of the circumstances under which they were made, not misleading. Neither the Prospectus nor any amendment or suppl"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 55,
+     "snippets": [
+      "aggregate, have a Material Adverse Effect (as defined below) (i) is validly existing as a corporation or limited liability company in good standing under the laws of the jurisdiction in which it is incorporated, chartered, organized or formed with full corporate or limited liability company, as applicable, power and aut",
+      "rospectus, (ii) is duly qualified to do business as a foreign corporation or limited liability company, as applicable, and (iii) is in good standing under the laws of each jurisdiction that requires such qualification. (xi) Significant Subsidiaries. The subsidiaries listed on Annex A attached hereto are the only “signifi",
+      "the Parent in accordance with its terms (subject, as to the enforcement of remedies, to applicable bankruptcy, reorganization, insolvency, moratorium or other laws affecting creditors’ rights generally from time to time in effect and to general principles of equity); and the Notes have been duly authorized, and, when exe"
+     ]
+    },
+    {
+     "keyword": "cancel",
+     "count": 30,
+     "snippets": [
+      "ng Securities. | 20 | Section 2.11 | Treasury Securities. | 21 | Section 2.12 | Temporary Securities. | 21 | Section 2.13 | Cancellation. | 21 | Section 2.14 | Defaulted Interest. | 21 | | | | | Article 3 | | | REDEMPTION AND PREPAYMENT | | |",
+      "| Section 2.10 | Outstanding Securities. (a) The Securities outstanding at any time are all the Securities authenticated by the Trustee except for those canceled by it, those delivered to it for cancellation, those reductions in the interest in a Global Security effected by the Trustee in accordance with the provision",
+      "es. (a) The Securities outstanding at any time are all the Securities authenticated by the Trustee except for those canceled by it, those delivered to it for cancellation, those reductions in the interest in a Global Security effected by the Trustee in accordance with the provisions hereof or any applicable Supplemental In"
+     ]
+    },
+    {
+     "keyword": "notes due",
+     "count": 26,
+     "snippets": [
+      "y of Vistra Corp. (“Vistra”), completed its underwritten public offering of $850,000,000 aggregate principal amount of its 7.000% Series A Junior Subordinated Notes due 2057 (the “Series A Notes”) and $650,000,000 aggregate principal amount of its 7.250% Series B Junior Subordinated Notes due 2057 (the “Series B Notes” and, t",
+      "000% Series A Junior Subordinated Notes due 2057 (the “Series A Notes”) and $650,000,000 aggregate principal amount of its 7.250% Series B Junior Subordinated Notes due 2057 (the “Series B Notes” and, together with the Series A Notes, the “Notes”), in each case irrevocably and unconditionally guaranteed by Vistra (the “Guarant",
+      "80_ex1-1.htm EXHIBIT 1.1 Exhibit 1.1 VISTRA OPERATIONS COMPANY LLC (a Delaware limited liability company) $850,000,000 7.000% Series A Junior Subordinated Notes due 2057 $650,000,000 7.250% Series B Junior Subordinated Notes due 2057 UNDERWRITING AGREEMENT Dated: September 10, 2026 VISTRA OPERATIONS COMPANY LLC (a De"
+     ]
+    },
+    {
+     "keyword": "acquisition",
+     "count": 17,
+     "snippets": [
+      "tees or other obligations), advances or capital contributions (excluding commission, travel and similar advances to officers and employees), purchases or other acquisitions for consideration of Indebtedness, Equity Interests or other securities, together with all items that are or would be classified as investments on a balance",
+      "ce or repayment of Indebtedness (other than for working capital purposes) or any Investment that results in a Person becoming a Subsidiary of the Company, any acquisition permitted under the Indenture, any Asset Disposition, any Investment constituting an acquisition of assets constituting a business unit, line of business or di",
+      "results in a Person becoming a Subsidiary of the Company, any acquisition permitted under the Indenture, any Asset Disposition, any Investment constituting an acquisition of assets constituting a business unit, line of business or division of another Person, or any asset sale of a business unit, line of business or division of"
+     ]
+    },
+    {
+     "keyword": "sanction",
+     "count": 16,
+     "snippets": [
+      "n acting on behalf of the Parent or any of its subsidiaries is aware of or has taken any action, directly or indirectly, that could result in a violation or a sanction for violation by any such person or entity of the Foreign Corrupt Practices Act of 1977 or the U.K. Bribery Act 2010, each as may be amended, or similar appli",
+      "or is controlled or 50% or more owned in the aggregate by or is acting on behalf of, one or more individuals or entities that are currently the subject of any sanctions administered or enforced by the United States (including any administered or enforced by the Office of Foreign Assets Control of the U.S. Department of the T",
+      "the U.S. Department of Commerce), the United Nations Security Council, the European Union, a member state of the European Union, the United Kingdom (including sanctions administered or enforced by His Majesty’s Treasury) or other relevant sanctions authority (collectively, “Sanctions” and such persons, “Sanctioned Persons” an"
+     ]
+    },
+    {
+     "keyword": "credit agreement",
+     "count": 7,
+     "snippets": [
+      "h Person or any of its property or assets or to which such Person or any of its property is subject. “Asset Disposition” means “Disposition” as defined in the Credit Agreement as in effect on the applicable Issue Date. -1- “Attributable Debt” means, in respect of a sale and leaseback transaction, at the time of determination, the p",
+      "first date upon which such lease may be prepaid by the lessee without payment of a penalty. “Cash Equivalents” means “Permitted Investment” as defined in the Credit Agreement as in effect on the date of this Indenture. “Company” means Vistra Operations Company LLC and any and all successors thereto. “Company Order” means a written",
+      "Order” means a written order signed in the name of the Company by one Authorized Officer. “Consolidated EBITDA” means “Consolidated EBITDA” as defined in the Credit Agreement as in effect on the date of this Indenture. For purposes of calculating Consolidated EBITDA, Specified Transactions that have been made (i) during the applica"
+     ]
+    },
+    {
+     "keyword": "delay",
+     "count": 5,
+     "snippets": [
+      "t may have variations that the Company considers appropriate for temporary Securities and as may be reasonably acceptable to the Trustee. Without unreasonable delay, the Company will prepare and the Trustee will authenticate Definitive Securities of the same series in exchange for temporary Securities. (b) Holders of temp",
+      "tion is subject to the satisfaction of one or more conditions precedent, such notice shall state that, in the Company’s discretion, the redemption date may be delayed until such time as any or all such conditions shall be satisfied (or waived by the Company in its sole discretion), such redemption may not occur and such n",
+      "or all of such conditions shall not have been satisfied (or waived by the Company in its sole discretion) by the redemption date, or by the redemption date so delayed. At the Company’s request, the Trustee shall give the notice of redemption in the Company’s name and at its expense; provided, however, that the Company has"
+     ]
+    },
+    {
+     "keyword": "power purchase",
+     "count": 4,
+     "snippets": [
+      "ions in currency exchange, interest rates, commodity prices or commodity transportation or transmission pricing or availability; (2) any netting arrangements, power purchase and sale agreements, fuel purchase and sale agreements, swaps, options and other agreements, in each case, that fluctuate in value with fluctuations in energy",
+      "ions in currency exchange, interest rates, commodity prices or commodity transportation or transmission pricing or availability; (ii) any netting arrangements, power purchase and sale agreements, fuel purchase and sale agreements, swaps, options and other agreements, in each case, that fluctuate in value with fluctuations in energy",
+      "ons in currency exchange, interest rates, commodity prices or commodity transportation or transmission pricing or availability; (ii) any netting arrangements, power purchase and sale agreements, fuel purchase and sale agreements, swaps, options and other agreements, in each case, that fluctuate in value with fluctuations in energy"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 15 - file: FilingSummary.html Document 15 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>17 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 17 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>18 <FILENAME>0001140361-26-037",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>17 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 17 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>18 <FILENAME>0001140361-26-037577-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 18 - file: 00"
+     ]
+    },
+    {
+     "keyword": "PPA",
+     "count": 1,
+     "snippets": [
+      "limited to, nuclear or natural catastrophes or acts of God, flood, earthquake, war (whether declared or undeclared), terrorism, fire, riot, strikes or work stoppages for any reason, civil or military disturbances, sabotage, accidents, labor disputes, embargo, pandemics or epidemics, government action, including any laws"
+     ]
+    },
+    {
+     "keyword": "reject",
+     "count": 1,
+     "snippets": [
+      "ties, the complete satisfaction and discharge of this Indenture, any termination of this Indenture or any Supplemental Indenture, including any termination or rejection of this Indenture or any Supplemental Indenture in any insolvency or similar proceeding, and the repayment of all the Securities. -39- (e) To secure the p"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001140361-26-037577.txt",
+   "items_desc": [
+    "material definitive agreement",
+    "other events",
+    ""
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/0001140361-26-037577-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/0001140361-26-037577-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/0001140361-26-037577.txt",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_ex1-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_ex4-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_ex4-2.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/ef20082680_ex5-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126037577/R1.htm"
+   ],
+   "text_chars": 568419
+  },
   {
    "form": "4",
    "filed": "2026-09-10",

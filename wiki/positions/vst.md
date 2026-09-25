@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 # VST — Vistra (open position)
@@ -50,3 +50,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-22 — brief：`sec_fetch.py --since 2026-09-21` **无新增文件、0 flags**。需求侧再获权威背书：[[2026-09-22-cpost-iaea-nuclear-uprate|中邮]]引 **IAEA 连续第六年上调**核电装机预期（2060 高情景 1284 GW，已核）——firm/清洁电力长期需求上修，对 VST 未对冲的可调度容量方向正面；[[2026-09-22-pacific-electronics-ai-memory|太平洋]]记 AMAT DRAM/HBM 设备放量（AI 电力需求刚性延续）。⚠️ 利率面：[[2026-09-22-guoxin-sec-fed-hawkish-hike|国新]]（10Y 收 5.021% 新高）vs [[2026-09-22-soochow-us-weekly-post-hike|东吴]]（利率压估值不改 AI 景气、上周公用事业领跌）——VST 2028 仅对冲 72%、对上行电价最敏感，AI 电力需求为正面、利率上行为反向关注项（既列风险，非 Invalidation）。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-23 — brief：`sec_fetch.py --since 2026-09-22` **无新增文件、0 flags**。上行电价敞口逻辑再获需求侧硬数据背书：[[2026-09-23-huaxin-nvda-rubin|华鑫]]记 NVDA FY27Q2 数据中心 **$89B/+117%、Rubin 全面量产**、[[2026-09-23-huaxin-avgo-ai-semi|AVGO]] AI 半导体 $16.7B/+221%——算力交付放量=数据中心电力刚性，VST 2028 仅对冲 72%、对未对冲部分的上行电价最敏感，方向正面。⚠️ 利率面：[[2026-09-23-dongfang-jincheng-overseas-hike|东方金诚]]记 10Y 周收 5.01%、美日加息；[[2026-09-22-boci-ai-mainline-recheck|中银]]"利率是核心估值约束"——利率上行为反向关注项，属既列利率敏感性风险、非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-24 — brief：`sec_fetch.py --since 2026-09-23` **无新增文件、0 flags**。上行电价敞口逻辑再获需求侧背书：[[2026-09-22-huaxin-cisco-ai-network|华鑫·思科]]记 FY2026 hyperscaler AI 基础设施订单 **$9.3B（~4.5× YoY）、FY27 $7.5B（+87.5%）**——数据中心用电刚性延续；[[2026-09-24-wukuang-ai-revolution|五矿]]把**电力/并网/高速互联列为海外稀缺基础设施首选**。VST 2028 仅对冲 72%、对未对冲部分上行电价最敏感，需求侧方向正面。⚠️ 利率面：[[2026-09-24-spdb-us-macro-warsh-hike|浦银]]（12 月或再加、年底布伦特 90–100）、[[2026-09-24-wukuang-fed-sep-review|五矿]]（点阵 4.1%、市场反应钝化）、[[2026-09-24-boci-allocation-china-bonds-us-equity|中银]]（美股上调、美债下调）——利率上行为反向关注项，属既列风险、非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-25 — brief：`sec_fetch.py --since 2026-09-24` **1 新增文件、1 flag**——读全文判定为**纯融资/再融资**：8-K 2026-09-24（[[2026-09-24-vst-8k-junior-subordinated-notes]]，Items 1.01/8.01）完成发行 **$1.5B 初级次级票据**（$850M 7.000% Series A + $650M 7.250% Series B，2057 到期，Vistra 担保），用途为向 Vistra 分配以赎回其 8.0%/7.0% 永续优先股（reset 日 2026-10/12）——**负债管理、非新增杠杆**，terminat/AWS/cancel/PPA 均为承销协议/契约样板条款误报，**无电力合约/监管事件触及失效条件**。关键读数：VST 长久期（2057）混合资本新发成本约 **7%**，是本仓利率/融资敏感性既列风险的具体读数。宏观新增偏鸽侧注脚：[[2026-09-19-nanhua-macro-fed-hawkish|南华期货]]判"这次加息可能是结束而非起点、市场对连续加息定价过满"（列四结构性约束）——若成立、长端见顶回落利好长久期 PPA 估值；仍属既列利率风险、非 Invalidation。Invalidation 状态：ok/ok/ok/ok（不变）。

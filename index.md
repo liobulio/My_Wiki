@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-25]] — **以 SEC 文件为主轴：VST 完成 $1.5B 初级次级票据（再融资、非新增杠杆）**：读全文判定为纯融资——[[2026-09-24-vst-8k-junior-subordinated-notes|8-K Items 1.01/8.01]]完成发行 **$850M 7.000% + $650M 7.250%（2057）**票据、Vistra 担保，用途赎回其 8.0%/7.0% 永续优先股（reset 2026-10/12），terminat/AWS/cancel/PPA 均为契约样板条款误报、**无电力合约/监管事件触及失效条件**；唯一读数——**VST 长久期混合资本新发成本 ~7%**（利率/融资敏感性既列风险的具体标尺）。研报仅新增偏鸽注脚 [[nanhua-futures|南华期货]]（新建机构页）判"**这次加息可能是结束而非起点、连续加息定价过满**"、列四结构性约束；外资桶本窗口无 dated 新内容；[[ceg]]/[[tln]] 0 新增、Invalidation ok×4 不变 → `brief/2026-09-25.html`
 - [[2026-09-24]] — **加息落地一周后：卖方在"再加几次"上收敛**：宏观 [[spdb-international|浦银]]（沃什周期？12 月或再加、**非连续加息**、年底布伦特上调 90–100）+ [[wukuang-securities|五矿]]（点阵中值 4.1%、年内再加一次、**加息风险仍在但市场反应钝化**）；配置 [[boci|中银]]资产配置月报**"中债美股占优"**（美股上调、**美债下调**）；框架 [[wukuang-securities|五矿 AI 革命]]把 **"电力/并网/高速互联"列为海外稀缺基础设施首选**（背书本仓）；需求侧 [[huaxin-securities|华鑫·思科]] FY2026 hyperscaler AI 基础设施订单 **$9.3B/~4.5×、FY27 $7.5B（+87.5%）**（✅）+ [[citic-securities|中信里昂 CLSA]]**逆"2028 见顶"、算力短缺至 2030**（IF26）；新建 [[wukuang-securities]] 机构页、[[csco]]/[[amd]] 资产页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-24.html`
 - [[2026-09-23]] — **AI 行情"1998 而非 2000"**：[[boci|中银国际]]策略深度——AI capex 未见拐点但龙头 FCF 分化（硬件高位/应用云层转负→负债融资→利率敏感度升）、**美债高位是核心估值约束**、英伟达=思科卖铲人、赛道 β→现金流质量 α；本仓映射由 [[huaxin-securities|华鑫]] 记 **NVDA FY27Q2 数据中心 $89B/+117%、Rubin 全面量产** + **AVGO AI 半导体 $16.7B/+221%、FCF $13.7B/46% 营收**（✅）实证；宏观 [[dongfang-jincheng|东方金诚]] 美日加息、10Y 周收 5.01%、8 月零售 +1.2%；新建 [[avgo]] 资产页、更新 [[nvda]]；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-23.html`
 - [[2026-09-22]] — **加息落地后如何应对：利率压估值 ≠ 改 AI 景气**：利率面 [[guoxin-securities|国新]]补齐 FOMC 当日定价（10Y 收 5.021% 新高、10 月加息概率近 60%、"加息非治本之策"）+ [[soochow-securities|东吴]]"不具备连续加息基础、股市回归盈利锚、看好大盘科技"（⚠️ 上周美股公用事业领跌）；需求面 [[china-post-securities|中邮]]引 **IAEA 连续第六年上调核电装机**（2050 高 1045 GW/2060 1284 GW ✅）+ [[pacific-securities|太平洋]] AMAT FY26Q3（DRAM 占比 22%→26%、含 HBM 封装 +52% YoY ✅）；新建 [[amat]] 资产页、[[guoxin-securities]]/[[china-post-securities]] 机构页；SEC 三家 0 新增、Invalidation ok×4 → `brief/2026-09-22.html`
@@ -46,7 +47,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · [[nanhua-futures]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[csco]] — Cisco Systems；AI 数据中心网络/高速互联供应商；FY2026 hyperscaler AI 基础设施订单 $9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）；本仓需求侧佐证（2026-09-24）
@@ -118,6 +119,8 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-24-vst-8k-junior-subordinated-notes]] — **VST 8-K（Items 1.01/8.01）** 完成 **$1.5B 初级次级票据**发行（$850M 7.000% + $650M 7.250%，2057、Vistra 担保），用途赎回 8.0%/7.0% 永续优先股——**融资/再融资、非新增杠杆**；terminat/AWS/cancel/PPA 均为契约样板条款误报，无电力/监管事件；混合资本成本 ~7%（[[ai-power-ipp-bull]] 利率敏感性读数、ok×4 不变）✅
+- [[2026-09-19-nanhua-macro-fed-hawkish]] — 南华期货（翟帅男）宏观周报"美联储 9 月议息偏鹰，但无需过度悲观"：定性"中性偏鹰+修复信誉"，逆共识判**这次加息可能是结束而非起点、市场对连续加息定价过满**；列反对连续加息的四约束（经济不过热/为降息腾空间/2027 票委换届偏鸽/联邦债务 >$40T 财政约束 ✅）；美债短端定价政策、长端定价信誉（[[ceg]]/[[tln]]/[[vst]] 利率敏感性偏鸽侧注脚）
 - [[2026-09-24-spdb-us-macro-warsh-hike]] — 浦银国际（金晓雯）月度美国宏观"沃什开启新一轮加息周期？"：9 月偏鹰加息落地，**10 月或按兵、12 月或再加 25bp、但"非新一轮连续加息周期"**；中东升级、**年底布伦特上调至 90–100 美元/桶**；8 月"K 型分化加深"（零售 +1.2% vs 制造/地产弱）；下行风险明列"AI 投资泡沫破裂"（[[ceg]]/[[tln]]/[[vst]] 利率敏感性）
 - [[2026-09-24-wukuang-fed-sep-review]] — 五矿证券（尤春野）美联储 9 月点评"加息风险仍在但市场反应钝化"：+25bp 至 3.75%–4%、12-0；**2026/2027 点阵中值均 4.1%**（6 月 3.8%/3.6%）、年内再加一次（12 人 +25/4 人 +50/2 人不加）；连续大幅加息缺乏依据；会后长端回落、美股回升 ✅
 - [[2026-09-24-boci-allocation-china-bonds-us-equity]] — 中银国际（王君/郭晓希）资产配置月报"中债美股占优，A 股震荡分化"（改进 BL 模型）：**美股仓位重新上调、美债下调为一致方向**、美元维持低位；中美"库存筑顶"、Q4 及明年进入被动补库→主动去库（[[ceg]]/[[tln]]/[[vst]] β 正面/利率高位）
