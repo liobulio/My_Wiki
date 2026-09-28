@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-25
+updated: 2026-09-28
 ---
 
 # TLN — Talen Energy (open position)
@@ -51,3 +51,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-23 — brief：`sec_fetch.py --since 2026-09-22` **无新增文件、0 flags**。算力交付实证 firm baseload 需求刚性：[[2026-09-23-huaxin-nvda-rubin|华鑫]]记 NVDA FY27Q2 数据中心 **$89B/+117%、Rubin 全面量产**、[[2026-09-23-huaxin-avgo-ai-semi|AVGO]] AI 半导体 $16.7B/+221%——利好 TLN 未签约的可调度容量（Susquehanna–AWS 之外余量）。宏观 [[2026-09-23-dongfang-jincheng-overseas-hike|东方金诚]]：美日加息、10Y 周收 5.01%、8 月零售强韧。⚠️ [[2026-09-22-boci-ai-mainline-recheck|中银]]"1998 而非 2000"——利率是核心估值约束，属既列利率敏感性风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-24 — brief：`sec_fetch.py --since 2026-09-23` **无新增文件、0 flags**。需求侧延续：[[2026-09-22-huaxin-cisco-ai-network|华鑫·思科]]记 FY2026 hyperscaler AI 基础设施订单 **$9.3B（~4.5× YoY）、FY27 $7.5B（+87.5%）**——数据中心建设未退坡，利好 TLN 未签约可调度容量；[[2026-09-24-wukuang-ai-revolution|五矿]]把**电力/并网/高速互联列为海外稀缺基础设施首选**（框架背书 firm 电力稀缺）。⚠️ 利率面：[[2026-09-24-spdb-us-macro-warsh-hike|浦银]]/[[2026-09-24-wukuang-fed-sep-review|五矿]] 一致"年内再加一次、非连续加息周期"、[[2026-09-24-boci-allocation-china-bonds-us-equity|中银]]美债下调——属既列利率敏感性风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-25 — brief：`sec_fetch.py --since 2026-09-24` **无新增文件、0 flags**（CEG/TLN 均 0；VST 1 新增为纯融资再融资）。本期以 SEC 文件为主、外资桶无窗口内新内容。宏观新增偏鸽侧注脚：[[2026-09-19-nanhua-macro-fed-hawkish|南华期货]]判"这次加息可能是结束而非起点、市场对连续加息定价过满"（列四结构性约束）——若长端见顶回落利好未签约可调度容量的长久期估值；利率维持高位仍属既列风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-28 — brief：`sec_fetch.py --since 2026-09-25` **无新增文件、0 flags**。需求侧成交实证：[[2026-09-27-soochow-power-shortage-aidc|东吴缺电周报]]记 **Luminant（VST）–New Era 20 年 ≥207 MW PPA**（[[2026-09-21-newera-8k-vistra-luminant-ppa]]）、Kodiak/Woodway 表后天然气项目、Google–Georgia Power 核电增容——数据中心"直接找发电商长约/表后直供"模式扩散，利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）。⚠️ **德州暂停新的州级数据中心许可**——对存量并网资产中性偏正、列为 watch。宏观利率维持高位（[[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh]]/[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]）属既列风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。

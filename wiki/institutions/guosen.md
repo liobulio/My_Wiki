@@ -16,6 +16,7 @@ Mainland broker; strategy weeklies tracking US–China policy (AI export restric
 tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asset macro desk (董德志).
 
 ## House view (current)
+- 2026-09-27 — **多资产周报"加息落地，黄金与纳指背道而驰"**：9/16 加息**打开利率路径不确定性**，定价由单点转连续博弈、数据敏感度上升；本周交易第二次加息、名义利率上行而通胀预期未跟随 ⇒ **实际利率成核心变量**——黄金（无息、-2.01%）被压、纳指靠盈利上修（存储/代工涨价）维持上行。三观测量：① 10Y 能否站上 5%（**5.2% 关键点位**）② 纳指盈利兑现 ③ 人民币 6.70。10Y 本周 +16BP（[[2026-09-27-guosen-multiasset-hike-nasdaq-gold]]）。
 - 2026-09-18 — **策略团队（荀玉根）："美股长牛背后有大小熊"**（报告封面日 9/11，本期分发扫到）：1982
   年后美股牛长熊短（道指年化 10.0%）；大熊（2 次）源于盈利估值双杀（标普 −50%+），小熊（8 次）源于
   事件催化、**平均 −23.5%/3.4 个月**后延续长牛——为"AI 牛市 vs 高利率"提供历史标尺

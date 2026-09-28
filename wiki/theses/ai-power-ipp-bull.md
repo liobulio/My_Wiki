@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-25
+updated: 2026-09-28
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -77,6 +77,15 @@ See [[ai-power-demand]].
   联邦债务 >$40T 财政约束）——若成立、长端见顶回落，利好长久期 PPA 现金流估值；但南华同时提示美债长端"定价信誉"、因供给/QT
   扰动易维持高位波动，利率维持高位仍属既列风险。
 - 需求侧硬数据（2026-09-25）：AI 光互联价值链 FY26Q4 全面大超预期——**[[fn|Fabrinet]]** 收入 $1.316B/+45%、数据中心 $669M/+68%/占 51%；**[[lite|Lumentum]]** 收入 $1.006B/+109.3%、组件+系统双翻倍、1.6T/OCS 导入加速；**[[cohr|Coherent]]** 收入 $2.046B/+33.8%、DC&Comms $1.615B/+58.6%/占 79%、FY26 capex $1.103B 大幅扩产（华鑫，[[2026-09-22-huaxin-fabrinet]]/[[2026-09-22-huaxin-lumentum]]/[[2026-09-22-huaxin-coherent]]，✅ 全核验）——光连接由机架间向机架内延伸、指引续升，数据中心建设/用电未退坡的又一第三方实证（背书需求侧时间跨度；非直接电力标的）。宏观侧 **[[apollo|Apollo·Slok]]** "higher-for-longer 先压最弱资产负债表、CCC ~15%、move up in quality"（[[2026-09-25-apollo-daily-spark-higher-for-longer]]）——本仓三家均为投资级"强资产负债表"一端，非受压主体，但印证再融资成本上行（呼应 VST ~7% 读数、既列风险）。
+- **Catalyst 直接兑现（2026-09-28）**：**[[vst|VST]] 旗下 Luminant 与 New Era 签署 20 年 PPA**——为德州 Midland（二叠纪盆地）
+  的 Texas Critical Data Centers 一期提供**保底 200 MW / 至多 207 MW** 天然气电力，供电来自 Vistra **Odessa 1,180 MW 燃气厂**
+  （表后直供、免并网排队），**预计 27Q3 商供**；Vistra 另获受电部分数据中心 **5% 权益 + ROFR/ROFO**（[[2026-09-21-newera-8k-vistra-luminant-ppa]]，
+  ✅ 一手 8-K 核验，经 [[2026-09-27-soochow-power-shortage-aidc|东吴缺电周报]]线索追入）。这是本仓 Edge/Catalyst 的教科书式实证：
+  把未签约可调度容量以 20 年长约再定价、且走"数据中心直接找发电商表后直供"绕开并网瓶颈的模式；规模相对全机队不大（≤207/1,180 MW 单厂），
+  方向利多。⚠️ 同期 [[2026-09-27-soochow-power-shortage-aidc|东吴]]另记**德克萨斯州暂停新的州级数据中心许可**（待电力/水资源基础设施审查）——
+  对存量已并网发电资产中性偏正（巩固 firm 电力稀缺），列为 watch；仅当演化为对新增用电负荷的系统性限制、拖慢数据中心落地节奏，
+  才属 Invalidation #1 的上游风险。宏观利率侧 [[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh 无前瞻指引]] +
+  [[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"实际利率成核心变量、10Y 5.2% 关键点位"延续既列利率敏感性风险（非 Invalidation）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis
