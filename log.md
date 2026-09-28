@@ -280,3 +280,8 @@ grep "^## \[" log.md | tail -5
 - fact-check: ✅ Luminant–New Era 20 年 / 保底 200 MW / 至多 207 MW / Odessa 1,180 MW 燃气厂表后直供 / 27Q3 商供 / Vistra 5% 权益 + ROFR/ROFO / Midland 493 英亩 1.4 GW——New Era 8-K Ex-99.1 与 DataCenterDynamics/Latitude Media/Nasdaq/Yahoo Finance 逐点一致；✅ 国信 美债 10Y 本周 +16BP、伦敦金现 -2.01% 与市场方向一致；Apollo Warsh 沟通/措辞（"a dose of accommodation"、无前瞻指引）经 CNBC 多篇佐证。📌 缺电指数为东吴自建口径、作情绪读数。
 - is_change: false（[[apollo]] 延续 higher-for-longer/move up in quality；[[guosen]] 延续加息后利率路径不确定性框架；[[soochow-securities]] 缺电周报为事件跟踪、未反转板块评级）；logic_changes 空；opportunities_new 0（东吴推荐为 A 股缺电链、Apollo/国信为宏观；既有 [[ai-optical-interconnect-2026-09]] 本期无新增背书、维持 new）。
 - 未取/受限：All-In **Ep 290（2026-09-26 周五主集，AI 恐慌叙事/Anthropic·OpenAI 推迟 IPO/开源竞争）**——关联偏弱且 transcript 未在本次运行取得，**未 ingest，留待下期/human 补 transcript**；Apollo Daily Spark 正文 JS 渲染未整篇抓取（据索引+CNBC 佐证复原、已在源页透明标注）；东财桶另有大量 A 股晨报/北交所/端侧 AI/港股消费出范围条目未取。
+
+## [2026-09-28] brief | 补扫周一新研报3篇——华鑫「高位美债和AI催化博弈」(10Y破5.2%但顶部5–5.2%、美股哑铃) + 太平洋 LITE FY26Q4 $1.01B/+109%(第二家光互联实证→ai-optical-interconnect升watching) + 太平洋 AMD Q2 数据中心$6.72B/+107%(MI350，需求侧硬数据)
+- pages touched: [[2026-09-28-huaxin-us-rates-ai-barbell]], [[2026-09-26-pacific-lite-optical]], [[2026-09-26-pacific-amd-datacenter]], [[huaxin-securities]], [[pacific-securities]], [[amd]], [[ai-optical-interconnect-2026-09]], [[2026-09-28]] (brief), index.md, brief/2026-09-28.{html,md}
+- sources ingested: 3 (补扫，累计本日 7)；filings read: 0 new (SEC --since 2026-09-28 仍 0 新增、ok×4 不变)
+- note: 同日首轮brief已发(SINCE=2026-09-25)；东财API当日晚间新增周一研报，本轮补录同日内容(append，未覆写)。opportunities_new 仍 0(既有机会获第二家背书、升watching、非新开)。fact-check ✅ AMD $11.5B/+50%·DC $6.7B/+107%·GAAP GM 54%对SEC 8-K逐点核验；LITE数据与已核FY26Q4一致；⚠️华鑫「10月加息>70%」略高于CME ~64–67%。
