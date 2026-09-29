@@ -290,3 +290,10 @@ grep "^## \[" log.md | tail -5
 - pages touched: [[2026-09-29-soochow-overseas-compute-alibaba-20gw]], [[2026-09-28-cmbc-intl-overseas-macro-rates]], [[cmbc-international]] (new), [[soochow-securities]], [[us-treasury-10y]], [[ai-optical-interconnect-2026-09]], [[ai-power-ipp-bull]], [[ceg]], [[tln]], [[vst]], [[2026-09-29]] (brief), index.md, brief/2026-09-29.{html,md}
 - sources ingested: 2 (宏观1: 民银国际·海外宏观周报第37期; 行业1: 东吴·海外算力周·阿里20GW)；filings read: 0 (SEC --since 2026-09-28: CEG/TLN/VST 均 0 新增、0 flags、ok×4 不变)
 - note: 新建机构页 [[cmbc-international]](民银国际，origin domestic，首次入库)。opportunities_new 0——东吴/民银推荐或为A股或宏观、无新开US标的；既有机会 [[ai-optical-interconnect-2026-09]] 获第三家(东吴 ECOC 2026 CPO/NPO点名Coherent/Lumentum)背书、status维持watching。fact-check ✅ 阿里2032年20GW/真武V900(M890的3倍)/Qwen4训练中经TechNode/KuCoin/cloudcomputing-news核实；民银10Y 5.17%(9/25收)/+16bp/10月加息概率抬升与CNBC(周五触及5.23%、2007以来最高、10月~64%)方向量级一致；⚠️民银数据表Brent现货$66.36与正文"油价高位"矛盾、疑字段错位。未取：Apollo公共feed最新2026-09-23无新Daily Spark；raw/内6个All-In YouTube转写(2026-06/07加入、无源页)为历史backlog、超本日窗口、留待专门补录。
+
+## [2026-09-29] brief | 同日复跑补扫——太平洋(张世杰)海外AI半导体景气三连(Intel DCAI $6.26B/+59%、Teradyne $1.33B/+104%/半导体测试+128%、ADI $4.02B/+40%/通信+75.7%，✅全核验)作firm电力需求侧景气佐证；SEC三家CEG/TLN/VST --since 2026-09-29仍0新增0flags、ok×4不变；无新开机会
+- pages touched: [[2026-09-28-pacific-intel-datacenter]], [[2026-09-28-pacific-teradyne-test]], [[2026-09-28-pacific-adi-analog]], [[intc]], [[ter]], [[adi]], [[pacific-securities]], [[ai-optical-interconnect-2026-09]], [[2026-09-29|briefs/2026-09-29]], index.md, brief/2026-09-29.html+md
+- sources ingested: 3 (太平洋 Intel/Teradyne/ADI 点评，均东财 API 命中·pdftotext·raw 保存·web 核实)
+- filings read: 0 (sec_fetch --since 2026-09-29：CEG/TLN/VST 均 0 新增、0 flags)
+- invalidation flags: 无变化，[[ceg]]/[[tln]]/[[vst]] ok×4
+- note: 复跑发现earlier run(SINCE=2026-09-28)未覆盖的3篇2026-09-29 US-equity点评(Intel/TER/ADI单股景气)；均为回顾性需求侧实证、非组合标的、非买入机会；sources_ingested 2→5
