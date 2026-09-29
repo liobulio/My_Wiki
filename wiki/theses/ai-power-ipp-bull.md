@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-28
+updated: 2026-09-29
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -86,6 +86,14 @@ See [[ai-power-demand]].
   对存量已并网发电资产中性偏正（巩固 firm 电力稀缺），列为 watch；仅当演化为对新增用电负荷的系统性限制、拖慢数据中心落地节奏，
   才属 Invalidation #1 的上游风险。宏观利率侧 [[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh 无前瞻指引]] +
   [[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"实际利率成核心变量、10Y 5.2% 关键点位"延续既列利率敏感性风险（非 Invalidation）。
+- 需求侧长期指引（2026-09-29）：**[[2026-09-29-soochow-overseas-compute-alibaba-20gw|东吴·海外算力周]]** 记 **阿里云栖大会**把
+  "**2032 年全球数据中心规模超 20GW**"列为长期量化目标（吴泳铭），并明确 AIDC 交付链对"芯片、光互联、存储、**电力**及工程集成"
+  的系统性拉动（真武 V900 2027Q1 量产/M890 的 3 倍/50 万卡集群、Qwen4 训练中，✅ 已核 TechNode/KuCoin）。一家超大规模云给出 20GW 级
+  的十年用电蓝图，是本仓"数据中心负荷把 firm 电力推向结构性偏紧"的又一第三方硬指引（背书需求侧时间跨度；虽为中国云、印证全球 AIDC
+  用电共识，间接利好 US IPP 的 firm 电力稀缺定价，非直接标的）。⚠️ 该指引主要在 2030 后兑现，属需求侧远端支撑。
+- 利率读数（2026-09-29）：**[[2026-09-28-cmbc-intl-overseas-macro-rates|民银国际·海外宏观周报]]** 记 **10Y 美债收 5.17%（9/25）、周 +16bp**，
+  年内再加一次已"基本完全定价、时点提前至 10 月"（✅ 外部印证 CNBC：周五触及 5.23%、2007 以来最高、10 月加息概率 ~64%）——延续本仓
+  长久期 PPA 现金流的**利率敏感性既列风险**（呼应 [[vst]] ~7% 新发成本读数、[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"10Y 5.2% 关键点位"），非 Invalidation。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

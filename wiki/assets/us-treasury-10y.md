@@ -5,7 +5,7 @@ asset_class: bond
 aliases: [10Y 美债, 十年期美债, 10-year Treasury yield, DGS10]
 tags: [macro, rates]
 created: 2026-09-16
-updated: 2026-09-22
+updated: 2026-09-29
 ---
 
 # 10 年期美国国债收益率（US10Y）
@@ -15,6 +15,10 @@ updated: 2026-09-22
 [[ceg]]/[[tln]]/[[vst]] 的长期 PPA 现金流对长端利率敏感（[[ai-power-ipp-bull]] 既列风险）。
 
 ## Current view（2026-09）
+- 2026-09-29 更新（[[cmbc-international|民银国际]]口径）：**10Y 收 5.17%（2026-09-25），周 +16.0bp；2Y 4.81%，周 +5.0bp**——
+  收益率持续走高六因（经济意外走强/加息必要性升、AI 投资撑实际利率、中东油价、美联储官员密集鹰派、美债供给、全球债券同步抛售）；
+  **年内再加一次已基本完全定价、时点提前至 10 月**（[[2026-09-28-cmbc-intl-overseas-macro-rates]]）。✅ 外部印证：CNBC 记该周五 10Y 触及
+  **5.23%（2007 以来最高）**、9/28 约 5.24%、10 月加息概率 ~64%（[CNBC 2026-09-26](https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html)）。呼应 [[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh]]、[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"10Y 5.2% 关键点位"。
 - 2026-09-22 更新（[[guoxin-securities|国新证券]]口径）：FOMC 加息当日 **10Y 收 5.021%（2023-10 以来新高）、2Y 4.725%
   （2024-07 以来新高）**、美元指数 +0.7% 站上 100、现货金一度跌至 $4234.68/oz；期货**定价明年一季度前累计两次加息、
   10 月加息概率近 60%**（[[2026-09-22-guoxin-sec-fed-hawkish-hike]]）。[[soochow-securities|东吴]]则判"当前不具备连续

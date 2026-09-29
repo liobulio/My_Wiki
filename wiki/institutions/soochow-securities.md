@@ -6,7 +6,7 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-09-22
+updated: 2026-09-29
 ---
 
 # 东吴证券
@@ -16,6 +16,10 @@ updated: 2026-09-22
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-09-29 — 海外算力周跟踪（电子 陈海进）：**阿里云栖大会发布全栈 AI 路线图**——芯片（真武 V900，2027Q1 量产、
+  算力为 M890 的 3 倍、单集群 50 万卡）+ 云（**2032 年全球数据中心规模超 20GW**）+ 模型（Qwen4 训练中），
+  纳入"AI 时代超级电网"蓝图，并点明 AIDC 交付链对芯片/光互联/存储/**电力**/工程集成的系统性拉动；ECOC 2026
+  光互联代际切换（CPO/NPO 产品化，Coherent/Lumentum/Ciena 量产送样）；PCB/MLCC 涨价链延续（[[2026-09-29-soochow-overseas-compute-alibaba-20gw]]）。
 - 2026-09-27 — "缺电主线"周报（黄细里）梳理一周 AIDC 供电大事：**[[vst|Luminant]]（Vistra）与 New Era 签 20 年 PPA**（Ector County 一期 ≥207 MW 天然气、27Q3 供电，见 [[2026-09-21-newera-8k-vistra-luminant-ppa]]）；**德克萨斯州暂停新的州级数据中心许可**（待电力/水资源基础设施审查）；Google–Georgia Power 提升 Vogtle/Hatch 核电功率（+96 MW）；Kodiak Gas 6 年 76 MW 表后天然气。缺电指数国内本周 -2.62%（YTD +17.31%）、海外 -1.18%（YTD +33.03%）（[[2026-09-27-soochow-power-shortage-aidc]]）。
 - 2026-09-22 — 美股周观点（策略 陈梦/葛晓媛）：**加息落地后如何应对**——只要加息周期温和，股市应**更多锚定
   盈利而非利率**，利率上行"更多压制科技股估值，而非改变 AI 产业景气和盈利趋势"，**看好大盘科技/通信服务**；

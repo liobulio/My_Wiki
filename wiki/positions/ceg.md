@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-28
+updated: 2026-09-29
 ---
 
 # CEG — Constellation Energy (open position)
@@ -52,3 +52,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-24 — brief：`sec_fetch.py --since 2026-09-23` **无新增 8-K/10-Q/10-K、0 flags**（三家均 0）。需求侧硬数据延续：[[2026-09-22-huaxin-cisco-ai-network|华鑫·思科]]记 FY2026 hyperscaler AI 基础设施订单 **$9.3B（~4.5× YoY）、FY27 预计 $7.5B（+87.5%）**——AI 数据中心建设/用电未退坡（利好，不触发失效条件）；[[2026-09-24-wukuang-ai-revolution|五矿·AI 革命框架]]把**"电力、并网、高速互联"列为海外持续稀缺基础设施首选**（第三方框架背书本仓核电稀缺定价）。⚠️ 利率面：[[2026-09-24-spdb-us-macro-warsh-hike|浦银]]（12 月或再加、非连续、年底布伦特上调至 90–100）、[[2026-09-24-wukuang-fed-sep-review|五矿]]（点阵中值 4.1%、年内再加一次、市场反应钝化）、[[2026-09-24-boci-allocation-china-bonds-us-equity|中银配置月报]]（美股上调、**美债下调**）——利率维持高位属**既列风险，非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-25 — brief：`sec_fetch.py --since 2026-09-24` **无新增 8-K/10-Q/10-K、0 flags**（CEG/TLN 均 0；VST 1 新增为纯融资，见其页）。本期以 SEC 文件为主、外资桶无窗口内新内容。宏观新增偏鸽侧注脚：[[2026-09-19-nanhua-macro-fed-hawkish|南华期货]]判"这次加息可能是结束而非起点、市场对连续加息定价过满"，列四结构性约束（经济不过热/为降息腾空间/2027 票委换届偏鸽/联邦债务>$40T 财政约束）——若成立、长端见顶回落，利好长久期核电现金流估值；南华同时提示美债长端"定价信誉"、因供给/QT 扰动易高位波动，利率维持高位仍属**既列风险、非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-28 — brief：`sec_fetch.py --since 2026-09-25` **无新增 8-K/10-Q/10-K、0 flags**（CEG/TLN 均 0）。需求侧再获成交实证：[[2026-09-27-soochow-power-shortage-aidc|东吴缺电周报]]记一周 AIDC 供电成交——**Luminant（VST）–New Era 20 年 PPA**（同业把可调度容量长期货币化，[[2026-09-21-newera-8k-vistra-luminant-ppa]]）、**Google–Georgia Power 提升 Vogtle/Hatch 核电功率（+96 MW）**——核电增容/长约需求侧信号，背书 [[ai-power-demand]]（利好，不触发失效条件）。⚠️ **德州暂停新的州级数据中心许可**（待电力/水资源审查）——对存量已并网发电资产中性偏正、列为 watch。宏观：[[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh 无前瞻指引]] + [[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"实际利率成核心变量、10Y 5.2% 关键点位"——利率维持高位属**既列风险、非 Invalidation**。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-29 — brief：`sec_fetch.py --since 2026-09-28` **无新增 8-K/10-Q/10-K、0 flags**（CEG/TLN/VST 均 0）。需求侧再获超大规模云长期硬指引：[[2026-09-29-soochow-overseas-compute-alibaba-20gw|东吴·海外算力周]]记**阿里云栖大会目标"2032 年全球数据中心规模超 20GW"**、明确 AIDC 交付链对"芯片/光互联/存储/**电力**/工程集成"系统性拉动（真武 V900 2027Q1 量产、Qwen4 训练中，✅ 已核 TechNode/KuCoin）——firm 电力需求时间跨度的第三方背书（间接利好核电稀缺定价，不触发失效条件）。⚠️ 利率面：[[2026-09-28-cmbc-intl-overseas-macro-rates|民银国际]]记 **10Y 收 5.17%（9/25）、周 +16bp、年内再加一次时点提前至 10 月**（✅ CNBC：周五触及 5.23%、2007 以来最高）——长久期核电现金流利率敏感性属**既列风险、非 Invalidation**。德州数据中心暂停许可维持 watch（本期无新进展）。RISEC（609MW 燃气）收购 8-K 仍未到披露窗口，下期继续盯。Invalidation 状态：ok/ok/ok/ok（不变）。
