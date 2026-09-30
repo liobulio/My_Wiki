@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, ok, ok, ok]
 opened: 2026-09-11
-updated: 2026-09-29
+updated: 2026-09-30
 ---
 
 # TLN — Talen Energy (open position)
@@ -53,3 +53,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-09-25 — brief：`sec_fetch.py --since 2026-09-24` **无新增文件、0 flags**（CEG/TLN 均 0；VST 1 新增为纯融资再融资）。本期以 SEC 文件为主、外资桶无窗口内新内容。宏观新增偏鸽侧注脚：[[2026-09-19-nanhua-macro-fed-hawkish|南华期货]]判"这次加息可能是结束而非起点、市场对连续加息定价过满"（列四结构性约束）——若长端见顶回落利好未签约可调度容量的长久期估值；利率维持高位仍属既列风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-28 — brief：`sec_fetch.py --since 2026-09-25` **无新增文件、0 flags**。需求侧成交实证：[[2026-09-27-soochow-power-shortage-aidc|东吴缺电周报]]记 **Luminant（VST）–New Era 20 年 ≥207 MW PPA**（[[2026-09-21-newera-8k-vistra-luminant-ppa]]）、Kodiak/Woodway 表后天然气项目、Google–Georgia Power 核电增容——数据中心"直接找发电商长约/表后直供"模式扩散，利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）。⚠️ **德州暂停新的州级数据中心许可**——对存量并网资产中性偏正、列为 watch。宏观利率维持高位（[[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh]]/[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]）属既列风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
 - 2026-09-29 — brief：`sec_fetch.py --since 2026-09-28` **无新增文件、0 flags**。需求侧长期硬指引：[[2026-09-29-soochow-overseas-compute-alibaba-20gw|东吴·海外算力周]]记**阿里云栖大会目标"2032 年全球数据中心规模超 20GW"**、AIDC 交付链系统性拉动电力（真武 V900 2027Q1、Qwen4 训练中，✅ 已核）——超大规模云长期用电指引，利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）。⚠️ 利率面：[[2026-09-28-cmbc-intl-overseas-macro-rates|民银国际]]记 **10Y 收 5.17%（9/25）、周 +16bp、10 月加息时点提前**（✅ CNBC：周五 5.23%、2007 以来最高）——属既列利率敏感性风险、非 Invalidation。⚠️ 未解：6→9 月股价 −18% 仍未追溯到具体 catalyst，下期继续优先。Invalidation 状态：ok/ok/ok/ok（不变）。
+- 2026-09-30 — brief：`sec_fetch.py --since 2026-09-29` **1 新增 8-K、6 flags——读全文判定为资本回报 + CEO 交接、无电力合约/监管事件**。[[2026-09-29-tln-8k-capacity-monetization-ceo|8-K 2026-09-29]]（Items 5.02/7.01/8.01/9.01）：①**CEO 交接**——McFarland 2026-12-31 卸任、**Terry Nutt 自 2027-01-01 起任 CEO**（✅ 已核）；②**PJM 容量货币化**——子公司 TEM 出售 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）已出清容量收入 **~$15 亿**（经 Citi、折现 SOFR+200bps，**仅容量不含电量**，保留运营/履约义务），③用于 **$15 亿 uncollared ASR**、SRP 上调至 **$30 亿**、按当前股价回购**逾 10% 流通股**、目标净杠杆 3.5×（✅ 全核）。flags 中 terminat×121/AWS×19/cancel×3 **全为 EX-10.1/10.2 雇佣与离职协议样板条款误报**，**无任何 AWS/Susquehanna 电力合约变更**。方向中性偏正：把已出清 PJM 容量现金流提前变现回购逾 10% 流通股=管理层判断股价低估 + 现金流确定，且**保留电量上行敞口**；SOFR+200bps 融资成本延续既列利率敏感性关注（呼应 [[vst]] ~7%）、非 Invalidation。宏观利率续创新高（[[2026-09-29-cpost-overseas-macro-yields-rising|中邮]]记 30Y 5.5252%/2004 以来新高、10Y 盘中 ~5.23%；[[2026-09-30-spdb-monthly-strategy-earnings-resilience|浦银]]"高利率下靠盈利兑现"）属既列风险。⚠️ 该 8-K 仍**未直接解释 6→9 月股价 −18%**，数据缺口继续挂账。Invalidation 状态：ok/ok/ok/ok（不变）。

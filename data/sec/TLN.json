@@ -2,9 +2,137 @@
  "ticker": "TLN",
  "cik": 1622536,
  "name": "Talen Energy Corp",
- "fetched": "2026-09-29T16:38:01+00:00",
+ "fetched": "2026-09-30T15:27:35+00:00",
  "since": "2026-09-29",
  "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-09-29",
+   "report_date": "2026-09-25",
+   "accession": "0001622536-26-000074",
+   "primary_doc": "tln-20260925.htm",
+   "items": [
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "terminat",
+     "count": 121,
+     "snippets": [
+      "r affiliates of the Company without additional compensation. (b)Employee expressly and irrevocably waives and releases any and all claims Employee may have to terminate Employee’s employment for Good Reason under the Employee’s Prior Agreement and receive payments and benefits or otherwise be entitled to any other rights unde",
+      "the Effective Date. This Agreement will be null and avoid ab initio and of no further force nor effect in the event that Employee’s employment with the Company terminates for any reason prior to the Effective Date. 2.Duties and Responsibilities of Employee. (a)During the Employment Period, Employee shall actively engage in th",
+      "end of the Term or any 3 extension thereof. Notwithstanding any other provision of this Agreement, Employee’s employment pursuant to this Agreement may be terminated at any time in accordance with Section 7. The period from the Effective Date through the expiration of this Agreement or, if sooner, the termination of Emplo"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 19,
+     "snippets": [
+      "e.Williams@talenenergy.com 2 Forward-Looking Statements This communication contains forward-looking statements within the meaning of the federal securities laws, which statements are subject to substantial risks and uncertainties. These forward-looking statements are intended to qualify for the safe harbor from liabili",
+      "8.Disclosures. Promptly (and in any event, within three (3) Business Days) upon becoming aware of (a) any actual or potential Conflict of Interest or (b) any lawsuit, claim or arbitration filed against or involving Employee or any trust or vehicle owned or controlled by Employee, in each case, Employee shall disclose suc",
+      "Employee or any trust or vehicle owned or controlled by Employee, in each case, Employee shall disclose such actual or potential Conflict of Interest or such lawsuit, claim or arbitration to the Board. A “Conflict of Interest” shall exist when Employee engages in, or plans to engage in, any activities, associations, or i"
+     ]
+    },
+    {
+     "keyword": "PJM",
+     "count": 4,
+     "snippets": [
+      "w per share. Talen expects to fund the ASRs principally through the monetization of approximately $1.5 billion of cleared capacity revenues associated with the PJM 2027/2028 and 2028/2029 delivery years. The capacity monetization was executed with Citi at a rate of SOFR + 200 basis points. The transaction brings forward a",
+      "), an indirect wholly owned subsidiary of the Company, entered into an arrangement with an unaffiliated third party to sell future capacity revenues awarded by PJM and cleared by TEM in PJM’s capacity auctions for the 2027/2028 and 2028/2029 delivery years (the “Capacity Monetization Transaction”) related to certain of th",
+      "d subsidiary of the Company, entered into an arrangement with an unaffiliated third party to sell future capacity revenues awarded by PJM and cleared by TEM in PJM’s capacity auctions for the 2027/2028 and 2028/2029 delivery years (the “Capacity Monetization Transaction”) related to certain of the Company’s generation fle"
+     ]
+    },
+    {
+     "keyword": "complaint",
+     "count": 4,
+     "snippets": [
+      "de to the individual’s attorney in relation to a lawsuit for retaliation against the individual for reporting a suspected violation of law; or (C) is made in a complaint or other document filed in a lawsuit or proceeding, if such filing is made under seal. Nothing in this Agreement requires Employee to obtain prior authorizatio",
+      "ts”). 7.Whistleblower Protection. You understand that nothing contained in this Letter Agreement or the General Release limits your ability to file a charge or complaint with the Equal Employment Opportunity Commission, the National Labor Relations Board, the Occupational Safety and Health Administration, the Securities and Exc",
+      "ther directly or indirectly, or to an attorney; and (ii) solely for the purpose of reporting or investigating a suspected violation of law; or (B) is made in a complaint or other document filed in a lawsuit or other proceeding, if such filing is made under seal.” Nothing in this Letter Agreement is intended to conflict with 18"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 3,
+     "snippets": [
+      "he Board through December 31, 2026, and will then serve as a senior advisor until his retirement in March 2027. The transition period is intended to support an orderly handoff and continuity in the Company’s strategy, operations and capital allocation priorities. “Terry is the right leader to be Talen’s next CEO,” said Step",
+      "vement of the performance targets as determined by the Compensation Committee or the Board for the Bonus Year. The performance targets that must be achieved in order to be eligible for certain bonus levels shall be established by the Compensation Committee or the Board annually, in its sole discretion, and communicated to E",
+      "Medical Leave Act of 1993; the Worker Adjustment Retraining and Notification Act; the Employee Retirement Income Security Act of 1974; any applicable Executive Orders; the Fair Labor Standards Act; or their state or local counterparts; or under any other federal, state or local civil or human rights law, or under any other"
+     ]
+    },
+    {
+     "keyword": "cancel",
+     "count": 3,
+     "snippets": [
+      "subject to any limitation under applicable law, previously paid compensation pursuant to Sections 3(b) and 3(c) shall be subject to clawback or forfeiture and cancellation at the discretion of the Compensation Committee in the event of a termination of Employee’s employment for Cause. (b)Company’s Right to Terminate for Con",
+      "subject to any limitation under applicable law, previously paid compensation pursuant to Sections 3(b) and 3(c) shall be subject to clawback or forfeiture and cancellation at the discretion of the Compensation Committee in the event Employee fails to abide by the terms of any of Sections 8 through 13. 8.Disclosures. Promptl",
+      "edge and agree that, as of the Separation Date, all of your outstanding unvested restricted stock units and performance-based stock units will be automatically cancelled for no consideration without any further action by you or the Company Group in accordance with the applicable Award Agreements. For the avoidance of doubt,"
+     ]
+    },
+    {
+     "keyword": "acquisition",
+     "count": 3,
+     "snippets": [
+      "business plans, strategies for developing business and market share, research, financial and sales data, pricing terms, evaluations, opinions, interpretations, acquisition prospects, the identity of customers or acquisition targets or their requirements, the identity of key contacts within customers’ organizations or within the o",
+      "nd market share, research, financial and sales data, pricing terms, evaluations, opinions, interpretations, acquisition prospects, the identity of customers or acquisition targets or their requirements, the identity of key contacts within customers’ organizations or within the organization of acquisition prospects, or marketing a",
+      "identity of customers or acquisition targets or their requirements, the identity of key contacts within customers’ organizations or within the organization of acquisition prospects, or marketing and merchandising techniques, prospective names and marks) is defined as “Confidential Information.” Moreover, all documents, videotape"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 13 - file: FilingSummary.html Document 13 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>15 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 15 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>16 <FILENAME>0001622536-26-000",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>15 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 15 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>16 <FILENAME>0001622536-26-000074-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 16 - file: 00"
+     ]
+    },
+    {
+     "keyword": "interconnect",
+     "count": 1,
+     "snippets": [
+      "material to the Company Group which the Company Group has taken substantial steps to engage in on or prior to such date in the Pennsylvania-New Jersey-Maryland Interconnection region (as determined by the Federal Energy Regulatory Commission), Montana or any other geographic region in the United States where the Company Group cond"
+     ]
+    },
+    {
+     "keyword": "data center",
+     "count": 1,
+     "snippets": [
+      "awatt produced. Talen is also powering the digital infrastructure revolution. We are well positioned to serve this growing industry, as artificial intelligence data centers increasingly demand more reliable power. Talen is headquartered in Houston, Texas. For more information, visit https://www.talenenergy.com/. Investor Relation"
+     ]
+    },
+    {
+     "keyword": "delay",
+     "count": 1,
+     "snippets": [
+      "ent or benefit provided for herein would be subject to additional taxes and interest under Section 409A if Employee’s receipt of such payment or benefit is not delayed until the earlier of the date of Employee’s death or the date that is six (6) months after the Termination Date (such date, the “Section 409A Payment Date”),"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001622536-26-000074.txt",
+   "items_desc": [
+    "",
+    "Reg FD disclosure",
+    "other events",
+    ""
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/0001622536-26-000074-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/0001622536-26-000074-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/0001622536-26-000074.txt",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/a20260929pressreleasecapac.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/ex101secondamendedandresta.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/ex102transitionandretireme.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/R1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000074/tln-20260925.htm"
+   ],
+   "text_chars": 148687
+  },
   {
    "form": "10-Q",
    "filed": "2026-08-05",

@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-29
+updated: 2026-09-30
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -94,6 +94,7 @@ See [[ai-power-demand]].
 - 利率读数（2026-09-29）：**[[2026-09-28-cmbc-intl-overseas-macro-rates|民银国际·海外宏观周报]]** 记 **10Y 美债收 5.17%（9/25）、周 +16bp**，
   年内再加一次已"基本完全定价、时点提前至 10 月"（✅ 外部印证 CNBC：周五触及 5.23%、2007 以来最高、10 月加息概率 ~64%）——延续本仓
   长久期 PPA 现金流的**利率敏感性既列风险**（呼应 [[vst]] ~7% 新发成本读数、[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"10Y 5.2% 关键点位"），非 Invalidation。
+- 持仓资本运作读数（2026-09-30）：**[[tln|TLN]] 8-K**（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）——把 **PJM 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）已出清容量收入 ~$15 亿**提前变现（经 Citi、折现 SOFR+200bps，**仅容量不含电量**），用于 **$15 亿 ASR** 回购**逾 10% 流通股**、SRP 上调至 $30 亿、目标净杠杆 3.5×；同步 **Terry Nutt 自 2027-01-01 任 CEO**（✅ 全核）。方向中性偏正：管理层以已出清容量现金流的确定性支持大额回购、判断股价低估，且**保留电量上行敞口**；**不触及任一 Invalidation**（AWS×19/terminat×121 flags 全为雇佣协议误报、无电力合约变更）。**融资成本读数 SOFR+200bps（~6.3%）** 与 [[vst]] 2057 次级票据 ~7% 同为本仓"利率/融资敏感性"既列风险的具体读数。⚠️ 6→9 月 TLN −18% 仍未追溯到具体 catalyst。利率主线续走高：[[2026-09-29-cpost-overseas-macro-yields-rising|中邮]]记 **30Y 一度 5.5252%（2004 以来新高）、10Y 盘中 ~5.23%**、判 10 月大概率加息、明年或转降息；[[2026-09-30-spdb-monthly-strategy-earnings-resilience|浦银·策略月报]]"长端高利率压估值、美股上行靠盈利兑现，AI 龙头若资本回报率/收入/盈利验证仍可在利率上行环境延续上涨"——为本仓利率敏感性既列风险的双向注脚（利率≠单边杀估值，需求侧盈利兑现可对冲），非 Invalidation。需求侧硬数据：[[mrvl|Marvell]] FY27Q2 数据中心 **$2.17B/+46%**、1.6T 互连芯片开始出货（[[2026-09-28-pacific-marvell-optical]]，✅ 官方核）延续数据中心 firm 电力需求刚性。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

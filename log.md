@@ -297,3 +297,13 @@ grep "^## \[" log.md | tail -5
 - filings read: 0 (sec_fetch --since 2026-09-29：CEG/TLN/VST 均 0 新增、0 flags)
 - invalidation flags: 无变化，[[ceg]]/[[tln]]/[[vst]] ok×4
 - note: 复跑发现earlier run(SINCE=2026-09-28)未覆盖的3篇2026-09-29 US-equity点评(Intel/TER/ADI单股景气)；均为回顾性需求侧实证、非组合标的、非买入机会；sources_ingested 2→5
+
+## [2026-09-30] brief | 持仓 TLN 一手 8-K：CEO 交接（Terry Nutt 2027-01-01 任 CEO）+ PJM 已出清容量货币化 ~$15亿（Citi/SOFR+200bps、仅容量不含电量）+ $15亿 uncollared ASR（回购逾10%流通股、SRP→$30亿、净杠杆3.5×）——资本回报+接班、无电力合约/监管事件、terminat×121/AWS×19 flags 全为雇佣协议误报、ok×4 不变、方向中性偏正；新入库中邮·海外宏观周报（30Y 5.5252%/2004以来新高、10Y ~5.23%）+浦银·策略月报（高利率下靠盈利兑现、双向注脚）；太平洋 Marvell FY27Q2 数据中心 $2.17B/+46%/1.6T出货（光互联电芯片侧旁证，✅官方核）
+- pages touched: [[2026-09-29-tln-8k-capacity-monetization-ceo]], [[2026-09-29-cpost-overseas-macro-yields-rising]], [[2026-09-30-spdb-monthly-strategy-earnings-resilience]], [[2026-09-28-pacific-marvell-optical]], [[mrvl]], [[tln]], [[positions/tln|tln-position]], [[ai-power-ipp-bull]], [[ai-optical-interconnect-2026-09]], [[china-post-securities]], [[spdb-international]], [[pacific-securities]], [[2026-09-30]], index.md, log.md, brief/2026-09-30.html + .md
+- sources ingested: 4（1 filing TLN 8-K + 3 research：中邮海外宏观周报 / 浦银策略月报 / 太平洋 Marvell）
+- filings read: 1（TLN 8-K 2026-09-29，accession 0001622536-26-000074，Items 5.02/7.01/8.01/9.01——读全文）
+- SEC：`sec_fetch.py --since 2026-09-29`——CEG 0 新增/0 flags、VST 0 新增/0 flags、TLN 1 新增/6 flags（读全文判为资本回报+接班、无实质电力事件）
+- invalidation flags raised: 无。CEG/TLN/VST 均 ok/ok/ok/ok（不变）
+- fact-check（✅）：TLN Terry Nutt CEO/$15亿 ASR/SRP→$30亿/$15亿 PJM 容量货币化（6.5+6.0GW/Citi/净杠杆3.5×）经 Talen IR+GlobeNewswire+rttnews 逐点核实；Marvell FY27Q2 $2.74B/+37%、DC $2.17B/+46%/占79%、FY27 指引~$12B(~45%)/DC~60% 官方核实；中邮 30Y 5.5252%(2004高)/10Y ~5.23% 与民银/CNBC 方向一致
+- opportunities_new: 0（TLN 8-K 为持仓维护；ai-optical-interconnect 获 Marvell 电芯片/DSP 侧旁证、非新增券商、status 维持 watching）
+- 未取：Apollo feed 顶部 "Higher for Longer and the Road to 2027"（无 pubDate、同 higher-for-longer 主线、无边际、略过）；太平洋 Amphenol/国信华鑫 A 股 AI 应用周报等出范围

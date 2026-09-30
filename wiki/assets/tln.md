@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [Talen Energy, Talen Energy Corporation]
 tags: [power, nuclear, ai-power, data-center, ipp]
 created: 2026-06-19
-updated: 2026-09-11
+updated: 2026-09-30
 ---
 
 # TLN — Talen Energy
@@ -42,6 +42,12 @@ to AI/power **regulatory risk** (price caps, political backlash on consumer powe
 - [[2026-08-05-tln-8k-q2-earnings]]: cleared >10 GW in the 2028/29 PJM BRA at the $325/MW-day cap; ~4 GW of land / data-center
   contracting options in the pipeline (not yet contracted); $200M buyback, $1.7B capacity left. Q2 GAAP net loss −$92M, EPS −$2.00.
 - ⚠️ Price ~$382 (June) → ~$315 (2026-09-11); cause not yet traced.
+
+## 2026-09-29 8-K — CEO 交接 + PJM 容量货币化 + $15 亿 ASR（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）
+- **CEO 交接**：Mac McFarland 2026-12-31 卸任、转高级顾问至 2027-03 退休；**Terry Nutt 自 2027-01-01 起任 CEO**（orderly handoff）。✅
+- **PJM 容量货币化**：子公司 TEM 出售 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）已出清容量收入合计 **~$15 亿**（经 Citi，折现 SOFR+200bps），**仅容量、不含电量**，Talen 保留运营/履约义务与容量奖金/罚款风险。✅
+- **资本回报**：SRP 授权上调至 **$30 亿**（剩余 $15 亿至 2028）；同步 **$15 亿 uncollared ASR**（首笔 ~4.0M 股/~80%，预计 2027Q1 前完成，按当前股价回购 **逾 10% 流通股**），目标净杠杆 **3.5×**。✅
+- 读数：把已出清 PJM 容量现金流提前变现回购逾 10% 流通股 = 管理层判断股价低估 + 现金流确定；**保留电量上行敞口**。SOFR+200bps 融资成本延续利率敏感性关注。**不触及任一 Invalidation（ok×4）**。
 
 ## Key data points
 - Price ~$382; nuclear ~2.2 GW (Susquehanna); AWS PPA up to 1,920 MW (~$18B/2042).

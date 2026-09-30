@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-09-14
+updated: 2026-09-30
 sources: 27
 ---
 
@@ -20,6 +20,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[micro-futures-universe-screen]] — 66 retail-sizeable futures pairs; no survivor; screen p-value had zero predictive power (corr +0.02 with OOS Sharpe)
 
 ## Briefs
+- [[2026-09-30]] — **持仓 TLN 一手 8-K：CEO 交接 + PJM 容量货币化 + $15 亿 ASR**（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）：McFarland 2026-12-31 卸任、**Terry Nutt 自 2027-01-01 任 CEO**；子公司 TEM 把 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）**已出清 PJM 容量收入 ~$15 亿**提前变现（经 Citi、折现 SOFR+200bps、**仅容量不含电量**、保留运营/履约），用于 **$15 亿 uncollared ASR**、SRP 上调至 $30 亿、回购**逾 10% 流通股**、净杠杆目标 3.5×（✅ 全核）——资本回报 + 接班、terminat×121/AWS×19 flags 全为雇佣协议误报、**无电力合约/监管事件**、**ok×4 不变**、方向中性偏正。利率主线续走高：新入库 [[china-post-securities|中邮]][[2026-09-29-cpost-overseas-macro-yields-rising|海外宏观周报]]记 **30Y 一度 5.5252%（2004 以来新高）、10Y 盘中 ~5.23%**、[[spdb-international|浦银]][[2026-09-30-spdb-monthly-strategy-earnings-resilience|策略月报]]"高利率下靠盈利兑现、AI 龙头若资本回报率/收入验证仍可上行"（双向注脚）。需求侧 [[mrvl|Marvell]] FY27Q2 数据中心 **$2.17B/+46%**、1.6T 出货（[[2026-09-28-pacific-marvell-optical]]，✅）为 [[ai-optical-interconnect-2026-09]] 添电芯片/DSP 侧旁证；无新开机会 → `brief/2026-09-30.html`
 - [[2026-09-29]] — **需求侧超大规模云长期用电蓝图 + 利率续升**：[[2026-09-29-soochow-overseas-compute-alibaba-20gw|东吴·海外算力周]]记**阿里云栖大会目标"2032 年全球数据中心规模超 20GW"**、AIDC 交付链系统性拉动"芯片/光互联/存储/**电力**/工程集成"（真武 V900 2027Q1、Qwen4 训练中，✅ TechNode/KuCoin 核实）——firm 电力需求时间跨度第三方背书；新入库 [[cmbc-international|民银国际]][[2026-09-28-cmbc-intl-overseas-macro-rates|海外宏观周报]]记 **10Y 收 5.17%（9/25）/周 +16bp、10 月加息时点提前**（✅ CNBC：周五 5.23%、2007 以来最高）——本仓既列利率敏感性风险、非 Invalidation。SEC 三家 **0 新增、0 flags**、ok×4 不变；机会 [[ai-optical-interconnect-2026-09]] 获**第三家（东吴）** ECOC 2026 背书。**同日复跑补扫**新增 [[pacific-securities|太平洋]]海外 AI 半导体三连（[[2026-09-28-pacific-intel-datacenter|Intel DCAI +59%]]/[[2026-09-28-pacific-teradyne-test|Teradyne +104%]]/[[2026-09-28-pacific-adi-analog|ADI +40%]]，✅ 全核验，需求侧景气佐证）、新建 [[intc]]/[[ter]]/[[adi]] 资产页；无新开机会 → `brief/2026-09-29.html`
 - [[2026-09-28]] — **持仓 VST 的 Catalyst 直接兑现**：经 [[2026-09-27-soochow-power-shortage-aidc|东吴缺电周报]]线索追进一手 8-K——**Luminant（VST）与 New Era 签 20 年 PPA**（保底 200/至多 207 MW，Vistra **Odessa 1,180 MW 燃气厂**表后直供、27Q3 商供，另获 5% 权益 + ROFR/ROFO，[[2026-09-21-newera-8k-vistra-luminant-ppa]]，✅）——Edge/Catalyst 教科书式成交、方向利多。⚠️ **德州暂停新的州级数据中心许可**（对存量并网机队中性偏正、列 watch，仅系统性限制新增负荷才属 Invalidation #1 上游）。SEC 三家 **0 新增、0 flags**、ok×4 不变。宏观延续利率主线：[[2026-09-28-apollo-daily-spark-warsh-rate-hike|Apollo·Warsh 无前瞻指引]] + [[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信·实际利率/10Y 5.2%]]。**补扫周一 3 源**：[[2026-09-28-huaxin-us-rates-ai-barbell|华鑫·「高位美债和 AI 催化博弈」]]（10Y 破 5.2% 但顶部 5–5.2%、美股哑铃）+ [[2026-09-26-pacific-lite-optical|太平洋·LITE FY26Q4 $1.01B/+109%]]（第二家光互联实证 → [[ai-optical-interconnect-2026-09]] `new→watching`）+ [[2026-09-26-pacific-amd-datacenter|太平洋·AMD Q2 数据中心 $6.72B/+107%]]；无新开机会 → `brief/2026-09-28.html`
 - [[2026-09-25]] — **SEC 主轴 + 补录利率/光互联两条研报线**：持仓 [[2026-09-24-vst-8k-junior-subordinated-notes|VST 8-K]]完成 **$1.5B 初级次级票据（$850M 7.000% + $650M 7.250%，2057）**、Vistra 担保、赎回 8.0%/7.0% 永续优先股——纯再融资/非新增杠杆，标记全为契约样板误报、**无失效条件触及**；读数 **VST 混合资本新发成本 ~7%**。宏观两端张力——[[2026-09-25-apollo-daily-spark-higher-for-longer|Apollo·Slok]]"higher-for-longer 先压最弱、CCC ~15%、move up in quality"（本仓属投资级"强资产负债表"一端）vs [[nanhua-futures|南华期货]]"这次加息可能是结束而非起点"。行业补录 [[huaxin-securities|华鑫]] **AI 光互联三连**（[[fn|Fabrinet]]/[[lite|Lumentum]]/[[cohr|Coherent]] FY26Q4 +34%~+109%，✅ 全核验）→ 新机会 [[ai-optical-interconnect-2026-09]]（new）；[[ceg]]/[[tln]] 0 新增、Invalidation ok×4 不变 → `brief/2026-09-25.html`
@@ -61,6 +62,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[intc]] — Intel（stub）；CPU/数据中心/代工；Q2 FY26 DCAI $6.26B/**+59.0%**（云厂 AI 服务器 CPU+ASIC）、总收入 $16.1B/+25.4% 为 2011 以来最快；AI 数据中心需求侧数据点（2026-09-28）
 - [[ter]] — Teradyne（stub）；半导体测试设备（ATE）+ 机器人；Q2 2026 收入 $1.33B/**+103.9%**、半导体测试 +128.1%（SoC+DRAM+NAND）；AI 算力/存储 capex 需求侧数据点（2026-09-28）
 - [[adi]] — Analog Devices（stub）；模拟/混合信号龙头；FY26Q3 收入 $4.02B/**+39.6%**（首个 $4B 单季）、通信 +75.7%（AI 服务器电源+光链路模拟）；需求侧数据点（2026-09-28）
+- [[mrvl]] — Marvell（stub）；AI 互联电芯片——高速交换 IC/光 DSP（1.6T PAM-4）/云厂商定制 ASIC；FY27Q2 收入 $2.74B/+37%、数据中心 $2.17B/**+46%**/占 79%、1.6T 互连芯片开始出货、FY27 指引上调至 ~$12B（~45%）/DC ~60%；光互联电芯片/DSP 侧旁证（2026-09-30）
 - [[amat]] — Applied Materials；WFE 设备龙头，DRAM/HBM/先进封装订单占比是 AI 存储 capex 上游读数；FY26Q3 DRAM 占比 22%→26%（含 HBM 封装 +52% YoY）
 - [[avgo]] — Broadcom；定制 AI 加速器（ASIC）+ AI 网络龙头；FY26Q3 AI 半导体 $16.7B/+221%、**FCF $13.7B/占营收 46.2%**——硬件龙头 FCF 高位的代表（2026-09-23）
 - [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）、FOMC 后收 5.021% 新高；持仓长久期现金流的利率敏感性来源
@@ -128,6 +130,10 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-09-29-tln-8k-capacity-monetization-ceo]] — **filing** · [[tln|TLN]] 8-K（Items 5.02/7.01/8.01）：**Terry Nutt 自 2027-01-01 任 CEO**（McFarland 12-31 卸任）；子公司 TEM 把 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）**已出清 PJM 容量收入 ~$15 亿**提前变现（Citi、SOFR+200bps、**仅容量不含电量**）→ **$15 亿 uncollared ASR**、SRP 上调至 $30 亿、回购逾 10% 流通股、净杠杆 3.5×——资本回报+接班、无电力合约/监管事件、**ok×4 不变**（✅ 全核）
+- [[2026-09-29-cpost-overseas-macro-yields-rising]] — 中邮（李起/高晓洁）**海外宏观周报：债券收益率攀升**：30Y 一度 **5.5252%（2004 以来新高）**、10Y 盘中 ~5.23%；10 月大概率加息、明年或转降息；美股分化、看好 AI 硬件龙头——本仓利率敏感性既列风险佐证（✅ 与民银/CNBC 方向一致）
+- [[2026-09-30-spdb-monthly-strategy-earnings-resilience]] — 浦银国际（Melody Lai）**策略月报：高利率下以盈利确定性增强韧性**：长端高利率压美股估值扩张、上行靠盈利；**AI 龙头若资本回报率/收入/盈利验证仍可在利率上行环境延续上涨**、10 月三季报关键验证窗口、外资仍净流入美股 $312.7 亿——本仓利率风险双向注脚（组合为中国/港股、非本 wiki 范围）
+- [[2026-09-28-pacific-marvell-optical]] — 太平洋（张世杰）**Marvell FY27Q2**：收入 $2.74B/+37%、**数据中心 $2.17B/+46%/占 79%**、光 DSP+1.6T PAM-4+定制 ASIC 放量、1.6T 互连芯片开始出货、FY27 指引上调至 ~$12B（~45%）/DC ~60%——[[ai-optical-interconnect-2026-09]] 电芯片/DSP 侧旁证（✅ 官方核验）
 - [[2026-09-28-pacific-intel-datacenter]] — 太平洋（张世杰）**Intel Q2 FY26**：总收入 $16.13B/+25.4%（2011 以来最快）、**DCAI $6.26B/+59.0%**（云厂 AI 服务器 CPU+ASIC 放量）；CCPG +12.8%、代工仍亏损——AI 数据中心需求侧硬数据、背书 [[ai-power-demand]]（✅ 官方+10-Q 核验）
 - [[2026-09-28-pacific-teradyne-test]] — 太平洋（张世杰）**Teradyne Q2 2026**：收入 $1.33B/+103.9%、**半导体测试 $11.2 亿/+128.1%**（AI 算力→高性能 SoC 测试 + DRAM 强劲 + NAND 复苏）——ATE 侧 AI/存储需求实证（✅ 官方+8-K 核验）
 - [[2026-09-28-pacific-adi-analog]] — 太平洋（张世杰）**ADI FY26Q3**：收入 $4.02B/+39.6%（首个 $4B 单季）、**通信 $6.5 亿/+75.7%**（AI 服务器高速电源+光链路模拟与信号调理芯片）——模拟配套侧 AI 电源/光链路景气、[[ai-optical-interconnect-2026-09]] 旁证（✅ 官方+8-K 核验）
