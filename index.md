@@ -51,7 +51,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 
 ## Institutions
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
-- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · [[nanhua-futures]] · [[cmbc-international]] · 渠道 [[eastmoney-research-center]]
+- 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · [[nanhua-futures]] · [[cmbc-international]] · [[galaxy-futures]] · 渠道 [[eastmoney-research-center]]
 
 ## Assets
 - [[fn]] — Fabrinet；高速光模块/光互联精密代工（EMS）；FY26Q4 收入 $1.316B/+45%、数据中心 $669M/+68%/占 51%、总债务为零；AI 光互联需求侧实证（2026-09-25）
@@ -63,6 +63,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[ter]] — Teradyne（stub）；半导体测试设备（ATE）+ 机器人；Q2 2026 收入 $1.33B/**+103.9%**、半导体测试 +128.1%（SoC+DRAM+NAND）；AI 算力/存储 capex 需求侧数据点（2026-09-28）
 - [[adi]] — Analog Devices（stub）；模拟/混合信号龙头；FY26Q3 收入 $4.02B/**+39.6%**（首个 $4B 单季）、通信 +75.7%（AI 服务器电源+光链路模拟）；需求侧数据点（2026-09-28）
 - [[mrvl]] — Marvell（stub）；AI 互联电芯片——高速交换 IC/光 DSP（1.6T PAM-4）/云厂商定制 ASIC；FY27Q2 收入 $2.74B/+37%、数据中心 $2.17B/**+46%**/占 79%、1.6T 互连芯片开始出货、FY27 指引上调至 ~$12B（~45%）/DC ~60%；光互联电芯片/DSP 侧旁证（2026-09-30）
+- [[aph]] — Amphenol 安费诺；互连产品龙头（连接器/线缆/传感器）；FY26Q2 收入 $8.76B/**+55%**、通信解决方案 $53.8 亿/占 61.5%/+85%（AI 服务器高速连接器 + CommScope-CCS 并购、数据中心光铜混合互连）、订单创纪录 $10.7B/book-to-bill 1.23；连接器/线缆侧需求侧实证（2026-09-30）
 - [[amat]] — Applied Materials；WFE 设备龙头，DRAM/HBM/先进封装订单占比是 AI 存储 capex 上游读数；FY26Q3 DRAM 占比 22%→26%（含 HBM 封装 +52% YoY）
 - [[avgo]] — Broadcom；定制 AI 加速器（ASIC）+ AI 网络龙头；FY26Q3 AI 半导体 $16.7B/+221%、**FCF $13.7B/占营收 46.2%**——硬件龙头 FCF 高位的代表（2026-09-23）
 - [[us-treasury-10y]] — 10Y 美债收益率；无风险基准，通过折现率传导估值；9/14 一度触及 5.04%（2007 以来首次）、FOMC 后收 5.021% 新高；持仓长久期现金流的利率敏感性来源
@@ -134,6 +135,8 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[2026-09-29-cpost-overseas-macro-yields-rising]] — 中邮（李起/高晓洁）**海外宏观周报：债券收益率攀升**：30Y 一度 **5.5252%（2004 以来新高）**、10Y 盘中 ~5.23%；10 月大概率加息、明年或转降息；美股分化、看好 AI 硬件龙头——本仓利率敏感性既列风险佐证（✅ 与民银/CNBC 方向一致）
 - [[2026-09-30-spdb-monthly-strategy-earnings-resilience]] — 浦银国际（Melody Lai）**策略月报：高利率下以盈利确定性增强韧性**：长端高利率压美股估值扩张、上行靠盈利；**AI 龙头若资本回报率/收入/盈利验证仍可在利率上行环境延续上涨**、10 月三季报关键验证窗口、外资仍净流入美股 $312.7 亿——本仓利率风险双向注脚（组合为中国/港股、非本 wiki 范围）
 - [[2026-09-28-pacific-marvell-optical]] — 太平洋（张世杰）**Marvell FY27Q2**：收入 $2.74B/+37%、**数据中心 $2.17B/+46%/占 79%**、光 DSP+1.6T PAM-4+定制 ASIC 放量、1.6T 互连芯片开始出货、FY27 指引上调至 ~$12B（~45%）/DC ~60%——[[ai-optical-interconnect-2026-09]] 电芯片/DSP 侧旁证（✅ 官方核验）
+- [[2026-09-28-pacific-amphenol-connectors]] — 太平洋（张世杰）**安费诺 Amphenol FY26Q2**：收入 $8.76B/**+55%**、通信解决方案 $53.8 亿/占 61.5%/+85%（AI 服务器高速连接器/高速背板 + CommScope-CCS 并购、数据中心光铜混合互连）、订单创纪录 $10.7B/book-to-bill 1.23、管理层称"AI 数据中心 capex 韧性"——连接器/线缆侧需求侧景气实证（✅ 收入官方核；⚠️ EPS 官方调整后 $1.35 vs 太平洋 ~$1.4）
+- [[2026-09-30-galaxy-futures-fed-oct-commodities]] — 银河期货（侯亚鹏）**美联储 10 月通胀补考**：9/17 加息 25bp 至 3.75%–4.00%（2023 以来首次）、12:0、点阵图年内再一次 + 2027 不降息、沃什偏鹰；判"点状防御性加息、通胀回落后加息预期将被修正"（利率风险双向注脚，✅ 全核）
 - [[2026-09-28-pacific-intel-datacenter]] — 太平洋（张世杰）**Intel Q2 FY26**：总收入 $16.13B/+25.4%（2011 以来最快）、**DCAI $6.26B/+59.0%**（云厂 AI 服务器 CPU+ASIC 放量）；CCPG +12.8%、代工仍亏损——AI 数据中心需求侧硬数据、背书 [[ai-power-demand]]（✅ 官方+10-Q 核验）
 - [[2026-09-28-pacific-teradyne-test]] — 太平洋（张世杰）**Teradyne Q2 2026**：收入 $1.33B/+103.9%、**半导体测试 $11.2 亿/+128.1%**（AI 算力→高性能 SoC 测试 + DRAM 强劲 + NAND 复苏）——ATE 侧 AI/存储需求实证（✅ 官方+8-K 核验）
 - [[2026-09-28-pacific-adi-analog]] — 太平洋（张世杰）**ADI FY26Q3**：收入 $4.02B/+39.6%（首个 $4B 单季）、**通信 $6.5 亿/+75.7%**（AI 服务器高速电源+光链路模拟与信号调理芯片）——模拟配套侧 AI 电源/光链路景气、[[ai-optical-interconnect-2026-09]] 旁证（✅ 官方+8-K 核验）

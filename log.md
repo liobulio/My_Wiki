@@ -307,3 +307,12 @@ grep "^## \[" log.md | tail -5
 - fact-check（✅）：TLN Terry Nutt CEO/$15亿 ASR/SRP→$30亿/$15亿 PJM 容量货币化（6.5+6.0GW/Citi/净杠杆3.5×）经 Talen IR+GlobeNewswire+rttnews 逐点核实；Marvell FY27Q2 $2.74B/+37%、DC $2.17B/+46%/占79%、FY27 指引~$12B(~45%)/DC~60% 官方核实；中邮 30Y 5.5252%(2004高)/10Y ~5.23% 与民银/CNBC 方向一致
 - opportunities_new: 0（TLN 8-K 为持仓维护；ai-optical-interconnect 获 Marvell 电芯片/DSP 侧旁证、非新增券商、status 维持 watching）
 - 未取：Apollo feed 顶部 "Higher for Longer and the Road to 2027"（无 pubDate、同 higher-for-longer 主线、无边际、略过）；太平洋 Amphenol/国信华鑫 A 股 AI 应用周报等出范围
+
+## [2026-09-30] brief | 同日补扫（第二次跑）——需求侧 Amphenol +55% + 银河期货美联储10月加息核
+- pages touched: [[wiki/briefs/2026-09-30]]（sources_ingested 4→6、macro+1/industry+1）, [[2026-09-28-pacific-amphenol-connectors]], [[2026-09-30-galaxy-futures-fed-oct-commodities]], [[aph]]（新建）, [[galaxy-futures]]（新建）, [[pacific-securities]], [[ai-power-ipp-bull]], index.md
+- sources ingested: 2（行业一 [[2026-09-28-pacific-amphenol-connectors|太平洋·安费诺 Amphenol FY26Q2]]、宏观一 [[2026-09-30-galaxy-futures-fed-oct-commodities|银河期货·美联储10月通胀补考]]）
+- filings read: 0（本次补扫无新增 SEC 文件；`sec_fetch.py --since 2026-09-29` 仍为 CEG 0/VST 0/TLN 1（已于第一次跑读毕），Invalidation ok×4 不变）
+- fact-check（✅）：Amphenol FY26Q2 收入 $8.76B/+55%（record、超一致 5.5%、订单 $10.7B/book-to-bill 1.23）经官方+媒体核；⚠️ EPS 官方调整后 $1.35（太平洋列 ~$1.4）、通信 +85% 为含 CommScope 并购总口径（有机 +42%）。银河期货 9/17 加息 25bp 至 3.75%–4.00%（2023 以来首次）/12:0/点阵图年内再一次+2027 不降息/沃什偏鹰 经 CNBC/Schwab/美联储声明核
+- invalidation flags raised: 无。CEG/TLN/VST 均 ok/ok/ok/ok（不变）
+- opportunities_new: 0（Amphenol 为 [[ai-optical-interconnect-2026-09]] 连接器/线缆侧旁证、非新增券商、status 维持 watching；非新开机会）
+- 说明：第一次跑将 Amphenol 记为"需求侧已饱和"略过，补扫改判入库（继 Marvell/ADI/Intel/Teradyne 后连接器/线缆侧独立第三方景气实证）；华鑫计算机周报（GPT-6/Claude Opus 5.5、腾讯云 Agent/GPU 租金）偏中国 AI 应用 digest、出核心范围，未取
