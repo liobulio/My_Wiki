@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-09-30
+updated: 2026-10-01
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -96,6 +96,7 @@ See [[ai-power-demand]].
   长久期 PPA 现金流的**利率敏感性既列风险**（呼应 [[vst]] ~7% 新发成本读数、[[2026-09-27-guosen-multiasset-hike-nasdaq-gold|国信]]"10Y 5.2% 关键点位"），非 Invalidation。
 - 持仓资本运作读数（2026-09-30）：**[[tln|TLN]] 8-K**（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）——把 **PJM 2027/28（~6.5 GW）+ 2028/29（~6.0 GW）已出清容量收入 ~$15 亿**提前变现（经 Citi、折现 SOFR+200bps，**仅容量不含电量**），用于 **$15 亿 ASR** 回购**逾 10% 流通股**、SRP 上调至 $30 亿、目标净杠杆 3.5×；同步 **Terry Nutt 自 2027-01-01 任 CEO**（✅ 全核）。方向中性偏正：管理层以已出清容量现金流的确定性支持大额回购、判断股价低估，且**保留电量上行敞口**；**不触及任一 Invalidation**（AWS×19/terminat×121 flags 全为雇佣协议误报、无电力合约变更）。**融资成本读数 SOFR+200bps（~6.3%）** 与 [[vst]] 2057 次级票据 ~7% 同为本仓"利率/融资敏感性"既列风险的具体读数。⚠️ 6→9 月 TLN −18% 仍未追溯到具体 catalyst。利率主线续走高：[[2026-09-29-cpost-overseas-macro-yields-rising|中邮]]记 **30Y 一度 5.5252%（2004 以来新高）、10Y 盘中 ~5.23%**、判 10 月大概率加息、明年或转降息；[[2026-09-30-spdb-monthly-strategy-earnings-resilience|浦银·策略月报]]"长端高利率压估值、美股上行靠盈利兑现，AI 龙头若资本回报率/收入/盈利验证仍可在利率上行环境延续上涨"——为本仓利率敏感性既列风险的双向注脚（利率≠单边杀估值，需求侧盈利兑现可对冲），非 Invalidation。需求侧硬数据：[[mrvl|Marvell]] FY27Q2 数据中心 **$2.17B/+46%**、1.6T 互连芯片开始出货（[[2026-09-28-pacific-marvell-optical]]，✅ 官方核）延续数据中心 firm 电力需求刚性。
 - 同日补扫（2026-09-30）：需求侧再添一家——**[[aph|安费诺 Amphenol]] FY26Q2 收入 $8.76B/+55%、通信解决方案 $53.8 亿/占 61.5%/+85%**（AI 服务器高速连接器/高速背板 + CommScope-CCS 并购、发力数据中心光铜混合互连、订单创纪录 $10.7B/book-to-bill 1.23、管理层称"AI 数据中心 capex 韧性"，太平洋 [[2026-09-28-pacific-amphenol-connectors]]，✅ 收入官方核）——数据中心 AI 集群扩容的连接器/线缆侧第三方景气佐证（非直接电力标的、不触发失效条件）。利率主线补注：**[[galaxy-futures|银河期货]]** 月度宏观（[[2026-09-30-galaxy-futures-fed-oct-commodities]]）记 9/17 加息 25bp 至 3.75%–4.00%、12:0、点阵图年内再一次 + 2027 不降息、沃什偏鹰（✅ 全核）——延续长久期 PPA 现金流的**利率敏感性既列风险**；但银河"点状防御性加息、通胀回落后加息预期将被修正"与 [[nanhua-futures|南华]]/[[spdb-international|浦银]]同为利率风险的**双向注脚**（非 Invalidation）。
+- 需求侧远端约束注脚（2026-10-01）：**[[apollo|Apollo·Slök]]「Everyone Is Talking About AI」**（[[2026-10-01-apollo-daily-spark-everyone-talking-ai]]）——标普 500 财报会提 "AI" 的公司占比近历史高位、Slök 警示"universal buzz…hype has moved faster than the payoff"（延续其 **69% 采用 / 仅 29% 量化结果**、AI 价值链"**41% 芯片利润依赖 -59% 模型/应用端**持续可被融资"）。这把"AI 付费回报能否兑现"再次定为下阶段关键变量——属 **Invalidation #1（超大规模云电力合约推迟/取消）的上游**（ROI → capex → 电力合约），与 [[2026-09-24-wukuang-ai-revolution|五矿]]"capex/收入比 128%"、[[2026-09-24-clsa-if26-ai-questions|CLSA]]"2035 需 ~$3.5T 云收入证两位数 ROI"同源同向。目前仅远端提示、**无电力合约推迟/取消实证**（CEG/TLN/VST 近期无相关 8-K），Invalidation 不变；需求侧硬数据（[[mrvl|Marvell]] DC +46%、[[aph|Amphenol]] 通信 +85%、[[nvda]] DC +117%）仍指向 capex/交付未退坡。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

@@ -316,3 +316,11 @@ grep "^## \[" log.md | tail -5
 - invalidation flags raised: 无。CEG/TLN/VST 均 ok/ok/ok/ok（不变）
 - opportunities_new: 0（Amphenol 为 [[ai-optical-interconnect-2026-09]] 连接器/线缆侧旁证、非新增券商、status 维持 watching；非新开机会）
 - 说明：第一次跑将 Amphenol 记为"需求侧已饱和"略过，补扫改判入库（继 Marvell/ADI/Intel/Teradyne 后连接器/线缆侧独立第三方景气实证）；华鑫计算机周报（GPT-6/Claude Opus 5.5、腾讯云 Agent/GPU 租金）偏中国 AI 应用 digest、出核心范围，未取
+
+## [2026-10-01] brief | 清淡一日：Apollo·Slök「Everyone Is Talking About AI」——AI 话术近历史高位、hype 跑在 payoff 前；SEC 三家 0 新增/0 flags、ok×4 不变
+- pages touched: [[2026-10-01-apollo-daily-spark-everyone-talking-ai]]（新建 source + raw）, [[apollo]]（House view 加 10-01 bullet）, [[ai-power-ipp-bull]]（加 10-01 需求侧远端约束注脚）, [[ceg]]/[[tln]]/[[vst]]（Update history 加 10-01、updated→2026-10-01、ok×4 不变）, [[2026-10-01]]（brief 页）, brief/2026-10-01.{html,md} + index.html + README.md, index.md, log.md
+- sources ingested: 1（[[2026-10-01-apollo-daily-spark-everyone-talking-ai|Apollo·Slök Daily Spark「Everyone Is Talking About AI」]]，外资/macro+industry）
+- filings read: 0（`sec_fetch.py --since 2026-09-30`：CEG 0 新增/0 flags、TLN 0/0、VST 0/0）
+- opportunities new: 0（Apollo 系降温式风险提示、非买入逻辑；既有 [[ai-optical-interconnect-2026-09]] 本期无新增券商背书、status 不变）
+- invalidation flags: 无变化（ok×4）。Apollo AI-ROI 怀疑论（"hype>payoff"、69% 采用/29% 量化、价值链 41% 依赖 -59%）记为本仓 **Invalidation #1（超大规模云电力合约推迟/取消）的上游**远端提示——无电力合约推迟/取消实证，不触发
+- note: 10/01 中国国庆、东财研报桶无窗口内新内容；09-30 浦银/银河/中邮/太平洋 Amphenol+Marvell 已于 09-30 简报入库（infoCode 核对）。剔除华鑫计算机周报（GPT-6/Claude Opus 5.5，AI 应用 digest 出范围）、All-In 最新集（09-30 Jake Paul/Chainsmokers 嘉宾访谈，低信号）、Apollo "Higher for Longer and the Road to 2027"（经核 2026-09-23 出窗口、主线重复）。硬数据✅：标题/要点句经 apollo.com 两次抓取一致，69%/29%/2%、41% vs -59% 经 Apollo 同系列页佐证；⚠️ 本日图表精确百分比 JS 未取数、以"近历史高位"定性
