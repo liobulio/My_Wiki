@@ -340,3 +340,11 @@ grep "^## \[" log.md | tail -5
 - opportunities new: 0（Calvert Cliffs 为持仓 Catalyst 事件、非机构新开买入逻辑；Apollo 为宏观注脚）
 - invalidation flags: 无变化——[[ceg]]/[[tln]] 维持 ok/watch/ok/ok（#2 watch 缘于 9/29 FERC/PJM backstop、本期无新进展）、[[vst]] 维持 ok×4。Calvert Cliffs 的 grid-connected 结构（非 co-location）对 CEG Invalidation #2 为缓释/偏正但未触及阈值、未改状态。
 - note: 外资 feed——apolloacademy.com RSS 最新仍 09-30「Infrastructure」（出窗口）；Apollo 10-02 Daily Spark 经 apollo.com 抓取入库。Goldman/MS/JPM/BlackRock 本周无触及持仓/板块的窗口内新策略。东财桶 10/02 因中国国庆（10/1–8）无 US/AI/电力条目（策略桶均 A 股 PMI/财政/北交所、宏观桶 0、行业桶 16 条无匹配）。FERC co-location 程序经核无 10 月新进展（最近 2026-06、预计 2027 Q1–Q2 出令）、下期续盯。硬数据✅：Calvert Cliffs 690/190 MW、20 年、>$3B、2030–2032、1,790 MW 全厂、"continue flowing to the PJM regional grid" 原话——ENR/NucNet/Fox/ANS/Maryland Matters/StockTitan 六源核。
+
+## [2026-10-02] brief | 同日补扫（第二次跑）：全渠道零新增——SEC 三家 0/0、FERC 自 9/29 暂缓令后无新令、Invalidation 全线不变，补齐 TLN/VST 持仓页至 2026-10-02
+- pages touched: [[2026-10-02]]（brief 方法备注+同日补扫块）, [[ceg]]（position）, [[tln]]（position）, [[vst]]（position）, log.md, brief/2026-10-02.{html,md}
+- sources ingested: 0——重跑无新源。外资 feed：Apollo RSS 最新仍 09-30「Infrastructure」（10-02 Daily Spark 首跑已入库）、All-In 最新仍 09-30「Jake Paul & The Chainsmokers」（名人访谈、低信号、10-01 已剔、本日 RSS 无周五新集）、Goldman/MS 经 WebSearch 复核窗口内无新策略（命中均旧稿）。东财三桶 10/02 零窗口匹配（策略 5 行/宏观 0 行/行业 16 行均不含 US/AI/电力关键词，中国国庆 10/1–8 续）。
+- filings read: 0——`sec_fetch.py --since 2026-10-02` CEG/TLN/VST 均 0 新增/0 flags（与首跑一致）。
+- opportunities new: 0。
+- invalidation flags: 无变化——对 Invalidation #2 watch 主线定向追查：FERC/PJM backstop 自 2026-09-29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后**无新令**；媒体（247WallSt「VST 115% upside」、techi「PJM delay puts contracts first」）为 lead、非一手文件、不入库。[[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
+- note: 本次仅补齐首跑遗留——首跑只更新了 [[ceg]] 持仓页 Update history（brief-data 的 TLN/VST 10-02 note 已写、但持仓页 Update history 与 `updated` 仍停在 10-01），本次为 [[tln]]/[[vst]] 补 2026-10-02 bullet 并将 `updated` 置 2026-10-02。sources_ingested=2（均首跑）/filings_read=0/opportunities_new=0 不变。
