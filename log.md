@@ -359,3 +359,11 @@ grep "^## \[" log.md | tail -5
 - invalidation flags: 无变化——FERC/PJM backstop 自 2026-09-29 暂缓令后无新令、CEG co-location 程序（预计 2027 Q1–Q2 出令）无进展 → [[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
 - 未取/剔除：Apollo RSS/Daily Spark 页最新仍 09-30「Infrastructure」/10-02「payrolls」（已入库）、10-03/10-04 周末无新 Spark；Goldman/MS WebSearch 仅返回 2026 Outlook 旧稿（出窗口）、JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 无窗口内触及持仓/板块新策略；东财桶逢中国国庆（10/1–8）命中多为 A 股 PMI/工业利润/光伏/风电/军工周报，仅上述 3 篇匹配 US/AI/电力。
 - note: sources_ingested=4 / filings_read=1 / opportunities_new=0。
+
+## [2026-10-05] brief | 同日补扫（第二次跑）：全渠道零新增——SEC 复跑同首跑、外资 feed 与东财三桶无窗口内新内容、太平洋「算电协同」A 股产业链政策周报判出范围，Invalidation 全线不变
+- pages touched: [[2026-10-05]]（brief 方法备注+同日补扫块）, [[ceg]]（position）, [[tln]]（position）, [[vst]]（position）, log.md, brief/2026-10-05.{html,md}
+- sources ingested: 0——重跑无新源。外资 feed：apolloacademy.com RSS 最新仍 09-30「Infrastructure」长文、无 10-03–10-05 Daily Spark；Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页无窗口内触及持仓/板块的新稿。东财三桶 10-03–10-05：策略桶命中仅 [[2026-10-03-soochow-sept-payrolls|东吴非农]]（已入库）、宏观桶 0 行、行业桶命中 [[2026-10-03-pacific-nuclear-dispatchable|太平洋核电]]（已入库）+ 新见 **太平洋「算电协同配套政策逐步完善，重视产业链长期机遇」**（AP202610031830126544，与核电篇同日同所）判为 **A 股电新产业链政策周报**——China 供给侧/政策口径、无 US 持仓增量且已被太平洋核电框架篇覆盖，**出范围不入库**；上海证券 Meta 智能眼镜（端侧 AI）出范围。
+- filings read: 0——`sec_fetch.py --since 2026-10-02` 复跑同首跑：[[ceg]] 2 新增均 Form 4（内部人、仅列示）、[[tln]] 0、[[vst]] 仅首跑已读的融资展期 8-K（[[2026-10-05-vst-8k-commodity-credit-amendment]]），本跑无新增 8-K/10-Q/10-K。
+- opportunities new: 0。
+- invalidation flags: 无变化——FERC/PJM backstop 自 2026-09-29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后仍**无新令**、CEG 独立 co-location 程序（预计 2027 Q1–Q2 出令）无进展。[[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
+- note: 首跑 sources_ingested=4 / filings_read=1 / opportunities_new=0 维持不变；本次仅为三持仓补一条「同日补扫（第二次跑）」Update history 备查 + 在 brief 方法备注追一条第二次跑说明，并重渲染。
