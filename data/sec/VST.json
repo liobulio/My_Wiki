@@ -2,9 +2,205 @@
  "ticker": "VST",
  "cik": 1692819,
  "name": "Vistra Corp.",
- "fetched": "2026-10-02T16:21:56+00:00",
+ "fetched": "2026-10-05T12:29:31+00:00",
  "since": "2026-10-02",
  "filings": [
+  {
+   "form": "8-K",
+   "filed": "2026-10-05",
+   "report_date": "2026-09-30",
+   "accession": "0001140361-26-038468",
+   "primary_doc": "ef20083016_8k.htm",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/",
+   "is_new": true,
+   "flags": [
+    {
+     "keyword": "credit agreement",
+     "count": 125,
+     "snippets": [
+      "er 30, 2026, Vistra Operations Company LLC (“Borrower”), an indirect, wholly owned subsidiary of Vistra Corp. (the “Company”), entered into an amendment (the “Credit Agreement Amendment”) to that certain credit agreement (as amended, including by the Credit Agreement Amendment, the “Commodity-Linked Credit Agreement”), dated as of Fe",
+      "Borrower”), an indirect, wholly owned subsidiary of Vistra Corp. (the “Company”), entered into an amendment (the “Credit Agreement Amendment”) to that certain credit agreement (as amended, including by the Credit Agreement Amendment, the “Commodity-Linked Credit Agreement”), dated as of February 4, 2022, by and among Borrower, the le",
+      "y of Vistra Corp. (the “Company”), entered into an amendment (the “Credit Agreement Amendment”) to that certain credit agreement (as amended, including by the Credit Agreement Amendment, the “Commodity-Linked Credit Agreement”), dated as of February 4, 2022, by and among Borrower, the lenders party thereto and Citibank, N.A., as adm"
+     ]
+    },
+    {
+     "keyword": "terminat",
+     "count": 93,
+     "snippets": [
+      "nts | 4547 | | | | | | 4.1. | Fees | 4547 | | 4.2. | Voluntary Reduction of Revolving Credit Commitments | 4547 | | 4.3. | Mandatory Termination of Revolving Credit Commitments | 4647 | | | | | Section 5. | Payments | 4647 | | | | | | 5.1. | Voluntary Prepayments | 4647",
+      "shall mean the Administrative Agent, the Collateral Agent and each Joint Lead Arranger. “Aggregate Revolving Credit Outstandings” means, as of any date of determination, the Revolving Credit Exposure of all Lenders as of such date of determination. “Agreement” shall mean this Credit Agreement. 2 “AHYDO Catch-Up Payment”",
+      "Arranger. “Aggregate Revolving Credit Outstandings” means, as of any date of determination, the Revolving Credit Exposure of all Lenders as of such date of determination. “Agreement” shall mean this Credit Agreement. 2 “AHYDO Catch-Up Payment” means any payment or redemption of Indebtedness, including subordinated debt ob"
+     ]
+    },
+    {
+     "keyword": "AWS",
+     "count": 41,
+     "snippets": [
+      "e Borrower enforceable in accordance with its terms, subject to the effects of bankruptcy, insolvency, fraudulent conveyance, reorganization and other similar laws relating to or affecting creditors’ rights generally and general principles of equity (whether considered in a proceeding in equity or law); (c) none of the",
+      "mmation of the transactions contemplated hereby will (a) contravene any applicable provision of any material Applicable Law (including material Environmental Laws) other than any contravention which would not reasonably be expected to result in a Material Adverse Effect, (b) result in any breach of any of the terms, cove",
+      "LAW. THIS ELEVENTH AMENDMENT AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES HEREUNDER SHALL BE GOVERNED BY, CONSTRUED AND INTERPRETED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF NEW YORK. 10. Severability. Any term or provision of this Eleventh Amendment which is invalid or unenforceable in any jurisdiction shall, as"
+     ]
+    },
+    {
+     "keyword": "order",
+     "count": 24,
+     "snippets": [
+      "e principal amount thereof, such interests in the Revolving Credit Loans that are outstanding on the Eleventh Amendment Effective Date as shall be necessary in order that, after giving effect to all such assignments and assumptions, the Revolving Credit Loans will be held by all Revolving Credit Lenders (including the New",
+      "e the meaning specified in Section 13.1. “Applicable Laws” shall mean, as to any Person, any law (including common law), statute, regulation, ordinance, rule, order, decree, judgment, consent decree, writ, injunction, settlement agreement or governmental requirement enacted, promulgated or imposed or entered into or agree",
+      "rpretation or application thereof by any Governmental Authority after the Closing Date or (c) compliance by any party with any guideline, request, directive or order issued or made after the Closing Date by any central bank or other governmental or quasi-governmental authority (whether or not having the force of law); prov"
+     ]
+    },
+    {
+     "keyword": "PJM",
+     "count": 22,
+     "snippets": [
+      "all be employed in determining the Applicable Margin (and Revolving Credit Commitment Fee Rate). “Applicable Settlement Price” shall mean (a) with respect to PJM Contracts, the market published price of the ICE “PMI” Contract, “PJM Western Hub Real-Time Peak (1 MW) Fixed Price Future”, (b) with respect to ERCOT Contrac",
+      "redit Commitment Fee Rate). “Applicable Settlement Price” shall mean (a) with respect to PJM Contracts, the market published price of the ICE “PMI” Contract, “PJM Western Hub Real-Time Peak (1 MW) Fixed Price Future”, (b) with respect to ERCOT Contracts, the market published price of the ICE “ERN” Contract, “ERCOT North",
+      "ent as further provided in the immediately succeeding sentence), settling with reference to the Applicable Settlement Price with respect to markets managed by PJM (“PJM Contracts”), ERCOT (“ERCOT Contracts”), CAISO (“CAISO Contracts”), ISO-NE (“ISO-NE Contracts”), MISO (“MISO Contracts”) or NYISO (“NYISO Contracts” and,"
+     ]
+    },
+    {
+     "keyword": "ERCOT",
+     "count": 21,
+     "snippets": [
+      "espect to PJM Contracts, the market published price of the ICE “PMI” Contract, “PJM Western Hub Real-Time Peak (1 MW) Fixed Price Future”, (b) with respect to ERCOT Contracts, the market published price of the ICE “ERN” Contract, “ERCOT North 345KV Real-Time Peak Fixed Price Future”, (c) with respect to CAISO Contracts, th",
+      "tract, “PJM Western Hub Real-Time Peak (1 MW) Fixed Price Future”, (b) with respect to ERCOT Contracts, the market published price of the ICE “ERN” Contract, “ERCOT North 345KV Real-Time Peak Fixed Price Future”, (c) with respect to CAISO Contracts, the market published price of the ICE “NPM” Contract, “CAISO NP-15 Day-Ah",
+      "in the immediately succeeding sentence), settling with reference to the Applicable Settlement Price with respect to markets managed by PJM (“PJM Contracts”), ERCOT (“ERCOT Contracts”), CAISO (“CAISO Contracts”), ISO-NE (“ISO-NE Contracts”), MISO (“MISO Contracts”) or NYISO (“NYISO Contracts” and, collectively with the PJ"
+     ]
+    },
+    {
+     "keyword": "MISO",
+     "count": 21,
+     "snippets": [
+      "NE Contracts, the market published price of the ICE “NEP” Contract, “ISO New England Massachusetts Hub Day-Ahead Peak Fixed Price Future”, (e) with respect to MISO Contracts, the market published price of the ICE “MCC” Contract, “MISO Indiana Hub Day-Ahead Peak Fixed Price Future” and (f) with respect to NYISO Contracts,",
+      "O New England Massachusetts Hub Day-Ahead Peak Fixed Price Future”, (e) with respect to MISO Contracts, the market published price of the ICE “MCC” Contract, “MISO Indiana Hub Day-Ahead Peak Fixed Price Future” and (f) with respect to NYISO Contracts, the market published price of the ICE “NAY” Contract, “NYISO Zone A Da",
+      "Settlement Price with respect to markets managed by PJM (“PJM Contracts”), ERCOT (“ERCOT Contracts”), CAISO (“CAISO Contracts”), ISO-NE (“ISO-NE Contracts”), MISO (“MISO Contracts”) or NYISO (“NYISO Contracts” and, collectively with the PJM Contracts, the ERCOT Contracts, the CAISO Contracts, the ISO-NE Contracts and th"
+     ]
+    },
+    {
+     "keyword": "ISO-NE",
+     "count": 19,
+     "snippets": [
+      "c) with respect to CAISO Contracts, the market published price of the ICE “NPM” Contract, “CAISO NP-15 Day-Ahead Peak Fixed Price Future”, (d) with respect to ISO-NE Contracts, the market published price of the ICE “NEP” Contract, “ISO New England Massachusetts Hub Day-Ahead Peak Fixed Price Future”, (e) with respect to MI",
+      "h reference to the Applicable Settlement Price with respect to markets managed by PJM (“PJM Contracts”), ERCOT (“ERCOT Contracts”), CAISO (“CAISO Contracts”), ISO-NE (“ISO-NE Contracts”), MISO (“MISO Contracts”) or NYISO (“NYISO Contracts” and, collectively with the PJM Contracts, the ERCOT Contracts, the CAISO Contracts,",
+      "ce to the Applicable Settlement Price with respect to markets managed by PJM (“PJM Contracts”), ERCOT (“ERCOT Contracts”), CAISO (“CAISO Contracts”), ISO-NE (“ISO-NE Contracts”), MISO (“MISO Contracts”) or NYISO (“NYISO Contracts” and, collectively with the PJM Contracts, the ERCOT Contracts, the CAISO Contracts, the ISO-N"
+     ]
+    },
+    {
+     "keyword": "sanction",
+     "count": 12,
+     "snippets": [
+      "perties | 5759 | | 8.16. | Solvency | 5759 | | 8.17. | Security Interests | 57[Reserved]59 | | 8.18. | Labor Matters | 5859 | | 8.19. | Sanctioned Persons; Anti-Corruption Laws; Patriot Act; Beneficial Ownership | 5859 | | 8.20. | Use of Proceeds | 5860 | | 8.21. | Borrowing Base Certificate",
+      "cies, orders and regulations. “S&P” shall mean Standard & Poor’s Ratings Services or any successor by merger or consolidation to its rating agency business. “Sanctions” shall have the meaning provided in Section 8.19. 28 “Sanctions Laws” shall have the meaning provided in Section 8.19. “SEC” shall mean the Securities and",
+      "Ratings Services or any successor by merger or consolidation to its rating agency business. “Sanctions” shall have the meaning provided in Section 8.19. 28 “Sanctions Laws” shall have the meaning provided in Section 8.19. “SEC” shall mean the Securities and Exchange Commission or any successor thereto. “Second Amendment”"
+     ]
+    },
+    {
+     "keyword": "delay",
+     "count": 9,
+     "snippets": [
+      "nflict informs the Borrower of such conflict and thereafter, after receipt of the consent of the Borrower (which consent shall not be unreasonably withheld or delayed), retains its own counsel, of another firm of counsel for all such affected Persons (taken as a whole)). “Affected Financial Institution” means (a) any EEA",
+      "e to the Administrative Agent change the Fiscal Year with the prior written consent of the Administrative Agent (not to be unreasonably withheld, conditioned, delayed or denied), in which case the Borrower and the Administrative Agent will, and are hereby authorized by the Lenders to, make any adjustments to this Agreemen",
+      "ceipt of any such notice of resignation, the Required Lenders shall have the right, subject to the consent of the Borrower (not to be unreasonably withheld or delayed), to appoint a successor, which shall be a bank with an office in the United States, or an Affiliate of any such bank with an office in the United States. I"
+     ]
+    },
+    {
+     "keyword": "acquisition",
+     "count": 7,
+     "snippets": [
+      "ldingsof their respective Subsidiaries (a) in the ordinary course of such Person’s business or (b) as required in connection with a financing transaction or an acquisition or disposition of Real Estate) or proceedings in each case, materially relating in any way to any applicable Environmental Law or any permit issued, or any ap",
+      "eding or has admitted in writing that it is insolvent; provided that a Lender Default shall not be deemed to have occurred solely by virtue of the ownership or acquisition of any Stock in the applicable Lender or any direct or indirect parent company thereof by a Governmental Authority so long as such ownership interest does not",
+      "g Date and each other Domestic Subsidiary of the Borrower that ceases to constitute an Excluded Subsidiary to, within 60 days from the date of such formation, acquisition or cessation (which in the case of any Excluded Subsidiary shall commence on the date of delivery of the certificate required by Section 9.1(c)), as applicable"
+     ]
+    },
+    {
+     "keyword": "FERC",
+     "count": 6,
+     "snippets": [
+      "etermined by the Administrative Agent. Notwithstanding anything to the contrary herein, in no event shall the Federal Funds Effective Rate be less than zero. “FERC” shall mean the U.S. Federal Energy Regulatory Commission or any successor agency thereto. “Fees” shall mean all amounts payable pursuant to, or referred to i",
+      ".S. Federal Energy Regulatory Commission or any successor agency thereto. “Fees” shall mean all amounts payable pursuant to, or referred to in, Section 4.1. “FERC” shall mean the U.S. Federal Energy Regulatory Commission or any successor agency thereto. “Fifth Amendment” means that certain Fifth Amendment to Credit Agr",
+      "vernmental (including any central bank or stock exchange) or non-governmental authority regulating the generation and/or transmission of energy, such as PUCT, FERC and RTOs/ISOs regulated by the PUCT or FERC (including, for the avoidance of doubt, PJM, CAISO, ERCOT, ISO-NE, MISO and NYISO). “Granting Lender” shall have t"
+     ]
+    },
+    {
+     "keyword": "denied",
+     "count": 4,
+     "snippets": [
+      "ministrative Agent change the Fiscal Year with the prior written consent of the Administrative Agent (not to be unreasonably withheld, conditioned, delayed or denied), in which case the Borrower and the Administrative Agent will, and are hereby authorized by the Lenders to, make any adjustments to this Agreement that are n",
+      "ts and decrees for the Borrower and the Restricted Subsidiaries (to the extent not paid or covered by indemnity or insurance provided by a carrier that has not denied coverage) and any such final judgments or decrees shall not have been satisfied, vacated, discharged or stayed or bonded pending appeal within 60 consecutive",
+      "thout the Borrower’s prior written consent, but if settled with the Borrower’s prior written consent (not to be unreasonably withheld, delayed, conditioned or denied) or if there is a final non-appealable judgment against an indemnified Person in any such proceeding, the Borrower will indemnify and hold harmless such indem"
+     ]
+    },
+    {
+     "keyword": "PUC",
+     "count": 3,
+     "snippets": [
+      "any governmental (including any central bank or stock exchange) or non-governmental authority regulating the generation and/or transmission of energy, such as PUCT, FERC and RTOs/ISOs regulated by the PUCT or FERC (including, for the avoidance of doubt, PJM, CAISO, ERCOT, ISO-NE, MISO and NYISO). “Granting Lender” shall",
+      "nk or stock exchange) or non-governmental authority regulating the generation and/or transmission of energy, such as PUCT, FERC and RTOs/ISOs regulated by the PUCT or FERC (including, for the avoidance of doubt, PJM, CAISO, ERCOT, ISO-NE, MISO and NYISO). “Granting Lender” shall have the meaning provided in Section 13.6",
+      ". “PTE” shall mean a prohibited transaction class exemption issued by the U.S. Department of Labor, as any such exemption may be amended from time to time. “PUCT” shall mean the Public Utility Commission of Texas or any successor. “RCTRating Agency” shall mean the Railroad Commission of Texasany of the following: (a)"
+     ]
+    },
+    {
+     "keyword": "cancel",
+     "count": 3,
+     "snippets": [
+      "EU Bail-In Legislation Schedule and (b) with respect to the United Kingdom, any powers of the applicable Resolution Authority under the Bail-In Legislation to cancel, reduce, modify or change the form of a liability of any UK Financial Institution or any contract or instrument under which that liability arises, to convert",
+      "in the case of a SOFR Loan, affected pursuant to Section 2.10(a)(iii) shall) either (x) if the affected SOFR Loan is then being made pursuant to a Borrowing, cancel such Borrowing by giving the Administrative Agent telephonic notice (confirmed promptly in writing) thereof on the same date that the Borrower was notified by",
+      "cted Financial Institution; and (b) the effects of any Bail-in Action on any such liability, including, if applicable: (i) a reduction in full or in part or cancellation of any such liability; (ii) a conversion of all, or a portion of, such liability into shares or other instruments of ownership in such Affected Financia"
+     ]
+    },
+    {
+     "keyword": "Meta",
+     "count": 2,
+     "snippets": [
+      "XBRL DOCUMENT <TEXT> Document 11 - file: FilingSummary.html Document 11 - RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>13 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 13 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>14 <FILENAME>0001140361-26-038",
+      "RAW XML: FilingSummary.xml </DOCUMENT> <DOCUMENT> <TYPE>JSON <SEQUENCE>13 <FILENAME>MetaLinks.json <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 13 - file: MetaLinks.json </DOCUMENT> <DOCUMENT> <TYPE>ZIP <SEQUENCE>14 <FILENAME>0001140361-26-038468-xbrl.zip <DESCRIPTION>IDEA: XBRL DOCUMENT <TEXT> Document 14 - file: 00"
+     ]
+    },
+    {
+     "keyword": "interconnect",
+     "count": 1,
+     "snippets": [
+      "ship, joint venture, firm, corporation, limited liability company, association, trust or other enterprise or any Governmental Authority. “PJM” shall mean PJM Interconnection, L.L.C. or any other entity succeeding thereto. “PJM Contracts” shall have the meaning provided in the definition of “Deemed Hedge Portfolio”. “Platform”"
+     ]
+    },
+    {
+     "keyword": "reject",
+     "count": 1,
+     "snippets": [
+      "he United States or from the enforcement of judgments or writs of attachment on its assets or permit the applicable Lender (or such Governmental Authority) to reject, repudiate, disavow or disaffirm any contracts or agreements made with the applicable Lender, or (e) a Lender that has, or has a direct or indirect parent com"
+     ]
+    },
+    {
+     "keyword": "protest",
+     "count": 1,
+     "snippets": [
+      "Obligations owing hereunder and under any other Credit Document to be, whereupon the same shall become, forthwith due and payable without presentment, demand, protest or other notice of any kind, all of which are hereby waived by the Borrower; (iii) [reserved]; (iv) direct the Collateral Representative to enforce any and al"
+     ]
+    }
+   ],
+   "text_path": "data/sec/text/0001140361-26-038468.txt",
+   "items_desc": [
+    "material definitive agreement",
+    "creation of direct financial obligation",
+    ""
+   ],
+   "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/0001140361-26-038468-index-headers.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/0001140361-26-038468-index.html",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/0001140361-26-038468.txt",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_ex10-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/R1.htm"
+   ],
+   "text_chars": 468510
+  },
   {
    "form": "8-K",
    "filed": "2026-09-24",

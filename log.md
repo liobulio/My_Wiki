@@ -348,3 +348,14 @@ grep "^## \[" log.md | tail -5
 - opportunities new: 0。
 - invalidation flags: 无变化——对 Invalidation #2 watch 主线定向追查：FERC/PJM backstop 自 2026-09-29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后**无新令**；媒体（247WallSt「VST 115% upside」、techi「PJM delay puts contracts first」）为 lead、非一手文件、不入库。[[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
 - note: 本次仅补齐首跑遗留——首跑只更新了 [[ceg]] 持仓页 Update history（brief-data 的 TLN/VST 10-02 note 已写、但持仓页 Update history 与 `updated` 仍停在 10-01），本次为 [[tln]]/[[vst]] 补 2026-10-02 bullet 并将 `updated` 置 2026-10-02。sources_ingested=2（均首跑）/filings_read=0/opportunities_new=0 不变。
+
+## [2026-10-05] brief | VST 融资展期 8-K（非电力合约）+ 太平洋核电框架/国信需求验证/东吴非农/All-In 电网——Invalidation 全线不变（CEG/TLN ok/watch/ok/ok、VST ok×4）
+- pages touched: [[2026-10-05]]（brief）· [[2026-10-05-vst-8k-commodity-credit-amendment]] · [[2026-10-03-pacific-nuclear-dispatchable]] · [[2026-10-02-guosen-ai-demand-verification]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-10-02-all-in-superintelligence-gdp]] · [[ceg]] · [[tln]] · [[vst]] · [[ai-power-ipp-bull]] · [[pacific-securities]] · [[guosen]] · [[soochow-securities]] · [[all-in-podcast]] · index.md · brief/2026-10-05.html+md
+- SINCE = 2026-10-02（上期简报日，独占）。
+- sources ingested: 4——①[[2026-10-03-pacific-nuclear-dispatchable|太平洋·核电是长期机会]]（东财行业桶，框架：瓶颈转向可调度供电/长期看核电/AI 用电只能落在可调度电源上）②[[2026-10-02-guosen-ai-demand-verification|国信·AI 投资进入需求验证期]]（东财行业桶，需求验证=#1 上游 + "北美数据中心建设受电力/劳工约束"=背书电力 binding constraint）③[[2026-10-03-soochow-sept-payrolls|东吴·9 月非农]]（东财策略桶，macro：+2.9 万软/失业率 4.2%，但加息降温仅一时、美债回吐）④[[2026-10-02-all-in-superintelligence-gdp|All-In 10-02]]（外资 podcast，podscripts 转录要点：AI 建设史上最大押注/美国电网 25 年持平/数据中心即公用事业）。
+- filings read: 1——`sec_fetch.py --since 2026-10-02`：[[vst]] 1 新增 8-K（[[2026-10-05-vst-8k-commodity-credit-amendment]]，Items 1.01/2.03/9.01）读全文判定为 **Commodity-Linked 对冲循环信贷第十一次修订、循环到期日 2026-09-30→2027-09-29 一年期展期**，credit agreement×125/AWS×41/PJM/ERCOT/FERC 等 flags 全为信贷协议定义与样板条款误报、无电力合约/监管事件/非新增杠杆，不触任一失效条件；[[ceg]] 2 新增均 Form 4（内部人、仅列示、不深读）；[[tln]] 0 新增/0 flags。
+- fact-check: ✅ 9 月美国非农 +29,000（预期区间 84k–95k）、失业率升至 4.2%、7+8 月合计下修 60,000、时薪 +0.1%/同比 +3.0%（CNBC/Bloomberg/Babypips 一致，东吴所引与官方一致）。太平洋/国信为框架与行业判断（projection/背景数据）；All-In GDP 数字为主持人口述框架（"8 月非农 +162k" 已被 9 月报告下修、标注旧值）。
+- opportunities new: 0——四源无新开 US 标的买入逻辑（国信点名阿里-W/爱芯元智为中国/港股、出本仓范围；All-In 无具体 pick）。
+- invalidation flags: 无变化——FERC/PJM backstop 自 2026-09-29 暂缓令后无新令、CEG co-location 程序（预计 2027 Q1–Q2 出令）无进展 → [[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
+- 未取/剔除：Apollo RSS/Daily Spark 页最新仍 09-30「Infrastructure」/10-02「payrolls」（已入库）、10-03/10-04 周末无新 Spark；Goldman/MS WebSearch 仅返回 2026 Outlook 旧稿（出窗口）、JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 无窗口内触及持仓/板块新策略；东财桶逢中国国庆（10/1–8）命中多为 A 股 PMI/工业利润/光伏/风电/军工周报，仅上述 3 篇匹配 US/AI/电力。
+- note: sources_ingested=4 / filings_read=1 / opportunities_new=0。

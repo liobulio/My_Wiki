@@ -8,6 +8,7 @@
 
 | 日期 | 头条 |
 |---|---|
+| [2026-10-05](2026-10-05.md) | 周末+周一窗口以一份持仓 8-K + 三份框架/宏观研报为主，Invalidation 全线不变。vst 新增 8-K（2026-10-05-vst-8k-commodity-credit-amendment，Items |
 | [2026-10-02](2026-10-02.md) | 持仓 Constellation 迎来 Catalyst 教科书式兑现——追入一手公司披露：CEG 与 Amazon 2026-09-30 签 20 年 PPA，为 Calvert Cliffs 核电站供电 690 MW |
 | [2026-10-01](2026-10-01.md) | 清淡一日（10/01 中国国庆、A 股休市，东财研报桶无窗口内新内容；SEC --since 2026-09-30 三家持仓 ceg/tln/vst 0 新增文件、0 flags）。窗口内唯一新源来自外资——Apollo |
 | [2026-09-30](2026-09-30.md) | 持仓 Talen Energy 报送一手 8-K（2026-09-29-tln-8k-capacity-monetization-ceo，Items 5.02/7.01/8.01）——三件事： ①CEO 交接，Mac M |

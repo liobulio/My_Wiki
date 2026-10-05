@@ -6,7 +6,7 @@ aliases: [国信, Guosen]
 watch_url: 
 tags: []
 created: 2026-09-11
-updated: 2026-09-18
+updated: 2026-10-05
 ---
 
 # 国信证券
@@ -16,6 +16,7 @@ Mainland broker; strategy weeklies tracking US–China policy (AI export restric
 tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asset macro desk (董德志).
 
 ## House view (current)
+- 2026-10-02 — **互联网行业 10 月投资策略"AI 投资进入需求验证期"**（张伦可等，海外科技团队）：主要矛盾已非"模型是否继续加速"，而是"**智能很可能已超过普通人需求上限、超过企业部署速度**"→市场转向验证下游需求真实性；关键一句"**北美明年的数据中心建设将极大受到电力和蓝领劳工容量的限制**"——既是 **Invalidation #1 上游**（需求验证/ROI），又背书本仓**电力为 binding constraint**（firm 电力稀缺）。点名云加速的阿里-W、端侧 SoC 爱芯元智（中国/港股、非本仓）（[[2026-10-02-guosen-ai-demand-verification]]）。
 - 2026-09-27 — **多资产周报"加息落地，黄金与纳指背道而驰"**：9/16 加息**打开利率路径不确定性**，定价由单点转连续博弈、数据敏感度上升；本周交易第二次加息、名义利率上行而通胀预期未跟随 ⇒ **实际利率成核心变量**——黄金（无息、-2.01%）被压、纳指靠盈利上修（存储/代工涨价）维持上行。三观测量：① 10Y 能否站上 5%（**5.2% 关键点位**）② 纳指盈利兑现 ③ 人民币 6.70。10Y 本周 +16BP（[[2026-09-27-guosen-multiasset-hike-nasdaq-gold]]）。
 - 2026-09-18 — **策略团队（荀玉根）："美股长牛背后有大小熊"**（报告封面日 9/11，本期分发扫到）：1982
   年后美股牛长熊短（道指年化 10.0%）；大熊（2 次）源于盈利估值双杀（标普 −50%+），小熊（8 次）源于
@@ -36,4 +37,4 @@ tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asse
 _none yet_
 
 ## Sources
-[[2026-09-18-guosen-us-bull-bears]] · [[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
+[[2026-10-02-guosen-ai-demand-verification]] · [[2026-09-27-guosen-multiasset-hike-nasdaq-gold]] · [[2026-09-18-guosen-us-bull-bears]] · [[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]

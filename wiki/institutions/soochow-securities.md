@@ -6,7 +6,7 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-09-29
+updated: 2026-10-05
 ---
 
 # 东吴证券
@@ -16,6 +16,7 @@ updated: 2026-09-29
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-10-03 — **宏观点评"9 月非农：劳务市场边际松弛"**（芦哲/张佳炜/韦祎）：9 月新增非农 **+2.9 万**（预期 ~9 万）、前值下修至 13.3 万、失业率升至 **4.2%**、时薪环比 +0.1%——劳务边际松弛；但加息预期降温"仅一时"，2Y/10Y 美债随后回吐、重新走高，因单月高波动难撼中期加息周期 + 经济前景不确定性（中选/AI/财政）令交易谨慎。**AI 对就业结构影响延续**：数据中心建设相关建筑/制造/商贸运输合计 +3.8 万、AI 应用相关信息技术/金融合计 −1.7 万。对本仓为利率风险**双向注脚**（非 Invalidation）（[[2026-10-03-soochow-sept-payrolls]]）。
 - 2026-09-29 — 海外算力周跟踪（电子 陈海进）：**阿里云栖大会发布全栈 AI 路线图**——芯片（真武 V900，2027Q1 量产、
   算力为 M890 的 3 倍、单集群 50 万卡）+ 云（**2032 年全球数据中心规模超 20GW**）+ 模型（Qwen4 训练中），
   纳入"AI 时代超级电网"蓝图，并点明 AIDC 交付链对芯片/光互联/存储/**电力**/工程集成的系统性拉动；ECOC 2026
@@ -42,4 +43,4 @@ updated: 2026-09-29
 _none yet_
 
 ## Sources
-[[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
