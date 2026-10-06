@@ -367,3 +367,13 @@ grep "^## \[" log.md | tail -5
 - opportunities new: 0。
 - invalidation flags: 无变化——FERC/PJM backstop 自 2026-09-29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后仍**无新令**、CEG 独立 co-location 程序（预计 2027 Q1–Q2 出令）无进展。[[ceg]]/[[tln]] 维持 ok/watch/ok/ok、[[vst]] 维持 ok/ok/ok/ok。
 - note: 首跑 sources_ingested=4 / filings_read=1 / opportunities_new=0 维持不变；本次仅为三持仓补一条「同日补扫（第二次跑）」Update history 备查 + 在 brief 方法备注追一条第二次跑说明，并重渲染。
+
+## [2026-10-06] brief | CEG Catalyst 第三次兑现——Google 20 年 PPA（890 MW uprate）+ 15 年 2,700 MW 供电，并网结构绕开 co-location，Invalidation 全线不变
+- pages touched: [[2026-10-06-ceg-google-nuclear-uprate-ppa]]（新源）, [[ceg]]（asset）, [[ai-power-ipp-bull]]（thesis）, [[positions/ceg|ceg-position]], [[positions/tln|tln-position]], [[positions/vst|vst-position]], [[2026-10-06|brief]], index.md, log.md, brief/2026-10-06.html+md
+- SINCE = 2026-10-05（上期简报日、独占）。
+- sources ingested: 1——由新闻线索（utilitydive/gurufocus/Benzinga「Google–Constellation nuclear deal」）**追入一手联合新闻稿**（Google Cloud Press Corner + blog.google）：[[2026-10-06-ceg-google-nuclear-uprate-ppa]]。CEG 与 Google 2026-10-06 盘前签两段式长约——① 20 年 PPA 兜底 11 台自有核电机组 uprate 新增 890 MW（IL/PA/NJ）、>$4.3B 投资、首台增容 2028；② 15 年供电协议锁 PJM 内 2,700 MW 存量产能；另附 5 年 Google Cloud/Gemini 技术联盟。**电量全部进 PJM 电网（并网、非 co-location/非表后）**。✅ 全核（Google 官方新闻稿 + mugglehead/gurufocus/investing.com/Benzinga 一致）；⚠️ PPA 价/容量成分/15 年供电定价未披露、uprate 逐台 NRC 时点未给、无对应 8-K（按 Calvert Cliffs 同例以公司一手新闻稿为一手源）。
+- filings read: 0——`sec_fetch.py --since 2026-10-05`：[[ceg]] 0 新增、[[tln]] 0、[[vst]] 1（accession 0001140361-26-038468，为 10-05 已读并入库的融资展期 8-K [[2026-10-05-vst-8k-commodity-credit-amendment]]、因 --since 含当日被标 is_new、本跑非新内容、不重复深读）。
+- 机构研究侧零新增（macro/industry/us_equity 三桶空、honest 非 padding）：中国国庆（10/1–8）续，东财三桶 --since 2026-10-05 仅命中 A 股口径（北大经研所「调结构」、东兴晨报、东吴「有色金属周报：美元指数强势」）全部出范围；Apollo RSS 最新仍 09-30「Infrastructure」、无 10-03 后 Daily Spark；Goldman/MS（WebSearch 复核）/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页无窗口内触及持仓/板块新稿；All-In 下集预计 10-09 未出。
+- opportunities new: 0——CEG–Google 属持仓 Catalyst 兑现（记入 positions）、非机构板块观点反转；无机构在窗口内新开 US 标的买入逻辑。logic_changes: []。
+- invalidation flags: 无变化——CEG–Google 为并网结构、对 Invalidation #2 缓释/偏正，但不解决 9/29 FERC/PJM backstop 暂缓（推至 2027-02-28）与独立 co-location 程序（预计 2027 Q1–Q2），且 890 MW uprate 自身仍需 NRC 批准 → [[ceg]] 维持 ok/watch/ok/ok；[[tln]] 同业间接利好、维持 ok/watch/ok/ok；[[vst]] 维持 ok/ok/ok/ok。
+- note: sources_ingested=1 / filings_read=0 / opportunities_new=0。下期优先盯：①CEG–Google 是否补 8-K（Item 1.01）②890 MW uprate 逐台 NRC 审批时点③FERC/PJM backstop 2027-02-28 复效 + 独立 co-location 程序（2027 Q1–Q2）。

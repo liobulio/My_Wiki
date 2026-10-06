@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [Constellation Energy, Constellation Energy Corporation, Constellation]
 tags: [power, nuclear, ai-power, data-center, ipp]
 created: 2026-09-11
-updated: 2026-10-02
+updated: 2026-10-06
 ---
 
 # CEG — Constellation Energy
@@ -32,6 +32,12 @@ backing **>$3B** of Maryland plant investment with ~190 MW of new carbon-free ca
 power **continues flowing to the PJM grid (not co-located / not behind-the-meter)**, sidestepping the co-location/ISA controversy,
 and the revenue certainty supports **relicensing the plant for another 20 years** (licenses expire 2034/2036). A textbook Catalyst
 hit for [[ai-power-ipp-bull]] ([[2026-09-30-ceg-amazon-calvert-cliffs-ppa]], ✅ company press release).
+**Hyperscaler PPA #2 (2026-10-06):** signed a **two-part long-term deal with Google** — a **20-year PPA** underwriting **890 MW of
+new capacity from uprates across 11 Constellation-owned reactors** (IL/PA/NJ, **>$4.3B** investment, first increment by **2028**),
+plus a **15-year supply agreement for 2,700 MW of existing PJM capacity**, and a 5-year Google Cloud/Gemini technology alliance.
+Again the power **flows to the PJM grid (not co-located)**. Second hyperscaler long-term contract in a week — a direct Catalyst hit
+for [[ai-power-ipp-bull]] ([[2026-10-06-ceg-google-nuclear-uprate-ppa]], ✅ Google/Constellation joint press release). CEG rose
+~3–5% premarket. ⚠️ uprates still require NRC approval; PPA pricing undisclosed (data gaps).
 
 ## Key data points
 - Price ~$288.6 (2026-09-11, Yahoo). Q2-26 GAAP EPS $1.42 / adj. $2.55; FY26 adj. EPS guide $11.50–12.50.
@@ -41,6 +47,9 @@ hit for [[ai-power-ipp-bull]] ([[2026-09-30-ceg-amazon-calvert-cliffs-ppa]], ✅
 - 2026-09-30: **20-year Amazon PPA at Calvert Cliffs — 690 MW incl. 190 MW uprate**, >$3B investment, +~190 MW new carbon-free
   capacity online 2030–2032, power stays on the **PJM grid** (not co-located), supports a 20-year relicensing ✅
   ([[2026-09-30-ceg-amazon-calvert-cliffs-ppa]], company press release). PPA price/capacity terms not disclosed (data gap).
+- 2026-10-06: **two-part Google deal** — 20-yr PPA for **890 MW of uprates across 11 reactors** (IL/PA/NJ, **>$4.3B**, first by 2028)
+  + **15-yr supply of 2,700 MW existing PJM capacity** + 5-yr Google Cloud/Gemini alliance; power to the **PJM grid** (not co-located) ✅
+  ([[2026-10-06-ceg-google-nuclear-uprate-ppa]], joint press release). Pricing undisclosed; uprates need NRC approval (data gaps).
 
 ## Related
 Concepts: [[ai-power-demand]] · [[replacement-cost-investing]] · Peers: [[tln]] · [[vst]]
@@ -49,4 +58,4 @@ Concepts: [[ai-power-demand]] · [[replacement-cost-investing]] · Peers: [[tln]
 [[ceg]] position page: `wiki/positions/ceg.md` · thesis [[ai-power-ipp-bull]].
 
 ## Sources
-[[2026-08-06-ceg-8k-q2-earnings]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-30-ceg-amazon-calvert-cliffs-ppa]] · [[2026-09-29-ferc-pjm-backstop-suspension]] · [[2026-09-08-blackrock-bii-weekly-japan-us-bonds]] · [[2026-05-28-goldman-sp500-8000]]
+[[2026-08-06-ceg-8k-q2-earnings]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-30-ceg-amazon-calvert-cliffs-ppa]] · [[2026-10-06-ceg-google-nuclear-uprate-ppa]] · [[2026-09-29-ferc-pjm-backstop-suspension]] · [[2026-09-08-blackrock-bii-weekly-japan-us-bonds]] · [[2026-05-28-goldman-sp500-8000]]

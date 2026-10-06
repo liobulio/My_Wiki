@@ -12,7 +12,7 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
-updated: 2026-10-05
+updated: 2026-10-06
 ---
 
 # TLN — Talen Energy (open position)
@@ -60,3 +60,4 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-02（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-02` **0 新增/0 flags**；外资 feed 与东财三桶均无窗口内新内容。FERC/PJM backstop 自 9/29 暂缓令后**无新令**（媒体 247WallSt/techi 为 lead、不入库）——Invalidation #2 维持 watch。无监管/合约事件触及其余失效条件。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-05 — brief：`sec_fetch.py --since 2026-10-02` **TLN 无新增 8-K/10-Q/10-K、0 flags**。对 **Invalidation #2 watch 主线**：FERC/PJM backstop 自 9/29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后**仍无新令**；TLN 9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]，$15 亿 PJM 已出清容量提前变现 + ASR + Terry Nutt 任 CEO）本期无补充披露——**#2 维持 watch**。需求/框架侧：[[2026-10-03-pacific-nuclear-dispatchable|太平洋]]"可调度电力为瓶颈、长期看核电"、[[2026-10-02-all-in-superintelligence-gdp|All-In]]"美国电网 25 年持平、AI 建设史上最大押注"、[[2026-10-02-guosen-ai-demand-verification|国信]]"北美数据中心建设受电力约束"——利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）；同篇"AI 进入需求验证期"属 Invalidation #1 上游、无电力合约推迟/取消实证、ok 不变。宏观 [[2026-10-03-soochow-sept-payrolls|东吴]]"9 月非农软(+2.9 万)但加息预期降温仅一时、美债回吐、数据中心建设就业 +3.8 万"——利率风险双向注脚、非 Invalidation。⚠️ 6→9 月股价 −18% 仍未追溯到具体 catalyst，数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-05（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-02` 复跑同首跑（TLN **0 新增/0 flags**）；外资公共 feed 与东财三桶 10-03–10-05 均无触及持仓的窗口内新稿（东财命中仅东吴非农/太平洋核电[均已入库]、太平洋「算电协同」A 股产业链政策周报[出范围]、上海证券 Meta 智能眼镜[出范围]）。FERC/PJM backstop 自 9/29 暂缓令后**无新令**（媒体续为 lead、不入库）、co-location 规则另案预计 2027 Q1–Q2——**#2 维持 watch**；TLN 9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）无补充披露。无事件触及其余失效条件。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
+- 2026-10-06 — brief：`sec_fetch.py --since 2026-10-05` **TLN 无新增 8-K/10-Q/10-K、0 flags**（CEG 0、VST 1 为 10-05 已读融资展期 8-K）。无 TLN 自身事件。同业 Catalyst 第三次兑现（间接利好）：**CEG 与 Google 2026-10-06 签 20 年 PPA（890 MW uprate）+ 15 年 2,700 MW 供电**（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）——两周内第三份超大规模云长约、均走并网结构，持续背书 firm/可调度核电稀缺定价与 [[ai-power-demand]]，利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）的再定价预期；非 TLN 一手事件、不触及其失效条件。**Invalidation #2 watch 主线**：FERC/PJM backstop 自 9/29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后**仍无新令**、co-location 规则另案预计 2027 Q1–Q2；TLN 9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）无补充披露——**#2 维持 watch**。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。

@@ -2,8 +2,8 @@
  "ticker": "CEG",
  "cik": 1868275,
  "name": "Constellation Energy Corp",
- "fetched": "2026-10-05T19:23:55+00:00",
- "since": "2026-10-02",
+ "fetched": "2026-10-06T13:01:32+00:00",
+ "since": "2026-10-05",
  "filings": [
   {
    "form": "4",
@@ -14,7 +14,7 @@
    "items": [],
    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826004335/xslF345X06/form4.xml",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826004335/",
-   "is_new": true,
+   "is_new": false,
    "flags": [],
    "text_path": null,
    "items_desc": []
@@ -28,7 +28,7 @@
    "items": [],
    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826004333/xslF345X06/form4.xml",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1868275/000090514826004333/",
-   "is_new": true,
+   "is_new": false,
    "flags": [],
    "text_path": null,
    "items_desc": []
