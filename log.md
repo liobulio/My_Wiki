@@ -377,3 +377,12 @@ grep "^## \[" log.md | tail -5
 - opportunities new: 0——CEG–Google 属持仓 Catalyst 兑现（记入 positions）、非机构板块观点反转；无机构在窗口内新开 US 标的买入逻辑。logic_changes: []。
 - invalidation flags: 无变化——CEG–Google 为并网结构、对 Invalidation #2 缓释/偏正，但不解决 9/29 FERC/PJM backstop 暂缓（推至 2027-02-28）与独立 co-location 程序（预计 2027 Q1–Q2），且 890 MW uprate 自身仍需 NRC 批准 → [[ceg]] 维持 ok/watch/ok/ok；[[tln]] 同业间接利好、维持 ok/watch/ok/ok；[[vst]] 维持 ok/ok/ok/ok。
 - note: sources_ingested=1 / filings_read=0 / opportunities_new=0。下期优先盯：①CEG–Google 是否补 8-K（Item 1.01）②890 MW uprate 逐台 NRC 审批时点③FERC/PJM backstop 2027-02-28 复效 + 独立 co-location 程序（2027 Q1–Q2）。
+
+## [2026-10-06] brief | 同日补扫（第二次跑）：全渠道零新增——SEC 复跑同首跑、定向追查 CEG–Google 长约仍无对应 8-K、外资 feed 与东财三桶无窗口内新内容，Invalidation 全线不变（CEG/TLN ok/watch/ok/ok、VST ok×4）
+- pages touched: [[positions/ceg|ceg-position]], [[positions/tln|tln-position]], [[positions/vst|vst-position]], [[2026-10-06|brief]]（补第二次跑方法备注）, index.md, log.md, brief/2026-10-06.html+md（重渲染）
+- SINCE = 2026-10-05（同首跑、独占）。
+- SEC：`sec_fetch.py --since 2026-10-05` 复跑同首跑——[[ceg]] 0 新增、[[tln]] 0、[[vst]] 1（accession 0001140361-26-038468、为 10-05 已读的融资展期 8-K [[2026-10-05-vst-8k-commodity-credit-amendment]]、本跑非新内容）。`filings_read=0`。
+- 定向追查：**CEG–Google 两段式长约是否补 8-K（Item 1.01）**——EDGAR 全文检索端点 403、CEG 自 10-05 起 EDGAR 0 新文件、WebSearch 亦未定位到对应 8-K（CNBC 口径「3.6 GW」= 890 MW uprate + 2,700 MW 存量供电），故 [[2026-10-06-ceg-google-nuclear-uprate-ppa]] 仍以公司一手联合新闻稿为一手源、下期续查。
+- 机构研究侧复核仍零：Apollo RSS 最新仍 09-30「Infrastructure」、无 10-04–10-06 Daily Spark；Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页与 All-In（下集预计 10-09）无窗口内触及持仓的新稿；东财三桶 10-05–10-06 命中仅北大「调结构」预测报告、东兴晨报、东吴「有色金属周报：美元指数强势」——全 A 股/非 US-equity、判出范围不入库。
+- invalidation flags: 无变化——[[ceg]] ok/watch/ok/ok · [[tln]] ok/watch/ok/ok · [[vst]] ok/ok/ok/ok。三持仓 Update history 均补第二次跑 bullet。
+- note: sources_ingested=1 / filings_read=0 / opportunities_new=0（维持首跑值）。下期优先盯：①CEG–Google 是否补 8-K（Item 1.01）②890 MW uprate 逐台 NRC 审批时点③FERC/PJM backstop 2027-02-28 复效 + 独立 co-location 程序（2027 Q1–Q2）。
