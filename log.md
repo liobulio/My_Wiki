@@ -419,3 +419,8 @@ grep "^## \[" log.md | tail -5
 ## [2026-10-06] query | 以锚点 A 为退出线的剩余盈利空间
 - pages touched: [[ai-power-ipp-bull]] (exit anchor), [[ceg]], [[vst]] (positions `exit_anchor`), [[ceg-vst-replacement-cost-2026-10-06]]
 - 人选定退出锚点 A（Q=1 保守新建）：CEG $375 · VST $172。按 15:29 ET 价（CEG $297.20 / VST $158.61）剩余空间 CEG +$229（+26.2%）· VST +$77（+8.4%）· 合计 +$306（+17.1%）；若双双到 A，含 09-14 已实现 −$321 整段净 ≈ +$38。μ 为 5–30% 任选值、不作预测。
+
+## [2026-10-06] maintenance | 简报显示距退出锚点 A 的距离
+- pages touched: `scripts/render_brief.py`, `tests/test_render_brief.py`, CLAUDE.md §3.5, `brief/2026-10-06.{html,md}`, `brief/index.html`
+- 持仓卡新增一行：距 `exit_anchor` 还差 %（≈ $）+ 买入→锚点进度条；到达后变黄色"已到退出锚点 A"。Markdown 手机版同步。新增 `anchor_info()` + 测试；schema 加 `exit_price` / `exit_anchor` 字段。
+- 顺手修复：持仓备注 `<p class="note">` 内嵌 `<p>` 导致的空白备注条（改为 `<div>`）。今日简报按真实持仓重渲染（CEG 2.9455 / VST 5.7615，TLN 已移出）。

@@ -239,6 +239,24 @@ def filing_row(f, cik):
             f'<a href="{esc(f["url"])}" target="_blank" rel="noopener">EDGAR ↗</a><div class="flags">{flags}</div></li>')
 
 
+def anchor_info(meta, price):
+    """Distance from price to the position's exit anchor (frontmatter `exit_anchor`, anchor A)."""
+    try:
+        anchor = float(meta.get("exit_anchor"))
+    except (TypeError, ValueError):
+        return None
+    if not price or anchor <= 0:
+        return None
+    shares = float(meta.get("shares") or 0)
+    try:
+        entry = float(meta.get("entry_price"))
+    except (TypeError, ValueError):
+        entry = None
+    progress = (price - entry) / (anchor - entry) if entry is not None and anchor != entry else None
+    return {"anchor": anchor, "gap_pct": (anchor / price - 1) * 100, "gap_usd": (anchor - price) * shares,
+            "progress": progress, "reached": price >= anchor}
+
+
 def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None):
     pos = next((p for p in ctx["positions"].values() if str(p["meta"].get("ticker", "")).upper() == ticker), None)
     meta = pos["meta"] if pos else {}
@@ -274,14 +292,25 @@ def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None)
     fl = "".join(filing_row(f, sec.get("cik")) for f in filings) or '<li class="empty">本期无新申报。</li>'
     name = sec.get("name") or q.get("name") or ticker
     price_s = f"${price:,.2f}" if price else "–"
-    note_html = '<p class="note">' + wikilinks(note) + '</p>' if note else ""
+    note_html = '<div class="note">' + wikilinks(note) + '</div>' if note else ""
     shares_html = f'<span class="mono">{esc(shares)} 股</span><span class="mono">≈ ${value:,.0f}</span>' if value else ""
     thesis_title = th["title"] if th else thesis_slug
     inv_html = inv_rows or "<li class=empty>未设置</li>"
+    a = anchor_info(meta, price)
+    anchor_html = ""
+    if a:
+        prog = min(max(a["progress"] or 0, 0), 1) * 100
+        txt = (f'已到退出锚点 A ${a["anchor"]:,.0f}（超出 {-a["gap_pct"]:.1f}%）' if a["reached"] else
+               f'距退出锚点 A ${a["anchor"]:,.0f} 还差 {a["gap_pct"]:+.1f}%（≈ {"+" if a["gap_usd"] >= 0 else "-"}${abs(a["gap_usd"]):,.0f}）')
+        if a["progress"] is not None and not a["reached"]:
+            txt += f' · 买入→锚点已走 {prog:.0f}%'
+        anchor_html = (f'<div class="wrow arow{" hit" if a["reached"] else ""}"><div class="wbar" title="买入价 → 退出锚点 A 的进度">'
+                       f'<div style="width:{prog:.1f}%"></div></div><span class="wlab">{esc(txt)}</span></div>')
     return (f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3>'
             f'<span class="mono">{price_s}</span>{shares_html}</header>'
             f'<div class="wrow"><div class="wbar" title="占持仓 {w_pos:.1f}% · 占账户 {w_acct:.1f}%"><div style="width:{w_acct:.1f}%"></div></div>'
             f'<span class="wlab">账户占比 {w_acct:.0f}% · 持仓占比 {w_pos:.0f}%</span></div>'
+            f'{anchor_html}'
             f'{note_html}'
             f'<div class="cols"><div><h4>论点失效条件 <a class="wl" href="{obsidian(thesis_slug, "wiki/theses")}">{esc(thesis_title)}</a></h4><ul class="invs">{inv_html}</ul></div>'
             f'<div><h4>近 8 季（SEC XBRL）</h4><div class="sparks">{sparks}</div></div></div>'
@@ -332,7 +361,7 @@ ul.views{list-style:none;margin:0;padding:0;display:grid;gap:10px}li.view{backgr
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}.opp{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}.opp .logic{margin:6px 0;font-size:14.5px}.opp .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}
 .opp[data-status=dropped]{opacity:.65}.ttest{margin:6px 0}.tt{font-size:13px;margin:4px 0;padding-left:8px;border-left:2px solid var(--grid)}.tt .lab{display:inline-block;min-width:82px;font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 article.pos{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:14px}article.pos>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}article.pos h3{margin:0}
-.wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}
+.wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}.arow .wbar{background:var(--grid)}.arow .wbar div{background:var(--good)}.arow.hit .wbar div{background:var(--warning)}.arow.hit .wlab{color:var(--ink);font-weight:600}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.cols{grid-template-columns:1fr}}
 ul.invs{list-style:none;padding:0;margin:0;display:grid;gap:6px}li.inv{display:grid;grid-template-columns:22px 40px 1fr;gap:6px;align-items:start;font-size:13.5px;padding:6px 8px;border-radius:6px;border:1px solid var(--border)}
 li.inv .ic{font-weight:700;text-align:center;border-radius:50%;width:20px;height:20px;line-height:20px;font-size:12px;color:#fff}li.inv.good .ic{background:var(--good)}li.inv.warning .ic{background:var(--warning);color:#0b0b0b}li.inv.critical .ic{background:var(--critical)}
@@ -520,6 +549,15 @@ def md_position(ctx, ticker, note=None, brief_filings=None, inv_override=None):
     if value:
         line += f" · {shares:g} 股 ≈ **${value:,.0f}** · 账户占比 {w_acct:.0f}% · 持仓占比 {w_pos:.0f}%"
     out += [line, ""]
+    a = anchor_info(meta, price)
+    if a:
+        if a["reached"]:
+            out += [f"⚠️ **已到退出锚点 A ${a['anchor']:,.0f}**（超出 {-a['gap_pct']:.1f}%）", ""]
+        else:
+            al = f"🎯 距退出锚点 A **${a['anchor']:,.0f}** 还差 **{a['gap_pct']:+.1f}%**（≈ ${a['gap_usd']:,.0f}）"
+            if a["progress"] is not None:
+                al += f" · 买入→锚点已走 {min(max(a['progress'], 0), 1) * 100:.0f}%"
+            out += [al, ""]
     if note:
         out += [md_links(note, ctx), ""]
 

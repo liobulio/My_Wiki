@@ -56,3 +56,16 @@ def test_render_markdown_is_phone_readable():
 def test_wikilinks_to_text_strips_pipes_for_table_cells():
     assert rb.wikilinks_to_text("见 [[ceg|CEG 页]] 与 [[tln]]") == "见 CEG 页 与 tln"
     assert "[[" not in rb.wikilinks_to_text("**[[a|b]]**")
+
+
+def test_exit_anchor_distance():
+    a = rb.anchor_info({"exit_anchor": 375, "entry_price": 294, "shares": 2}, 297.2)
+    assert a["anchor"] == 375 and round(a["gap_pct"], 1) == 26.2 and round(a["gap_usd"], 1) == 155.6
+    assert round(a["progress"], 3) == round((297.2 - 294) / (375 - 294), 3) and not a["reached"]
+    assert rb.anchor_info({"exit_anchor": 172, "entry_price": 151, "shares": 1}, 180)["reached"]
+    assert rb.anchor_info({"shares": 1}, 100) is None and rb.anchor_info({"exit_anchor": 1}, None) is None
+    ctx = _ctx()
+    ctx["positions"]["zz"] = {"meta": {"ticker": "ZZ", "status": "open", "shares": 2, "entry_price": 294, "exit_anchor": 375}, "body": "", "title": "ZZ"}
+    ctx["prices"].setdefault("quotes", {})["ZZ"] = {"price": 297.2}
+    assert "距退出锚点 A" in rb.position_card(ctx, "ZZ") and "+26.2%" in rb.position_card(ctx, "ZZ")
+    assert "距退出锚点 A" in rb.md_position(ctx, "ZZ")
