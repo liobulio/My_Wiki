@@ -6,13 +6,14 @@ status: closed
 weight:
 shares: 0
 account: IBKR
-entry_date:
-entry_price:
+entry_date: 2026-09-09
+entry_price: 322
 conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
-closed: 2026-09-28
+closed: 2026-09-14
+exit_price: 289   # 2026-09-14 sale (全部清仓), human-supplied
 updated: 2026-10-06
 ---
 
@@ -72,3 +73,9 @@ below when it bears on the thesis (regulator-restricted contracts first).
   原因至今没有追溯到具体 catalyst(见 2026-09-11 与 2026-09-14 两条)。如果清仓是因为某条
   Invalidation 被触发,请告诉我是哪一条,我会把 [[ai-power-ipp-bull]] 的 `status` 和
   `invalidation_status` 一起更新 —— 按 §3.8,这个判断归你,不归我。
+- 2026-10-06 — **更正 + 回填**(human-supplied 2026-10-06)。买入 = **2026-09-09 当日最高点**,全部清仓实际发生在 **2026-09-14**(不是此前记的 9/28 —— 9/28 是我记录的日期)。
+  `entry_price` 按 Yahoo 日线回填 9/9 盘中高 **$326.09**(人给的规则、我查的数);`entry_date: 2026-09-09`。
+  9/14 卖出成交价未提供,当日区间 **$285.86–$303.52** → 卖出的 5.407 股已实现亏损约 **$122–$218**(-6.9% 至 -12.3%)。精确成交价在 IBKR Activity Statement 里,补上即可算准。
+- 2026-10-06 — **成交价更正**(human-supplied)。买入 **$322**、2026-09-14 全部清仓成交 **$289**(取代上一条按 9/9 盘中高回填的估计值)。
+  已实现:5.407 股 × ($289 − $322) = **$-178.43**(-10.2%)。
+

@@ -6,12 +6,15 @@ status: open
 weight:
 shares: 2.9455
 account: IBKR
-entry_date:
-entry_price:
+entry_date: 2026-09-09
+entry_price: 294
 conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
+trimmed: 2026-09-14
+exit_price: 265   # 2026-09-14 sale (减仓一半), human-supplied
+exit_anchor: 375   # anchor A (Q=1 conservative new-build), human-chosen 2026-10-06; recompute each 10-Q
 updated: 2026-10-06
 ---
 
@@ -65,3 +68,10 @@ below when it bears on the thesis (regulator-restricted contracts first).
   ⚠️ 2.9455 是 5.891 的算术一半;若实际卖出到一个整数股数,请告诉我真实余额。
   ⚠️ 卖出日期与成交价未提供,已实现盈亏无法计算。
   Invalidation 状态维持 ok/ok/ok/ok。
+- 2026-10-06 — **更正 + 回填**(human-supplied 2026-10-06)。买入 = **2026-09-09 当日最高点**,减仓一半实际发生在 **2026-09-14**(不是此前记的 9/28 —— 9/28 是我记录的日期)。
+  `entry_price` 按 Yahoo 日线回填 9/9 盘中高 **$298.08**(人给的规则、我查的数);`entry_date: 2026-09-09`。
+  9/14 卖出成交价未提供,当日区间 **$264.32–$276.52** → 卖出的 2.9455 股已实现亏损约 **$64–$99**(-7.2% 至 -11.3%)。精确成交价在 IBKR Activity Statement 里,补上即可算准。
+- 2026-10-06 — **成交价更正**(human-supplied)。买入 **$294**、2026-09-14 减仓一半成交 **$265**(取代上一条按 9/9 盘中高回填的估计值)。
+  已实现:2.9455 股 × ($265 − $294) = **$-85.42**(-9.9%)。
+- 2026-10-06 — **退出锚点定为 A**(human-chosen):`exit_anchor: 375`(Q=1 保守新建口径,2026-10-06 计算,每份新 10-Q 需重算)。
+

@@ -397,3 +397,25 @@ grep "^## \[" log.md | tail -5
   2. VST/CEG 的 5.7615 / 2.9455 是按「一半」推算的；若实际卖到整数股，余额需要更正。
 - ⚠️ 需要人来判断（§3.8：conviction 归人，不归我）：TLN 是三只 AI-power IPP 里唯一被**完全**清掉的，而它 6→9 月 −18% 的原因从 09-11 起挂到现在仍未追溯到 catalyst。若清仓是因某条 Invalidation 被触发，[[ai-power-ipp-bull]] 的 `status` 与 `invalidation_status` 需要一并更新——我没有替你改，目前仍为 ok×4。
 - note: 减仓后组合仍 100% 集中在同一个 [[ai-power-ipp-bull]] 论点上（VST+CEG），**集中度未因减仓而分散，只是规模减半**。
+
+## [2026-10-06] maintenance | 持仓更正：买入 09-09 高点、减仓/清仓日为 09-14
+- pages touched: [[ceg]], [[vst]], [[tln]] (positions), [[index]]
+- 人工更正：三只均在 **2026-09-09 当日最高点**买入，TLN 清仓与 CEG/VST 减半发生在 **2026-09-14**（此前 9/28 条目记的是录入日）。`entry_price` 按 Yahoo 日线 9/9 盘中高回填：CEG $298.08 · VST $151.56 · TLN $326.09；TLN `closed` 改为 09-14，CEG/VST 加 `trimmed: 2026-09-14`。
+- ⚠️ 9/14 卖出成交价仍缺 → 已实现亏损只能给区间（CEG ~$64–99、VST ~$36–64、TLN ~$122–218），待 IBKR 成交记录补准。
+
+## [2026-10-06] query | CEG/VST 是否仍低于重置成本（止盈判断）
+- pages touched: NEW [[ceg-vst-replacement-cost-2026-10-06]], [[index]]
+- note: wiki 此前无人工重置成本估算（仅 Dreyfus 的 TLN $45B）。新建口径（论点原框架）CEG EV/RC ~0.3–0.6、VST ~0.4–0.75 → Edge 未被价格用完；按存量电厂成交价口径 CEG ~0.8–1.1、VST ~1.0–1.4。EV 用 10-06 盘中价（Google 长约当日 CEG +11.8%）+ 2026-06-30 10-Q XBRL。
+
+## [2026-10-06] ingest | CEG / VST / TLN 重置成本研究总结（人自己的研究）
+- pages touched: NEW [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]; REWRITTEN [[ceg-vst-replacement-cost-2026-10-06]]; UPDATED [[replacement-cost-investing]], [[ai-power-ipp-bull]] (risks), [[ceg]], [[vst]], [[tln]], [[index]]; raw moved from repo root → `raw/2026-10-06-ceg-vst-tln-replacement-cost-summary.md`
+- fact-check: ✅ shares/debt/cash/NCI/preferred/TLN NDT $1,997M via SEC XBRL; ⚠️ VST debt $20,508M vs XBRL LTD $19,595M (+$913M unreconciled); ⚠️ "10-06 close" was intraday; ➕ missing comp LS Power–CEG 4.4 GW ~$1,136/kW (2026-03); ➕ Cogentrix FERC-approved Aug 2026, closing late 2026.
+- note: supersedes the LLM's quick estimate from earlier today. Applied to the book: CEG ~0% / VST +5% vs entry; +$299 to anchor A vs −$979 to anchor D; post-trim book ~$1,800 ≈ the study's half-Kelly $1,600 at μ=15%.
+
+## [2026-10-06] maintenance | 成交价由人补齐
+- pages touched: [[ceg]], [[vst]], [[tln]] (positions), [[ceg-vst-replacement-cost-2026-10-06]], [[index]]
+- 人给定：CEG 买 $294 / 09-14 减仓 $265 · VST $151 / $141 · TLN $322 / $289 清仓 → 取代按 9/9 盘中高的回填。已实现 −$321.47（CEG −$85.42 · VST −$57.62 · TLN −$178.43）；剩余仓位浮盈 +$61（CEG +1.4% · VST +5.7%）。
+
+## [2026-10-06] query | 以锚点 A 为退出线的剩余盈利空间
+- pages touched: [[ai-power-ipp-bull]] (exit anchor), [[ceg]], [[vst]] (positions `exit_anchor`), [[ceg-vst-replacement-cost-2026-10-06]]
+- 人选定退出锚点 A（Q=1 保守新建）：CEG $375 · VST $172。按 15:29 ET 价（CEG $297.20 / VST $158.61）剩余空间 CEG +$229（+26.2%）· VST +$77（+8.4%）· 合计 +$306（+17.1%）；若双双到 A，含 09-14 已实现 −$321 整段净 ≈ +$38。μ 为 5–30% 任选值、不作预测。

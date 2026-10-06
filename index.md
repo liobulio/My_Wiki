@@ -13,6 +13,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 > and [[overview]] for the live portfolio dashboard.
 
 ## Synthesis
+- [[ceg-vst-replacement-cost-2026-10-06]] — Tobin's Q applied to the current book: Q_B ~0.5 / Q_D ~1.7; to anchor A CEG +26% · VST +8%; book +$299 to A vs −$979 to D
 - [[overview]] — live portfolio dashboard (Dataview over positions)
 - [[all-in-best-ideas-2026-factcheck]] — verification of the 4 All-In pitches; MGM/TLN/AKTS hold up, GEOD overstated
 - [[bz-cl-pairs-trade]] — Brent/WTI statarb; ⚠️ 19yr walk-forward cuts Sharpe to 0.53–0.67 at −32% DD; β instability; untradeable under ~$189k; not a position
@@ -40,9 +41,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[2026-09-11]] — 首期美股机构简报：9/16 FOMC 加息分歧（Apollo 预期加息 vs 中银国际）；AI 基建 120 GW；CEG Crane 获 FERC/NRC 批准；PJM $325 上限；新机会 MU/SNDK → `brief/2026-09-11.html`
 
 ## Positions
-- [[ceg]] — Constellation Energy · **2.9455 sh** · IBKR · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-28 · ⚠️ invalidation #2 (FERC/PJM) → **watch** (2026-10-01, PJM backstop suspension)
-- [[tln]] — Talen Energy · **CLOSED 2026-09-28** (was 5.407 sh) · thesis [[ai-power-ipp-bull]] · ⚠️ −18% June→Sept never traced; exit price not supplied
-- [[vst]] — Vistra · **5.7615 sh** · IBKR · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-28 · most exposed to 2028 power prices (72% hedged) · invalidation ok×4
+- [[ceg]] — Constellation Energy · **2.9455 sh** · IBKR · entry $294 / trim $265 · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-14 · ⚠️ invalidation #2 (FERC/PJM) → **watch** (2026-10-01, PJM backstop suspension)
+- [[tln]] — Talen Energy · **CLOSED 2026-09-14** (was 5.407 sh, $322 → $289) · thesis [[ai-power-ipp-bull]] · ⚠️ −18% June→Sept never traced; exit price not supplied
+- [[vst]] — Vistra · **5.7615 sh** · IBKR · entry $151 / trim $141 · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-14 · most exposed to 2028 power prices (72% hedged) · invalidation ok×4
 
 ## Theses
 - [[ai-power-ipp-bull]] — shared bull thesis for CEG/TLN/VST: nuclear-heavy IPPs below replacement cost into rising power demand; catalyst = hyperscaler PPAs; 4 condition-based invalidations (human's own words, 2026-09-11)
@@ -89,9 +90,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pltr]] — Palantir; application/integration layer; Palantir-Nvidia sovereign AI OS (Karp)
 - [[fig]] — Figma; the AI-sovereignty cautionary tale (Anthropic's Claude Design; ~−50% YTD)
 - [[mgm]] — MGM Resorts; event-driven gaming, Diller $48.30 bid, Osaka 2030 optionality
-- [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA; **position closed 2026-09-28**; >10 GW cleared at PJM $325 cap; ~$315 (⚠️ −18% since June)
-- [[ceg]] — Constellation Energy; largest US nuclear fleet; **open, halved 2026-09-28**; Crane/TMI-1 restart cleared FERC+NRC gates, +920 MW PPAs, FY26 EPS guide raised
-- [[vst]] — Vistra; TX gas+nuclear IPP; **open, halved 2026-09-28**; Helix (KKR/NVIDIA) preferred power provider, Meta PPAs from 2027, 72% hedged 2028
+- [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA; **position closed 2026-09-14**; >10 GW cleared at PJM $325 cap; ~$315 (⚠️ −18% since June)
+- [[ceg]] — Constellation Energy; largest US nuclear fleet; **open, halved 2026-09-14**; Crane/TMI-1 restart cleared FERC+NRC gates, +920 MW PPAs, FY26 EPS guide raised
+- [[vst]] — Vistra; TX gas+nuclear IPP; **open, halved 2026-09-14**; Helix (KKR/NVIDIA) preferred power provider, Meta PPAs from 2027, 72% hedged 2028
 - [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
 - [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
 - [[cl]] — WTI crude futures; US-domestic oil benchmark; statarb pair-mate to BZ
@@ -136,6 +137,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pairs-trade-failure-modes]] — the 11 recurring ways a statarb pair looks tradeable and isn't; all found empirically here
 
 ## Sources
+- [[2026-10-06-ceg-vst-tln-replacement-cost-summary]] — human's own physical-unit Tobin's Q study of CEG/VST/TLN: 4 $/kW scenarios, RUL/AFUDC/MEA adjustments, EV bridges, deal comps, falsifiers, Kelly sizing
 - [[2026-10-06-ceg-google-nuclear-uprate-ppa]] — **article（公司联合新闻稿）** · [[ceg|Constellation]] 与 **Google** 签**两段式长约**：① **20 年 PPA** 兜底 **11 台机组 uprate 新增 890 MW**（IL/PA/NJ）、**>$43 亿**投资、首台增容 **2028**；② **15 年供电协议**锁 PJM 内 **2,700 MW 存量产能**；另附 5 年 Google Cloud/Gemini 技术联盟。**电量全部进 PJM 电网（非 co-location/非表后）**——[[ai-power-ipp-bull]] 的 Catalyst 第三次兑现（两周内第三份超大规模云长约）、对 Invalidation #2 缓释/偏正（✅ Google 官方新闻稿 + 多源一致；⚠️ PPA 价/容量成分未披露、uprate NRC 时点未给、无对应 8-K）
 - [[2026-10-05-vst-8k-commodity-credit-amendment]] — **filing** · [[vst|VST]] 8-K（Items 1.01/2.03/9.01，事件日 2026-09-30）：对 2022-02-04 **Commodity-Linked Credit Agreement**（Citibank 为 Agent）签**第十一次修订**——循环信贷到期日 **2026-09-30→2027-09-29 展期** + 与 Corporate Credit Agreement 一致的条款调整；flags（credit agreement×125/**AWS×41**/PJM/ERCOT/FERC 等）全为信贷协议定义与样板条款误报，**无电力合约、无监管事件、非新增杠杆**——纯融资展期、**ok×4 不变**（与 2026-09-24 次级票据/2026-07-16 应收账款融资同类）
 - [[2026-10-03-pacific-nuclear-dispatchable]] — **research（industry·框架）** · 太平洋（刘强/钟欣材）"从装机、用电趋势看，核电是长期机会"：**装机规模已不是瓶颈，瓶颈转向可调度的供电能力——短期看储能、长期看核电**；新能源装机扩张快于有效出力摊薄可调度占比、增量需求集中在不可中断负荷（8 月互联网数据服务用电 +37.9%），"**AI 算力用电只能落在可调度的电源上**"——中国口径的第三方框架、直接对齐本仓 [[ai-power-ipp-bull]] firm 电力稀缺 Edge

@@ -23,6 +23,7 @@ preferred power provider to Helix Digital Infrastructure (KKR/NVIDIA/KIA, $10B+)
 Hedged 100% / 94% / 72% for 2026 / 2027 / 2028 — the most open of the three holdings to 2028 power prices.
 
 ## Key data points
+- Tobin's Q (2026-10-06, human's study): EV $75.0B · Q_B 0.52 · Q_D 1.66 · Q=1 at anchor A ≈ $172/sh (+8%); fleet 43,484 MW incl. 8,743 MW coal — [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]
 - Price ~$148.5 (2026-09-11, Yahoo). Q2-26 net income $305M (incl. $472M unrealized hedge loss).
 - The 2026-07-16 Item 1.01 8-K is a receivables-facility amendment ($1.1B → $1.25B), not a power contract ([[2026-07-16-vst-8k-receivables-facility]]).
 

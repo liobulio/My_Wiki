@@ -50,6 +50,7 @@ to AI/power **regulatory risk** (price caps, political backlash on consumer powe
 - 读数：把已出清 PJM 容量现金流提前变现回购逾 10% 流通股 = 管理层判断股价低估 + 现金流确定；**保留电量上行敞口**。SOFR+200bps 融资成本延续利率敏感性关注。**不触及任一 Invalidation（ok×4）**。
 
 ## Key data points
+- Tobin's Q (2026-10-06, human's study): EV $27.2B · Q_B 0.50 · Q_D 1.60 · Q=1 at anchor A ≈ $403/sh (+9%); ~85% of nuclear contracted — [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]
 - Price ~$382; nuclear ~2.2 GW (Susquehanna); AWS PPA up to 1,920 MW (~$18B/2042).
 - Sensitivity flagged by besties: interest rates (PPA discounting) + AI/power regulation.
 

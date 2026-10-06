@@ -23,6 +23,14 @@ has not yet stated a number.
 
 ## The Thesis Test
 
+> **Exit anchor (human-chosen 2026-10-06): anchor A** — Tobin's Q = 1 at the conservative
+> new-build cost (MIT NOAK nuclear $4,625/kW, CCGT $1,500, peaker $1,200, coal $1,000). Above
+> it even the most optimistic new-builder would rather build than buy, so the Edge is spent.
+> 2026-10-06 levels: **CEG $375 · VST $172** (TLN $403, closed). The level moves with net debt,
+> share count and fleet — recompute on each new 10-Q/10-K. Kelly μ (5–30%) is an arbitrary
+> sizing input, not a forecast. Source: [[2026-10-06-ceg-vst-tln-replacement-cost-summary]],
+> [[ceg-vst-replacement-cost-2026-10-06]].
+
 **The Edge** — All three are heavy-asset, nuclear-heavy independent power producers. A
 comparable fleet cannot be rebuilt in less than 7–10 years, so supply is fixed on any
 investable horizon while power demand rises. Buy the assets **below replacement cost**
@@ -109,6 +117,12 @@ See [[ai-power-demand]].
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis
+- ⚠️ **Anchor risk (2026-10-06, [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]):** the Edge holds on
+  new-build anchors (Q_B ≈ 0.46–0.52) but not on private-deal anchors (Q_D ≈ 1.6–1.8); at the
+  conservative new-build anchor A, VST/TLN are already near Q=1 (+8–9%), CEG +26%. Weakest link,
+  **not covered by the four Invalidations:** nuclear's modern-equivalent asset may be a CCGT —
+  if buyers stop paying a carbon-free/24×7 premium (AWS ~$88/MWh vs PTC floor $44.75), the
+  discount disappears. See [[ceg-vst-replacement-cost-2026-10-06]].
 - Regulatory: FERC co-location rulings, PJM capacity-market interventions, political backlash
   on retail power bills ([[tln]] pitch caveats).
 - Rate sensitivity of long-dated PPA cash flows.

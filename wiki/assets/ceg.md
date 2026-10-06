@@ -40,6 +40,7 @@ for [[ai-power-ipp-bull]] ([[2026-10-06-ceg-google-nuclear-uprate-ppa]], ✅ Goo
 ~3–5% premarket. ⚠️ uprates still require NRC approval; PPA pricing undisclosed (data gaps).
 
 ## Key data points
+- Tobin's Q (2026-10-06, human's study): EV $123.6B · Q_B 0.46 · Q_D 1.82 · Q=1 at anchor A ≈ $375/sh (+26%) — [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]
 - Price ~$288.6 (2026-09-11, Yahoo). Q2-26 GAAP EPS $1.42 / adj. $2.55; FY26 adj. EPS guide $11.50–12.50.
 - ~30% of expected baseload clean generation under long-term premium contracts (8-K 2026-08-06).
 - 2026-09-12: agreed to buy RISEC (609 MW CCGT, Johnston RI) from Shell for **$715M** (~$580M net of first-year tax benefits),

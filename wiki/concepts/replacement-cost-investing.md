@@ -17,6 +17,13 @@ profit as the price converges toward, and eventually exceeds, replacement cost �
 when the world needs *more* of that capacity but building new is slow and expensive.
 
 ## How it works
+- **Physical-unit method for power (human's framework, 2026-10-06 — [[2026-10-06-ceg-vst-tln-replacement-cost-summary]]):**
+  Q = EV ÷ RC, RC = Σ(MW × new-build $/kW) + NCOWC. Book-value Q fails for power — fresh-start /
+  acquisition accounting resets depreciation (TLN book age 2.6y vs a 1983 plant) and overstates
+  it 3–4×. Adjustments: remaining life as an **annuity-factor ratio** (not linear), **AFUDC**
+  (nuclear ×1.36, CCGT ×1.10), **MEA** (coal → site value; nuclear's MEA may be a CCGT). EV
+  bridge: pair ARO with NDT; deduct held-for-sale. Always show a **private-deal anchor (D)**
+  next to new-build anchors — the spread between them is the real uncertainty.
 - **Replacement cost** = the all-in cost to build equivalent capacity today (not book value,
   not historical cost). Related to **Tobin's Q** (market value ÷ replacement cost; `Q < 1` = the
   market values the asset below the cost to rebuild it).
