@@ -40,9 +40,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[2026-09-11]] — 首期美股机构简报：9/16 FOMC 加息分歧（Apollo 预期加息 vs 中银国际）；AI 基建 120 GW；CEG Crane 获 FERC/NRC 批准；PJM $325 上限；新机会 MU/SNDK → `brief/2026-09-11.html`
 
 ## Positions
-- [[ceg]] — Constellation Energy · 5.891 sh · IBKR · thesis [[ai-power-ipp-bull]] · ⚠️ invalidation #2 (FERC/PJM) → **watch** (2026-10-01, PJM backstop suspension)
-- [[tln]] — Talen Energy · 5.407 sh · IBKR · thesis [[ai-power-ipp-bull]] · ⚠️ invalidation #2 (FERC/PJM) → **watch** (2026-10-01); price −18% since June, cause untraced
-- [[vst]] — Vistra · 11.523 sh · IBKR · thesis [[ai-power-ipp-bull]] · most exposed to 2028 power prices (72% hedged) · invalidation ok×4
+- [[ceg]] — Constellation Energy · **2.9455 sh** · IBKR · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-28 · ⚠️ invalidation #2 (FERC/PJM) → **watch** (2026-10-01, PJM backstop suspension)
+- [[tln]] — Talen Energy · **CLOSED 2026-09-28** (was 5.407 sh) · thesis [[ai-power-ipp-bull]] · ⚠️ −18% June→Sept never traced; exit price not supplied
+- [[vst]] — Vistra · **5.7615 sh** · IBKR · thesis [[ai-power-ipp-bull]] · 减仓一半 2026-09-28 · most exposed to 2028 power prices (72% hedged) · invalidation ok×4
 
 ## Theses
 - [[ai-power-ipp-bull]] — shared bull thesis for CEG/TLN/VST: nuclear-heavy IPPs below replacement cost into rising power demand; catalyst = hyperscaler PPAs; 4 condition-based invalidations (human's own words, 2026-09-11)
@@ -89,9 +89,9 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[pltr]] — Palantir; application/integration layer; Palantir-Nvidia sovereign AI OS (Karp)
 - [[fig]] — Figma; the AI-sovereignty cautionary tale (Anthropic's Claude Design; ~−50% YTD)
 - [[mgm]] — MGM Resorts; event-driven gaming, Diller $48.30 bid, Osaka 2030 optionality
-- [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA; **open position**; >10 GW cleared at PJM $325 cap; ~$315 (⚠️ −18% since June)
-- [[ceg]] — Constellation Energy; largest US nuclear fleet; **open position**; Crane/TMI-1 restart cleared FERC+NRC gates, +920 MW PPAs, FY26 EPS guide raised
-- [[vst]] — Vistra; TX gas+nuclear IPP; **open position**; Helix (KKR/NVIDIA) preferred power provider, Meta PPAs from 2027, 72% hedged 2028
+- [[tln]] — Talen Energy; nuclear/gas IPP, AWS PPA; **position closed 2026-09-28**; >10 GW cleared at PJM $325 cap; ~$315 (⚠️ −18% since June)
+- [[ceg]] — Constellation Energy; largest US nuclear fleet; **open, halved 2026-09-28**; Crane/TMI-1 restart cleared FERC+NRC gates, +920 MW PPAs, FY26 EPS guide raised
+- [[vst]] — Vistra; TX gas+nuclear IPP; **open, halved 2026-09-28**; Helix (KKR/NVIDIA) preferred power provider, Meta PPAs from 2027, 72% hedged 2028
 - [[akts]] — Aktis Oncology; actinium-225 radiopharma platform, Lilly-backed IPO
 - [[geod]] — GEODNET; DePIN RTK network token on Solana (⚠️ pitched revenue ~2x overstated)
 - [[cl]] — WTI crude futures; US-domestic oil benchmark; statarb pair-mate to BZ

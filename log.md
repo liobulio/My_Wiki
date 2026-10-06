@@ -386,3 +386,14 @@ grep "^## \[" log.md | tail -5
 - 机构研究侧复核仍零：Apollo RSS 最新仍 09-30「Infrastructure」、无 10-04–10-06 Daily Spark；Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页与 All-In（下集预计 10-09）无窗口内触及持仓的新稿；东财三桶 10-05–10-06 命中仅北大「调结构」预测报告、东兴晨报、东吴「有色金属周报：美元指数强势」——全 A 股/非 US-equity、判出范围不入库。
 - invalidation flags: 无变化——[[ceg]] ok/watch/ok/ok · [[tln]] ok/watch/ok/ok · [[vst]] ok/ok/ok/ok。三持仓 Update history 均补第二次跑 bullet。
 - note: sources_ingested=1 / filings_read=0 / opportunities_new=0（维持首跑值）。下期优先盯：①CEG–Google 是否补 8-K（Item 1.01）②890 MW uprate 逐台 NRC 审批时点③FERC/PJM backstop 2027-02-28 复效 + 独立 co-location 程序（2027 Q1–Q2）。
+## [2026-09-28] maintenance | 持仓变更：TLN 全部清仓，VST / CEG 各减仓一半
+- pages touched: [[tln]], [[vst]], [[ceg]], [[index]]
+- 人工提供的持仓变更，按 §3.5「positions 是人的真实账本」照录，未改动任何未经告知的数字：
+  - **TLN 5.407 → 0**，`status: open → closed`，新增 `closed: 2026-09-28`
+  - **VST 11.523 → 5.7615**（算术一半）
+  - **CEG 5.891 → 2.9455**（算术一半）
+- ⚠️ 两项数据缺口，等人补：
+  1. **卖出日期与成交价均未提供** → 三笔已实现盈亏无法计算，`entry_price` 本就为空，现在连出场价也没有，这三个持仓的真实收益率目前**无法从 wiki 重建**。
+  2. VST/CEG 的 5.7615 / 2.9455 是按「一半」推算的；若实际卖到整数股，余额需要更正。
+- ⚠️ 需要人来判断（§3.8：conviction 归人，不归我）：TLN 是三只 AI-power IPP 里唯一被**完全**清掉的，而它 6→9 月 −18% 的原因从 09-11 起挂到现在仍未追溯到 catalyst。若清仓是因某条 Invalidation 被触发，[[ai-power-ipp-bull]] 的 `status` 与 `invalidation_status` 需要一并更新——我没有替你改，目前仍为 ok×4。
+- note: 减仓后组合仍 100% 集中在同一个 [[ai-power-ipp-bull]] 论点上（VST+CEG），**集中度未因减仓而分散，只是规模减半**。

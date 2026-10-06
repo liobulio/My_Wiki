@@ -4,7 +4,7 @@ asset: "[[vst]]"
 ticker: VST
 status: open
 weight:
-shares: 11.523
+shares: 5.7615
 account: IBKR
 entry_date:
 entry_price:
@@ -24,7 +24,7 @@ order: (1) hyperscaler contracts delayed/cancelled · (2) uprate/co-location res
 regulators · (3) solar expansion faster than expected · (4) solar rebuild cost falling.
 
 ## Summary
-Real holding: **11.523 shares** at IBKR (human-supplied 2026-09-11). Weight is computed from
+Real holding: **5.7615 shares** at IBKR (human-supplied 2026-09-11). Weight is computed from
 shares × last price by `scripts/render_brief.py`; `entry_date` / `entry_price` /
 `conviction` are the human's to fill — `conviction: 3` is a placeholder.
 
@@ -61,3 +61,7 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-05（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-02` 复跑同首跑（VST 仅首跑已读的融资展期 8-K [[2026-10-05-vst-8k-commodity-credit-amendment]]、本跑无新增/0 新 flags）；外资公共 feed 与东财三桶 10-03–10-05 无触及持仓的窗口内新稿（东财命中仅东吴非农/太平洋核电[均已入库]、太平洋「算电协同」A 股产业链政策周报[出范围]、上海证券 Meta 智能眼镜[出范围]）。VST 以 ERCOT/德州为主、不依赖 PJM backstop——FERC/PJM backstop 自 9/29 暂缓令后无新令，Invalidation #2 维持 ok。New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。无事件触及任一失效条件。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-10-06 — brief：`sec_fetch.py --since 2026-10-05` **VST 新增仅 10-05 已读的融资展期 8-K（[[2026-10-05-vst-8k-commodity-credit-amendment]]，本跑非新内容）、无其他新增**。无 VST 自身新事件。同业 Catalyst 第三次兑现（间接利好、方向正面）：**CEG 与 Google 2026-10-06 签 20 年 PPA（890 MW uprate）+ 15 年 2,700 MW 供电、并网结构**（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）——两周内第三份超大规模云长约（含本仓 9/28 Luminant–New Era），持续背书 firm/可调度电力稀缺与 [[ai-power-demand]]，对 VST 未对冲可调度机队（2028 仅对冲 72%）上行电价敞口正面；非 VST 一手事件、不触及其失效条件。VST 以 ERCOT/德州为主、不依赖 PJM backstop——FERC/PJM backstop 自 9/29 暂缓令后无新令，Invalidation #2 维持 ok。New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-10-06（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-05` 复跑同首跑（VST 仅首跑已读的融资展期 8-K [[2026-10-05-vst-8k-commodity-credit-amendment]]、本跑无新增/0 新 flags）；外资公共 feed（Apollo 最新仍 09-30）与东财三桶 10-05–10-06 无触及持仓的窗口内新稿（命中仅北大「调结构」/东兴晨报/东吴有色周报，全 A 股口径、出范围）。同业 CEG–Google 两段式长约（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）首跑已记为间接利好、无补充。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok。New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。无事件触及任一失效条件。Invalidation 状态：**ok/ok/ok/ok**（不变）。
+- 2026-09-28 — **减仓一半**(human-supplied)。持股 11.523 → 5.7615。
+  ⚠️ 5.7615 是 11.523 的算术一半;若实际卖出到一个整数股数,请告诉我真实余额。
+  ⚠️ 卖出日期与成交价未提供,已实现盈亏无法计算。
+  Invalidation 状态维持 ok/ok/ok/ok —— 减仓本身不改变论点状态,除非你说是某条被触发了。

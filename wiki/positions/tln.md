@@ -2,9 +2,9 @@
 type: position
 asset: "[[tln]]"
 ticker: TLN
-status: open
+status: closed
 weight:
-shares: 5.407
+shares: 0
 account: IBKR
 entry_date:
 entry_price:
@@ -12,10 +12,11 @@ conviction: 3
 thesis: "[[ai-power-ipp-bull]]"
 invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
+closed: 2026-09-28
 updated: 2026-10-06
 ---
 
-# TLN — Talen Energy (open position)
+# TLN — Talen Energy (CLOSED)
 
 ## The Thesis Test
 Shared with the other AI-power IPP holdings — see [[ai-power-ipp-bull]] for the Edge, the
@@ -24,7 +25,9 @@ order: (1) hyperscaler contracts delayed/cancelled · (2) uprate/co-location res
 regulators · (3) solar expansion faster than expected · (4) solar rebuild cost falling.
 
 ## Summary
-Real holding: **5.407 shares** at IBKR (human-supplied 2026-09-11). Weight is computed from
+**Position closed 2026-09-28.** Previously 5.407 shares at IBKR (human-supplied
+2026-09-11). Exit price and realised P&L not yet supplied — see the note in Update
+history. Weight is computed from
 shares × last price by `scripts/render_brief.py`; `entry_date` / `entry_price` /
 `conviction` are the human's to fill — `conviction: 3` is a placeholder.
 
@@ -62,3 +65,10 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-05（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-02` 复跑同首跑（TLN **0 新增/0 flags**）；外资公共 feed 与东财三桶 10-03–10-05 均无触及持仓的窗口内新稿（东财命中仅东吴非农/太平洋核电[均已入库]、太平洋「算电协同」A 股产业链政策周报[出范围]、上海证券 Meta 智能眼镜[出范围]）。FERC/PJM backstop 自 9/29 暂缓令后**无新令**（媒体续为 lead、不入库）、co-location 规则另案预计 2027 Q1–Q2——**#2 维持 watch**；TLN 9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）无补充披露。无事件触及其余失效条件。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-06 — brief：`sec_fetch.py --since 2026-10-05` **TLN 无新增 8-K/10-Q/10-K、0 flags**（CEG 0、VST 1 为 10-05 已读融资展期 8-K）。无 TLN 自身事件。同业 Catalyst 第三次兑现（间接利好）：**CEG 与 Google 2026-10-06 签 20 年 PPA（890 MW uprate）+ 15 年 2,700 MW 供电**（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）——两周内第三份超大规模云长约、均走并网结构，持续背书 firm/可调度核电稀缺定价与 [[ai-power-demand]]，利好 TLN 未签约可调度容量（Susquehanna–AWS 之外余量）的再定价预期；非 TLN 一手事件、不触及其失效条件。**Invalidation #2 watch 主线**：FERC/PJM backstop 自 9/29 暂缓令（[[2026-09-29-ferc-pjm-backstop-suspension]]）后**仍无新令**、co-location 规则另案预计 2027 Q1–Q2；TLN 9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）无补充披露——**#2 维持 watch**。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-06（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-05` 复跑同首跑（**TLN 0 新增/0 flags**）；外资公共 feed（Apollo 最新仍 09-30、无新 Daily Spark）与东财三桶 10-05–10-06 无触及持仓的窗口内新稿（命中仅北大「调结构」/东兴晨报/东吴有色周报，全 A 股口径、出范围）。同业 CEG–Google 两段式长约（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）首跑已记为间接利好、无补充（仍无对应 8-K）。FERC/PJM backstop 自 9/29 暂缓令后**无新令**、co-location 规则另案预计 2027 Q1–Q2；TLN 9/29 容量货币化 8-K 无补充披露——**#2 维持 watch**。无事件触及其余失效条件。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
+- 2026-09-28 — **全部清仓**(human-supplied)。持股 5.407 → 0,`status: open → closed`。
+  ⚠️ 数据缺口:**卖出日期与成交价未提供**,因此无法计算已实现盈亏。补上之后我会回填
+  `exit_price` / realised P&L。
+  ⚠️ 需要人来判断:TLN 是三只 AI-power IPP 里**唯一被完全清掉**的,而 6→9 月 −18% 的
+  原因至今没有追溯到具体 catalyst(见 2026-09-11 与 2026-09-14 两条)。如果清仓是因为某条
+  Invalidation 被触发,请告诉我是哪一条,我会把 [[ai-power-ipp-bull]] 的 `status` 和
+  `invalidation_status` 一起更新 —— 按 §3.8,这个判断归你,不归我。

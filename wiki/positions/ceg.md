@@ -4,7 +4,7 @@ asset: "[[ceg]]"
 ticker: CEG
 status: open
 weight:
-shares: 5.891
+shares: 2.9455
 account: IBKR
 entry_date:
 entry_price:
@@ -24,7 +24,7 @@ order: (1) hyperscaler contracts delayed/cancelled · (2) uprate/co-location res
 regulators · (3) solar expansion faster than expected · (4) solar rebuild cost falling.
 
 ## Summary
-Real holding: **5.891 shares** at IBKR (human-supplied 2026-09-11). Weight is computed from
+Real holding: **2.9455 shares** at IBKR (human-supplied 2026-09-11). Weight is computed from
 shares × last price by `scripts/render_brief.py`; `entry_date` / `entry_price` /
 `conviction` are the human's to fill — `conviction: 3` is a placeholder.
 
@@ -61,3 +61,7 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-05（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-02` 复跑同首跑（CEG 仍仅 **2 Form 4**、无新增 8-K/10-Q/10-K、0 flags）；Apollo RSS 最新仍为 09-30「Infrastructure」长文、无 10-03–10-05 Daily Spark，Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页无窗口内触及持仓的新稿。东财三桶 10-03–10-05 命中仅：①[[2026-10-03-soochow-sept-payrolls|东吴非农]]（策略，已入库）②[[2026-10-03-pacific-nuclear-dispatchable|太平洋核电]]（行业，已入库）③太平洋「算电协同配套政策逐步完善，重视产业链长期机遇」（AP202610031830126544，A 股电新产业链政策周报——China 供给侧/政策口径、无 US 持仓增量，判**出范围不入库**）④上海证券 Meta 智能眼镜（端侧 AI，出范围）。FERC/PJM backstop 自 9/29 暂缓令后**无新令**、CEG 独立 co-location 程序（预计 2027 Q1–Q2）无进展——**#2 维持 watch**。无事件触及任一失效条件。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-06 — brief：`sec_fetch.py --since 2026-10-05` **CEG 0 新增 8-K/10-Q/10-K、0 flags**（TLN 0、VST 1 为 10-05 已读的融资展期 8-K）。**Catalyst 第三次兑现（两周内第三份超大规模云长约）**：追入一手联合新闻稿——**CEG 与 Google 2026-10-06 签两段式长约**（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]，✅ Google 官方新闻稿 + mugglehead/gurufocus/investing.com/Benzinga 多源一致）：① **20 年 PPA** 兜底经 **11 台自有核电机组 uprate 新增的 890 MW**（IL/PA/NJ）、撬动 **>$43 亿**投资、首台增容 **2028** 上线；② **15 年供电协议**锁定 PJM 内 **2,700 MW 存量产能**；另附 5 年 Google Cloud/Gemini 技术联盟。**电量全部进 PJM 电网（并网、非 co-location/非表后）**——与 9/30 Calvert Cliffs–Amazon 同一结构，刻意绕开 co-location/ISA 监管争议，对 **Invalidation #2 为缓释/偏正**；CEG 盘前涨 ~+3%–+5%（10-05 收 ~$267.62）。但**不解决** 9/29 FERC/PJM backstop 暂缓（推至 2027-02-28）与独立 co-location 程序（预计 2027 Q1–Q2），且 890 MW uprate 自身仍需 **NRC 批准**（首台 2028）——故 **#2 维持 watch**（偏正但未触阈值）。Invalidation #1 方向：又一超大规模云长约落地 → firm 电力合约需求侧**更强、ok 不变**。⚠️ 数据缺口：PPA 价/容量成分/15 年供电协议定价未披露；uprate 逐台 NRC 时点未给；无对应 8-K（下期续查是否补）。RISEC（609MW 燃气）收购 8-K 仍挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-06（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-05` 复跑同首跑（**CEG 0 新增 8-K/10-Q/10-K、0 flags**）；定向追查 **CEG–Google 两段式长约是否补 8-K（Item 1.01）**——EDGAR 全文检索端点 403、CEG 自 10-05 起 EDGAR 0 新文件、WebSearch 亦未定位到对应 8-K，故 [[2026-10-06-ceg-google-nuclear-uprate-ppa]] 仍以公司一手联合新闻稿为一手源（同 [[2026-09-30-ceg-amazon-calvert-cliffs-ppa]] 例），下期续查。Apollo RSS 最新仍为 09-30「Infrastructure」、无 10-04–10-06 Daily Spark；Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone 公共页与 All-In（下集预计 10-09）无窗口内触及持仓的新稿；东财三桶 10-05–10-06 命中仅北大「调结构」预测报告、东兴晨报、东吴「有色金属周报：美元指数强势」——全 A 股/非 US-equity，判出范围不入库。FERC/PJM backstop 自 9/29 暂缓令后**无新令**、CEG 独立 co-location 程序（预计 2027 Q1–Q2）无进展——**#2 维持 watch**；890 MW uprate 的逐台 NRC 批准时点未给。无事件触及任一失效条件。Invalidation 状态：**ok/watch/ok/ok**（不变）。
+- 2026-09-28 — **减仓一半**(human-supplied)。持股 5.891 → 2.9455。
+  ⚠️ 2.9455 是 5.891 的算术一半;若实际卖出到一个整数股数,请告诉我真实余额。
+  ⚠️ 卖出日期与成交价未提供,已实现盈亏无法计算。
+  Invalidation 状态维持 ok/ok/ok/ok。
