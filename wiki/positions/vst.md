@@ -76,4 +76,5 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-06 — **成交价更正**(human-supplied)。买入 **$151**、2026-09-14 减仓一半成交 **$141**(取代上一条按 9/9 盘中高回填的估计值)。
   已实现:5.7615 股 × ($141 − $151) = **$-57.61**(-6.6%)。
 - 2026-10-06 — **退出锚点定为 A**(human-chosen):`exit_anchor: 172`(Q=1 保守新建口径,2026-10-06 计算,每份新 10-Q 需重算)。
+- 2026-10-07 — **下期财报:2026-11-06(周五)Q3 业绩 + 10:00 ET 电话会**(公司公告「Vistra to Report Third Quarter Results on Nov. 6, 2026」)。届时用 Q3 10-Q 的净债务/股数重算锚点 A(当前 `exit_anchor` 基于 2026-06-30 资产负债表)——只提议新值,由人确认。
 
