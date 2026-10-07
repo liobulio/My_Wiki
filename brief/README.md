@@ -8,6 +8,7 @@
 
 | 日期 | 头条 |
 |---|---|
+| [2026-10-07](2026-10-07.md) | 窗口（10-06→10-07，一日）SEC 侧零新增——secfetch.py --since 2026-10-06 下 ceg 0、vst 0 新增 8-K/10-Q/10-K、0 flags（tln 已清仓），fil |
 | [2026-10-06](2026-10-06.md) | 窗口（10-05→10-06，一日）唯一重磅是持仓 Catalyst 第三次兑现——Constellation 2026-10-06 盘前宣布与 Google 的两段式长约（2026-10-06-ceg-google-n |
 | [2026-10-05](2026-10-05.md) | 周末+周一窗口以一份持仓 8-K + 三份框架/宏观研报为主，Invalidation 全线不变。vst 新增 8-K（2026-10-05-vst-8k-commodity-credit-amendment，Items |
 | [2026-10-02](2026-10-02.md) | 持仓 Constellation 迎来 Catalyst 教科书式兑现——追入一手公司披露：CEG 与 Amazon 2026-09-30 签 20 年 PPA，为 Calvert Cliffs 核电站供电 690 MW |

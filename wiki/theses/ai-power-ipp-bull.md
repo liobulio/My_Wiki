@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-10-06
+updated: 2026-10-07
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -114,6 +114,7 @@ See [[ai-power-demand]].
 - 利率读数（2026-10-03，东吴）：**[[2026-10-03-soochow-sept-payrolls|东吴·9 月非农点评]]**——9 月新增非农 **+2.9 万**（预期 ~9 万、✅ 外部核 +29k）、失业率升至 **4.2%**、时薪 +0.1%、7+8 月下修 6 万，劳务边际松弛；但**加息预期降温"仅一时"、2Y/10Y 美债回吐重新走高**（单月高波动难撼中期加息周期 + 经济不确定性令交易谨慎）。延续本仓长久期现金流**利率敏感性既列风险**，与 [[2026-10-02-apollo-daily-spark-payrolls-no-longer-weak|Apollo·higher-for-longer]]、[[2026-09-19-nanhua-macro-fed-hawkish|南华]]并列为利率风险**双向注脚**（非 Invalidation）。同篇"**数据中心建设相关就业 +3.8 万**"为需求侧建设未退坡的劳务侧旁证。
 - 持仓融资读数（2026-10-05，VST）：**[[2026-10-05-vst-8k-commodity-credit-amendment|VST 8-K]]**——Commodity-Linked 对冲循环信贷**第十一次修订、到期日 2026-09-30→2027-09-29 展期**（Citibank 为 Agent）；flags（AWS×41/PJM/ERCOT/FERC/terminat 等）全为信贷协议定义/样板条款误报，**无电力合约、无监管事件**。属例行融资展期、非新增杠杆、未披露新定价，与 [[2026-09-24-vst-8k-junior-subordinated-notes]] 同类——**不触及任一 Invalidation**。
 - **Catalyst 第三次兑现（2026-10-06，CEG — 两周内第三份超大规模云长约）**：**[[ceg|Constellation]] 与 Google 签两段式长约**（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]，✅ Google/Constellation 联合新闻稿 + 多源一致）：① **20 年 PPA** 兜底经 **11 台自有核电机组 uprate 新增的 890 MW**（IL/PA/NJ）、**>$43 亿**投资、首台增容 **2028** 上线；② **15 年供电协议**锁定 PJM 内 **2,700 MW 存量产能**；另附 5 年 Google Cloud/Gemini 技术联盟。继 9/28 [[vst]]–New Era、9/30 [[ceg]]–Amazon 之后**两周内第三份**超大规模云厂商长约，把**存量 + 增容**可调度核电按 15–20 年长约再定价——Edge/Catalyst 的又一教科书式实证。关键结构：**电量全部进 PJM 电网（并网、非 co-location/非表后）**，与 Calvert Cliffs 同一路径刻意绕开 co-location/ISA 监管争议，对 **Invalidation #2 为缓释/偏正**；但**不解决** 9/29 FERC/PJM backstop 暂缓（推至 2027-02-28）与独立 co-location 程序（预计 2027 Q1–Q2），且 890 MW uprate 自身仍需 **NRC 批准**（Invalidation #2 列明的 uprate 监管通道，首台 2028），故 #2 维持 **watch**。⚠️ 数据缺口：PPA 价/容量成分/15 年供电定价未披露；uprate 逐台 NRC 时点未给；无对应 8-K（公告于 10-06 盘前、或随后补）。
+- 利率/需求双读数（2026-10-07）：三家内资在 10 月 Fed 路径上**分歧**——**[[2026-10-07-soochow-holiday-overseas-rates|东吴]]** 据 BEA 年度修订（26Q1/Q2 GDP 上修 0.4/0.7pp、PCE 下修，✅ 核）+ 弱非农判"**10 月或跳过加息**、中期增长更乐观"（偏鸽）；**[[2026-10-07-guosen-sept-payrolls|国信]]** 记弱非农（+2.9 万、失业 4.2%）后 FedWatch 10 月加息概率骤降至 **19%**、10Y 回落 ~5.20%，但"**政策航向难改**"；**[[2026-10-07-boci-us-inflation-demand|中银]]** 反向判"**Q4 仍有加息空间**"（居民收入韧性 + **AI 投资支撑通胀韧性**、沃什"不加息"条件未满足）。假期 10Y 一度破 5.3%——长端维持高位，本仓长久期 PPA 现金流**利率敏感性既列风险（非 Invalidation）**，三家分歧纳入双向观测。⚠️ 中银把 **AI capex 繁荣本身列为联储鹰派理由之一**（AI 投资→总需求右移→通胀）——需求侧偏正与利率偏鹰的一体两面。需求侧硬数据续强：**[[2026-10-07-soochow-overseas-compute-ai-hardware|东吴·海外算力周]]** 记国庆假期中国台湾 CCL 厂 9 月营收翻倍以上（**台光电子 +168.9% YoY**，✅ 核）、Rubin 平台 PCB 层数/材料代际升级、**Q4 AI 服务器加速批量交付**——AI 数据中心建设/用电未退坡的又一第三方实证（背书需求侧时间跨度；非直接电力标的、不触发失效条件）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

@@ -424,3 +424,13 @@ grep "^## \[" log.md | tail -5
 - pages touched: `scripts/render_brief.py`, `tests/test_render_brief.py`, CLAUDE.md §3.5, `brief/2026-10-06.{html,md}`, `brief/index.html`
 - 持仓卡新增一行：距 `exit_anchor` 还差 %（≈ $）+ 买入→锚点进度条；到达后变黄色"已到退出锚点 A"。Markdown 手机版同步。新增 `anchor_info()` + 测试；schema 加 `exit_price` / `exit_anchor` 字段。
 - 顺手修复：持仓备注 `<p class="note">` 内嵌 `<p>` 导致的空白备注条（改为 `<div>`）。今日简报按真实持仓重渲染（CEG 2.9455 / VST 5.7615，TLN 已移出）。
+
+## [2026-10-07] brief | 10 月 Fed 加息路径内资分歧 + 需求侧 AI 硬件续强；SEC 零新增、Invalidation 全线不变
+- pages touched: [[2026-10-07-soochow-holiday-overseas-rates]], [[2026-10-07-boci-us-inflation-demand]], [[2026-10-07-guosen-sept-payrolls]], [[2026-10-07-soochow-overseas-compute-ai-hardware]], [[soochow-securities]], [[boci]], [[guosen]], [[us-treasury-10y]], [[ai-power-ipp-bull]], [[ceg]], [[vst]], [[2026-10-07]], index.md, brief/2026-10-07.{html,md}
+- sources_ingested: 4（均东财研报中心渠道）· filings_read: 0 · opportunities_new: 0
+- SEC：`sec_fetch.py --since 2026-10-06` CEG 0 新增（27 kept）/ VST 0 新增（31 kept）/ TLN 已清仓（status closed、0 股）；三家 `is_new` 均空。CEG–Google 两段式长约仍无对应 8-K（Item 1.01），维持一手联合新闻稿为源、下期续查。
+- 主线（macro 三 VIEW）：10 月 Fed 路径内资分歧——**东吴**据 BEA 年度修订（26Q1/Q2 GDP 上修 0.4/0.7pp、PCE 下修，✅ 核）+ 弱非农判"10 月或跳过加息"（is_change=true、较本家 10-03 偏鸽）；**中银**反向判"四季度仍存加息空间"（居民收入韧性 + AI 投资支撑通胀，把 AI capex 列为联储鹰派理由）；**国信**居中——FedWatch 10 月加息概率骤降至 19%、10Y ~5.20%，但"政策航向难改"。假期 10Y 一度破 5.3%——长久期 PPA 现金流利率敏感性既列风险双向注脚、非 Invalidation。
+- 需求侧（industry 1 VIEW）：东吴海外算力周——台系 CCL 9 月营收翻倍（台光电子 215.32 亿新台币/+168.9% YoY，✅ 核）、Rubin 平台 PCB 层数/材料代际升级、Q4 AI 服务器加速批量交付——数据中心建设/用电未退坡的第三方实证。
+- fact-check：BEA 2026 年度修订（Q2 GDP +0.7pp→2.2%、Q1→2.5%、PCE −0.3pp）✅、台光电子 2026-09 营收 +168.87% ✅、9 月非农 +2.9 万/失业 4.2% ✅（与 10-03 东吴、官方一致）；各家 10 月政策预测为 projection、记入双向观测。
+- us_equity 空（honest，假期回顾篇归 macro）；`logic_changes: []`、`opportunities_new: 0`。出范围未入库：东财大量 A 股口径研报、Apollo 无 10-04 后新 Daily Spark、Goldman/MS/JPM 仅年度展望、All-In 下集预计 10-09。
+- Invalidation flags：无新增。CEG ok/watch/ok/ok（#2 缘于 9/29 FERC/PJM backstop，无新令；890 MW uprate 仍需 NRC）· VST ok/ok/ok/ok（ERCOT 为主、不依赖 PJM backstop）。
