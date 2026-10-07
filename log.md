@@ -441,3 +441,7 @@ grep "^## \[" log.md | tail -5
 - 定向续查 CEG–Google 两段式长约 8-K（Item 1.01）：CEG 自 10-05 起 EDGAR 仍 0 新文件、无对应 8-K，[[2026-10-06-ceg-google-nuclear-uprate-ppa]] 维持一手联合新闻稿为源、下期续查。
 - 外资公共 feed（Apollo 最新仍 09-30「Infrastructure」、Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone、All-In 下集 10-09）无窗口内触及持仓新稿；东财三桶 10-07 复查无新增在范围 US-equity 稿（命中国信四季度展望/多资产周报、开源各周报、国金计算机系列、对外经贸大学贸易月报等均 A 股/非 US-equity，维持出范围）。
 - Invalidation flags：无新增。CEG ok/watch/ok/ok · VST ok/ok/ok/ok。两持仓 Update history 均补第二次跑 bullet；`sources_ingested=4/filings_read=0/opportunities_new=0` 维持首跑值。
+
+## [2026-10-07] maintenance | daily-brief skill 写明退出锚点
+- pages touched: `.claude/skills/daily-brief/SKILL.md`
+- 渲染层 10-06 起已自动显示"距退出锚点 A"（10-07 两次跑的 `brief/2026-10-07.{html,md}` 均含），但 routine 写的头条/持仓备注没提。现要求：备注开头写距锚点距离；≤5% 进头条；到达则头条以 ⚠️ 打头；锚点需重算时只提议、不改 `exit_anchor`（`exit_*` 列入不可改字段）。
