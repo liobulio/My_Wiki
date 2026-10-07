@@ -434,3 +434,10 @@ grep "^## \[" log.md | tail -5
 - fact-check：BEA 2026 年度修订（Q2 GDP +0.7pp→2.2%、Q1→2.5%、PCE −0.3pp）✅、台光电子 2026-09 营收 +168.87% ✅、9 月非农 +2.9 万/失业 4.2% ✅（与 10-03 东吴、官方一致）；各家 10 月政策预测为 projection、记入双向观测。
 - us_equity 空（honest，假期回顾篇归 macro）；`logic_changes: []`、`opportunities_new: 0`。出范围未入库：东财大量 A 股口径研报、Apollo 无 10-04 后新 Daily Spark、Goldman/MS/JPM 仅年度展望、All-In 下集预计 10-09。
 - Invalidation flags：无新增。CEG ok/watch/ok/ok（#2 缘于 9/29 FERC/PJM backstop，无新令；890 MW uprate 仍需 NRC）· VST ok/ok/ok/ok（ERCOT 为主、不依赖 PJM backstop）。
+
+## [2026-10-07] brief | 同日补扫（第二次跑）——全渠道零新增、Invalidation 全线不变
+- pages touched: [[2026-10-07]], [[ceg]], [[vst]], brief/2026-10-07.{html,md}, log.md
+- SEC：`sec_fetch.py --since 2026-10-07` 复跑同首跑——CEG 0 新增（27 kept）/ VST 0 新增（31 kept）/ TLN 已清仓；三家 `is_new` 均空、`filings_read=0`。
+- 定向续查 CEG–Google 两段式长约 8-K（Item 1.01）：CEG 自 10-05 起 EDGAR 仍 0 新文件、无对应 8-K，[[2026-10-06-ceg-google-nuclear-uprate-ppa]] 维持一手联合新闻稿为源、下期续查。
+- 外资公共 feed（Apollo 最新仍 09-30「Infrastructure」、Goldman/MS/JPM/BlackRock/Bridgewater/PIMCO/KKR/Blackstone、All-In 下集 10-09）无窗口内触及持仓新稿；东财三桶 10-07 复查无新增在范围 US-equity 稿（命中国信四季度展望/多资产周报、开源各周报、国金计算机系列、对外经贸大学贸易月报等均 A 股/非 US-equity，维持出范围）。
+- Invalidation flags：无新增。CEG ok/watch/ok/ok · VST ok/ok/ok/ok。两持仓 Update history 均补第二次跑 bullet；`sources_ingested=4/filings_read=0/opportunities_new=0` 维持首跑值。
