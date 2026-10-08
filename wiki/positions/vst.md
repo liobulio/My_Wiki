@@ -16,7 +16,7 @@ trimmed: 2026-09-14
 exit_price: 141   # 2026-09-14 sale (减仓一半), human-supplied
 exit_anchor: 172   # anchor A (Q=1 conservative new-build), human-chosen 2026-10-06; recompute each 10-Q
 exit_plan: "到锚点 A 再减仓一半（5.7615 → 2.88075 股）"   # human-chosen 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-08
 ---
 
 # VST — Vistra (open position)
@@ -67,6 +67,7 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-07 — brief：`sec_fetch.py --since 2026-10-06` **VST 0 新增 8-K/10-Q/10-K、0 flags**（31 filings kept）；`filings_read=0`。无 VST 自身新事件。机构侧为**利率/需求双读数**（非 Invalidation）：三家内资 10 月 Fed 路径分歧——[[2026-10-07-soochow-holiday-overseas-rates|东吴]]"10 月或跳过加息"、[[2026-10-07-guosen-sept-payrolls|国信]]"FedWatch 10 月加息概率→19%、政策航向难改"、[[2026-10-07-boci-us-inflation-demand|中银]]"Q4 仍有加息空间（AI 投资支撑通胀）"；假期 10Y 一度破 5.3%——长久期现金流利率敏感性既列风险双向注脚。需求侧 [[2026-10-07-soochow-overseas-compute-ai-hardware|东吴·海外算力周]]记台系 CCL 9 月营收翻倍（台光 +168.9%、✅ 核）、Q4 AI 服务器加速交付——对 VST 未对冲可调度机队（2028 仅对冲 72%）上行电价敞口正面（利好、不触及失效条件）。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok；New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-10-06（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-05` 复跑同首跑（VST 仅首跑已读的融资展期 8-K [[2026-10-05-vst-8k-commodity-credit-amendment]]、本跑无新增/0 新 flags）；外资公共 feed（Apollo 最新仍 09-30）与东财三桶 10-05–10-06 无触及持仓的窗口内新稿（命中仅北大「调结构」/东兴晨报/东吴有色周报，全 A 股口径、出范围）。同业 CEG–Google 两段式长约（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）首跑已记为间接利好、无补充。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok。New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。无事件触及任一失效条件。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-10-07（同日补扫，第二次跑）— 全渠道零新增：`sec_fetch.py --since 2026-10-07` 复跑同首跑（**VST 0 新增 8-K/10-Q/10-K、0 flags**，31 filings kept；`data/sec/VST.json` `is_new` 空）。外资公共 feed（Apollo 最新仍 09-30）与东财三桶 10-07 窗口无触及持仓的新稿（首跑已入库东吴海外算力周等 4 源；本跑复查命中的国信四季度展望/多资产周报、开源各周报、国金计算机系列、对外经贸大学贸易月报均 A 股/非 US-equity、维持出范围）。同业 CEG–Google 两段式长约（[[2026-10-06-ceg-google-nuclear-uprate-ppa]]）首跑已记为间接利好、无补充。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok；New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）。无事件触及任一失效条件。Invalidation 状态：**ok/ok/ok/ok**（不变）。
+- 2026-10-08 — brief：`sec_fetch.py --since 2026-10-07` **VST 1 新增 = Form 4（内部人交易，report_date 2026-10-06、0 items/0 flags）**——按 SKILL 仅列示、不深读；**无新增 8-K/10-Q/10-K**。`filings_read=0`。⚠️ **退出锚点 A（≤5%）**：今收 **$166.72**、距 `exit_anchor: 172` **仅差 +3.2%（≈$5.28）**——已在本期简报头条以 ⚠️ 提示并附 `exit_plan`（到锚点 A 再减仓一半，5.7615 → 2.88075 股；执行与股数变更由人确认后录入）。锚点基于 2026-06-30 资产负债表，**11-06 Q3 10-Q 后需重算**。无 VST 自身新事件。机构侧为**新利率读数**（非 Invalidation）：追入一手 **FOMC 9 月会议纪要**（[[2026-10-08-donghai-futures-fomc-minutes-hawkish|东海期货]]、✅ 多源核）——全票支持 9 月加息、多数官员年内或再加一次、偏鹰，纪要把"强劲 AI 投资或增加需求压力"列为上行通胀风险（呼应 [[2026-10-07-boci-us-inflation-demand|中银]]）；[[2026-10-08-ajian-us-sept-payrolls|爱建]]"非农走弱但年内加息概率仍较高"——长端维持高位，呼应 VST ~7% 新发成本、属既列利率敏感性风险（东吴"10 月或跳过"对立、纳双向观测）。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok；New Era 20 年 PPA（[[2026-09-21-newera-8k-vistra-luminant-ppa]]）、德州 DC 许可暂停维持 watch（无新进展）。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-09-28 — **减仓一半**(human-supplied)。持股 11.523 → 5.7615。
   ⚠️ 5.7615 是 11.523 的算术一半;若实际卖出到一个整数股数,请告诉我真实余额。
   ⚠️ 卖出日期与成交价未提供,已实现盈亏无法计算。

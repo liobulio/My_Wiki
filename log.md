@@ -449,3 +449,11 @@ grep "^## \[" log.md | tail -5
 ## [2026-10-07] maintenance | VST 退出计划：到锚点 A 再减仓一半
 - pages touched: [[vst]] (positions `exit_plan`), `scripts/render_brief.py`, `tests/test_render_brief.py`, CLAUDE.md §3.5, daily-brief SKILL, `brief/2026-10-07.{html,md}`
 - 人定：VST 到 `exit_anchor`（$172）时再减仓一半（5.7615 → 2.88075）。简报持仓行显示"到达后：…"，到达时显示"按计划：…"并进头条。
+
+## [2026-10-08] brief | ⚠️ VST 临近退出锚点 A（+3.2%）+ FOMC 9月纪要偏鹰；SEC 近零新增
+- pages touched: [[2026-10-08]] (brief), `brief/2026-10-08.{html,md}`, `brief/README.md`/`index.html`, [[2026-10-08-donghai-futures-fomc-minutes-hawkish]], [[2026-10-08-ajian-us-sept-payrolls]], [[ajian-securities]] (new institution), [[donghai-futures]] (house view), [[ceg]] + [[vst]] (Update history + invalidation_status 复核), index.md, data/prices.json, data/sec/*.json
+- SINCE=2026-10-07。SEC `sec_fetch --since 2026-10-07`：CEG 0 新增（27 kept）· VST 1 新增=Form 4（0001728553-26-000008、report_date 2026-10-06、0 items/0 flags、仅列示不深读）· TLN 已清仓。`filings_read=0`。
+- 退出锚点 A（prices.py 后）：⚠️ **VST $166.72 → 距 $172 仅 +3.2%（≤5%，头条已 ⚠️ 提示 + 附 exit_plan「到锚点再减仓一半 5.7615→2.88075」）**；CEG $299.59 → 距 $375 +25.2%。两锚点基于 2026-06-30 BS、11-06 Q3 10-Q 后需重算（仅提议）。
+- 新增 2 源（东财渠道、均 macro）：①东海期货梳理 **FOMC 9 月会议纪要**——全票 9 月加息、多数官员年内或再加一次、偏鹰；纪要**把"强劲 AI 投资或增加需求压力"列为上行通胀风险**（✅ Bloomberg/Chase/CNBC 多源核，纪要 10-07 美东发布），与中银 10-07 同源同向。②爱建证券（新机构页）9 月非农点评"年内加息概率仍较高"（12 月加息 25bp 概率仍较高、Fed 全年失业率 4.3%→4.1%）。
+- CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、CEG 自 10-05 起 EDGAR 0 新文件——维持一手联合新闻稿为源、下期续查。industry/us_equity 空（honest）、logic_changes=[]、opportunities_new=0。出范围未入库：诚通/交银国际/东海证券/西南/华金等多家非农/宏观 digest 口径重复，择增量最大的 FOMC 纪要 + 爱建收录；Apollo 最新仍 09-30、外资 js houses 仅年度展望、All-In 下集 10-09 未出。
+- Invalidation 全线不变：CEG ok/watch/ok/ok（#2 缘于 9/29 FERC/PJM backstop，无新令；890 MW uprate 待 NRC；co-location 程序 2027 Q1–Q2 无进展）· VST ok/ok/ok/ok（ERCOT 为主、不依赖 PJM backstop）。sources_ingested=2 / filings_read=0 / opportunities_new=0。
