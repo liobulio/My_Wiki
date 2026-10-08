@@ -2,8 +2,8 @@
  "ticker": "VST",
  "cik": 1692819,
  "name": "Vistra Corp.",
- "fetched": "2026-10-08T12:09:17+00:00",
- "since": "2026-10-07",
+ "fetched": "2026-10-08T17:35:28+00:00",
+ "since": "2026-10-08",
  "filings": [
   {
    "form": "4",
@@ -14,7 +14,7 @@
    "items": [],
    "url": "https://www.sec.gov/Archives/edgar/data/1692819/000172855326000008/xslF345X06/wk-form4_1791416355.xml",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1692819/000172855326000008/",
-   "is_new": true,
+   "is_new": false,
    "flags": [],
    "text_path": null,
    "items_desc": []
