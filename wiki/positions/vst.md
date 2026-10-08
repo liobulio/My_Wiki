@@ -15,6 +15,7 @@ opened: 2026-09-11
 trimmed: 2026-09-14
 exit_price: 141   # 2026-09-14 sale (减仓一半), human-supplied
 exit_anchor: 172   # anchor A (Q=1 conservative new-build), human-chosen 2026-10-06; recompute each 10-Q
+exit_plan: "到锚点 A 再减仓一半（5.7615 → 2.88075 股）"   # human-chosen 2026-10-07
 updated: 2026-10-07
 ---
 
@@ -77,4 +78,5 @@ below when it bears on the thesis (regulator-restricted contracts first).
   已实现:5.7615 股 × ($141 − $151) = **$-57.61**(-6.6%)。
 - 2026-10-06 — **退出锚点定为 A**(human-chosen):`exit_anchor: 172`(Q=1 保守新建口径,2026-10-06 计算,每份新 10-Q 需重算)。
 - 2026-10-07 — **下期财报:2026-11-06(周五)Q3 业绩 + 10:00 ET 电话会**(公司公告「Vistra to Report Third Quarter Results on Nov. 6, 2026」)。届时用 Q3 10-Q 的净债务/股数重算锚点 A(当前 `exit_anchor` 基于 2026-06-30 资产负债表)——只提议新值,由人确认。
+- 2026-10-07 — **退出计划**(human-chosen):价格到达锚点 A(`exit_anchor`,当前 $172)时,**再减仓一半**,5.7615 → 2.88075 股。这是人的事先承诺;到达时简报头条以 ⚠️ 提示并附此计划,执行与股数变更仍由人确认后录入。锚点若在 11-06 Q3 后重算,本计划随新锚点适用。
 

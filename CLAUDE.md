@@ -171,6 +171,7 @@ account: <broker>
 invalidation_status: [ok, ok, ok, ok]   # one entry per Invalidation condition on the thesis: ok | watch | hit
 exit_price: <number>             # human-supplied fill of the last trim/close, if any
 exit_anchor: <number>            # human-chosen exit line (anchor A = Tobin's Q 1 at conservative new-build); recompute each 10-Q; the brief shows the distance
+exit_plan: "<text>"              # human-chosen action at the anchor, e.g. "再减仓一半"; shown in the brief
 opened: YYYY-MM-DD
 updated: YYYY-MM-DD
 ---

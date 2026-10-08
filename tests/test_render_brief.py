@@ -69,3 +69,12 @@ def test_exit_anchor_distance():
     ctx["prices"].setdefault("quotes", {})["ZZ"] = {"price": 297.2}
     assert "距退出锚点 A" in rb.position_card(ctx, "ZZ") and "+26.2%" in rb.position_card(ctx, "ZZ")
     assert "距退出锚点 A" in rb.md_position(ctx, "ZZ")
+
+
+def test_exit_plan_shown_with_anchor():
+    ctx = _ctx()
+    ctx["positions"]["zz"] = {"meta": {"ticker": "ZZ", "status": "open", "shares": 2, "entry_price": 150, "exit_anchor": 172, "exit_plan": "再减仓一半"}, "body": "", "title": "ZZ"}
+    ctx["prices"].setdefault("quotes", {})["ZZ"] = {"price": 167}
+    assert "到达后：再减仓一半" in rb.position_card(ctx, "ZZ") and "到达后：再减仓一半" in rb.md_position(ctx, "ZZ")
+    ctx["prices"]["quotes"]["ZZ"] = {"price": 175}
+    assert "已到退出锚点 A" in rb.md_position(ctx, "ZZ") and "按计划：再减仓一半" in rb.md_position(ctx, "ZZ")

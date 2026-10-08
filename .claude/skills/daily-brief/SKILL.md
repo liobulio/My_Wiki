@@ -88,8 +88,8 @@ the ```json brief-data``` block. Rules:
   **Exit anchor:** if the position page has `exit_anchor`, the note must open with the distance
   from today's price (`data/prices.json`, after running `prices.py`) — e.g. `距退出锚点 A $172 还差
   +2.8%（≈ $27）`. If the gap is **≤ 5%**, also say so in the **Headline** paragraph; if price is
-  **at or above** the anchor, lead the Headline with `⚠️ <TICKER> 已到退出锚点 A` — the human
-  pre-committed to this line. Anything that would move the anchor (new 10-Q/10-K net debt or share
+  **at or above** the anchor, lead the Headline with `⚠️ <TICKER> 已到退出锚点 A` plus the page's `exit_plan` — the human
+  pre-committed to this line and action. Anything that would move the anchor (new 10-Q/10-K net debt or share
   count, a ≥1 GW plant deal, a fleet change) gets flagged in the note as "锚点需重算" — propose the
   new level, never edit `exit_anchor` yourself.
 Empty buckets are fine — say so; never pad.

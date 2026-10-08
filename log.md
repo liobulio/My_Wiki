@@ -445,3 +445,7 @@ grep "^## \[" log.md | tail -5
 ## [2026-10-07] maintenance | daily-brief skill 写明退出锚点
 - pages touched: `.claude/skills/daily-brief/SKILL.md`
 - 渲染层 10-06 起已自动显示"距退出锚点 A"（10-07 两次跑的 `brief/2026-10-07.{html,md}` 均含），但 routine 写的头条/持仓备注没提。现要求：备注开头写距锚点距离；≤5% 进头条；到达则头条以 ⚠️ 打头；锚点需重算时只提议、不改 `exit_anchor`（`exit_*` 列入不可改字段）。
+
+## [2026-10-07] maintenance | VST 退出计划：到锚点 A 再减仓一半
+- pages touched: [[vst]] (positions `exit_plan`), `scripts/render_brief.py`, `tests/test_render_brief.py`, CLAUDE.md §3.5, daily-brief SKILL, `brief/2026-10-07.{html,md}`
+- 人定：VST 到 `exit_anchor`（$172）时再减仓一半（5.7615 → 2.88075）。简报持仓行显示"到达后：…"，到达时显示"按计划：…"并进头条。

@@ -254,7 +254,7 @@ def anchor_info(meta, price):
         entry = None
     progress = (price - entry) / (anchor - entry) if entry is not None and anchor != entry else None
     return {"anchor": anchor, "gap_pct": (anchor / price - 1) * 100, "gap_usd": (anchor - price) * shares,
-            "progress": progress, "reached": price >= anchor}
+            "progress": progress, "reached": price >= anchor, "plan": str(meta.get("exit_plan") or "").strip()}
 
 
 def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None):
@@ -304,6 +304,8 @@ def position_card(ctx, ticker, note=None, brief_filings=None, inv_override=None)
                f'距退出锚点 A ${a["anchor"]:,.0f} 还差 {a["gap_pct"]:+.1f}%（≈ {"+" if a["gap_usd"] >= 0 else "-"}${abs(a["gap_usd"]):,.0f}）')
         if a["progress"] is not None and not a["reached"]:
             txt += f' · 买入→锚点已走 {prog:.0f}%'
+        if a["plan"]:
+            txt += f' · {"按计划" if a["reached"] else "到达后"}：{a["plan"]}'
         anchor_html = (f'<div class="wrow arow{" hit" if a["reached"] else ""}"><div class="wbar" title="买入价 → 退出锚点 A 的进度">'
                        f'<div style="width:{prog:.1f}%"></div></div><span class="wlab">{esc(txt)}</span></div>')
     return (f'<article class="pos" id="pos-{esc(ticker)}"><header><span class="tk big">{esc(ticker)}</span><h3>{esc(name)}</h3>'
@@ -552,11 +554,13 @@ def md_position(ctx, ticker, note=None, brief_filings=None, inv_override=None):
     a = anchor_info(meta, price)
     if a:
         if a["reached"]:
-            out += [f"⚠️ **已到退出锚点 A ${a['anchor']:,.0f}**（超出 {-a['gap_pct']:.1f}%）", ""]
+            out += [f"⚠️ **已到退出锚点 A ${a['anchor']:,.0f}**（超出 {-a['gap_pct']:.1f}%）" + (f" · **按计划：{a['plan']}**" if a["plan"] else ""), ""]
         else:
             al = f"🎯 距退出锚点 A **${a['anchor']:,.0f}** 还差 **{a['gap_pct']:+.1f}%**（≈ ${a['gap_usd']:,.0f}）"
             if a["progress"] is not None:
                 al += f" · 买入→锚点已走 {min(max(a['progress'], 0), 1) * 100:.0f}%"
+            if a["plan"]:
+                al += f" · 到达后：{a['plan']}"
             out += [al, ""]
     if note:
         out += [md_links(note, ctx), ""]
