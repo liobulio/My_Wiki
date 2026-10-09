@@ -6,7 +6,7 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-10-05
+updated: 2026-10-09
 ---
 
 # 东吴证券
@@ -16,6 +16,13 @@ updated: 2026-10-05
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-10-09 — **宏观深度"海外政治：美国中期选举观战指南"**（芦哲/张佳炜/韦祎/王茁）：判
+  **特朗普中选（2026-11-03）后大概率丢失两院"横扫优势"**（支持率降至 38.2%、RCP 众议院
+  226–185）。情景①共和党失席→财政边际紧缩 + **左翼民主党上台越多，AI 基础设施监管越严
+  ——要求科技企业承担数据中心扩张的电网/电力/环境外部成本，推升单位 capex、约束 AI CAPEX，
+  甚至限制前沿模型训练/数据中心扩张速率**；情景②共和党小概率保横扫→美伊冲突"持久化"尾部
+  风险抬升。对本仓 [[ai-power-ipp-bull]]：AI 监管收紧属 **Invalidation #1 上游政策风险**（催化
+  明确＝11-03 中选、方向负面、强度未知，ok 不变、新增 watch 观察）（[[2026-10-09-soochow-us-midterm-elections]]）。
 - 2026-10-07 — **宏观点评"假期海外市场回顾：全球利率普涨，股市表现分化"**（芦哲/张佳炜）：中秋国庆假期（9/25–10/6）油价下跌（布伦特 −5.65%）+ 加息预期回落 + 科技股业绩提振风险偏好，但欧洲财政风险推升全球长债收益率、10Y 美债一度**上破 5.3%**、曲线陡峭化，美股跑赢欧股（日经 +7.89% 领涨）、美元创 2025-05 以来新高。核心增量：据 **BEA 年度修订（近端增长上修 0.4/0.7pp、PCE 下修）**+ 弱非农，判**"10 月美联储或跳过加息"**、对中期美国增长**更乐观**。⚠️ **较本家 10-03"降温仅一时"边际偏鸽**（新增"10 月或跳过"）；与 [[2026-10-07-boci-us-inflation-demand|中银"Q4 仍有加息空间"]] 对立（[[2026-10-07-soochow-holiday-overseas-rates]]）。
 - 2026-10-07 — **海外算力周跟踪"AI 硬件产业链持续高景气，看好 Q4 业绩高增"**（陈海进/解承堯）：国庆假期中国台湾 CCL 厂 9 月营收普遍翻倍以上——**台光电子 215.32 亿新台币/+168.9% YoY**、台燿 +114.8%、联茂 +110.7%；叠加英伟达 Rubin 平台 PCB 层数/材料代际升级（算力板 26 层/交换板 32 层/中板 44 层、M8/M9）与 ASIC 上量，判 **Q4 AI 服务器加速批量交付、板块业绩环比改善确定性强**。需求侧 AI 硬件交付未退坡的实证，背书本仓 firm 电力需求刚性（[[2026-10-07-soochow-overseas-compute-ai-hardware]]）。
 - 2026-10-03 — **宏观点评"9 月非农：劳务市场边际松弛"**（芦哲/张佳炜/韦祎）：9 月新增非农 **+2.9 万**（预期 ~9 万）、前值下修至 13.3 万、失业率升至 **4.2%**、时薪环比 +0.1%——劳务边际松弛；但加息预期降温"仅一时"，2Y/10Y 美债随后回吐、重新走高，因单月高波动难撼中期加息周期 + 经济前景不确定性（中选/AI/财政）令交易谨慎。**AI 对就业结构影响延续**：数据中心建设相关建筑/制造/商贸运输合计 +3.8 万、AI 应用相关信息技术/金融合计 −1.7 万。对本仓为利率风险**双向注脚**（非 Invalidation）（[[2026-10-03-soochow-sept-payrolls]]）。
@@ -45,4 +52,4 @@ updated: 2026-10-05
 _none yet_
 
 ## Sources
-[[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]

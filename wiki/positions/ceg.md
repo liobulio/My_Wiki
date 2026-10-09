@@ -15,7 +15,7 @@ opened: 2026-09-11
 trimmed: 2026-09-14
 exit_price: 265   # 2026-09-14 sale (减仓一半), human-supplied
 exit_anchor: 375   # anchor A (Q=1 conservative new-build), human-chosen 2026-10-06; recompute each 10-Q
-updated: 2026-10-08
+updated: 2026-10-09
 ---
 
 # CEG — Constellation Energy (open position)
@@ -78,5 +78,6 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-06 — **成交价更正**(human-supplied)。买入 **$294**、2026-09-14 减仓一半成交 **$265**(取代上一条按 9/9 盘中高回填的估计值)。
   已实现:2.9455 股 × ($265 − $294) = **$-85.42**(-9.9%)。
 - 2026-10-06 — **退出锚点定为 A**(human-chosen):`exit_anchor: 375`(Q=1 保守新建口径,2026-10-06 计算,每份新 10-Q 需重算)。
+- 2026-10-09 — brief：`sec_fetch.py --since 2026-10-08` **CEG 0 新增 8-K/10-Q/10-K、0 flags**（27 filings kept；VST 1 新增为 Form 4、TLN 已清仓）。`filings_read=0`。**退出锚点 A**：今取价 **$285.07**、距 `exit_anchor: 375` **还差 +31.5%（≈$89.93）**——远未触及。**CEG–Google 两段式长约仍无对应 8-K（Item 1.01）**：CEG 自 10-05 起 EDGAR 0 新文件，[[2026-10-06-ceg-google-nuclear-uprate-ppa]] 维持一手联合新闻稿为源、下期续查。本窗口无 CEG 一手事件。⚠️ **新政策风险面（Invalidation #1 上游、催化明确＝2026-11-03 中期选举）**：两家内资独立提出——[[2026-10-09-soochow-us-midterm-elections|东吴中选专题]]"左翼民主党上台越多，AI 基础设施监管越严，要求科技企业承担数据中心扩张的电网/电力/环境外部成本→推升单位 capex、约束 AI CAPEX，甚至限制前沿模型训练/数据中心扩张速率"、[[2026-10-09-cpost-overseas-macro-yields-tech|中邮海外周报]]"若民主党控制两院，数据中心建设或面临更严格政策限制、压制相关股票估值"。属 Invalidation #1（超大规模云电力合约推迟/取消）的**上游政策风险**——催化有日期、方向负面、强度未知、目前**无电力合约推迟/取消实证**，故 **#1 维持 ok、新增为 watch 观察项**（选后若演化为对新增大负荷的系统性监管收紧、实质拖慢数据中心落地，才上升为现实触发）。利率侧中邮判"年底前仍可能再加息一次"（能源冲击/中东地缘推升）——长久期 PPA 现金流**利率敏感性既列风险**（东吴"10 月或跳过"对立、纳双向观测）。需求验证侧 [[2026-10-09-guojin-ai-capture-value|国金]]"AI 捕获率计算机业 <10%、总潜在捕获收入 ~$4000 亿"属 Invalidation #1 上游的 AI 变现框架（ok 不变）。**Invalidation #2 watch 主线**：FERC/PJM backstop 自 9/29 暂缓令（2027-02-28 复效）后无新令、CEG 独立 co-location 程序（预计 2027 Q1–Q2）无进展、890 MW uprate 逐台 NRC 时点未给——**#2 维持 watch**。RISEC（609MW 燃气）收购 8-K 仍挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 - 2026-10-07 — **下期财报:2026-11-06(周五)Q3 业绩 + 10:00 ET 电话会**(第三方日历(AJ Bell/MarketBeat),公司尚未正式公告)。届时用 Q3 10-Q 的净债务/股数重算锚点 A(当前 `exit_anchor` 基于 2026-06-30 资产负债表)——只提议新值,由人确认。
 

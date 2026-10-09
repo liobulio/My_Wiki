@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-10-07
+updated: 2026-10-09
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -126,6 +126,12 @@ See [[ai-power-demand]].
   discount disappears. See [[ceg-vst-replacement-cost-2026-10-06]].
 - Regulatory: FERC co-location rulings, PJM capacity-market interventions, political backlash
   on retail power bills ([[tln]] pitch caveats).
+- ⚠️ **Midterm-election policy risk (new 2026-10-09)** — Invalidation #1 上游。两家内资独立
+  提出（[[2026-10-09-soochow-us-midterm-elections|东吴]]、[[2026-10-09-cpost-overseas-macro-yields-tech|中邮]]）：
+  2026-11-03 中期选举若使左翼民主党扩大国会席位，AI 基础设施监管或收紧——要求科技企业
+  承担数据中心扩张的电网升级/电力/环境外部成本（推升单位 capex、约束 AI CAPEX），甚至
+  限制前沿模型训练/数据中心扩张速率。催化有明确日期、方向负面、强度未知；目前无电力合约
+  推迟/取消实证，故属 Invalidation #1 的 watch 观察项，尚未触发。
 - Rate sensitivity of long-dated PPA cash flows.
 - Hyperscaler capex cycle turning; on-site gas or SMR alternatives.
 - The four Invalidation conditions above.
