@@ -497,3 +497,14 @@ grep "^## \[" log.md | tail -5
 - Investing.com：文章页对脚本 403、原生 RSS 只留最近 10 条 → 主路线为 Google News RSS 限定 site:investing.com（持仓 / 核电·电力·FERC·NRC / Fed·美债三组查询，实测可用，例：10-08「Why is Vistra stock sliding today?」）。进简报新栏目「新闻线索」，持仓相关的逐条追一手并标注已追/未追。
 - All-In：`must_show: true`，YouTube 频道每条新视频（正片、峰会、访谈、片段）都进简报新栏目「节目更新」，不过相关性筛选、不占 ~12 条预算；按视频 id 去重而不是按 SINCE 日期（周五下午上传会漏）。云端字幕可能被 YouTube 拦截，拿不到时标"文字稿缺失"照样上。
 - 「future 每日持仓总结」8 栏格式按人要求存档于 docs/，status: parked，暂不实施。
+
+## [2026-10-09] brief | 第四次跑·新版式：All-In 6 clip 入节目更新 + Investing.com 新闻线索上线 + 外资补缺高盛长端利率研报
+- pages touched: [[2026-10-09]]（brief 改写为新版式 shows+leads）, [[2026-10-06-goldman-30y-treasury-yields]]（新）, [[2026-10-09-all-in-sacks-economy-stronger]]/[[2026-10-08-all-in-calacanis-ai-boom-benefit]]/[[2026-10-08-all-in-daniel-ek-ai-health]]/[[2026-10-06-all-in-friedberg-ai-wars]]/[[2026-10-05-all-in-friedberg-rates-banking-shock]]/[[2026-10-03-all-in-chamath-superintelligence]]（6 clip·新）, [[goldman-sachs]]/[[all-in-podcast]]（机构 house view 更新）, [[ceg]]/[[vst]]（update history + 价重取）, index.md, brief/2026-10-09.{html,md}
+- sources ingested: 12（研究 6：高盛 30Y 美债 + 既有东吴中选/中邮/万联/国金/国信；shows 6：All-In 本周 clip）；filings_read: 0
+- 版式：本跑把 HEAD 已落地的 shows（节目更新）+ leads（新闻线索）新版式正式应用到 10-09（前三次跑为旧版式）。All-In 本周 6 条 clip（10-03→10-09、`must_show`、按 video id 去重）全收录，**均 ⚠️ 文字稿缺失**（YouTube 转录 API 在 CI 被封、podscripts 无 per-clip 页、描述为模板）——`transcript: false`、仅凭标题归档、不作事实源。
+- leads（9 条、持仓头条优先，来自 Investing.com Google News RSS + 原生 RSS）：CEG「BMO 重申/因 Google 跳涨」→追一手 [[2026-10-06-ceg-google-nuclear-uprate-ppa]]；VST 内部人售股（CFO Moldovan $3.3m/president Hudson $3.5m）→已列示 Form 4；CEG/VST 10-08「sliding」→长端美债新高估值回撤、无一手；「Pimco tells FT 10Y 或探 6%」仅媒体转述、不入库为 PIMCO VIEW；「Fed 纪要年内或再加一次」一手已入库（东海）。
+- 外资补缺（核心增量）：[[2026-10-06-goldman-30y-treasury-yields]]（foreign·macro）——Qubbaj「长端自定价、联储不护长债；债务漂移非螺旋、30Y 5.5% 历史便宜、有回落至 ~4.25% 空间」，长久期 PPA 现金流利率敏感性既列风险的双向注脚；修补 Goldman 自 2026-05-28 久未入库的外资缺口。
+- SEC 宽窗 `sec_fetch.py --since 2026-10-01`：[[ceg]] 仅 2 Form 4（0 flags）、[[vst]] 3 新增＝2 Form 4 + 1 份已读的 10-05 融资展期 8-K（[[2026-10-05-vst-8k-commodity-credit-amendment]]）；无新 8-K/10-Q/10-K 需深读、`filings_read=0`；CEG–Google 长约仍无对应 8-K（Item 1.01）、续查。
+- 价（prices.py 重取 2026-10-09）：[[ceg]] $299.37 距 $375 +25.2%（≈$75.63）· [[vst]] $161.07 距 $172 +6.8%（≈$10.93，较三次跑 $159.57 走近、仍 >5% 无头条 ⚠️）。
+- Apollo Daily Spark 新 URL（apollo.com/wealth/the-daily-spark）为 JS 渲染、curl 取不到文章链接——本跑未取到新 Slök，下期需换路由/WebSearch 补。
+- logic_changes=[]·opportunities_new=0。Invalidation 全线不变：[[ceg]] ok/watch/ok/ok · [[vst]] ok×4。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。
