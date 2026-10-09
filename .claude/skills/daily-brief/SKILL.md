@@ -43,6 +43,17 @@ For every entry in `brief/sources.yaml`:
   with the Read tool; copy the extracted text into `raw/` with a header line). Attribute the view to the broker (`orgSName`) — create
   `wiki/institutions/<broker-slug>.md` (origin: domestic) if missing. 东方财富 is the channel.
 - Also: any file in `raw/` with no `wiki/sources/` page referencing it → treat as a new source.
+- **Followed shows (`must_show: true`, e.g. All-In):** read the `youtube_feed`; every video whose id is
+  not yet in `wiki/sources/` (grep the video id / URL — do **not** use the SINCE date, Friday-afternoon
+  uploads would fall through) and published in the last 7 days goes into `shows` in brief-data — full
+  episodes, summit talks, interviews and clips alike, no relevance filter, outside the ~12 budget.
+  Write a source page for each (transcript via the routes above; if none, title + description and
+  `"transcript": false`). One-line `summary` in Chinese of what was said that matters for the book.
+- **Leads (`role: leads`, Investing.com):** fetch each url; keep items published since the last
+  brief's run. Put every headline touching an open position, its sector (nuclear/power/PJM/FERC/NRC)
+  or rates/Fed into `leads` (max ~10, position headlines first). For each position headline, chase
+  the primary source (8-K, company release, FERC/NRC order) and set `chased` to that source page;
+  otherwise `chased: ""` with a one-line `note`. A lead is never itself cited as fact.
 Skip anything already ingested (grep `wiki/sources/` for the URL / infoCode). Budget: at most
 ~12 new sources per run — prefer (a) anything touching the open positions or their sector,
 (b) a house changing its stance, (c) explicit buy ideas, (d) macro/US-equity strategy notes.
@@ -96,6 +107,8 @@ the ```json brief-data``` block. Rules:
   only the human can adopt). Slug: `<ticker-or-theme>-<yyyy-mm>`. **Always fill `edge`, `catalyst`,
   `invalidation`** in the frontmatter as PROPOSALS (§3.8): the invalidation must be a concrete price
   level or condition drawn from the source's own risk list, never a vibe.
+- `shows`: `{"show", "title", "url", "published", "summary", "source", "transcript"}` per new video.
+- `leads`: `{"title", "url", "published", "publisher", "tickers", "chased", "note"}` per headline.
 - `positions`: one entry per open position — `note` (Chinese, 1–3 sentences: what the new
   filings mean for the thesis), `filings` (accessions you read), `invalidation_status`.
   **Exit anchor:** if the position page has `exit_anchor`, the note must open with the distance

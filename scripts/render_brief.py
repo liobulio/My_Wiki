@@ -62,7 +62,7 @@ def load_brief(path):
     data = json.loads(m.group(1)) if m else {}
     prose = body[:m.start()] if m else body
     prose = re.sub(r"^#\s+.+$", "", prose, count=1, flags=re.M).strip()
-    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions"):
+    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions", "shows", "leads"):
         data.setdefault(k, [])
     return {"meta": meta, "data": data, "prose": prose, "date": str(meta.get("date") or path.stem), "slug": path.stem}
 
@@ -363,7 +363,7 @@ ul.views{list-style:none;margin:0;padding:0;display:grid;gap:10px}li.view{backgr
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}.opp{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}.opp .logic{margin:6px 0;font-size:14.5px}.opp .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}
 .opp[data-status=dropped]{opacity:.65}.ttest{margin:6px 0}.tt{font-size:13px;margin:4px 0;padding-left:8px;border-left:2px solid var(--grid)}.tt .lab{display:inline-block;min-width:82px;font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 article.pos{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:14px}article.pos>header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px}article.pos h3{margin:0}
-.wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}.arow .wbar{background:var(--grid)}.arow .wbar div{background:var(--good)}.arow.hit .wbar div{background:var(--warning)}.arow.hit .wlab{color:var(--ink);font-weight:600}
+.wrow{display:flex;align-items:center;gap:10px;margin:10px 0}.wbar{flex:1;height:10px;background:var(--seqbg);border-radius:4px;overflow:hidden}.wbar div{height:100%;background:var(--seq);border-radius:4px 0 0 4px}.flag{font-size:11px;color:var(--warning);border:1px solid var(--warning);border-radius:4px;padding:0 5px;margin-left:6px;white-space:nowrap}.wlab{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}.arow .wbar{background:var(--grid)}.arow .wbar div{background:var(--good)}.arow.hit .wbar div{background:var(--warning)}.arow.hit .wlab{color:var(--ink);font-weight:600}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.cols{grid-template-columns:1fr}}
 ul.invs{list-style:none;padding:0;margin:0;display:grid;gap:6px}li.inv{display:grid;grid-template-columns:22px 40px 1fr;gap:6px;align-items:start;font-size:13.5px;padding:6px 8px;border-radius:6px;border:1px solid var(--border)}
 li.inv .ic{font-weight:700;text-align:center;border-radius:50%;width:20px;height:20px;line-height:20px;font-size:12px;color:#fff}li.inv.good .ic{background:var(--good)}li.inv.warning .ic{background:var(--warning);color:#0b0b0b}li.inv.critical .ic{background:var(--critical)}
@@ -390,18 +390,50 @@ def page(title, body, sub=""):
             f'不构成投资建议——这是个人知识库的自动整理。</footer></div><script>{JS}</script></body></html>')
 
 
+def section_shows(ctx, items):
+    """Followed shows (All-In etc.): every new video is listed, even when low-signal."""
+    rows = ""
+    for x in items:
+        src = source_info(ctx, x.get("source", "")) if x.get("source") else {}
+        link = x.get("url") or src.get("url") or ""
+        title = f'<a href="{esc(link)}">{esc(x.get("title", ""))}</a>' if link else esc(x.get("title", ""))
+        flag = "" if x.get("transcript", True) else ' <span class="flag">文字稿缺失</span>'
+        rows += (f'<li class="view"><div class="vh"><span class="badge">{esc(x.get("show", ""))}</span>'
+                 f'<span class="mono">{esc(x.get("published", ""))}</span></div><div class="v">{title}{flag}</div>'
+                 + (f'<div class="q">{wikilinks(x.get("summary", ""))}</div>' if x.get("summary") else "") + '</li>')
+    body = f'<ul class="views">{rows}</ul>' if items else '<p class="empty">本期没有新视频。</p>'
+    return f'<section id="shows"><h2>节目更新 <span class="n">{len(items)}</span></h2>{body}</section>'
+
+
+def section_leads(ctx, items):
+    """News leads (Investing.com etc.): headlines, each marked chased-to-primary or not."""
+    rows = ""
+    for x in items:
+        link = x.get("url") or ""
+        title = f'<a href="{esc(link)}">{esc(x.get("title", ""))}</a>' if link else esc(x.get("title", ""))
+        tks = "".join(f'<span class="tk">{esc(t)}</span>' for t in x.get("tickers") or [])
+        chased = (f'<a class="wl" href="{obsidian(x["chased"], "wiki/sources")}">已追一手</a>' if x.get("chased")
+                  else '<span class="flag">未追一手</span>')
+        rows += (f'<li class="filing"><span class="fd">{esc(x.get("published", ""))} · {esc(x.get("publisher", ""))}</span>'
+                 f'{tks}<span>{title}</span>{chased}'
+                 + (f'<span class="fd" style="flex-basis:100%">{wikilinks(x.get("note", ""))}</span>' if x.get("note") else "") + '</li>')
+    body = f'<ul class="filings">{rows}</ul>' if items else '<p class="empty">本期没有相关新闻线索。</p>'
+    return f'<section id="leads"><h2>新闻线索 <span class="n">{len(items)}</span></h2>{body}</section>'
+
+
 def render_day(brief, ctx):
     d = brief["data"]; date = brief["date"]
     n_src = brief["meta"].get("sources_ingested", "")
     top = (f'<header class="top"><h1>美股机构简报</h1><span class="sub">{esc(fmt_date_cn(date))}</span>'
            f'<span class="sub mono">来源 {esc(n_src)} · 申报 {esc(brief["meta"].get("filings_read", ""))} · 新机会 {esc(brief["meta"].get("opportunities_new", ""))}</span>'
            f'<nav><a href="index.html">总览</a><a class="wl" href="{obsidian(brief["slug"], "wiki/briefs")}">wiki</a></nav></header>')
-    toc = ('<nav class="toc"><a href="#macro">宏观</a><a href="#industry">行业</a><a href="#us_equity">美股观点</a>'
-           '<a href="#logic">逻辑变化</a><a href="#opps">买入机会</a><a href="#positions">持仓</a></nav>')
+    toc = ('<nav class="toc"><a href="#shows">节目</a><a href="#macro">宏观</a><a href="#industry">行业</a><a href="#us_equity">美股观点</a>'
+           '<a href="#logic">逻辑变化</a><a href="#opps">买入机会</a><a href="#leads">新闻线索</a><a href="#positions">持仓</a></nav>')
     headline = f'<div class="headline">{wikilinks(brief["prose"])}</div>' if brief["prose"] else ""
-    body = (top + toc + headline + section_views(ctx, "macro", "宏观", d["macro"]) + section_views(ctx, "industry", "行业", d["industry"])
+    body = (top + toc + headline + section_shows(ctx, d["shows"])
+            + section_views(ctx, "macro", "宏观", d["macro"]) + section_views(ctx, "industry", "行业", d["industry"])
             + section_views(ctx, "us_equity", "美股观点", d["us_equity"]) + section_logic(ctx, d["logic_changes"])
-            + section_opps(ctx, d["opportunities"], date) + section_positions(ctx, d["positions"]))
+            + section_opps(ctx, d["opportunities"], date) + section_leads(ctx, d["leads"]) + section_positions(ctx, d["positions"]))
     return page(f"美股机构简报 {date}", body)
 
 
@@ -629,6 +661,17 @@ def render_markdown(brief, ctx):
     if brief["prose"]:
         out += [md_links(brief["prose"].strip(), ctx), ""]
     out += ["---", ""]
+    if d["shows"]:
+        out.append(f"### 节目更新（{len(d['shows'])}）\n")
+        for x in d["shows"]:
+            t = f"[{x.get('title', '')}]({x['url']})" if x.get("url") else x.get("title", "")
+            flag = "" if x.get("transcript", True) else " · ⚠️ 文字稿缺失"
+            out += [f"- **{x.get('show', '')}** · {x.get('published', '')} · {t}{flag}"]
+            if x.get("summary"):
+                out += [f"  {md_links(x['summary'], ctx)}"]
+        out.append("")
+    else:
+        out.append("### 节目更新\n\n_本期没有新视频。_\n")
     out.append(md_section_views(ctx, "宏观", d["macro"]))
     out.append(md_section_views(ctx, "行业", d["industry"]))
     out.append(md_section_views(ctx, "美股观点", d["us_equity"]))
@@ -646,6 +689,20 @@ def render_markdown(brief, ctx):
         out += [md_opportunity(ctx, s, date) + "\n" for s in d["opportunities"]]
     else:
         out.append("### 买入机会\n\n_今日没有新的买入机会。_\n")
+
+    if d["leads"]:
+        out.append(f"### 新闻线索（{len(d['leads'])}）\n")
+        for x in d["leads"]:
+            t = f"[{x.get('title', '')}]({x['url']})" if x.get("url") else x.get("title", "")
+            tks = " ".join(f"`{k}`" for k in x.get("tickers") or [])
+            chased = "已追一手" if x.get("chased") else "未追一手"
+            line = f"- {x.get('published', '')} · {x.get('publisher', '')} {tks} · {t} · _{chased}_"
+            if x.get("note"):
+                line += f" — {md_links(x['note'], ctx)}"
+            out.append(line)
+        out.append("")
+    else:
+        out.append("### 新闻线索\n\n_本期没有相关新闻线索。_\n")
 
     out.append("## 我的持仓\n")
     by_t = {str(p.get("ticker", "")).upper(): p for p in d["positions"]}

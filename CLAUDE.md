@@ -300,7 +300,9 @@ holding the structured payload the renderer reads:
 {"macro": [VIEW], "industry": [VIEW], "us_equity": [VIEW],
  "logic_changes": [{"sector": "", "before": "", "after": "", "institution": "slug", "source": "source-page"}],
  "opportunities": ["opportunity-slug"],
- "positions": [{"ticker": "TLN", "note": "", "filings": ["accession"], "invalidation_status": ["ok","watch","ok","ok"]}]}
+ "positions": [{"ticker": "TLN", "note": "", "filings": ["accession"], "invalidation_status": ["ok","watch","ok","ok"]}],
+ "shows": [{"show": "All-In Podcast", "title": "", "url": "", "published": "YYYY-MM-DD", "summary": "", "source": "source-page", "transcript": true}],
+ "leads": [{"title": "", "url": "", "published": "YYYY-MM-DD HH:MM", "publisher": "Investing.com", "tickers": [], "chased": "source-page or empty", "note": ""}]}
 VIEW = {"institution": "slug", "view": "一句话中文梳理", "quote": "original words",
         "source": "source-page-slug", "url": "", "is_change": false, "tickers": []}
 ```

@@ -58,6 +58,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 - [[ai-infra-power-grid-bottlenecks-2026-09]] — 主题：AI 基建瓶颈（电力/电网/数据中心）— BlackRock、大摩 120 GW、高盛 + 国信/国金/东吴/华鑫内资佐证；2026-09-20 东吴引 TrendForce 缺口 268 GW、信用侧 CDS 走阔提示（**watching** 2026-09-21；含提案版 Thesis Test）
 
 ## Institutions
+- [[investing-com]] — Investing.com (media, foreign): headlines swept daily as **leads** via Google News RSS; chased to primary sources
 - 外资：[[goldman-sachs]] · [[morgan-stanley]] · [[jpmorgan]] · [[blackrock]] · [[apollo]] · [[bridgewater]] · [[pimco]] · [[kkr]] · [[blackstone]] · 媒体 [[all-in-podcast]]
 - 内资：[[cicc]] · [[citic-securities]] · [[huatai]] · [[guosen]] · [[boci]] · [[soochow-securities]] · [[pacific-securities]] · [[donghai-futures]] · [[donghai-securities]] · [[guojin-securities]] · [[spdb-international]] · [[dongguan-securities]] · [[dongxing-securities]] · [[dongfang-jincheng]] · [[yuekai-securities]] · [[green-dahua-futures]] · [[kaiyuan-securities]] · [[huaxin-securities]] · [[china-post-securities]] · [[guoxin-securities]] · [[wukuang-securities]] · [[nanhua-futures]] · [[cmbc-international]] · [[galaxy-futures]] · [[ajian-securities]] · [[fangzheng-zhongqi-futures]] · [[wanlian-securities]] · 渠道 [[eastmoney-research-center]]
 - 监管：[[ferc]]（美国联邦能源管理委员会——PJM 容量市场/co-location/增容监管，直接关联 [[ai-power-ipp-bull]] Invalidation #2）

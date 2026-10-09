@@ -61,7 +61,16 @@ foreign:
     kind: rss
     youtube_feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCESLZhusAkFfsNsApnjF_Cg
     transcript: ["https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg/<episode-slug>", "youtube-transcript-api (pip install --break-system-packages youtube-transcript-api or a venv; video id from youtube_feed)", "fallback: RSS description = chapter list with timestamps; ingest as description-only and flag 'transcript missing — human to supply'"]
+    # human 2026-10-09: EVERY new video on the YouTube channel goes into the brief's `shows` section — no relevance filter
+    must_show: true
     note: All-In Podcast (Chamath, Calacanis, Sacks, Friedberg) — weekly Friday episode, ~1.5h; the wiki's original source stream (see wiki/people/). Try transcript routes in order; podscripts.co slug = libsyn slug (verified 2026-09-13: full transcript ~107k chars, fetch with a browser UA).
+  - id: investing-com
+    institution: investing-com
+    kind: rss
+    # headlines go to the brief's `leads` section; chase position-relevant ones to the primary source
+    role: leads
+    urls: ["https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en", "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en", "https://www.investing.com/rss/news_25.rss"]
+    note: Investing.com (human 2026-10-09). Article pages return 403 to curl and the native RSS holds only the last 10 items, so the main route is Google News RSS restricted to investing.com (verified 2026-10-09). Media, not research — a headline is a lead; a view quoted inside (e.g. "Pimco tells FT…") is attributed to the house only after it is verified.
 domestic:
   - id: eastmoney-strategy
     institution: eastmoney-research-center

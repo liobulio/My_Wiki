@@ -78,3 +78,29 @@ def test_exit_plan_shown_with_anchor():
     assert "到达后：再减仓一半" in rb.position_card(ctx, "ZZ") and "到达后：再减仓一半" in rb.md_position(ctx, "ZZ")
     ctx["prices"]["quotes"]["ZZ"] = {"price": 175}
     assert "已到退出锚点 A" in rb.md_position(ctx, "ZZ") and "按计划：再减仓一半" in rb.md_position(ctx, "ZZ")
+
+
+def _brief_with_feeds():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    brief["data"]["shows"] = [{"show": "All-In Podcast", "title": "David Sacks: The Economy Is Stronger Than You Think",
+                               "url": "https://www.youtube.com/watch?v=abc", "published": "2026-10-09",
+                               "summary": "萨克斯认为经济强于预期", "source": "2026-10-09-all-in-sacks", "transcript": False}]
+    brief["data"]["leads"] = [{"title": "Why is Vistra stock sliding today?", "url": "https://www.investing.com/x",
+                               "published": "2026-10-08 18:42", "publisher": "Investing.com", "tickers": ["VST"],
+                               "chased": "", "note": "未追到一手来源"}]
+    return brief
+
+
+def test_shows_and_leads_sections():
+    brief = _brief_with_feeds()
+    h = rb.render_day(brief, _ctx())
+    assert 'id="shows"' in h and "David Sacks: The Economy Is Stronger Than You Think" in h and "文字稿缺失" in h
+    assert 'id="leads"' in h and "Why is Vistra stock sliding today?" in h and "未追一手" in h
+    assert h.index('id="shows"') < h.index('id="macro"')
+    md = rb.render_markdown(brief, _ctx())
+    assert "### 节目更新（1）" in md and "David Sacks" in md and "### 新闻线索（1）" in md and "Vistra stock sliding" in md
+
+
+def test_shows_empty_is_stated():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    assert "本期没有新视频" in rb.render_day(brief, _ctx()) and "本期没有新视频" in rb.render_markdown(brief, _ctx())

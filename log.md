@@ -491,3 +491,9 @@ grep "^## \[" log.md | tail -5
 - pages touched: `brief/sources.yaml`, `.claude/skills/daily-brief/SKILL.md`
 - 诊断：09-14 → 10-09 共 20 期简报，观点 内资 72 / 外资 6，6 期外资为 0。原因：①Apollo 用的 apolloacademy.com/feed 自 09-30 冻结（apollo.com Daily Spark 页 10-06–10-09 每日都有新稿）——10 天来被记成"外资无新稿"；②Goldman/MS 标为 js 只走 WebSearch，只搜到年度展望——实测 GS sitemap 有 10-06「30 年美债还会更高吗」、10-08「债券是否更值得配置」，MS HTML 里有「加息环境下的股市」「AI capex」「央行加息」等，均漏掉；③html 页用 WebFetch 常 403/超时，失败被当作"无新内容"；④~12 条预算被东财命中填满，外资又以"未触及持仓"被剔除。
 - 修复：Apollo → apollo.com Daily Spark（html）；GS → sitemap-1.xml + lastmod；MS → html + link_pattern；SKILL 改为外资先扫、一律 curl+浏览器 UA、每源一行扫描结果、>5 个工作日无新稿标"疑似失效"、外资至少保留 4 个名额、宏观/利率/AI capex 类外资稿不因"未点名持仓"剔除。
+
+## [2026-10-09] maintenance | 新增 Investing.com 线索源 + All-In 每条视频必上简报 + 暂存未来日报格式
+- pages touched: `brief/sources.yaml`, daily-brief SKILL, CLAUDE.md §3.11, `scripts/render_brief.py`, `tests/test_render_brief.py`, NEW [[investing-com]], NEW `docs/future 每日持仓总结.md`, [[index]]
+- Investing.com：文章页对脚本 403、原生 RSS 只留最近 10 条 → 主路线为 Google News RSS 限定 site:investing.com（持仓 / 核电·电力·FERC·NRC / Fed·美债三组查询，实测可用，例：10-08「Why is Vistra stock sliding today?」）。进简报新栏目「新闻线索」，持仓相关的逐条追一手并标注已追/未追。
+- All-In：`must_show: true`，YouTube 频道每条新视频（正片、峰会、访谈、片段）都进简报新栏目「节目更新」，不过相关性筛选、不占 ~12 条预算；按视频 id 去重而不是按 SINCE 日期（周五下午上传会漏）。云端字幕可能被 YouTube 拦截，拿不到时标"文字稿缺失"照样上。
+- 「future 每日持仓总结」8 栏格式按人要求存档于 docs/，status: parked，暂不实施。
