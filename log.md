@@ -486,3 +486,8 @@ grep "^## \[" log.md | tail -5
 - `prices.py` 第三次跑重取 2026-10-09 盘中价：[[ceg]] **$298.95**（首跑 $285.07）→ 距 $375 **+25.4%（≈$76.05）**；[[vst]] **$159.57**（首跑 $156.14）→ 距 $172 **+7.8%（≈$12.44）**——均 >5%、无头条 ⚠️。
 - ✅ web 核实：9 月非农 **+29k / 失业率 4.2% / 时薪 +0.1%mom·+3.0%yoy**（BLS "Employment Situation 2026 M09"、CNBC 2026-10-02）；特朗普 AI 行政令方向已核（含 EO 14318 加速数据中心许可），精确"9 项"为国信统计口径（❓不逐项核）。
 - `logic_changes: []`；`opportunities_new: 0`。Invalidation 全线不变：[[ceg]] ok/watch/ok/ok · [[vst]] ok/ok/ok/ok。sources_ingested=5（累计本日）/ filings_read=0 / opportunities_new=0。
+
+## [2026-10-09] maintenance | 外资桶失血诊断与修复
+- pages touched: `brief/sources.yaml`, `.claude/skills/daily-brief/SKILL.md`
+- 诊断：09-14 → 10-09 共 20 期简报，观点 内资 72 / 外资 6，6 期外资为 0。原因：①Apollo 用的 apolloacademy.com/feed 自 09-30 冻结（apollo.com Daily Spark 页 10-06–10-09 每日都有新稿）——10 天来被记成"外资无新稿"；②Goldman/MS 标为 js 只走 WebSearch，只搜到年度展望——实测 GS sitemap 有 10-06「30 年美债还会更高吗」、10-08「债券是否更值得配置」，MS HTML 里有「加息环境下的股市」「AI capex」「央行加息」等，均漏掉；③html 页用 WebFetch 常 403/超时，失败被当作"无新内容"；④~12 条预算被东财命中填满，外资又以"未触及持仓"被剔除。
+- 修复：Apollo → apollo.com Daily Spark（html）；GS → sitemap-1.xml + lastmod；MS → html + link_pattern；SKILL 改为外资先扫、一律 curl+浏览器 UA、每源一行扫描结果、>5 个工作日无新稿标"疑似失效"、外资至少保留 4 个名额、宏观/利率/AI capex 类外资稿不因"未点名持仓"剔除。

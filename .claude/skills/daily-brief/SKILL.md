@@ -19,6 +19,12 @@ echo "last brief: ${LAST:-none}"
 `brief/config.yaml`. Read `brief/sources.yaml` and `brief/config.yaml`.
 
 ## 1. Sweep institutions (foreign + domestic)
+**Foreign first, and fetch with curl.** Sweep the `foreign:` list before `domestic:`. Fetch every
+page/feed/sitemap with `curl -sL -A "<desktop Chrome UA>"` — WebFetch returns 403/timeouts on most
+of these sites, and a fetch failure must never be logged as "no new content". For each foreign
+entry write one line in the log: `<id>: <n> items > SINCE · <n> ingested · <reason if 0>`; if a
+feed's newest item is more than 5 business days old, flag it as **possibly broken** (that is how
+the Apollo RSS went stale for 10 days unnoticed).
 For every entry in `brief/sources.yaml`:
 - `kind: rss` → fetch the feed; take items with pubDate > SINCE; fetch each item page.
   For **podcasts** (entry has `transcript:`): the RSS description is only the chapter list. Get the
@@ -26,7 +32,9 @@ For every entry in `brief/sources.yaml`:
   `pip install youtube-transcript-api` + video id from `youtube_feed`, else ingest the chapter list only
   and write `⚠️ transcript missing — human to supply` on the source page. Attribute views to the
   host who said them ([[chamath-palihapitiya]] etc.) *and* the institution page `all-in-podcast`.
-- `kind: html` → fetch the page; find pieces dated > SINCE (links + dates); fetch each.
+- `kind: html` → curl the page; collect links matching `link_pattern` (if given); open each and keep
+  pieces dated > SINCE; fetch each.
+- `kind: sitemap` → curl the XML; keep `<loc>` matching `link_pattern` with `<lastmod>` > SINCE; curl each.
 - `kind: js` → WebSearch `"<search_hint>"` with a past-week filter (and the institution name +
   "outlook" / "equity strategy" / "macro"); open the top dated hits.
 - `kind: json` (东方财富) → substitute `{since}`/`{today}` in `url`, fetch JSON, keep rows whose
@@ -38,6 +46,11 @@ For every entry in `brief/sources.yaml`:
 Skip anything already ingested (grep `wiki/sources/` for the URL / infoCode). Budget: at most
 ~12 new sources per run — prefer (a) anything touching the open positions or their sector,
 (b) a house changing its stance, (c) explicit buy ideas, (d) macro/US-equity strategy notes.
+**Foreign quota:** reserve at least 4 of the slots for foreign houses whenever they have items
+> SINCE (fill unused foreign slots with domestic). A foreign macro / rates / AI-capex / US-equity
+strategy piece counts as relevant even if it never names a position — rate risk and hyperscaler
+capex are standing risks on the thesis. Do not drop a foreign piece for "not touching the
+positions" while ingesting domestic ones of the same kind.
 Pure A-share market recaps, 晨报 digests and ESG notes are out of scope.
 
 ## 2. INGEST each kept source (CLAUDE.md §4.1 — fact-check is mandatory)

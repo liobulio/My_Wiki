@@ -1,25 +1,29 @@
 # Watchlist swept by the daily brief (§4.4). Human-editable. Each entry:
 #   id · institution (wiki/institutions slug) · origin foreign|domestic · url · kind html|rss|json|js|pdf-api
 #   kind=js  → page is client-rendered; the agent uses WebSearch with `site:` + past-week filter (search_hint)
+#   kind=sitemap → fetch the XML sitemap, keep <loc> matching link_pattern with <lastmod> > SINCE
+#   link_pattern → regex for item links on the listing page / sitemap
+#   ALL fetches: curl -sL with a desktop-browser User-Agent (WebFetch gets 403/timeouts on these sites)
 #   filter   → only items whose title/summary match one of these regexes (domestic API returns hundreds/day)
 foreign:
   - id: apollo-daily-spark
     institution: apollo
-    url: https://www.apolloacademy.com/feed/
-    kind: rss
-    note: Torsten Sløk's Daily Spark — one chart + 3 lines per day, macro/rates/credit. Highest signal-per-byte.
+    url: https://www.apollo.com/wealth/the-daily-spark
+    kind: html
+    link_pattern: '/wealth/the-daily-spark/[a-z0-9-]+'
+    note: Torsten Sløk's Daily Spark — one chart + 3 lines per day, macro/rates/credit. Highest signal-per-byte. (2026-10-09 moved off apolloacademy.com/feed — that RSS froze at 09-30 and silently starved the foreign bucket.)
   - id: goldman-insights
     institution: goldman-sachs
-    url: https://www.goldmansachs.com/insights/articles
-    kind: js
-    search_hint: "site:goldmansachs.com/insights"
-    note: Goldman Sachs Research public articles (Top of Mind, Briefings, Exchanges podcast summaries).
+    url: https://www.goldmansachs.com/sitemap-1.xml
+    kind: sitemap
+    link_pattern: '/insights/articles/'
+    note: Goldman Sachs Research public articles. The listing page is client-rendered, but the sitemap carries every article with <lastmod> — take entries with lastmod > SINCE (verified 2026-10-09).
   - id: morgan-stanley-ideas
     institution: morgan-stanley
     url: https://www.morganstanley.com/ideas
-    kind: js
-    search_hint: "site:morganstanley.com/ideas"
-    note: Thoughts on the Market transcripts + Ideas articles (Mike Wilson equity strategy, Andrew Sheets macro).
+    kind: html
+    link_pattern: '/insights/(articles|podcasts/thoughts-on-the-market)/[a-z0-9-]+'
+    note: Thoughts on the Market transcripts + Ideas articles (Mike Wilson equity strategy, Andrew Sheets macro). Server-rendered links are in the HTML via curl — no search needed (verified 2026-10-09).
   - id: jpm-global-research
     institution: jpmorgan
     url: https://www.jpmorgan.com/insights/global-research
