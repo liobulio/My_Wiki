@@ -132,6 +132,10 @@ See [[ai-power-demand]].
   承担数据中心扩张的电网升级/电力/环境外部成本（推升单位 capex、约束 AI CAPEX），甚至
   限制前沿模型训练/数据中心扩张速率。催化有明确日期、方向负面、强度未知；目前无电力合约
   推迟/取消实证，故属 Invalidation #1 的 watch 观察项，尚未触发。
+  **现状对照（反向锚，[[2026-09-29-guosen-ai-crowding-out|国信]]，2026-10-09 补）**：当前特朗普
+  政府行政层面**正在加码** AI/数据中心基建支持——2025 年至今约 9 项 AI 行政令（含 EO 14318
+  "加快数据中心基础设施联邦许可"），政策**现状是顺风而非限制**；中选风险是对这一顺风的**未来
+  方向性反转**，故在实际监管动作出现前维持 watch、不作 hit。
 - Rate sensitivity of long-dated PPA cash flows.
 - Hyperscaler capex cycle turning; on-site gas or SMR alternatives.
 - The four Invalidation conditions above.

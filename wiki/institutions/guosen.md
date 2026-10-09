@@ -6,7 +6,7 @@ aliases: [国信, Guosen]
 watch_url: 
 tags: []
 created: 2026-09-11
-updated: 2026-10-05
+updated: 2026-10-09
 ---
 
 # 国信证券
@@ -16,6 +16,7 @@ Mainland broker; strategy weeklies tracking US–China policy (AI export restric
 tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asset macro desk (董德志).
 
 ## House view (current)
+- 2026-09-29 — **总量专题"AI 的挤出效应：以中美为例"（荀玉根/田地，10-09 分发扫到）**：AI 处 J 曲线左侧"创造性毁灭"阶段、挤出效应明显——美国＝**资本对劳动力挤出**（信息技术就业近 4 年 −3.0% CAGR、新企业注册 +66.4% 创新高）；资金端**美股 IPO 募资硅基占 79.3%、硅基对债券工具依赖显著提高**（印证 AI 融资虹吸，呼应 [[china-post-securities|中邮]]/[[fangzheng-zhongqi-futures|方正]]）；政策端特朗普上台后**2025 年至今 9 项 AI 行政令**加码 AI/数据中心基建（EO 14318 加快数据中心许可）——与 [[soochow-securities|东吴]]"中选后监管或收紧"构成**现状顺风 vs 未来风险**对照。属 [[ai-power-ipp-bull]] Invalidation #1 上游（AI 融资/变现可持续性，ok 不变）（[[2026-09-29-guosen-ai-crowding-out]]）。（注：此为**总量策略团队**。）
 - 2026-10-07 — **9 月非农点评"就业风向突变，政策航向难改"**（田地/邵兴宇/董德志）：9 月新增 **+2.9 万**（预期 9 万）、失业率升至 **4.2%**、前两月下修 6 万，"低招聘、低裁员"延续（失业升因劳动力供给扩张快于吸纳，非裁员）；白领/周期敏感岗位承压（金融较 25-05 高点 −12.9 万）。数据后 **FedWatch 10 月加息概率骤降至 19%**、10Y ~5.20%、标普/纳指 +0.9%/+1.2%。判"**政策航向难改**"：弱非农只改短期加息预期、不改沃什政策框架，年内再加一次概率下降但非"弱非农即停止加息"——居 [[2026-10-07-soochow-holiday-overseas-rates|东吴"或跳过"]] 与 [[2026-10-07-boci-us-inflation-demand|中银"仍有空间"]] 之间（[[2026-10-07-guosen-sept-payrolls]]）。
 - 2026-10-02 — **互联网行业 10 月投资策略"AI 投资进入需求验证期"**（张伦可等，海外科技团队）：主要矛盾已非"模型是否继续加速"，而是"**智能很可能已超过普通人需求上限、超过企业部署速度**"→市场转向验证下游需求真实性；关键一句"**北美明年的数据中心建设将极大受到电力和蓝领劳工容量的限制**"——既是 **Invalidation #1 上游**（需求验证/ROI），又背书本仓**电力为 binding constraint**（firm 电力稀缺）。点名云加速的阿里-W、端侧 SoC 爱芯元智（中国/港股、非本仓）（[[2026-10-02-guosen-ai-demand-verification]]）。
 - 2026-09-27 — **多资产周报"加息落地，黄金与纳指背道而驰"**：9/16 加息**打开利率路径不确定性**，定价由单点转连续博弈、数据敏感度上升；本周交易第二次加息、名义利率上行而通胀预期未跟随 ⇒ **实际利率成核心变量**——黄金（无息、-2.01%）被压、纳指靠盈利上修（存储/代工涨价）维持上行。三观测量：① 10Y 能否站上 5%（**5.2% 关键点位**）② 纳指盈利兑现 ③ 人民币 6.70。10Y 本周 +16BP（[[2026-09-27-guosen-multiasset-hike-nasdaq-gold]]）。
@@ -38,4 +39,4 @@ tech desk (张伦可) building bottom-up AI-compute/power ROI models; multi-asse
 _none yet_
 
 ## Sources
-[[2026-10-02-guosen-ai-demand-verification]] · [[2026-09-27-guosen-multiasset-hike-nasdaq-gold]] · [[2026-09-18-guosen-us-bull-bears]] · [[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
+[[2026-09-29-guosen-ai-crowding-out]] · [[2026-10-07-guosen-sept-payrolls]] · [[2026-10-02-guosen-ai-demand-verification]] · [[2026-09-27-guosen-multiasset-hike-nasdaq-gold]] · [[2026-09-18-guosen-us-bull-bears]] · [[2026-09-17-guosen-fomc-warsh]] · [[2026-09-13-guosen-multiasset-hike-gold]] · [[2026-09-12-guosen-ai-compute-roi]] · [[2026-09-11-guosen-policy-weekly-us-ai-restrictions]]
