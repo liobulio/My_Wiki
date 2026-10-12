@@ -1,0 +1,1 @@
+# All-In clip — Chamath: Software IP Just Became Worthless · https://www.youtube.com/watch?v=TLeh41_uhZ4 · published 2026-10-12 · TRANSCRIPT MISSING (YouTube transcript API blocked in CI; no podscripts per-clip page) — title only, human to supply transcript

@@ -16,6 +16,16 @@ updated: 2026-10-09
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-10-11 — **"缺电主线"周报（黄细里）**：梳理本周 AIDC 供电大事，**直接点名 [[ceg|Constellation]]**——
+  10-06 谷歌与 Constellation 签 **20 年核电 PPA（PJM 新增 890 MW uprate、>$43 亿）+ 15 年覆盖现有 2.7 GW**
+  供电协议（同本仓一手源 [[2026-10-06-ceg-google-nuclear-uprate-ppa]]）；另记 Google–Black Hills 怀俄明 2.7GW
+  组合（至多 590MW 并网、$18 亿、564MW 燃气）、西门子能源–Dynamis 119 台燃机（~1.7GW）、OpenRouter 周度
+  Token 153T（较年初 +2283%）。缺电"长期逻辑不变"。内资第三方独立复述 CEG–Google 长约＝需求侧再证、非 CEG
+  一手新事件（[[2026-10-11-soochow-power-shortage-google-ceg-ppa]]）。
+- 2026-10-11 — **海外周报"9 月美国 CPI 前瞻"**（芦哲/张佳炜/韦祎/王茁）：弱非农 + 油价回落 + 官员鸽派后
+  **10 月加息预期由 70%+ 回落至仅 ~17%**；关注 **10-14 公布的 9 月 CPI**（市场预期核心环比 +0.2% 温和、总体受
+  油价反弹）；维持"10 月不确定性高、中选前右侧交易"。中期"转机"：**若特朗普中选后失横扫→明年紧财政 + AI 产业
+  政策收紧可成美债利率下行动力**（延续本家中选专题、Invalidation #1 上游 watch）（[[2026-10-11-soochow-cpi-preview-oil]]）。
 - 2026-10-09 — **宏观深度"海外政治：美国中期选举观战指南"**（芦哲/张佳炜/韦祎/王茁）：判
   **特朗普中选（2026-11-03）后大概率丢失两院"横扫优势"**（支持率降至 38.2%、RCP 众议院
   226–185）。情景①共和党失席→财政边际紧缩 + **左翼民主党上台越多，AI 基础设施监管越严
@@ -52,4 +62,4 @@ updated: 2026-10-09
 _none yet_
 
 ## Sources
-[[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-10-11-soochow-power-shortage-google-ceg-ppa]] · [[2026-10-11-soochow-cpi-preview-oil]] · [[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
