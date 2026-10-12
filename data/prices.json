@@ -1,17 +1,17 @@
 {
-  "asof": "2026-10-12T18:09:03+00:00",
+  "asof": "2026-10-12T20:01:37+00:00",
   "quotes": {
     "CEG": {
-      "price": 291.975,
+      "price": 293.89,
       "currency": "USD",
-      "asof": "2026-10-12T18:08:57+00:00",
+      "asof": "2026-10-12T20:00:01+00:00",
       "source": "yahoo",
       "name": "Constellation Energy Corporation"
     },
     "VST": {
-      "price": 158.6,
+      "price": 158.095,
       "currency": "USD",
-      "asof": "2026-10-12T18:09:02+00:00",
+      "asof": "2026-10-12T19:59:59+00:00",
       "source": "yahoo",
       "name": "Vistra Corp."
     }

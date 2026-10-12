@@ -519,3 +519,11 @@ grep "^## \[" log.md | tail -5
 - ⚠️ 弃入：中航证券「美国中期选举下大类资产表现」（AP202610121830339886）PDF 为 CID 字体、pdftotext 全部乱码（年年年）、无法读取原文 → 按"不读不写"弃入（中选主题已由 MS + 东吴覆盖）。
 - 价（prices.py 2026-10-12）：[[ceg]] $291.98 距 $375 **+28.4%（≈$83.03）** · [[vst]] $158.60 距 $172 **+8.4%（≈$13.40）**——均 >5%、无头条 ⚠️；锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
 - logic_changes=[]·opportunities_new=0（东吴柴发/燃发为 A 股标的、Citi 两只电力公用股为未读 lead、均不开 opportunity 页）。Invalidation 全线不变：[[ceg]] ok/watch/ok/ok · [[vst]] ok×4。
+
+## [2026-10-12] brief | 同日补扫（第二次跑）：全渠道零新增、仅刷新盘中价重渲染
+- pages touched: [[ceg]]/[[vst]]（update history +「同日补扫，第二次跑」条目 + 价重取）, [[2026-10-12]]（brief 价/方法备注更新）, brief/2026-10-12.{html,md}, brief/README.md
+- SEC 复跑 `sec_fetch.py --since 2026-10-09` 同首跑：[[ceg]] 27 kept / **0 新增 8-K/10-Q/10-K、0 flags、`is_new` 空**、[[vst]] 33 kept / **0 新增、0 flags**、`filings_read=0`；CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、维持一手新闻稿为源。
+- 外资 feed 零新增：Apollo Daily Spark 仍 JS 渲染（curl 空）、Goldman sitemap 无 ≥10-10 新 insights、MS `/ideas` 窗口内仅已入库 [[2026-10-10-morgan-stanley-midterm-market-impact|中选专题]]（"stock-rally-rising-rates-risks" 实为 2026-09-09、窗外）、All-In YouTube 最新三条（yZR8QW4qQmM/TLeh41_uhZ4/TBLHdXABwAg）即首跑已入 shows（无新视频）。
+- 东财三桶 10-09–10-12 命中项全为首跑已入库（联储证券 FOMC/东吴 CPI/东吴缺电）或出范围（中航中选 PDF 字体乱码续弃、国金 AI 策略周报/公用事业长协电价/通信 OpenAI ARR、东吴公用事业/电力设备等均 A 股口径或非持仓 US 标的）——确认首跑覆盖完整。
+- 价（prices.py 2026-10-12 第二次跑重取）：[[ceg]] **$293.89**（较首跑 $291.98 +0.7%）距 $375 **+27.6%（≈$81.11）** · [[vst]] **$158.095**（较首跑 $158.60 −0.3%）距 $172 **+8.8%（≈$13.91）**——均 >5%、无头条 ⚠️；锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
+- sources ingested: 0（新增）；filings_read: 0；logic_changes=[]·opportunities_new=0。Invalidation 全线不变：[[ceg]] ok/watch/ok/ok · [[vst]] ok×4。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。

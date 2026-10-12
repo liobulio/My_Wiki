@@ -84,5 +84,6 @@ below when it bears on the thesis (regulator-restricted contracts first).
   已实现:5.7615 股 × ($141 − $151) = **$-57.61**(-6.6%)。
 - 2026-10-06 — **退出锚点定为 A**(human-chosen):`exit_anchor: 172`(Q=1 保守新建口径,2026-10-06 计算,每份新 10-Q 需重算)。
 - 2026-10-07 — **下期财报:2026-11-06(周五)Q3 业绩 + 10:00 ET 电话会**(公司公告「Vistra to Report Third Quarter Results on Nov. 6, 2026」)。届时用 Q3 10-Q 的净债务/股数重算锚点 A(当前 `exit_anchor` 基于 2026-06-30 资产负债表)——只提议新值,由人确认。
+- 2026-10-12（同日补扫，第二次跑）— 全渠道零新增：SEC 复跑 `sec_fetch.py --since 2026-10-09` 同首跑（**VST 0 新增 8-K/10-Q/10-K、0 flags**，33 filings kept、`is_new` 空），`filings_read=0`，无 VST 自身新事件。外资 feed（Apollo JS 渲染 curl 空、Goldman sitemap 无 ≥10-10、MS `/ideas` 窗口内仅已入库中选专题 [[2026-10-10-morgan-stanley-midterm-market-impact]]、All-In 最新三条已入 shows）与东财三桶（命中全为首跑已入库或出范围）均无窗口内触及持仓新稿。**退出锚点 A**：`prices.py` 重取 **$158.095**（较首跑 $158.60 −0.3%）、距 `exit_anchor: 172` **还差 +8.8%（≈$13.91）**——已离开 ≤5% 区间、无头条 ⚠️；`exit_plan`（到锚点 A 再减仓一半，5.7615 → 2.88075 股）维持事先承诺、俟再触 $172 由人确认执行；锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后需重算。VST 以 ERCOT/德州为主、不依赖 PJM backstop——Invalidation #2 维持 ok；New Era 20 年 PPA、德州 DC 许可暂停维持 watch（无新进展）；中选政策风险为 Invalidation #1 上游 watch。无事件触及任一失效条件。Invalidation 状态：**ok/ok/ok/ok**（不变）。
 - 2026-10-07 — **退出计划**(human-chosen):价格到达锚点 A(`exit_anchor`,当前 $172)时,**再减仓一半**,5.7615 → 2.88075 股。这是人的事先承诺;到达时简报头条以 ⚠️ 提示并附此计划,执行与股数变更仍由人确认后录入。锚点若在 11-06 Q3 后重算,本计划随新锚点适用。
 
