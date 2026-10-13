@@ -546,3 +546,14 @@ grep "^## \[" log.md | tail -5
 - leads 5（持仓/板块优先）：Oppenheimer power-tech 首选股（未读原文、不入库）、Fermi–AMD 德州 AI 项目、Oklo DOE 同位素（非本仓）、CPI/财报周预览、油价推升高利率。
 - 退出/买入锚点（prices.py 2026-10-13）：CEG $293.89→距 $375 +27.6%；VST $158.13→距 $172 +8.8%（均 >5% 无 ⚠️）；TLN（观察名）$379.77→距买入线 $322 需 −15.2%（未进入买入区间）、距 A $403 −6.1%、距底 D $157 +141.9%。CEG/VST 锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
 - logic_changes=[]、opportunities_new=0。Invalidation 全线不变：CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(watch) ok/watch/ok/ok。中选政策风险（2026-11-03）维持 #1 上游 watch（本期 +中邮再度印证）。render_brief LENGTH WARNING 已清零。
+
+## [2026-10-13] brief | 同日二次补扫：持仓无一手事件复跑确认；唯一新增源 All-In·Calacanis「AI 终结编程」clip（⚠️转录缺失）
+- pages touched: [[2026-10-13]], [[2026-10-13-all-in-calacanis-end-of-coding]], [[raw/2026-10-13-all-in-calacanis-end-of-coding]], index.md, brief/2026-10-13.html, brief/2026-10-13.md, brief/README.md
+- sources ingested: 1 this run（All-In clip 028rinLZcC4，当日累计 3）; filings read: 0
+- SEC `--since 2026-10-12`: CEG 27 / TLN 29 / VST 33 kept，均 0 新增 8-K/10-Q/10-K、0 flags、is_new 空；CEG–Google 长约仍无对应 8-K。
+- 外资复扫：Goldman 最新 insights 仍 10-09（sitemap 10-13T15:37 非 /insights/articles/）；MS /ideas central-banks TOTM 经 curl 确认 09-22 窗外、midterm 已入库；Apollo Daily Spark 仍 JS 渲染 curl 空；PIMCO/KKR/BlackRock/Bridgewater/Blackstone 无窗口内新稿。
+- 内资：东财三桶命中（金元 AI 主线 RSI / 联储 9 月 FOMC / 中航中选 PDF 乱码续弃 / 东吴 CPI 前瞻 / 中邮海外周报）均已入库或出范围。
+- shows +1：All-In 10-13 14:30 新发 [[2026-10-13-all-in-calacanis-end-of-coding|Calacanis「AI is the End of Coding」]]（must_show、video id 028rinLZcC4 去重确认未入库）；⚠️ 文字稿缺失（YouTube 转录 CI 被封 RequestBlocked、clip 无 podscripts 整集 slug）、transcript:false、仅凭标题归档。
+- leads：本次新见 Citi 点名 2 只电力公用事业首选股（AI agent 颠覆风险、未读原文、标的未知、不入库为 VIEW）、「2030 美国电力需求」展望。
+- prices（盘中复取）：CEG $296.76（距 $375 +26.4%）· VST $161.53（距 $172 +6.5%，接近度上升仍 >5%）· TLN $381.44（距买入线 $322 需 −15.6%、未进入买入区间）；均无 ⚠️。
+- invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。
