@@ -13,6 +13,7 @@ On a query, start here, then drill into pages. Updated on every ingest.
 > and [[overview]] for the live portfolio dashboard.
 
 ## Synthesis
+- [[spcx-reverse-dcf-sotp-2026-10-09]] — SPCX at $161.63: price implies ~37%/yr revenue growth for 10y; SOTP on current run-rates $30–88/sh; floor ~$17
 - [[ceg-vst-replacement-cost-2026-10-06]] — Tobin's Q applied to the current book: Q_B ~0.5 / Q_D ~1.7; to anchor A CEG +26% · VST +8%; book +$299 to A vs −$979 to D
 - [[overview]] — live portfolio dashboard (Dataview over positions)
 - [[all-in-best-ideas-2026-factcheck]] — verification of the 4 All-In pitches; MGM/TLN/AKTS hold up, GEOD overstated

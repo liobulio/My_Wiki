@@ -5,7 +5,7 @@ asset_class: equity
 aliases: [SpaceX, Space Exploration Technologies]
 tags: [space, ipo, satellites, starlink, ai]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-10-13
 ---
 
 # SPCX — SpaceX
@@ -16,6 +16,8 @@ building launch vehicles, space-based broadband, and AI software. Per the source
 completed the largest IPO ever and is acquiring the coding agent **Cursor**.
 
 ## Current view
+- **Valuation (2026-10-09, [[spcx-reverse-dcf-sotp-2026-10-09]]):** EV ≈ $2.13T (13.57B sh × $161.63 − $60.6B net cash) = 68× run-rate revenue / 151× adj. EBITDA, H1 FCF ≈ −$25B. Reverse DCF needs ~37%/yr revenue growth for 10 years (≈25%/yr after a $100B end-2026 ARR); sum-of-the-parts on today's run-rates $30 / $52 / $88 per share; floor ~$17.
+- Q2 2026 (8-K 2026-08-04): revenue $7.81B (+92%), Connectivity $4.29B (+66%, op. income $1.66B), AI $2.56B (+247%), Space $0.96B; Starlink 12.0M subs; capex $18.4B; backlog $47.5B. Cursor closed 2026-08-14 (~391M Class A shares).
 A "one-of-one" mega-cap that IPO'd hot and, per Chamath, will "grow into" a rich valuation
 rather than re-rate higher near-term (price/sales likely peaked at listing). Watch the
 **Tesla/SpaceX merger** narrative and the Cursor/AI integration (note: SpaceX merged with xAI
