@@ -14,7 +14,7 @@ invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
 closed: 2026-09-14
 exit_price: 289   # 2026-09-14 sale (全部清仓), human-supplied
-buy_anchor_proposed: 322   # LLM proposal 2026-10-13: ≥25% upside to anchor A, = the 09-09 entry level (Q_B ≈ 0.46); human to confirm → rename to buy_anchor
+buy_anchor: 322   # human-confirmed 2026-10-13 (≥25% upside to anchor A; the 09-09 entry level)
 exit_anchor: 403   # anchor A (Q=1 conservative new-build) from the 2026-10-06 study; recompute after the Q3 10-Q (09-29 ASR + capacity monetization change shares/net debt)
 anchor_floor: 157   # anchor D (private-deal comps) from the same study
 updated: 2026-10-06
@@ -84,4 +84,5 @@ below when it bears on the thesis (regulator-restricted contracts first).
 - 2026-10-13 — **转入观察名单**(human):已于 09-14 清仓,现作为潜在买入对象跟踪,"降到合理价格范围内就买"。`status: closed → watch`(股数仍为 0)。
   买入线**提议** $322(待人确认):到锚点 A $403 留 ≥25% 空间(与当初 CEG 买入时距 A +27.6% 相当),也正是 09-09 的买入价位、当时 Q_B ≈ 0.46。
   锚点 A $403 / D $157 来自 [[2026-10-06-ceg-vst-tln-replacement-cost-summary]];09-29 的 $15 亿 ASR 与容量货币化会改变股数和净债务,Q3 10-Q 后需重算。
+- 2026-10-13 — **买入线确认 $322**(human-confirmed)。价格 ≤ $322 时简报头条以 ⚠️ 提示「TLN 进入买入区间」。买入数量与执行仍由人决定并录入。
 
