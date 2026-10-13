@@ -537,3 +537,12 @@ grep "^## \[" log.md | tail -5
 - pages touched: [[tln]] (positions: status watch, buy_anchor_proposed 322, exit_anchor 403, anchor_floor 157), `scripts/render_brief.py`, `tests/test_render_brief.py`, daily-brief SKILL, CLAUDE.md §3.5/§3.11, `brief/2026-10-12.{html,md}`
 - TLN：人要求作为潜在买入对象跟踪。新增「观察名单」栏：现价、距买入线（提议 $322，待人确认）、距锚点 A $403、下方底 D $157。现价 $379.77 → 需再跌 15.2% 才到买入线。
 - 过载诊断（10-05→10-12）：手机版 7–12k 字，头条 970–1,634 字，单条观点均 400–640 字，持仓备注 420–990 字，头条里塞满运行元数据。治理：持仓/观察名单前置；头条 ≤3 句 ~150 字、观点 ≤80 字、持仓备注 ≤120 字、节目无关集只写"与持仓无关"、线索 ≤5；运行元数据移到页脚 `run_note`；渲染器新增 LENGTH WARNING，skill 要求清零后再提交。
+
+## [2026-10-13] brief | 持仓无一手事件；TLN 首次纳入观察名单（买入线 $322、未进入区间）；中邮边际转鸽
+- pages touched: [[2026-10-13]], [[2026-10-12-cpost-overseas-macro-oct-pause]], [[2026-10-12-all-in-friedberg-ai-religion]], [[china-post-securities]], [[ceg]], [[vst]], [[tln]], index.md, brief/2026-10-13.{html,md}
+- SEC `--since 2026-10-12`：CEG 27 / TLN 29 / VST 33 filings kept，三家均 0 新增 8-K/10-Q/10-K、0 flags、is_new 空、filings_read=0。CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、维持一手新闻稿为源。
+- sources_ingested=2：①[[2026-10-12-cpost-overseas-macro-oct-pause|中邮海外周报]]（research/macro）引沃勒"加息但不在连续会议"→判 10 月或暂停、12 月再加（本家较 10-09 转鸽）；把 OpenAI 收入低于报道（✅ FT：$50B vs $70B、10-08 Nasdaq −1.25%）的 AI 收入审视 + 中选后监管收紧列短期逆风——Invalidation #1 上游、无实证、#1 ok/watch。②[[2026-10-12-all-in-friedberg-ai-religion|All-In·Friedberg「AI 催生新宗教」]]（shows，⚠️ 文字稿缺失）。
+- 外资桶本窗口无新在范围稿：Goldman 最新 insights 10-09（中国 AI 模型）/10-08（bonds）均 ≤SINCE 或非持仓口径；MS 相关 TOTM「AI Safety/Compute Spending」经 WebSearch 核为 2026-09-23（窗外）；Apollo Daily Spark 仍 JS 渲染（curl 空）；PIMCO/KKR/BlackRock/Bridgewater/Blackstone evergreen 或窗外——foreign slot 确无 >SINCE 项、由 domestic 填（按 SKILL）。东财三桶命中多为 A 股/非持仓 US（金元 AI-RSI、中银 TMT 周报、东吴公用事业新质生产力/电力设备等）或已入库；中航「美国中选大类资产」PDF CID 字体乱码续弃。
+- leads 5（持仓/板块优先）：Oppenheimer power-tech 首选股（未读原文、不入库）、Fermi–AMD 德州 AI 项目、Oklo DOE 同位素（非本仓）、CPI/财报周预览、油价推升高利率。
+- 退出/买入锚点（prices.py 2026-10-13）：CEG $293.89→距 $375 +27.6%；VST $158.13→距 $172 +8.8%（均 >5% 无 ⚠️）；TLN（观察名）$379.77→距买入线 $322 需 −15.2%（未进入买入区间）、距 A $403 −6.1%、距底 D $157 +141.9%。CEG/VST 锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
+- logic_changes=[]、opportunities_new=0。Invalidation 全线不变：CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(watch) ok/watch/ok/ok。中选政策风险（2026-11-03）维持 #1 上游 watch（本期 +中邮再度印证）。render_brief LENGTH WARNING 已清零。

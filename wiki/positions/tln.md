@@ -17,7 +17,7 @@ exit_price: 289   # 2026-09-14 sale (全部清仓), human-supplied
 buy_anchor: 322   # human-confirmed 2026-10-13 (≥25% upside to anchor A; the 09-09 entry level)
 exit_anchor: 403   # anchor A (Q=1 conservative new-build) from the 2026-10-06 study; recompute after the Q3 10-Q (09-29 ASR + capacity monetization change shares/net debt)
 anchor_floor: 157   # anchor D (private-deal comps) from the same study
-updated: 2026-10-06
+updated: 2026-10-13
 ---
 
 # TLN — Talen Energy (watchlist — closed 2026-09-14, buy candidate)
@@ -85,4 +85,5 @@ below when it bears on the thesis (regulator-restricted contracts first).
   买入线**提议** $322(待人确认):到锚点 A $403 留 ≥25% 空间(与当初 CEG 买入时距 A +27.6% 相当),也正是 09-09 的买入价位、当时 Q_B ≈ 0.46。
   锚点 A $403 / D $157 来自 [[2026-10-06-ceg-vst-tln-replacement-cost-summary]];09-29 的 $15 亿 ASR 与容量货币化会改变股数和净债务,Q3 10-Q 后需重算。
 - 2026-10-13 — **买入线确认 $322**(human-confirmed)。价格 ≤ $322 时简报头条以 ⚠️ 提示「TLN 进入买入区间」。买入数量与执行仍由人决定并录入。
+- 2026-10-13 — brief（观察名单首次纳入 watchlist）：`sec_fetch.py --since 2026-10-12` **TLN 0 新增 8-K/10-Q/10-K、0 flags**（29 filings kept、`is_new` 空）；`filings_read=0`，无 TLN 一手新事件。**买入线距离**：`prices.py` 取 **$379.77**、仍**高于** `buy_anchor: 322`（需回落 **−15.2%**、约 $57.77 才进入买入区间）——**未进入买入区间、无头条 ⚠️**；距锚点 A `exit_anchor: 403` 为 **−6.1%**（下方）、距下行锚 `anchor_floor: 157` 为 +141.9%（上方）。宏观/需求侧与 [[ceg]]/[[vst]] 同口径（中邮偏鸽利率读数 + Invalidation #1 上游 AI 收入审视/中选监管）；**Invalidation #2 watch 主线**：FERC/PJM backstop 自 9/29 暂缓令（2027-02-28 复效）后无新令、co-location 规则另案预计 2027 Q1–Q2；9/29 容量货币化 8-K（[[2026-09-29-tln-8k-capacity-monetization-ceo]]）无补充披露——**#2 维持 watch**。⚠️ 6→9 月股价 −18% 数据缺口继续挂账。Invalidation 状态：**ok/watch/ok/ok**（不变）。
 
