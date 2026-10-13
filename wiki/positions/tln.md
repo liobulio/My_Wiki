@@ -2,7 +2,7 @@
 type: position
 asset: "[[tln]]"
 ticker: TLN
-status: closed
+status: watch
 weight:
 shares: 0
 account: IBKR
@@ -14,10 +14,13 @@ invalidation_status: [ok, watch, ok, ok]
 opened: 2026-09-11
 closed: 2026-09-14
 exit_price: 289   # 2026-09-14 sale (全部清仓), human-supplied
+buy_anchor_proposed: 322   # LLM proposal 2026-10-13: ≥25% upside to anchor A, = the 09-09 entry level (Q_B ≈ 0.46); human to confirm → rename to buy_anchor
+exit_anchor: 403   # anchor A (Q=1 conservative new-build) from the 2026-10-06 study; recompute after the Q3 10-Q (09-29 ASR + capacity monetization change shares/net debt)
+anchor_floor: 157   # anchor D (private-deal comps) from the same study
 updated: 2026-10-06
 ---
 
-# TLN — Talen Energy (CLOSED)
+# TLN — Talen Energy (watchlist — closed 2026-09-14, buy candidate)
 
 ## The Thesis Test
 Shared with the other AI-power IPP holdings — see [[ai-power-ipp-bull]] for the Edge, the
@@ -78,4 +81,7 @@ below when it bears on the thesis (regulator-restricted contracts first).
   9/14 卖出成交价未提供,当日区间 **$285.86–$303.52** → 卖出的 5.407 股已实现亏损约 **$122–$218**(-6.9% 至 -12.3%)。精确成交价在 IBKR Activity Statement 里,补上即可算准。
 - 2026-10-06 — **成交价更正**(human-supplied)。买入 **$322**、2026-09-14 全部清仓成交 **$289**(取代上一条按 9/9 盘中高回填的估计值)。
   已实现:5.407 股 × ($289 − $322) = **$-178.43**(-10.2%)。
+- 2026-10-13 — **转入观察名单**(human):已于 09-14 清仓,现作为潜在买入对象跟踪,"降到合理价格范围内就买"。`status: closed → watch`(股数仍为 0)。
+  买入线**提议** $322(待人确认):到锚点 A $403 留 ≥25% 空间(与当初 CEG 买入时距 A +27.6% 相当),也正是 09-09 的买入价位、当时 Q_B ≈ 0.46。
+  锚点 A $403 / D $157 来自 [[2026-10-06-ceg-vst-tln-replacement-cost-summary]];09-29 的 $15 亿 ASR 与容量货币化会改变股数和净债务,Q3 10-Q 后需重算。
 

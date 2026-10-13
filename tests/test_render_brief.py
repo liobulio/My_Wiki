@@ -104,3 +104,39 @@ def test_shows_and_leads_sections():
 def test_shows_empty_is_stated():
     brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
     assert "本期没有新视频" in rb.render_day(brief, _ctx()) and "本期没有新视频" in rb.render_markdown(brief, _ctx())
+
+
+def _ctx_watch():
+    ctx = _ctx()
+    ctx["positions"]["ww"] = {"meta": {"ticker": "WW", "status": "watch", "shares": 0, "buy_anchor_proposed": 322,
+                                       "exit_anchor": 403, "anchor_floor": 157}, "body": "", "title": "WW"}
+    ctx["prices"].setdefault("quotes", {})["WW"] = {"price": 370.0}
+    return ctx
+
+
+def test_watchlist_section_and_order():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    brief["data"]["watchlist"] = [{"ticker": "WW", "note": "观察中"}]
+    ctx = _ctx_watch()
+    h = rb.render_day(brief, ctx)
+    assert 'id="watchlist"' in h and "距买入线" in h and "提议" in h and "−13.0%" in h and "+8.9%" in h
+    assert 'id="pos-WW"' not in h                                   # watch names are not holdings cards
+    assert h.index('id="positions"') < h.index('id="watchlist"') < h.index('id="shows"') < h.index('id="macro"')
+    md = rb.render_markdown(brief, ctx)
+    assert "## 观察名单" in md and "距买入线" in md
+    assert md.index("## 我的持仓") < md.index("## 观察名单") < md.index("节目更新") < md.index("### 宏观")
+
+
+def test_length_warnings():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    assert rb.length_warnings(brief) == []
+    brief["prose"] = "长" * 400
+    brief["data"]["positions"][0]["note"] = "注" * 300
+    w = rb.length_warnings(brief)
+    assert any("头条" in x for x in w) and any("TLN" in x for x in w)
+
+
+def test_run_note_footer():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    brief["data"]["run_note"] = "SEC 0 新增"
+    assert "运行记录" in rb.render_day(brief, _ctx()) and "SEC 0 新增" in rb.render_markdown(brief, _ctx())

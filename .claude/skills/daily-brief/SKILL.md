@@ -107,18 +107,35 @@ the ```json brief-data``` block. Rules:
   only the human can adopt). Slug: `<ticker-or-theme>-<yyyy-mm>`. **Always fill `edge`, `catalyst`,
   `invalidation`** in the frontmatter as PROPOSALS (§3.8): the invalidation must be a concrete price
   level or condition drawn from the source's own risk list, never a vibe.
+- `watchlist`: `{"ticker", "note"}` for each position page with `status: watch` (buy candidates). Note ≤ 1
+  sentence: what changed today for the buy case. The renderer prints price, distance to the buy line,
+  anchor A and the floor; if price is at/below the buy line, the Headline leads with
+  `⚠️ <TICKER> 进入买入区间` (if the line is only `buy_anchor_proposed`, say it still needs the human's confirmation).
+- `run_note`: one line of run metadata (SEC counts, sources swept, feeds flagged as broken) — it goes
+  in the footer, **never in the Headline**.
 - `shows`: `{"show", "title", "url", "published", "summary", "source", "transcript"}` per new video.
 - `leads`: `{"title", "url", "published", "publisher", "tickers", "chased", "note"}` per headline.
 - `positions`: one entry per open position — `note` (Chinese, 1–3 sentences: what the new
   filings mean for the thesis), `filings` (accessions you read), `invalidation_status`.
-  **Exit anchor:** if the position page has `exit_anchor`, the note must open with the distance
-  from today's price (`data/prices.json`, after running `prices.py`) — e.g. `距退出锚点 A $172 还差
-  +2.8%（≈ $27）`. If the gap is **≤ 5%**, also say so in the **Headline** paragraph; if price is
+  **Exit anchor:** the renderer prints the distance to `exit_anchor` on the card. If the gap is
+  **≤ 5%**, say so in the **Headline** paragraph; if price is
   **at or above** the anchor, lead the Headline with `⚠️ <TICKER> 已到退出锚点 A` plus the page's `exit_plan` — the human
   pre-committed to this line and action. Anything that would move the anchor (new 10-Q/10-K net debt or share
   count, a ≥1 GW plant deal, a fleet change) gets flagged in the note as "锚点需重算" — propose the
   new level, never edit `exit_anchor` yourself.
 Empty buckets are fine — say so; never pad.
+
+**Length budget (information overload — human 2026-10-13).** The brief is read on a phone before the
+open; target ≤ 3 minutes. Write for the decision, put the reasoning on the wiki pages it links to.
+- **Headline**: ≤ 3 sentences, ≤ ~150 字 — today's single most important change, what it means for
+  the book, and whether anything needs doing. No run metadata, no Invalidation numbering jargon.
+- **View** (`view`): one sentence ≤ 80 字; `quote` ≤ 2 sentences. Detail lives on the source page.
+- **Position note**: ≤ 2 sentences ≤ 120 字 — did anything today touch an Invalidation or the anchor?
+  The renderer already prints the anchor distance and the Invalidation checklist; don't restate them.
+  The long dated reasoning goes to the position page's Update history, not the brief.
+- **Shows**: a relevant episode gets ≤ 60 字 of what matters; an unrelated one gets `summary: "与持仓无关"`.
+- **Leads**: ≤ 5, position headlines first.
+`render_brief.py` prints `LENGTH WARNING:` lines — shorten and re-render until there are none, then commit.
 
 ## 5. Render
 ```bash

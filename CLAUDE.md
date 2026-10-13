@@ -160,7 +160,7 @@ Body: **Definition** · **How it works** · **Pros / cons** · **Who uses it** �
 type: position
 asset: "[[<ticker>]]"
 ticker: <TICKER>
-status: open | watch | closed
+status: open | watch | closed      # watch = buy candidate on the brief's 观察名单, shares 0
 weight: <pct of portfolio, number>
 entry_date: YYYY-MM-DD
 entry_price: <number or empty>
@@ -172,6 +172,8 @@ invalidation_status: [ok, ok, ok, ok]   # one entry per Invalidation condition o
 exit_price: <number>             # human-supplied fill of the last trim/close, if any
 exit_anchor: <number>            # human-chosen exit line (anchor A = Tobin's Q 1 at conservative new-build); recompute each 10-Q; the brief shows the distance
 exit_plan: "<text>"              # human-chosen action at the anchor, e.g. "再减仓一半"; shown in the brief
+buy_anchor: <number>             # watch names only: human-confirmed buy line (buy_anchor_proposed = my proposal until confirmed)
+anchor_floor: <number>           # watch names: downside anchor (e.g. private-deal comps)
 opened: YYYY-MM-DD
 updated: YYYY-MM-DD
 ---
@@ -302,7 +304,9 @@ holding the structured payload the renderer reads:
  "opportunities": ["opportunity-slug"],
  "positions": [{"ticker": "TLN", "note": "", "filings": ["accession"], "invalidation_status": ["ok","watch","ok","ok"]}],
  "shows": [{"show": "All-In Podcast", "title": "", "url": "", "published": "YYYY-MM-DD", "summary": "", "source": "source-page", "transcript": true}],
- "leads": [{"title": "", "url": "", "published": "YYYY-MM-DD HH:MM", "publisher": "Investing.com", "tickers": [], "chased": "source-page or empty", "note": ""}]}
+ "leads": [{"title": "", "url": "", "published": "YYYY-MM-DD HH:MM", "publisher": "Investing.com", "tickers": [], "chased": "source-page or empty", "note": ""}],
+ "watchlist": [{"ticker": "TLN", "note": ""}],
+ "run_note": "one line of run metadata — footer only"}
 VIEW = {"institution": "slug", "view": "一句话中文梳理", "quote": "original words",
         "source": "source-page-slug", "url": "", "is_change": false, "tickers": []}
 ```

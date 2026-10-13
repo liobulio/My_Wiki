@@ -532,3 +532,8 @@ grep "^## \[" log.md | tail -5
 - pages touched: NEW [[spcx-reverse-dcf-sotp-2026-10-09]], [[spcx]], [[index]]
 - 数据：Q2 2026 8-K/10-Q（收入 $7.81B +92%、分部、现金 $100B、债务 $39.4B、股数 13,176M + Cursor ~391M、capex $18.4B、backlog $47.5B）；Google/Anthropic 合同与管理层 $100B ARR / 2030 $1T 目标为媒体口径。
 - 结论：EV ≈ $2.13T = 68× 收入；现价隐含 10 年 ~37%/年收入增速（若年底达 $100B ARR 则 ~25%/年）；按当前业务分部估值 $30/$52/$88，底 ~$17——无物理托底，锚点是增速而非价格。
+
+## [2026-10-13] maintenance | TLN 转观察名单 + 简报信息过载治理
+- pages touched: [[tln]] (positions: status watch, buy_anchor_proposed 322, exit_anchor 403, anchor_floor 157), `scripts/render_brief.py`, `tests/test_render_brief.py`, daily-brief SKILL, CLAUDE.md §3.5/§3.11, `brief/2026-10-12.{html,md}`
+- TLN：人要求作为潜在买入对象跟踪。新增「观察名单」栏：现价、距买入线（提议 $322，待人确认）、距锚点 A $403、下方底 D $157。现价 $379.77 → 需再跌 15.2% 才到买入线。
+- 过载诊断（10-05→10-12）：手机版 7–12k 字，头条 970–1,634 字，单条观点均 400–640 字，持仓备注 420–990 字，头条里塞满运行元数据。治理：持仓/观察名单前置；头条 ≤3 句 ~150 字、观点 ≤80 字、持仓备注 ≤120 字、节目无关集只写"与持仓无关"、线索 ≤5；运行元数据移到页脚 `run_note`；渲染器新增 LENGTH WARNING，skill 要求清零后再提交。

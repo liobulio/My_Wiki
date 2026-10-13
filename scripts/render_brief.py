@@ -62,7 +62,7 @@ def load_brief(path):
     data = json.loads(m.group(1)) if m else {}
     prose = body[:m.start()] if m else body
     prose = re.sub(r"^#\s+.+$", "", prose, count=1, flags=re.M).strip()
-    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions", "shows", "leads"):
+    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions", "shows", "leads", "watchlist"):
         data.setdefault(k, [])
     return {"meta": meta, "data": data, "prose": prose, "date": str(meta.get("date") or path.stem), "slug": path.stem}
 
@@ -324,13 +324,13 @@ def section_positions(ctx, brief_positions):
     by_t = {str(p.get("ticker", "")).upper(): p for p in brief_positions}
     cards = ""
     for pos in sorted(ctx["positions"].values(), key=lambda p: str(p["meta"].get("ticker"))):
-        if pos["meta"].get("status") == "closed":
+        if pos["meta"].get("status") in ("closed", "watch"):
             continue
         t = str(pos["meta"].get("ticker", "")).upper()
         bp = by_t.get(t, {})
         cards += position_card(ctx, t, bp.get("note"), set(bp.get("filings") or []), bp.get("invalidation_status"))
     cards = cards or "<p class=empty>暂无持仓。</p>"
-    return f'<section id="positions"><h2>我的持仓 <span class="n">{len(ctx["positions"])}</span></h2>{cards}</section>'
+    return f'<section id="positions"><h2>我的持仓 <span class="n">{sum(1 for p in ctx["positions"].values() if p["meta"].get("status") not in ("closed", "watch"))}</span></h2>{cards}</section>'
 
 
 CSS = """
@@ -390,6 +390,88 @@ def page(title, body, sub=""):
             f'不构成投资建议——这是个人知识库的自动整理。</footer></div><script>{JS}</script></body></html>')
 
 
+def _pct(x):
+    return f"{x:+.1f}%".replace("-", "−")
+
+
+def watch_info(meta, price):
+    """Watchlist maths: distance to the buy line (human `buy_anchor`, else `buy_anchor_proposed`), anchor A and the floor."""
+    def num(k):
+        try:
+            return float(meta.get(k))
+        except (TypeError, ValueError):
+            return None
+    if not price:
+        return None
+    buy, proposed = num("buy_anchor"), False
+    if buy is None:
+        buy, proposed = num("buy_anchor_proposed"), True
+    a, floor = num("exit_anchor"), num("anchor_floor")
+    return {"buy": buy, "proposed": proposed and buy is not None, "in_zone": buy is not None and price <= buy,
+            "to_buy": (buy / price - 1) * 100 if buy else None, "a": a, "to_a": (a / price - 1) * 100 if a else None,
+            "floor": floor, "to_floor": (floor / price - 1) * 100 if floor else None}
+
+
+def watch_lines(meta, price):
+    w = watch_info(meta, price)
+    if not w:
+        return []
+    out = []
+    if w["buy"] is not None:
+        tag = "（提议，待你确认）" if w["proposed"] else ""
+        out.append(f"⚠️ 已进入买入区间：现价 ≤ 买入线 ${w['buy']:,.0f}{tag}" if w["in_zone"]
+                   else f"距买入线 ${w['buy']:,.0f}{tag} 还需 {_pct(w['to_buy'])}")
+    if w["a"] is not None:
+        out.append(f"距锚点 A ${w['a']:,.0f} {_pct(w['to_a'])}")
+    if w["floor"] is not None:
+        out.append(f"下方底 D ${w['floor']:,.0f}（{_pct(w['to_floor'])}）")
+    return out
+
+
+def watch_names(ctx):
+    return [p for p in sorted(ctx["positions"].values(), key=lambda p: str(p["meta"].get("ticker")))
+            if p["meta"].get("status") == "watch"]
+
+
+def section_watchlist(ctx, items):
+    notes = {str(x.get("ticker", "")).upper(): x.get("note", "") for x in items}
+    rows = ""
+    for pos in watch_names(ctx):
+        t = str(pos["meta"].get("ticker", "")).upper()
+        price = ctx["prices"].get("quotes", {}).get(t, {}).get("price")
+        lines = watch_lines(pos["meta"], price)
+        hot = any(l.startswith("⚠️") for l in lines)
+        rows += (f'<li class="filing{" hot" if hot else ""}"><span class="tk big">{esc(t)}</span>'
+                 f'<span class="mono">{"$" + format(price, ",.2f") if price else "–"}</span>'
+                 + "".join(f'<span class="wlab">{esc(l)}</span>' for l in lines)
+                 + (f'<span class="fd" style="flex-basis:100%">{wikilinks(notes[t])}</span>' if notes.get(t) else "") + '</li>')
+    body = f'<ul class="filings">{rows}</ul>' if rows else '<p class="empty">观察名单为空。</p>'
+    return f'<section id="watchlist"><h2>观察名单 <span class="n">{len(watch_names(ctx))}</span></h2>{body}</section>'
+
+
+LIMITS = {"headline": 300, "view": 160, "note": 240, "show": 120, "leads": 6}
+
+
+def length_warnings(brief):
+    """Information-overload guard: the daily skill must fix every warning before committing."""
+    d, w = brief["data"], []
+    if len(brief["prose"]) > LIMITS["headline"]:
+        w.append(f"头条 {len(brief['prose'])} 字 > {LIMITS['headline']}")
+    for k in ("macro", "industry", "us_equity"):
+        for v in d.get(k, []):
+            if len(v.get("view", "")) > LIMITS["view"]:
+                w.append(f"{k}/{v.get('institution')} 观点 {len(v['view'])} 字 > {LIMITS['view']}")
+    for p in d.get("positions", []) + d.get("watchlist", []):
+        if len(p.get("note", "")) > LIMITS["note"]:
+            w.append(f"{p.get('ticker')} 备注 {len(p['note'])} 字 > {LIMITS['note']}")
+    for x in d.get("shows", []):
+        if len(x.get("summary", "")) > LIMITS["show"]:
+            w.append(f"节目「{x.get('title', '')[:20]}」摘要 {len(x['summary'])} 字 > {LIMITS['show']}")
+    if len(d.get("leads", [])) > LIMITS["leads"]:
+        w.append(f"新闻线索 {len(d['leads'])} 条 > {LIMITS['leads']}")
+    return w
+
+
 def section_shows(ctx, items):
     """Followed shows (All-In etc.): every new video is listed, even when low-signal."""
     rows = ""
@@ -427,13 +509,15 @@ def render_day(brief, ctx):
     top = (f'<header class="top"><h1>美股机构简报</h1><span class="sub">{esc(fmt_date_cn(date))}</span>'
            f'<span class="sub mono">来源 {esc(n_src)} · 申报 {esc(brief["meta"].get("filings_read", ""))} · 新机会 {esc(brief["meta"].get("opportunities_new", ""))}</span>'
            f'<nav><a href="index.html">总览</a><a class="wl" href="{obsidian(brief["slug"], "wiki/briefs")}">wiki</a></nav></header>')
-    toc = ('<nav class="toc"><a href="#shows">节目</a><a href="#macro">宏观</a><a href="#industry">行业</a><a href="#us_equity">美股观点</a>'
-           '<a href="#logic">逻辑变化</a><a href="#opps">买入机会</a><a href="#leads">新闻线索</a><a href="#positions">持仓</a></nav>')
+    toc = ('<nav class="toc"><a href="#positions">持仓</a><a href="#watchlist">观察</a><a href="#shows">节目</a><a href="#leads">线索</a>'
+           '<a href="#macro">宏观</a><a href="#industry">行业</a><a href="#us_equity">美股观点</a><a href="#logic">逻辑变化</a><a href="#opps">买入机会</a></nav>')
     headline = f'<div class="headline">{wikilinks(brief["prose"])}</div>' if brief["prose"] else ""
-    body = (top + toc + headline + section_shows(ctx, d["shows"])
+    run = f'<p class="empty">运行记录：{esc(d["run_note"])}</p>' if d.get("run_note") else ""
+    body = (top + toc + headline + section_positions(ctx, d["positions"]) + section_watchlist(ctx, d["watchlist"])
+            + section_shows(ctx, d["shows"]) + section_leads(ctx, d["leads"])
             + section_views(ctx, "macro", "宏观", d["macro"]) + section_views(ctx, "industry", "行业", d["industry"])
             + section_views(ctx, "us_equity", "美股观点", d["us_equity"]) + section_logic(ctx, d["logic_changes"])
-            + section_opps(ctx, d["opportunities"], date) + section_leads(ctx, d["leads"]) + section_positions(ctx, d["positions"]))
+            + section_opps(ctx, d["opportunities"], date) + run)
     return page(f"美股机构简报 {date}", body)
 
 
@@ -661,6 +745,25 @@ def render_markdown(brief, ctx):
     if brief["prose"]:
         out += [md_links(brief["prose"].strip(), ctx), ""]
     out += ["---", ""]
+    out.append("## 我的持仓\n")
+    by_t = {str(p.get("ticker", "")).upper(): p for p in d["positions"]}
+    for pos in sorted(ctx["positions"].values(), key=lambda p: str(p["meta"].get("ticker"))):
+        if pos["meta"].get("status") in ("closed", "watch"):
+            continue
+        t = str(pos["meta"].get("ticker", "")).upper()
+        bp = by_t.get(t, {})
+        out.append(md_position(ctx, t, bp.get("note"), set(bp.get("filings") or []), bp.get("invalidation_status")))
+    wn = {str(x.get("ticker", "")).upper(): x.get("note", "") for x in d["watchlist"]}
+    if watch_names(ctx):
+        out.append("## 观察名单\n")
+        for pos in watch_names(ctx):
+            t = str(pos["meta"].get("ticker", "")).upper()
+            price = ctx["prices"].get("quotes", {}).get(t, {}).get("price")
+            out.append(f"**{t}** {'$' + format(price, ',.2f') if price else '–'} · " + " · ".join(watch_lines(pos["meta"], price)))
+            if wn.get(t):
+                out.append(f"\n{md_links(wn[t], ctx)}")
+            out.append("")
+    out += ["---", ""]
     if d["shows"]:
         out.append(f"### 节目更新（{len(d['shows'])}）\n")
         for x in d["shows"]:
@@ -672,6 +775,20 @@ def render_markdown(brief, ctx):
         out.append("")
     else:
         out.append("### 节目更新\n\n_本期没有新视频。_\n")
+    if d["leads"]:
+        out.append(f"### 新闻线索（{len(d['leads'])}）\n")
+        for x in d["leads"]:
+            t = f"[{x.get('title', '')}]({x['url']})" if x.get("url") else x.get("title", "")
+            tks = " ".join(f"`{k}`" for k in x.get("tickers") or [])
+            chased = "已追一手" if x.get("chased") else "未追一手"
+            line = f"- {x.get('published', '')} · {x.get('publisher', '')} {tks} · {t} · _{chased}_"
+            if x.get("note"):
+                line += f" — {md_links(x['note'], ctx)}"
+            out.append(line)
+        out.append("")
+    else:
+        out.append("### 新闻线索\n\n_本期没有相关新闻线索。_\n")
+
     out.append(md_section_views(ctx, "宏观", d["macro"]))
     out.append(md_section_views(ctx, "行业", d["industry"]))
     out.append(md_section_views(ctx, "美股观点", d["us_equity"]))
@@ -690,29 +807,8 @@ def render_markdown(brief, ctx):
     else:
         out.append("### 买入机会\n\n_今日没有新的买入机会。_\n")
 
-    if d["leads"]:
-        out.append(f"### 新闻线索（{len(d['leads'])}）\n")
-        for x in d["leads"]:
-            t = f"[{x.get('title', '')}]({x['url']})" if x.get("url") else x.get("title", "")
-            tks = " ".join(f"`{k}`" for k in x.get("tickers") or [])
-            chased = "已追一手" if x.get("chased") else "未追一手"
-            line = f"- {x.get('published', '')} · {x.get('publisher', '')} {tks} · {t} · _{chased}_"
-            if x.get("note"):
-                line += f" — {md_links(x['note'], ctx)}"
-            out.append(line)
-        out.append("")
-    else:
-        out.append("### 新闻线索\n\n_本期没有相关新闻线索。_\n")
-
-    out.append("## 我的持仓\n")
-    by_t = {str(p.get("ticker", "")).upper(): p for p in d["positions"]}
-    for pos in sorted(ctx["positions"].values(), key=lambda p: str(p["meta"].get("ticker"))):
-        if pos["meta"].get("status") == "closed":
-            continue
-        t = str(pos["meta"].get("ticker", "")).upper()
-        bp = by_t.get(t, {})
-        out.append(md_position(ctx, t, bp.get("note"), set(bp.get("filings") or []), bp.get("invalidation_status")))
-
+    if d.get("run_note"):
+        out += [f"_运行记录：{d['run_note']}_", ""]
     out += ["---", "",
             f"_不构成投资建议 —— 个人知识库的自动整理。网页版：`brief/{date}.html`（下载后用浏览器打开）。_"]
     return "\n".join(out) + "\n"
@@ -771,6 +867,8 @@ def main(argv=None):
         print("wrote", out / f"{b['date']}.html")
         (out / f"{b['date']}.md").write_text(render_markdown(b, ctx), encoding="utf-8")
         print("wrote", out / f"{b['date']}.md")
+        for w in length_warnings(b):
+            print("LENGTH WARNING:", w)
     (out / "index.html").write_text(render_index(ctx), encoding="utf-8")
     print("wrote", out / "index.html")
     print("wrote", update_briefs_readme(ctx, out))
