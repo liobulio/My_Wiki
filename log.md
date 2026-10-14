@@ -568,3 +568,12 @@ grep "^## \[" log.md | tail -5
 - leads：纽约联储 Williams"年内再加一次"（利率）、Oracle 请 FERC 加快新墨西哥燃气管道供 Project Jupiter（电力/数据中心旁证）、传 BlackRock 转短债/平美股超配（未读 BII 原文、不入库为 VIEW）、AI jitters + 大行开启 Q3 财报季、CPI 前观望；均非一手事实。
 - prices（`prices.py` 2026-10-14）：CEG $295.79（距 $375 +26.8%）· VST $162.36（距 $172 **+5.9%**，较昨 +8.8% 收窄、接近但仍 >5%、无 ⚠️）· TLN $382.14（距买入线 $322 需 −15.7%、未进入买入区间；距锚点 A $403 −5.5%）。CEG/VST 退出锚点 11-06 Q3 10-Q 后重算。
 - invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。
+
+## [2026-10-14] brief | 第二次跑·同日补扫：9 月 CPI 超预期偏热→10Y 跳升、持仓盘中回撤约 5%＝既列利率风险鹰偏侧兑现（非 Invalidation）；VST 离开退出锚点 A 接近区间（+5.9%→+13%）；SEC 复跑仍 0 新增/0 flags
+- pages touched: [[2026-10-14]], [[ceg]], [[vst]], [[tln]], index.md, brief/2026-10-14.html, brief/2026-10-14.md
+- SEC: `sec_fetch.py --since 2026-10-13` 复跑同首跑 → CEG 27 / TLN 29 / VST 33 filings kept；三家均 **0 新增 8-K/10-Q/10-K、0 flags**、`is_new` 空、`filings_read=0`。CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、维持一手联合新闻稿为源。
+- 本跑新增源 0（sources_ingested=3 为当日累计）。**9 月 CPI 盘前公布＝超预期偏热**（✅ CNBC/Kiplinger）：headline **+0.6% m/m / +3.7% y/y**＞预期 3.6%、core **+0.3% / +2.6%**＞预期 2.5%、汽油 +9.1%/能源贡献约一半（美伊冲突推升油价）、Zandi"inflation is uncomfortably strong…supports the Fed continuing to raise rates"——坐实本仓**既列利率敏感性风险**鹰偏侧（VIEW 仍归已在档 [[2026-10-11-dongfang-jincheng-overseas-rates-hike|东方金诚]]/[[2026-10-07-boci-us-inflation-demand|中银]]），CPI 为数据发布/lead、**非 Invalidation**。
+- 外资复扫全线无窗口内新稿：Goldman insights 无 ≥10-13；MS /ideas（stock-rally-rising-rates=2026-09-16、ai-safety TOTM=2026-09-23 均窗外）；Apollo Daily Spark 仍 JS 渲染 curl 空（academy feed 无 dated daily）；PIMCO rupture-and-resilience 经 curl 确认=2026-06-10 窗外、cyclical-outlook 仍 10-06；KKR/BlackRock/Bridgewater/Blackstone 无新 → foreign quota 无可填项、由 domestic 填。All-In YouTube 最新视频（_7Lw3kh8wPc / 028rinLZcC4 等 6 条）video id 去重全已入库、无新 show。东财三桶复查命中全为已入库（东方金诚/东吴）或 A 股/非 US-equity 出范围（万联/粤开 9 月出口、华鑫计算机周报、山西算力租赁、金元 RSI、中银 TMT、头豹 MLCC 等）。
+- leads：新增 U.S. 10Y yield jumps on hot CPI（`CEG`/`VST`/`TLN`、利率）、Gold dips on Fed hike bets；保留 Williams 年内再加一次 / Oracle FERC 管道 / BlackRock 转短债。均非一手事实。
+- prices（`prices.py` 2026-10-14 盘中复取、热 CPI 后）：CEG **$281.41**（距 $375 **+33.3%**、较晨 −4.9%）· VST **$152.09**（距 $172 **+13.1%**、较晨 −6.3%、**已离开 ≤5% 接近区间**）· TLN **$362.11**（距买入线 $322 需 **−11.1%**、距锚点 A $403 −10.1%、较晨 −5.2%）均无 ⚠️。CEG/VST 退出锚点 11-06 Q3 10-Q 后重算。
+- invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。
