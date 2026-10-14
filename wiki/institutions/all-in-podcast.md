@@ -6,7 +6,7 @@ aliases: [All-In, All-In Pod, 全能播客, allinpod]
 watch_url: https://allinchamathjason.libsyn.com/rss
 tags: [podcast, tech, macro, venture]
 created: 2026-09-13
-updated: 2026-10-09
+updated: 2026-10-14
 ---
 
 # All-In Podcast
@@ -19,6 +19,7 @@ hosts' personal ones and [[david-sacks]] carries a White House AI-czar conflict.
 [[2026-07-04-allin-ai-sovereignty]].
 
 ## House view (current)
+- 2026-10-12→10-13（新 clip，`must_show` 全收录于节目更新；均 ⚠️ 文字稿缺失、仅凭标题归档）：[[2026-10-13-all-in-sacks-rotating-hoaxes|Sacks「驳斥围绕 AI 的轮番骗局/假议题」]]（反看空舆论、AI 多头、Invalidation #1 上游舆论侧）、[[2026-10-13-all-in-calacanis-end-of-coding|Calacanis「AI 终结编程」]]（AI 替代编码劳动）、[[2026-10-12-all-in-friedberg-ai-religion|Friedberg「AI 正催生新宗教」]]（AI 社会心理叙事）。无 CEG/VST/TLN 点名、不触及任何 Invalidation；文字稿待人工补充后方可引 verbatim。
 - 2026-10-10→10-12（本周新视频，`must_show` 全收录于节目更新；均 ⚠️ 文字稿缺失、仅凭标题/章节归档）：
   [[2026-10-10-all-in-claude-conscious-bond-market|周五正集「Claude 是否有意识 / 模型福祉 / 法国骚乱 / 债券市场」]]
   （AI 治理舆论 + 债市段落呼应长端利率既列风险；无 CEG/VST 点名）、[[2026-10-12-all-in-chamath-software-ip-worthless|Chamath「软件 IP 刚变得一文不值」]]

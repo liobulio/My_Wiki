@@ -557,3 +557,14 @@ grep "^## \[" log.md | tail -5
 - leads：本次新见 Citi 点名 2 只电力公用事业首选股（AI agent 颠覆风险、未读原文、标的未知、不入库为 VIEW）、「2030 美国电力需求」展望。
 - prices（盘中复取）：CEG $296.76（距 $375 +26.4%）· VST $161.53（距 $172 +6.5%，接近度上升仍 >5%）· TLN $381.44（距买入线 $322 需 −15.6%、未进入买入区间）；均无 ⚠️。
 - invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。
+
+## [2026-10-14] brief | 持仓无一手事件；东吴把 CEG/VST 列当周领涨 + "AI 进入 ROIC 验证周期"；东方金诚"年内仍将加息"；VST 距退出锚点 A 收窄至 +5.9%
+- pages touched: [[2026-10-14]], [[2026-10-14-soochow-us-weekly-rates-resilience]], [[2026-10-11-dongfang-jincheng-overseas-rates-hike]], [[2026-10-13-all-in-sacks-rotating-hoaxes]], [[soochow-securities]], [[dongfang-jincheng]], [[all-in-podcast]], [[ceg]], [[vst]], [[tln]], index.md, brief/2026-10-14.html
+- SEC: `sec_fetch.py --since 2026-10-13` → CEG 27 / TLN 29 / VST 33 filings kept；三家均 **0 新增 8-K/10-Q/10-K、0 flags**、`is_new` 空、`filings_read=0`。CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、维持一手联合新闻稿为源。
+- sources_ingested=3：研究 2 = [[2026-10-14-soochow-us-weekly-rates-resilience|东吴美股周观点]]（us-equity；CEG/VST 入领涨个股、复述 Google–CEG 890MW 核电长约＝需求侧再证、"AI 从 Capex 扩张进入 ROIC 验证周期"＝Invalidation #1 上游无实证）+ [[2026-10-11-dongfang-jincheng-overseas-rates-hike|东方金诚海外周报]]（macro；年内仍将加息/10 月 <20%/12 月更可能、10Y 5.24%、FY26 赤字 >6% GDP/净利息超国防、密歇根现况 44.7 历史新低）；All-In shows 1 = [[2026-10-13-all-in-sacks-rotating-hoaxes|Sacks「Rotating Hoaxes Around AI」]]（must_show、video id _7Lw3kh8wPc、⚠️ transcript:false）。
+- fact-check：✅ 密歇根 10 月初值 46.3 / 现况 44.7（历史新低、低于预期 47.6，Bloomberg/UMich）；✅ FY2026 赤字 1.993 万亿（+12%）、净利息 1.143 万亿超国防（CBO）；Google–CEG 3590MW/890MW 与一手源一致、OpenAI ~$50B vs $70B 多源核。
+- 外资：Goldman 最新 `/insights/articles/` 仍 10-09；**MS /ideas 的 ai-safety-regulation-compute-spending TOTM（"The Unexpected Investment Case for AI Safety"）经 WebSearch 核实为 2026-09-23 发布、窗外**（列表页携旧条目、midterm 10-10 已入库）；Apollo Daily Spark 新路由仍 JS 渲染 curl 空；PIMCO cyclical-outlook 仍 10-06；KKR/BlackRock/Bridgewater/Blackstone 无窗口内新稿。foreign slot 由 domestic US-macro/equity 填。
+- 内资：东财三桶命中除入库 2 外（万联/粤开 9 月出口、华鑫计算机周报 GPT-6.1/Claude Haiku 5.5、山西算力租赁、金元 RSI、中银 TMT 周报、头豹 MLCC 等）均 A 股/非 US-equity，出范围。
+- leads：纽约联储 Williams"年内再加一次"（利率）、Oracle 请 FERC 加快新墨西哥燃气管道供 Project Jupiter（电力/数据中心旁证）、传 BlackRock 转短债/平美股超配（未读 BII 原文、不入库为 VIEW）、AI jitters + 大行开启 Q3 财报季、CPI 前观望；均非一手事实。
+- prices（`prices.py` 2026-10-14）：CEG $295.79（距 $375 +26.8%）· VST $162.36（距 $172 **+5.9%**，较昨 +8.8% 收窄、接近但仍 >5%、无 ⚠️）· TLN $382.14（距买入线 $322 需 −15.7%、未进入买入区间；距锚点 A $403 −5.5%）。CEG/VST 退出锚点 11-06 Q3 10-Q 后重算。
+- invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。

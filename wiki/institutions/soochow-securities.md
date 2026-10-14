@@ -6,7 +6,7 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-10-09
+updated: 2026-10-14
 ---
 
 # 东吴证券
@@ -16,6 +16,7 @@ updated: 2026-10-09
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-10-14 — **美股周观点"利率走高，美股继续扛住各类冲击"**（陈梦/葛晓媛）：复盘 10/5–10/9——标普 +1.2%、**能源/公用事业领涨、[[ceg|CONSTELLATION ENERGY]]/[[vst|VISTRA]] 入领涨名单**、上涨占比升至 71%。核心："**AI 变现能力叙事是美股定价中枢**"——需求侧 AI 基础设施仍旺（独立点名 **Google–CEG 3590MW/890MW 新增核电/>$43 亿**、[[2026-10-06-ceg-google-nuclear-uprate-ppa]]），但 **OpenAI 年化 ~$50B 低于预期 $70B**（FT 10-08）致周四纳指 −1.25%，判 **"AI 交易从 Capex 扩张周期进入 ROIC 验证周期"**。展望：Q3 财报支撑韧性、**K 型分化加剧**，**最大风险 = 长端美债上行斜率过快**压科技估值。对本仓：CEG/VST 需求侧背书 + Invalidation #1 上游 ROI 审视 + 既列利率风险（[[2026-10-14-soochow-us-weekly-rates-resilience]]）。
 - 2026-10-11 — **"缺电主线"周报（黄细里）**：梳理本周 AIDC 供电大事，**直接点名 [[ceg|Constellation]]**——
   10-06 谷歌与 Constellation 签 **20 年核电 PPA（PJM 新增 890 MW uprate、>$43 亿）+ 15 年覆盖现有 2.7 GW**
   供电协议（同本仓一手源 [[2026-10-06-ceg-google-nuclear-uprate-ppa]]）；另记 Google–Black Hills 怀俄明 2.7GW
@@ -62,4 +63,4 @@ updated: 2026-10-09
 _none yet_
 
 ## Sources
-[[2026-10-11-soochow-power-shortage-google-ceg-ppa]] · [[2026-10-11-soochow-cpi-preview-oil]] · [[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-10-14-soochow-us-weekly-rates-resilience]] · [[2026-10-11-soochow-power-shortage-google-ceg-ppa]] · [[2026-10-11-soochow-cpi-preview-oil]] · [[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
