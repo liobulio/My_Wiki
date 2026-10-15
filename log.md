@@ -587,3 +587,12 @@ grep "^## \[" log.md | tail -5
 - leads：AI infrastructure firms slump as US rate hike bets rise（`CEG`/`VST`/`TLN`、利率）、U.S. Treasury yields slide after CPI-driven spike、Dollar retreats as Fed caution muffles inflation surprise、Sept CPI reaction roundup。均非一手事实。
 - prices（`prices.py` 10-14 收盘、热 CPI 后）：CEG **$279.54**（距 $375 **+34.2%**）· VST **$151.79**（距 $172 **+13.3%**、已离开 ≤5% 接近区间）· TLN（观察名）**$358.42**（距买入线 $322 需 **−10.2%**、距锚点 A $403 −11.1%）均无 ⚠️。CEG/VST 退出锚点 11-06 Q3 10-Q 后重算。
 - invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。opportunities_new=0、logic_changes=[]。中选政策风险（2026-11-03，东吴今日再把 10/28 加息与中选挂钩）维持 Invalidation #1 上游 watch。
+
+## [2026-10-15] brief | 同日第二次跑（补扫）：国信"M顶/10停12加"鸽侧基准补入——持仓无一手事件、SEC复跑0新增/0 flags、盘中回撤后距锚点/买入线更远、全线ok/watch不变
+- pages touched: [[2026-10-15]]（brief 更新）· [[2026-10-15-guosen-sept-cpi-m-top]]（新源）· [[guosen]]（House view +1）· [[ceg]]/[[vst]]/[[tln]]（Update history +1 同日补扫）· index.md · brief/2026-10-15.{html,md} · brief/README.md
+- 第二次跑背景：首跑已出并提交 2026-10-15 简报（sources_ingested=5）；本跑复查 SEC、取第二次盘中价、复扫外资/东财并新入库 1 源。
+- SEC：`sec_fetch.py --since 2026-10-14` 复跑同首跑——CEG 27 / TLN 29 / VST 33 filings kept、均 **0 新增 8-K/10-Q/10-K、0 flags**、`is_new` 空、`filings_read=0`。CEG–Google 两段式长约仍无对应 8-K（Item 1.01）、维持一手联合新闻稿为源。
+- 内资新增（入库 1）：[[2026-10-15-guosen-sept-cpi-m-top|国信]]（田地/邵兴宇/董德志）9 月 CPI"M 顶"雏形——同比 +3.7%/核心 +2.6%、汽油 +9.1%（中东沙特输油管道遇袭、布伦特 9 月月均 $114）；加息定价 **21.6%→47.1%、12 月累计 50bp 18.3%→41.2%**，但仍以 **"10 月暂停、12 月再加一次"为基准**（弱非农 + 温和 PCE 修订）；美股低开（标普 −0.4%/纳指 −0.65%）、**10Y 实际收益率 +8.4bp**＝压本仓长久期 PPA 折现的直接读数。补首跑（东方金诚/浦银偏鹰、东吴数据）当日 CPI 点评的鸽侧基准。属既列利率敏感性风险、非 Invalidation。✅ CPI 读数与 10-14 多源核一致、汽油 +9.1% 与 BLS 一致。
+- 复扫无新增：Goldman sitemap 仍仅德国出口 10-15 一篇[已入库]；MS /ideas 无 ≥10-14 新条目（新增 china-industry-5.0/healthcare×2 非 US-equity）；Apollo Daily Spark 仍 JS 渲染（curl 空）；PIMCO/KKR/BlackRock/Bridgewater/Blackstone 无新；All-In 最新仍 Billy Evans（video id 全已入库）。东财三桶另命中万联/东海 9 月 CPI（同口径不重复入库）、招银国际大模型/东吴 SST 供电/硅基 AI 白皮书（A 股或非 US-equity 出范围）。leads(Google News RSS) 无新增持仓头条可追。
+- prices（`prices.py` 第二次跑盘中、热 CPI 后 10Y 上行续回撤）：CEG **$270.78**（较首跑 $279.54 −3.1%、距 $375 **+38.5%**）· VST **$148.83**（−1.9%、距 $172 **+15.6%**、已离开 ≤5%）· TLN（观察名）**$344.98**（−3.8%、距买入线 $322 需 **−6.7%**、较首跑 −10.2% 收窄、距 A $403 −14.4%）——三只盘中回撤后距各自锚点/买入线更远、均无 ⚠️。CEG/VST 退出锚点 11-06 Q3 10-Q 后重算。
+- invalidation flags: 无变动。CEG ok/watch/ok/ok · VST ok/ok/ok/ok · TLN(观察名) ok/watch/ok/ok。`sources_ingested=6`、`opportunities_new=0`、`logic_changes=[]`。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。
