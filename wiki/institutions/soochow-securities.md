@@ -6,7 +6,7 @@ aliases: [东吴, Soochow Securities]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-11
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # 东吴证券
@@ -16,6 +16,7 @@ updated: 2026-10-14
 策略团队（陈梦/葛晓媛）出美股周观点。
 
 ## House view (current)
+- 2026-10-15 — **9 月 CPI 点评"风险在油价的 Higher for Longer"**（芦哲/张佳炜/韦祎）：9 月 CPI **全面超预期**（环比 +0.65%/预期 0.6%、核心环比 +0.33%/预期 0.2%、同比 +3.74%、核心同比 +2.56%）、**核心项是主因、扩散度显著走高、超级核心 3 个月年率 >4%**；通胀粘性的充分条件是**油价 Higher for Longer**。数据后交易员把 **10/28 加息定价 ~20%→>50%**、全年最高 ~1.5 次，随后官员鸽派→**回落至 ~30%、美债回落**。**10/28 加息与否对 11/3 中选尤为重要**、担忧伊朗 10 月下旬升级施压 → 强化 10 月加息风险；策略维持"中选后右侧交易"。坐实本仓既列利率敏感性风险鹰偏侧（[[2026-10-15-soochow-sept-cpi-oil-hfl]]）。
 - 2026-10-14 — **美股周观点"利率走高，美股继续扛住各类冲击"**（陈梦/葛晓媛）：复盘 10/5–10/9——标普 +1.2%、**能源/公用事业领涨、[[ceg|CONSTELLATION ENERGY]]/[[vst|VISTRA]] 入领涨名单**、上涨占比升至 71%。核心："**AI 变现能力叙事是美股定价中枢**"——需求侧 AI 基础设施仍旺（独立点名 **Google–CEG 3590MW/890MW 新增核电/>$43 亿**、[[2026-10-06-ceg-google-nuclear-uprate-ppa]]），但 **OpenAI 年化 ~$50B 低于预期 $70B**（FT 10-08）致周四纳指 −1.25%，判 **"AI 交易从 Capex 扩张周期进入 ROIC 验证周期"**。展望：Q3 财报支撑韧性、**K 型分化加剧**，**最大风险 = 长端美债上行斜率过快**压科技估值。对本仓：CEG/VST 需求侧背书 + Invalidation #1 上游 ROI 审视 + 既列利率风险（[[2026-10-14-soochow-us-weekly-rates-resilience]]）。
 - 2026-10-11 — **"缺电主线"周报（黄细里）**：梳理本周 AIDC 供电大事，**直接点名 [[ceg|Constellation]]**——
   10-06 谷歌与 Constellation 签 **20 年核电 PPA（PJM 新增 890 MW uprate、>$43 亿）+ 15 年覆盖现有 2.7 GW**
@@ -63,4 +64,4 @@ updated: 2026-10-14
 _none yet_
 
 ## Sources
-[[2026-10-14-soochow-us-weekly-rates-resilience]] · [[2026-10-11-soochow-power-shortage-google-ceg-ppa]] · [[2026-10-11-soochow-cpi-preview-oil]] · [[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]
+[[2026-10-15-soochow-sept-cpi-oil-hfl]] · [[2026-10-14-soochow-us-weekly-rates-resilience]] · [[2026-10-11-soochow-power-shortage-google-ceg-ppa]] · [[2026-10-11-soochow-cpi-preview-oil]] · [[2026-10-09-soochow-us-midterm-elections]] · [[2026-10-07-soochow-holiday-overseas-rates]] · [[2026-10-07-soochow-overseas-compute-ai-hardware]] · [[2026-10-03-soochow-sept-payrolls]] · [[2026-09-29-soochow-overseas-compute-alibaba-20gw]] · [[2026-09-27-soochow-power-shortage-aidc]] · [[2026-09-22-soochow-us-weekly-post-hike]] · [[2026-09-20-soochow-overseas-compute-power]] · [[2026-09-14-soochow-us-weekly-hike-risk]] · [[2026-09-13-soochow-power-scarcity-nuclear-ppa]] · [[2026-09-07-soochow-memory-cycle-ai]]

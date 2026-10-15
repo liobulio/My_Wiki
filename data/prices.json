@@ -1,24 +1,24 @@
 {
-  "asof": "2026-10-14T15:29:23+00:00",
+  "asof": "2026-10-15T12:44:05+00:00",
   "quotes": {
     "CEG": {
-      "price": 281.405,
+      "price": 279.54,
       "currency": "USD",
-      "asof": "2026-10-14T15:29:21+00:00",
+      "asof": "2026-10-14T20:00:01+00:00",
       "source": "yahoo",
       "name": "Constellation Energy Corporation"
     },
     "TLN": {
-      "price": 362.113,
+      "price": 358.42,
       "currency": "USD",
-      "asof": "2026-10-14T15:29:05+00:00",
+      "asof": "2026-10-14T20:00:00+00:00",
       "source": "yahoo",
       "name": "Talen Energy Corporation"
     },
     "VST": {
-      "price": 152.085,
+      "price": 151.79,
       "currency": "USD",
-      "asof": "2026-10-14T15:29:24+00:00",
+      "asof": "2026-10-14T20:00:02+00:00",
       "source": "yahoo",
       "name": "Vistra Corp."
     }
