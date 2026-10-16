@@ -62,7 +62,7 @@ def load_brief(path):
     data = json.loads(m.group(1)) if m else {}
     prose = body[:m.start()] if m else body
     prose = re.sub(r"^#\s+.+$", "", prose, count=1, flags=re.M).strip()
-    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions", "shows", "leads", "watchlist"):
+    for k in ("macro", "industry", "us_equity", "logic_changes", "opportunities", "positions", "shows", "leads", "watchlist", "calendar"):
         data.setdefault(k, [])
     return {"meta": meta, "data": data, "prose": prose, "date": str(meta.get("date") or path.stem), "slug": path.stem}
 
@@ -467,9 +467,52 @@ def length_warnings(brief):
     for x in d.get("shows", []):
         if len(x.get("summary", "")) > LIMITS["show"]:
             w.append(f"节目「{x.get('title', '')[:20]}」摘要 {len(x['summary'])} 字 > {LIMITS['show']}")
+    for x in d.get("leads", []):
+        u = x.get("url", "")
+        if not u or "news.google.com" in u or re.match(r"^https?://[^/]*investing\.com/news/[a-z-]+/?$", u):
+            w.append(f"新闻线索「{x.get('title', '')[:20]}」链接不是原文章：{u or '空'}（用 data/leads.json 里的 url）")
     if len(d.get("leads", [])) > LIMITS["leads"]:
         w.append(f"新闻线索 {len(d['leads'])} 条 > {LIMITS['leads']}")
     return w
+
+
+CAL_KIND = {"fed": "美联储", "data": "数据", "earnings": "财报", "auction": "美债拍卖", "holiday": "休市"}
+WEEKDAY = "一二三四五六日"
+
+
+def calendar_rows(brief):
+    """Brief-data `calendar`, else data/calendar.json when it was fetched for this brief's date."""
+    rows = brief["data"].get("calendar") or []
+    if not rows:
+        cal = load_json(ROOT / "data" / "calendar.json", {})
+        if cal.get("asof") == brief["date"]:
+            rows = cal.get("rows") or []
+    return rows
+
+
+def _cal_day(d):
+    try:
+        day = dt.date.fromisoformat(d)
+        return f"{day.month}/{day.day} 周{WEEKDAY[day.weekday()]}"
+    except ValueError:
+        return d
+
+
+def _cal_extra(r):
+    bits = [f"预期 {r['consensus']}" if r.get("consensus") else "", f"前值 {r['previous']}" if r.get("previous") else "",
+            r.get("note", "")]
+    return " · ".join(b for b in bits if b)
+
+
+def section_calendar(rows):
+    body = ""
+    for r in rows:
+        extra = _cal_extra(r)
+        body += (f'<li class="filing"><span class="form">{esc(_cal_day(r.get("date", "")))}</span>'
+                 f'<span class="fd">{esc(r.get("time", ""))}</span><span class="tk">{esc(CAL_KIND.get(r.get("kind"), r.get("kind", "")))}</span>'
+                 f'<span>{esc(r.get("event", ""))}</span>' + (f'<span class="fd">{esc(extra)}</span>' if extra else "") + '</li>')
+    inner = f'<ul class="filings">{body}</ul>' if rows else '<p class="empty">未来几天没有重点事件。</p>'
+    return f'<section id="calendar"><h2>本周前瞻 <span class="n">{len(rows)}</span></h2>{inner}</section>'
 
 
 def section_shows(ctx, items):
@@ -509,12 +552,12 @@ def render_day(brief, ctx):
     top = (f'<header class="top"><h1>美股机构简报</h1><span class="sub">{esc(fmt_date_cn(date))}</span>'
            f'<span class="sub mono">来源 {esc(n_src)} · 申报 {esc(brief["meta"].get("filings_read", ""))} · 新机会 {esc(brief["meta"].get("opportunities_new", ""))}</span>'
            f'<nav><a href="index.html">总览</a><a class="wl" href="{obsidian(brief["slug"], "wiki/briefs")}">wiki</a></nav></header>')
-    toc = ('<nav class="toc"><a href="#positions">持仓</a><a href="#watchlist">观察</a><a href="#shows">节目</a><a href="#leads">线索</a>'
+    toc = ('<nav class="toc"><a href="#positions">持仓</a><a href="#watchlist">观察</a><a href="#shows">节目</a><a href="#leads">线索</a><a href="#calendar">前瞻</a>'
            '<a href="#macro">宏观</a><a href="#industry">行业</a><a href="#us_equity">美股观点</a><a href="#logic">逻辑变化</a><a href="#opps">买入机会</a></nav>')
     headline = f'<div class="headline">{wikilinks(brief["prose"])}</div>' if brief["prose"] else ""
     run = f'<p class="empty">运行记录：{esc(d["run_note"])}</p>' if d.get("run_note") else ""
     body = (top + toc + headline + section_positions(ctx, d["positions"]) + section_watchlist(ctx, d["watchlist"])
-            + section_shows(ctx, d["shows"]) + section_leads(ctx, d["leads"])
+            + section_shows(ctx, d["shows"]) + section_leads(ctx, d["leads"]) + section_calendar(calendar_rows(brief))
             + section_views(ctx, "macro", "宏观", d["macro"]) + section_views(ctx, "industry", "行业", d["industry"])
             + section_views(ctx, "us_equity", "美股观点", d["us_equity"]) + section_logic(ctx, d["logic_changes"])
             + section_opps(ctx, d["opportunities"], date) + run)
@@ -789,6 +832,16 @@ def render_markdown(brief, ctx):
     else:
         out.append("### 新闻线索\n\n_本期没有相关新闻线索。_\n")
 
+    cal = calendar_rows(brief)
+    if cal:
+        out.append(f"### 本周前瞻（{len(cal)}）\n")
+        for r in cal:
+            extra = _cal_extra(r)
+            out.append(f"- **{_cal_day(r.get('date', ''))}** {r.get('time', '')} · {CAL_KIND.get(r.get('kind'), r.get('kind', ''))} · "
+                       f"{r.get('event', '')}" + (f" — {extra}" if extra else ""))
+        out.append("")
+    else:
+        out.append("### 本周前瞻\n\n_未来几天没有重点事件。_\n")
     out.append(md_section_views(ctx, "宏观", d["macro"]))
     out.append(md_section_views(ctx, "行业", d["industry"]))
     out.append(md_section_views(ctx, "美股观点", d["us_equity"]))

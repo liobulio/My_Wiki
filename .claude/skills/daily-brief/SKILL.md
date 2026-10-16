@@ -49,8 +49,12 @@ For every entry in `brief/sources.yaml`:
   episodes, summit talks, interviews and clips alike, no relevance filter, outside the ~12 budget.
   Write a source page for each (transcript via the routes above; if none, title + description and
   `"transcript": false`). One-line `summary` in Chinese of what was said that matters for the book.
-- **Leads (`role: leads`, Investing.com):** fetch each url; keep items published since the last
-  brief's run. Put every headline touching an open position, its sector (nuclear/power/PJM/FERC/NRC)
+- **Leads (`role: leads`, Investing.com):** run `python3 scripts/news_leads.py` — it fetches the feeds,
+  decodes Google News redirects to the real article URL and drops non-English mirrors into
+  `data/leads.json`. **Every lead's `url` must be copied from that file** — never a section page like
+  `investing.com/news/economy` and never a `news.google.com` link (the renderer flags both). If the
+  script decodes 0 Google links on the runner, use the native-RSS items it still returns. Keep items
+  published since the last brief's run. Put every headline touching an open position, its sector (nuclear/power/PJM/FERC/NRC)
   or rates/Fed into `leads` (max ~10, position headlines first). For each position headline, chase
   the primary source (8-K, company release, FERC/NRC order) and set `chased` to that source page;
   otherwise `chased: ""` with a one-line `note`. A lead is never itself cited as fact.
@@ -111,6 +115,11 @@ the ```json brief-data``` block. Rules:
   sentence: what changed today for the buy case. The renderer prints price, distance to the buy line,
   anchor A and the floor; if price is at/below the buy line, the Headline leads with
   `⚠️ <TICKER> 进入买入区间` (if the line is only `buy_anchor_proposed`, say it still needs the human's confirmation).
+- `calendar` (本周前瞻): run `python3 scripts/calendar_fetch.py` and copy the rows of
+  `data/calendar.json` (FOMC up to 14 days out; US headline data, book + `calendar_tickers` earnings,
+  coupon auctions, NYSE holidays for the next 7 days). Keep ≤ 12 rows — drop the least relevant data
+  releases first, never FOMC, earnings of the book/watchlist, or holidays. Add `note` (≤ 20 字) only
+  where an event bears on the book, e.g. FOMC → `利率敏感性（既列风险）`, CEG earnings → `锚点需重算`.
 - `run_note`: one line of run metadata (SEC counts, sources swept, feeds flagged as broken) — it goes
   in the footer, **never in the Headline**.
 - `shows`: `{"show", "title", "url", "published", "summary", "source", "transcript"}` per new video.

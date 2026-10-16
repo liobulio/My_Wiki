@@ -306,6 +306,7 @@ holding the structured payload the renderer reads:
  "shows": [{"show": "All-In Podcast", "title": "", "url": "", "published": "YYYY-MM-DD", "summary": "", "source": "source-page", "transcript": true}],
  "leads": [{"title": "", "url": "", "published": "YYYY-MM-DD HH:MM", "publisher": "Investing.com", "tickers": [], "chased": "source-page or empty", "note": ""}],
  "watchlist": [{"ticker": "TLN", "note": ""}],
+ "calendar": [{"date": "YYYY-MM-DD", "time": "08:30 | 盘前 | 盘后", "kind": "fed|data|earnings|auction|holiday", "event": "", "consensus": "", "previous": "", "tickers": [], "note": ""}],
  "run_note": "one line of run metadata — footer only"}
 VIEW = {"institution": "slug", "view": "一句话中文梳理", "quote": "original words",
         "source": "source-page-slug", "url": "", "is_change": false, "tickers": []}

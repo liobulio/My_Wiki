@@ -1,0 +1,103 @@
+{
+ "asof": "2026-10-16",
+ "days": 7,
+ "rows": [
+  {
+   "date": "2026-10-16",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Core PPI",
+   "consensus": "0.3%",
+   "previous": "0.2%",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-16",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Core Retail Sales",
+   "consensus": "0.6%",
+   "previous": "1.4%",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-16",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Initial Jobless Claims",
+   "consensus": "199K",
+   "previous": "198K",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-16",
+   "time": "08:30",
+   "kind": "data",
+   "event": "PPI",
+   "consensus": "0.6%",
+   "previous": "0.5%",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-16",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Retail Sales",
+   "consensus": "0.3%",
+   "previous": "1.3%",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-16",
+   "time": "23:30",
+   "kind": "data",
+   "event": "Fed Chair Warsh Speaks",
+   "consensus": "",
+   "previous": "",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-21",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Housing Starts",
+   "consensus": "1.300M",
+   "previous": "1.275M",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-21",
+   "time": "盘后",
+   "kind": "earnings",
+   "event": "META 财报（预期 EPS $6.67）",
+   "tickers": [
+    "META"
+   ],
+   "in_book": false
+  },
+  {
+   "date": "2026-10-22",
+   "time": "13:00",
+   "kind": "auction",
+   "event": "5-Year Note",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-23",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Initial Jobless Claims",
+   "consensus": "",
+   "previous": "199K",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-28",
+   "time": "14:00",
+   "kind": "fed",
+   "event": "FOMC 利率决议 · 14:30 记者会",
+   "tickers": []
+  }
+ ],
+ "errors": []
+}

@@ -140,3 +140,26 @@ def test_run_note_footer():
     brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
     brief["data"]["run_note"] = "SEC 0 新增"
     assert "运行记录" in rb.render_day(brief, _ctx()) and "SEC 0 新增" in rb.render_markdown(brief, _ctx())
+
+
+def test_calendar_section():
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    brief["data"]["calendar"] = [
+        {"date": "2026-01-02", "time": "08:30", "kind": "data", "event": "CPI", "consensus": "0.3%", "tickers": []},
+        {"date": "2026-01-05", "time": "盘后", "kind": "earnings", "event": "META 财报", "tickers": ["META"]},
+        {"date": "2026-01-06", "time": "14:00", "kind": "fed", "event": "FOMC 利率决议", "tickers": []}]
+    h = rb.render_day(brief, _ctx())
+    assert 'id="calendar"' in h and "FOMC 利率决议" in h and "预期 0.3%" in h
+    md = rb.render_markdown(brief, _ctx())
+    assert "### 本周前瞻（3）" in md and "META 财报" in md
+
+
+def test_lead_links_must_be_articles():
+    import news_leads as nl
+    assert nl.is_article_url("https://www.investing.com/news/stock-market-news/vistra-redeems-1-billion-93CH-4913129")
+    assert not nl.is_article_url("https://www.investing.com/news/stock-market-news")
+    assert not nl.is_article_url("https://news.google.com/rss/articles/CBMi123")
+    assert not nl.is_english("https://es.investing.com/news/assorted/x-123")
+    brief = rb.load_brief(ROOT / "tests" / "fixtures" / "brief_min.md")
+    brief["data"]["leads"] = [{"title": "t", "url": "https://www.investing.com/news/economy"}]
+    assert any("链接" in w for w in rb.length_warnings(brief))

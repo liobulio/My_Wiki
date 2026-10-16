@@ -3,3 +3,6 @@ account: IBKR
 account_total_usd: 7200        # total account value as stated by the human on 2026-09-11; cash = total − positions
 timezone: America/Toronto
 lookback_days: 7               # first-run / catch-up window when no previous brief exists
+# Extra tickers whose earnings show in 本周前瞻 (open + watch positions are always included).
+# Hyperscalers / AI demand side + power peers. Human-editable.
+calendar_tickers: [NVDA, MSFT, GOOGL, AMZN, META, AAPL, ORCL, AVGO, TSM, NRG, SPCX]
