@@ -16,6 +16,12 @@ Mainland broker (Sinolink); computer/AI-infrastructure desk covering the NVIDIA 
 (PCB / power / optical interconnect) and its read-through to US-listed AI names.
 
 ## House view (current)
+- 2026-10-15 — **宏观专题"中选如何影响战争、财政和 AI"**（宋雪涛/赵宏鹤）：11-03 中选大概率"民主党夺回众议院或
+  横扫"，但两院皆难达 2/3，特朗普否决权/军权仍强势→短期不颠覆现有议题；真正影响是民主党借驳回立法/人事/弹劾
+  调查削弱特朗普、改变战争/财政/AI 路径。对 AI："**国会影响预期、地方影响现实**"——联邦难立法限 AI（否决权），
+  但**地方州长/州议会选举把数据中心约束变现实**（两党选民皆对 DC 建设负面；切入点＝开发商承担公用事业成本/降居民
+  电费/环境标准/取消税收优惠）；据 Distilled，**10 个竞争州涉 67.4 GW 计划数据中心产能**。属 Invalidation #1 上游
+  的中选政策风险（watch，无电力合约推迟实证）（[[2026-10-16-guojin-midterm-war-fiscal-ai]]）。
 - 2026-10-09 — **宏观专题"AI 双视角：行业捕获率与价值创造率"**：从捕获率（模型商视角，对应
   短期景气/硬件交易空间）与价值创造率（用 AI 企业视角，对应长期数据中心回报率/模型收入
   能力）两视角量化 AI——**计算机业捕获率 <10%、金融业 <2%，AI 平均增效 ~7 倍，总潜在捕获
