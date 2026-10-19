@@ -618,3 +618,12 @@ grep "^## \[" log.md | tail -5
 - pages touched: NEW `scripts/calendar_fetch.py`, NEW `scripts/news_leads.py`, `scripts/render_brief.py`, `tests/test_render_brief.py`, `brief/config.yaml` (calendar_tickers), daily-brief SKILL, CLAUDE.md §2/§3.11, [[2026-10-16]] (4 条线索链接修正), `brief/2026-10-16.{html,md}`
 - 本周前瞻：FOMC（14 天内，联储官网）+ 美国重点数据（Nasdaq 经济日历，仅 CPI/PPI/非农/零售/PCE/ISM 等头部数据，去重）+ 持仓/观察/`calendar_tickers` 财报（Nasdaq）+ 附息美债拍卖（TreasuryDirect）+ NYSE 休市/提前收盘（静态表，每年 1 月复核）。
 - 链接问题根因：Google News RSS 给的是加密跳转链接，routine 打不开就填了栏目首页（如 investing.com/news/economy），点进去找不到原文。修复：news_leads.py 经 Google batchexecute 解码出原文 URL、丢弃西语等镜像、按标题去重（实测 59/59 解码成功）；skill 规定链接只能取自 data/leads.json；渲染器对栏目页 / Google 链接报警。注：Investing.com 对滚动更新的报道会改标题但 URL 保留初版标题，属正常。
+
+## [2026-10-19] brief | 持仓零一手事件；本周主线 AI 信用/融资裂缝（CoreWeave 债券抛售）、利率反缓释、全线 ok/watch 不变
+- pages touched: [[2026-10-19]], [[2026-10-19-soochow-overseas-midterm-oil]], [[2026-10-17-kaiyuan-ai-financing-priced]], [[2026-10-18-pacific-tsmc-q3-ai-compute]], [[2026-10-17-all-in-coreweave-crash-ai-trade]], [[2026-10-17-all-in-chamath-ai-achilles-heel]], [[2026-10-17-all-in-horowitz-anthropic-security]], [[2026-10-18-all-in-horowitz-dangerous-anthropic-gates]], [[ben-horowitz]], [[soochow-securities]], [[kaiyuan-securities]], [[pacific-securities]], [[all-in-podcast]], [[ceg]], [[vst]], [[tln]], [[ai-power-ipp-bull]], index.md, brief/2026-10-19.*
+- SEC: `sec_fetch.py --since 2026-10-16` — CEG 27 / TLN 29 / VST 33 filings kept，均 **0 新增 8-K/10-Q/10-K、0 flags**，`filings_read=0`。CEG–Google 两段式长约仍无对应 8-K。
+- sources_ingested=6：内资 3（东吴海外周报·中选/油价/利率；开源·AI 融资担忧集中计价；太平洋·台积电 Q3 +50.9%/HPC +22%）+ All-In 3（本周正片 CoreWeave Crash/AI Trade Cracks 028rinLZcC4 + clips Chamath Achilles Heel / Horowitz×2，⚠️ 文字稿 CI 不可得）。
+- 主线：本周 **AI 信用/融资裂缝**（CoreWeave 债券抛售→AI 交易降温、纳指 −5%/KOSPI −14.5%）＝Invalidation #1 上游（AI 融资可持续性/ROI）；**CoreWeave 系 AI compute 商、非本仓发电侧、0 新增 8-K、无电力合约推迟/取消实证**，#1 ok/watch 不变。利率反缓释：虽 CPI/PPI 超预期，但避险+美联储鸽派（Warsh 压加息押注）→2Y/10Y 美债同步下行、长端降幅更大（折现压力边际缓释、非 Invalidation）。油价上周 WTI +10.4%/$101 后 10-19 回落（霍尔木兹重开）。
+- 外资复扫：Goldman 无 ≥10-16 新 insights；MS 最新 10-14 窗外；**PIMCO「Rupture and Resilience」经核为 6 月 Secular Outlook（页刷新≠新稿）判不入库**；Apollo JS 空；KKR/Bridgewater/JPM/Blackstone 无窗口内新稿——周末无真外资新研报。
+- prices（周末取 10-16 收盘）：CEG $271.37（距 A $375 +38.2%）· VST $152.02（距 A $172 +13.1%）· TLN $354.81（距买入线 $322 需 −9.2%·距 A +13.6%）均无 ⚠️。
+- logic_changes=[]；opportunities_new=0。Invalidation 全线不变：CEG ok/watch/ok/ok · VST ok×4 · TLN（观察名）ok/watch/ok/ok。

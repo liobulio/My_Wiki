@@ -11,7 +11,7 @@ invalidations:
   - 光伏扩容速度超预期
   - 光伏电厂重建成本下降
 opened: 2026-09-11
-updated: 2026-10-16
+updated: 2026-10-19
 tags: [ai-power, nuclear, ipp, replacement-cost]
 ---
 
@@ -123,6 +123,8 @@ See [[ai-power-demand]].
   →避险→美债跳涨"**（10Y 跳降 ~11bp 至 ~5.08%，Aug-2025 以来最大单日降幅，✅ Reuters/Globe&Mail 核）——利率上行的
   折现压力当日边际缓释，属既列风险的**双向注脚**（缺口巨大＝融资是真约束/Invalidation #1 上游；私募渠道若顺畅扩容则
   capex 含电力需求得以延续/需求侧中性偏正），非 Invalidation。
+- 融资可持续性 + 利率读数（2026-10-19，AI 信用裂缝周）：本周市场主线是 **AI 信用/融资裂缝**——
+  [[2026-10-17-all-in-coreweave-crash-ai-trade|All-In 正片]]核心章节"**CoreWeave 债券抛售：AI 泡沫破了吗？**"（CRWV 债息飙升、247WallSt 记债息触及 15%、Nebius/Oracle 走弱），叠加 [[2026-10-17-kaiyuan-ai-financing-priced|开源]]"**超大规模云（META/谷歌/亚马逊/甲骨文）经营现金流覆盖 capex 能力减弱、2026 均转债务融资、AI 债务风险集中计价**"与 [[2026-10-19-soochow-overseas-midterm-oil|东吴海外周报]]——同 [[2026-10-15-kkr-let-there-be-compute|KKR]]、[[2026-09-29-guosen-ai-crowding-out|国信挤出]]、[[2026-10-08-fangzheng-zhongqi-global-macro-oct|方正中期]]源流，为 **Invalidation #1 上游（AI 融资可持续性/ROI）**的再度集中计价；本周纳指 −5%+、KOSPI −14.5%。**判定：无 CEG/VST/TLN 电力合约推迟/取消实证（本窗口三家 SEC 0 新增 8-K），#1 维持 ok、watch 不变；CoreWeave 系 AI compute/租赁商、非本仓发电侧**。利率侧**双向注脚（偏缓释）**：尽管 9 月 CPI/PPI 全面超预期，但 AI 抛售避险 + 美联储官员鸽派（Warsh 言论压加息押注）→ **2Y/10Y 美债利率同步下行、长端降幅更大、曲线走平**（东吴；30Y 美债期货 +2.67%）——长久期 PPA/混合资本折现压力边际缓释（呼应 [[vst]] ~7% 新发成本）。油价：上周 **WTI +10.4% 至 $101、布伦特逼近 $110**（中东升级）＝通胀上行风险，10-19 伊朗吁霍尔木兹重开→油价回落——仍是利率敏感资产折现的关键摆动项（与 [[2026-10-16-goldman-oil-middle-east-supply|高盛油价]]同一变量）。中选补入历史情景：东吴统计**分裂国会→美债利率下行、美股中选后首年普涨**（为 Invalidation #1 上游 watch 的中选风险补对侧历史基准）。需求侧硬数据续强：[[2026-10-18-pacific-tsmc-q3-ai-compute|台积电 Q3 收入 +50.9%、HPC +22% 环比、2nm 占 8%]]＝AI 算力交付/capex 未退坡（利好、非直接电力标的）。
 - _CEG and VST evidence to be assembled by the first daily brief (2026-09-11) from filings._
 
 ## Risks / counter-thesis

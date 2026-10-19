@@ -19,6 +19,7 @@ hosts' personal ones and [[david-sacks]] carries a White House AI-czar conflict.
 [[2026-07-04-allin-ai-sovereignty]].
 
 ## House view (current)
+- 2026-10-17→10-18（本周正片 + clips，`must_show` 全收录；⚠️ 文字稿缺失、仅凭官方章节/show notes 归档）：**本周正片**[[2026-10-17-all-in-coreweave-crash-ai-trade|「CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer」]]（[[ben-horowitz|Ben Horowitz]] 代班 Friedberg）——核心章节"**CoreWeave 债券抛售：AI 泡沫破了吗？**"直击本周 AI 交易降温的市场引爆点（Invalidation #1 上游 AI 融资可持续性）；clips：[[2026-10-17-all-in-chamath-ai-achilles-heel|Chamath「AI 繁荣的阿喀琉斯之踵」]]（AI 融资侧）、[[2026-10-17-all-in-horowitz-anthropic-security|Horowitz「Anthropic 安全最疏忽」]]、[[2026-10-18-all-in-horowitz-dangerous-anthropic-gates|Horowitz「AI 最危险的是 Anthropic 与 Bill Gates」]]（AI 安全/监管辩论）。无 CEG/VST/TLN 点名、不触及任何 Invalidation；文字稿待人工补充后方可引 verbatim。
 - 2026-10-12→10-13（新 clip，`must_show` 全收录于节目更新；均 ⚠️ 文字稿缺失、仅凭标题归档）：[[2026-10-13-all-in-sacks-rotating-hoaxes|Sacks「驳斥围绕 AI 的轮番骗局/假议题」]]（反看空舆论、AI 多头、Invalidation #1 上游舆论侧）、[[2026-10-13-all-in-calacanis-end-of-coding|Calacanis「AI 终结编程」]]（AI 替代编码劳动）、[[2026-10-12-all-in-friedberg-ai-religion|Friedberg「AI 正催生新宗教」]]（AI 社会心理叙事）。无 CEG/VST/TLN 点名、不触及任何 Invalidation；文字稿待人工补充后方可引 verbatim。
 - 2026-10-10→10-12（本周新视频，`must_show` 全收录于节目更新；均 ⚠️ 文字稿缺失、仅凭标题/章节归档）：
   [[2026-10-10-all-in-claude-conscious-bond-market|周五正集「Claude 是否有意识 / 模型福祉 / 法国骚乱 / 债券市场」]]

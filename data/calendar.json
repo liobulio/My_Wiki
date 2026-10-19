@@ -1,61 +1,7 @@
 {
- "asof": "2026-10-16",
+ "asof": "2026-10-19",
  "days": 7,
  "rows": [
-  {
-   "date": "2026-10-16",
-   "time": "08:30",
-   "kind": "data",
-   "event": "Core PPI",
-   "consensus": "0.3%",
-   "previous": "0.2%",
-   "tickers": []
-  },
-  {
-   "date": "2026-10-16",
-   "time": "08:30",
-   "kind": "data",
-   "event": "Core Retail Sales",
-   "consensus": "0.6%",
-   "previous": "1.4%",
-   "tickers": []
-  },
-  {
-   "date": "2026-10-16",
-   "time": "08:30",
-   "kind": "data",
-   "event": "Initial Jobless Claims",
-   "consensus": "199K",
-   "previous": "198K",
-   "tickers": []
-  },
-  {
-   "date": "2026-10-16",
-   "time": "08:30",
-   "kind": "data",
-   "event": "PPI",
-   "consensus": "0.6%",
-   "previous": "0.5%",
-   "tickers": []
-  },
-  {
-   "date": "2026-10-16",
-   "time": "08:30",
-   "kind": "data",
-   "event": "Retail Sales",
-   "consensus": "0.3%",
-   "previous": "1.3%",
-   "tickers": []
-  },
-  {
-   "date": "2026-10-16",
-   "time": "23:30",
-   "kind": "data",
-   "event": "Fed Chair Warsh Speaks",
-   "consensus": "",
-   "previous": "",
-   "tickers": []
-  },
   {
    "date": "2026-10-21",
    "time": "08:30",
@@ -69,25 +15,18 @@
    "date": "2026-10-21",
    "time": "盘后",
    "kind": "earnings",
-   "event": "META 财报（预期 EPS $6.67）",
+   "event": "META 财报（预期 EPS $6.54）",
    "tickers": [
     "META"
    ],
    "in_book": false
   },
   {
-   "date": "2026-10-22",
-   "time": "13:00",
-   "kind": "auction",
-   "event": "5-Year Note",
-   "tickers": []
-  },
-  {
    "date": "2026-10-23",
    "time": "08:30",
    "kind": "data",
    "event": "Initial Jobless Claims",
-   "consensus": "",
+   "consensus": "200K",
    "previous": "199K",
    "tickers": []
   },
