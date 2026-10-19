@@ -627,3 +627,12 @@ grep "^## \[" log.md | tail -5
 - 外资复扫：Goldman 无 ≥10-16 新 insights；MS 最新 10-14 窗外；**PIMCO「Rupture and Resilience」经核为 6 月 Secular Outlook（页刷新≠新稿）判不入库**；Apollo JS 空；KKR/Bridgewater/JPM/Blackstone 无窗口内新稿——周末无真外资新研报。
 - prices（周末取 10-16 收盘）：CEG $271.37（距 A $375 +38.2%）· VST $152.02（距 A $172 +13.1%）· TLN $354.81（距买入线 $322 需 −9.2%·距 A +13.6%）均无 ⚠️。
 - logic_changes=[]；opportunities_new=0。Invalidation 全线不变：CEG ok/watch/ok/ok · VST ok×4 · TLN（观察名）ok/watch/ok/ok。
+
+## [2026-10-19] brief | 第二次跑·同日补扫（周一盘中）：持仓零一手事件（SEC 0/0）、全线不变；新增华鑫策略周报（美债>黄金>美股·防御）、周一费半反弹
+- pages touched: [[wiki/briefs/2026-10-19]], [[2026-10-19-huaxin-asset-ranking]], [[huaxin-securities]], [[index]], [[brief/2026-10-19.html]], [[brief/2026-10-19.md]]
+- sources ingested: 1（首跑 6 → 7）——[[2026-10-19-huaxin-asset-ranking|华鑫策略周报]]（大类资产排序 美债>黄金>美股、防御为主；费半 −11.41% 八连跌为 2008 年来最长、AI 交易降温；沃什中性、10 月大概率暂停加息；美股防御板块点名**公用事业**＝发电侧间接利好注脚）。事实核查：✅ 费半八连跌 2008 年来最长（Reuters/Yahoo/Benzinga）、✅ 布油触及 $110（10-16 收 $109.86）；⚠️ 文中 −11.41% 为本周 5 日跌幅（八日累计 ~−15.7%）、⚠️ 文中"10/29 FOMC"实为 10-28。
+- filings read: 0（SEC `--since 2026-10-16` 复跑 [[ceg]] 27/[[tln]] 29/[[vst]] 33 kept、均 0 新增·0 flags、与首跑一致）
+- prices（周一盘中 live、markets open）：[[ceg]] $264.77（距 A $375 +41.6%）· [[vst]] $149.88（距 A $172 +14.8%）· [[tln]] $351.24（距买入线 $322 需 −8.3%·距 A +14.7%）均无 ⚠️、较首跑周五收盘更远离退出锚点。
+- leads 刷新至周一盘中：**AEP+亚马逊+X-energy 研究印第安纳核电-数据中心项目**（需求侧叙事、本仓非标的、无一手可 chase）、费半反弹、Warsh 压加息、油价回落、FOMC 纪要通胀上行——均非一手。
+- 外资复扫仍无窗口内新稿（MS 新增 LatAm 10-15/UK budget 10-14 均 ≤SINCE 窗外；Apollo 仍 JS 空；PIMCO/KKR/Bridgewater/JPM/Blackstone 无新）；All-In youtube feed 8 条 id 全已入库无新视频；东财 10-19 新命中多为同口径 CPI 点评/台积电 Q3 重复、不重复入库。
+- invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。
