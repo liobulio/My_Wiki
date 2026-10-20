@@ -6,7 +6,7 @@ aliases: [中邮, 中邮证券, China Post Securities, CNPSEC]
 watch_url: https://data.eastmoney.com/report/
 tags: []
 created: 2026-09-22
-updated: 2026-10-13
+updated: 2026-10-20
 ---
 
 # 中邮证券
@@ -16,6 +16,7 @@ updated: 2026-10-13
 跟踪核电/电力设备景气。通过东方财富研报中心（[[eastmoney-research-center]]）渠道分发。
 
 ## House view (current)
+- 2026-10-20 — **海外宏观周报"中选或加剧分化，关注非科技机会"**（李起/高晓洁）：**美股企稳需长端利率进一步回落 + AI 信用压力不再恶化**；10Y 周末 ~5.07%/−17bp、纳指100 −5.5%、AI 信用利差走阔拖累股票；**短期震荡、不宜抄底**、非科技板块或先企稳。中选维持**民主党众议院 + 共和党参议院**基准、提醒市场高估在野党横扫概率；**"AI 数据中心建设存在较大的放缓风险"——政策权力下放地方、民主党在 DC 核心州竞选占优**（联邦监管概率较小）。对本仓：利率双向偏缓释注脚 + 中选 DC 放缓风险＝Invalidation #1 上游 watch（再添一家内资，与 [[2026-10-16-guojin-midterm-war-fiscal-ai|国金]]"地方影响现实"同向）（[[2026-10-20-cpost-overseas-midterm-divergence]]）。
 - 2026-10-12 — **海外宏观周报"加息预期降温，十月或按兵不动"**（李起/高晓洁）：引**沃勒**"仍需加息但不在连续会议"
   →判 **10 月暂停、12 月仍可能再加**（间隔加息）；经济仍具韧性（初请低于预期、低招聘低裁员、居民通胀预期升）。
   美股侧把 **AI 收入兑现受更严格审视**列主线——**OpenAI 收入低于此前媒体报道**引科技股调整、长端收益率回落；
@@ -40,4 +41,4 @@ updated: 2026-10-13
 _none yet_
 
 ## Sources
-[[2026-10-09-cpost-overseas-macro-yields-tech]] · [[2026-09-29-cpost-overseas-macro-yields-rising]] · [[2026-09-22-cpost-iaea-nuclear-uprate]]
+[[2026-10-20-cpost-overseas-midterm-divergence]] · [[2026-10-12-cpost-overseas-macro-oct-pause]] · [[2026-10-09-cpost-overseas-macro-yields-tech]] · [[2026-09-29-cpost-overseas-macro-yields-rising]] · [[2026-09-22-cpost-iaea-nuclear-uprate]]
