@@ -645,3 +645,10 @@ grep "^## \[" log.md | tail -5
 - leads=5（neocloud 信用/美债收益率随 AI 忧虑缓和回升/AI 财报周 10-21 META 盘后/BofA 仍看 10 月加息/油价推升通胀担忧）——均非一手、无持仓 primary headline。
 - 外资复扫：Goldman sitemap 命中本期唯一真外资新稿＝AI 瓶颈（10-19·已入库）；MS /ideas 最新 overseas LatAm 10-15/UK budget 10-14（≤SINCE 窗外）；Apollo Daily Spark 仍 JS 渲染 curl 空；PIMCO（growth-holds 10-06 已入库/rupture 6 月 Secular 不入库）/KKR（let-there-be-compute 10-15 已入库）/Bridgewater/JPM/Blackstone 无窗口内新稿。All-In youtube feed 新增 1 条（Dylan Field·已入 shows），其余 8 条 id 全已入库。东财 10-20 新命中多为 A 股/同口径（山西美联储加息空间/工银国际/华龙有色/东海电子台积电重复）判出范围或不重复入库。
 - invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok；中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。`logic_changes:[]`、`opportunities_new=0`。
+
+## [2026-10-20] brief | 同日第二次跑（周一盘中）：SEC 复跑 0 新增/0 flags、prices 刷新、leads 刷新至新 tape（Raymond James 上调 CEG 目标价·Reuters 10 月跳过 12 月加息）、全线不变
+- pages touched: [[wiki/briefs/2026-10-20]]（头条/leads/positions/run_note 重写）、[[brief/2026-10-20]]（html+md 重渲染）、[[index.md]]、[[log.md]]
+- note: 首跑后 ~2h 复跑。SEC `--since 2026-10-19` CEG 27/TLN 29/VST 33 kept、三票均 0 新增/0 flags/filings_read=0（与首跑一致）。本次 **0 新增源**，`sources_ingested` 维持 5（外资 1 高盛 AI 瓶颈 + 内资 3 中邮/民银国际/粤开 + All-In 1 shows）。外资复扫无窗口内新稿：Goldman sitemap 仍仅 AI 瓶颈（10-19 已入库）、MS `/ideas` 最新 overseas = LatAm 10-15/UK budget 10-14/rising-bond-yields 10-14（均 ≤SINCE 窗外）、Apollo Daily Spark 仍 JS 渲染 curl 空、PIMCO/KKR/Bridgewater/JPM/Blackstone 无新。
+- prices（10-20 盘中·第二次刷新）：[[ceg]] $261.22（距 A $375 +43.6%）· [[vst]] $149.81（距 A $172 +14.8%）· [[tln]] $350.95（距买入线 $322 需 −8.2%·距 A +14.8%）均无 ⚠️。
+- leads=5 刷新至新 tape（持仓头条在先）：①Raymond James 上调 [[ceg]] 目标价（nuclear monetization）——SEC 全文检索 efts 403、`--since` 已证 0 新 8-K、不入一手、仍为媒体线索；②Reuters 调查收敛"10 月跳过、12 月加息"（较首跑"BofA 仍看 10 月加息"更权威，10/28 FOMC 验证）；③成屋签约创纪录新低+新屋开工回落（按揭 7.40%）；④neocloud 信用；⑤油价推升通胀担忧。均非一手。
+- invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。

@@ -7,8 +7,8 @@
    "time": "08:30",
    "kind": "data",
    "event": "Housing Starts",
-   "consensus": "",
-   "previous": "-2.6%",
+   "consensus": "1.9%",
+   "previous": "-5.9%",
    "tickers": []
   },
   {
@@ -28,6 +28,24 @@
    "event": "Initial Jobless Claims",
    "consensus": "200K",
    "previous": "199K",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-27",
+   "time": "08:30",
+   "kind": "data",
+   "event": "Durable Goods Orders",
+   "consensus": "",
+   "previous": "-0.1%",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-27",
+   "time": "10:00",
+   "kind": "data",
+   "event": "CB Consumer Confidence",
+   "consensus": "",
+   "previous": "81.9",
    "tickers": []
   },
   {
