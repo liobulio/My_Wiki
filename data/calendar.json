@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-20",
+ "asof": "2026-10-21",
  "days": 7,
  "rows": [
   {
@@ -7,15 +7,15 @@
    "time": "08:30",
    "kind": "data",
    "event": "Housing Starts",
-   "consensus": "1.9%",
-   "previous": "-5.9%",
+   "consensus": "1.300M",
+   "previous": "1.288M",
    "tickers": []
   },
   {
    "date": "2026-10-21",
    "time": "盘后",
    "kind": "earnings",
-   "event": "META 财报（预期 EPS $6.54）",
+   "event": "META 财报（预期 EPS $4.98）",
    "tickers": [
     "META"
    ],
@@ -31,7 +31,7 @@
    "tickers": []
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "time": "08:30",
    "kind": "data",
    "event": "Durable Goods Orders",
@@ -40,7 +40,7 @@
    "tickers": []
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "time": "10:00",
    "kind": "data",
    "event": "CB Consumer Confidence",
@@ -54,6 +54,26 @@
    "kind": "fed",
    "event": "FOMC 利率决议 · 14:30 记者会",
    "tickers": []
+  },
+  {
+   "date": "2026-10-28",
+   "time": "盘后",
+   "kind": "earnings",
+   "event": "GOOGL 财报（预期 EPS $2.94）",
+   "tickers": [
+    "GOOGL"
+   ],
+   "in_book": false
+  },
+  {
+   "date": "2026-10-28",
+   "time": "盘后",
+   "kind": "earnings",
+   "event": "MSFT 财报（预期 EPS $4.71）",
+   "tickers": [
+    "MSFT"
+   ],
+   "in_book": false
   }
  ],
  "errors": []
