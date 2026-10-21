@@ -1,76 +1,90 @@
 {
- "fetched": "2026-10-21T13:30:48+00:00",
+ "fetched": "2026-10-21T15:34:27+00:00",
  "hours": 36,
  "leads": [
   {
-   "title": "Government websites go dark as vulnerabilities in programming language send shudder across internet",
+   "title": "Nasdaq leads gains as SpaceX, Super Micro results improve AI appetite By Reuters",
+   "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
+   "published": "2026-10-21 15:17 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.05%",
+   "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-005-4963621",
+   "published": "2026-10-21 15:10 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "United Airlines sees elevated fuel costs through 2027, flags margin challenges",
+   "url": "https://www.investing.com/news/stock-market-news/united-airlines-sees-elevated-fuel-costs-through-2027-flags-margin-challenges-4963584",
+   "published": "2026-10-21 15:06 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "FCC chair says broadcast networks could violate regulatory obligations by airing ’fake polls’",
+   "url": "https://www.investing.com/news/stock-market-news/fcc-chair-says-broadcast-networks-could-violate-regulatory-obligations-by-airing-fake-polls-4963599",
+   "published": "2026-10-21 15:00 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "Government websites go dark as software flaw sparks security scramble",
    "url": "https://www.investing.com/news/stock-market-news/cyber-agency-warns-websites-may-go-dark-as-php-prepares-critical-fix-4961963",
-   "published": "2026-10-21 13:12 UTC",
+   "published": "2026-10-21 15:00 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "FTSE 100 today: Stocks edge up despite UK inflation at 3.5%",
-   "url": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-slip-as-uk-inflation-quickens-to-35-4961773",
-   "published": "2026-10-21 13:10 UTC",
+   "title": "Norway stocks higher at close of trade; Oslo OBX up 0.97%",
+   "url": "https://www.investing.com/news/stock-market-news/norway-stocks-higher-at-close-of-trade-oslo-obx-up-097-4963595",
+   "published": "2026-10-21 15:00 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "OpenAI expands ChatGPT ads to 26 more countries in bid to boost revenue",
-   "url": "https://www.investing.com/news/stock-market-news/openai-expands-chatgpt-ads-to-26-more-countries-in-bid-to-boost-revenue-4963176",
-   "published": "2026-10-21 13:06 UTC",
+   "title": "Israel stocks lower at close of trade; TA 35 down 0.05%",
+   "url": "https://www.investing.com/news/stock-market-news/israel-stocks-lower-at-close-of-trade-ta-35-down-005-4963583",
+   "published": "2026-10-21 14:55 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Top insider buys and sells disclosed on Tuesday",
-   "url": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-on-tuesday-93CH-4963139",
-   "published": "2026-10-21 13:02 UTC",
+   "title": "United Airlines CEO says fuel prices expected to stay high in 2027",
+   "url": "https://www.investing.com/news/stock-market-news/united-airlines-ceo-says-fuel-prices-expected-to-stay-high-in-2027-93CH-4963575",
+   "published": "2026-10-21 14:51 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Piper Sandler calls DigitalOcean pullback overdone, upgrades to Overweight",
-   "url": "https://www.investing.com/news/stock-market-news/piper-sandler-calls-digitalocean-pullback-overdone-upgrades-to-overweight-4963120",
-   "published": "2026-10-21 13:00 UTC",
+   "title": "Greece stocks higher at close of trade; Athens General Composite up 1.27%",
+   "url": "https://www.investing.com/news/stock-market-news/greece-stocks-higher-at-close-of-trade-athens-general-composite-up-127-4963572",
+   "published": "2026-10-21 14:50 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "European shares edge up on earnings support; Big Tech results awaited",
-   "url": "https://www.investing.com/news/stock-market-news/european-shares-steady-ahead-of-big-tech-reports-4961665",
-   "published": "2026-10-21 13:00 UTC",
+   "title": "Apple will have limited iPhone Duo units available in stores on Friday",
+   "url": "https://www.investing.com/news/stock-market-news/apple-will-have-limited-iphone-duo-units-available-in-stores-on-friday-4963408",
+   "published": "2026-10-21 14:48 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.26%",
-   "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-026-4963071",
-   "published": "2026-10-21 12:45 UTC",
+   "title": "Investors flood to Jio IPO on day one of India’s largest offering",
+   "url": "https://www.investing.com/news/stock-market-news/ambanis-32-billion-jio-ipo-subscribed-within-two-hours-in-record-indian-sale-4961607",
+   "published": "2026-10-21 14:43 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "INVE Technologies stock surges on $20M share buyback tender",
-   "url": "https://www.investing.com/news/stock-market-news/inve-technologies-stock-surges-on-20m-share-buyback-tender-4963070",
-   "published": "2026-10-21 12:44 UTC",
+   "title": "Exclusive-Hungary considers replacing Russia’s Rosatom in nuclear project By Reuters",
+   "url": "https://www.investing.com/news/commodities-news/exclusivehungary-considers-replacing-russias-rosatom-in-nuclear-project-4963463",
+   "published": "2026-10-21 14:19 UTC",
    "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Netflix slides as weak outlook deepens worries on viewership, revenue growth",
-   "url": "https://www.investing.com/news/stock-market-news/netflix-slides-as-weak-profit-ad-outlook-intensify-investor-anxiety-4962151",
-   "published": "2026-10-21 12:42 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Robinhood is a “generational growth story” declares analyst",
-   "url": "https://www.investing.com/news/stock-market-news/robinhood-is-a-generational-growth-story-declares-analyst-4963060",
-   "published": "2026-10-21 12:41 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
    "title": "FuelCell Energy system receives 99.9% reliability rating from PJM",
@@ -101,23 +115,9 @@
    "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Nasdaq futures lead gains as SpaceX, Super Micro results lift AI trade By Reuters",
-   "url": "https://www.investing.com/news/economy-news/nasdaq-futures-lead-gains-as-spacex-super-micro-results-lift-ai-trade-4962357",
-   "published": "2026-10-21 10:48 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
    "title": "U.S. Treasury yields drop on safe-haven flows; French yields hit 5% mark",
    "url": "https://www.investing.com/news/forex-news/french-yields-hover-near-2002-highs-hotter-uk-inflation-sparks-gilt-pressure-4961706",
    "published": "2026-10-21 10:46 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Gold inches down amid higher oil prices; Fed rate outlook in focus",
-   "url": "https://www.investing.com/news/commodities-news/gold-falls-near-4110-as-iran-peace-hopes-fade-fed-rate-outlook-clouds-demand-4961463",
-   "published": "2026-10-21 10:42 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -129,7 +129,7 @@
    "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Bitcoin climbs to $83.5k but oil, AI jitters limit upside",
+   "title": "Bitcoin ticks up to $83.4k but oil, AI jitters limit upside",
    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-firms-to-82k-but-oil-ai-jitters-limit-upside-4961711",
    "published": "2026-10-21 10:29 UTC",
    "publisher": "Investing.com",
@@ -143,16 +143,16 @@
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Sterling today: Pound climbs on hot UK CPI as dollar weakens",
-   "url": "https://uk.investing.com/news/forex-news/sterling-today-pound-climbs-on-hot-uk-cpi-as-dollar-weakens-4921796",
-   "published": "2026-10-21 09:12 UTC",
+   "title": "Netanyahu pushes for renewed large-scale strikes on Iran, FT reports",
+   "url": "https://www.investing.com/news/economy-news/netanyahu-pushes-for-renewed-largescale-strikes-on-iran-ft-reports-4961577",
+   "published": "2026-10-21 09:47 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Asian stocks climb as strong earnings buoy Wall Street By Reuters",
-   "url": "https://www.investing.com/news/economy-news/asian-stocks-climb-as-strong-earnings-buoy-wall-street-4961492",
-   "published": "2026-10-21 08:16 UTC",
+   "title": "Sterling today: Pound climbs on hot UK CPI as dollar weakens",
+   "url": "https://in.investing.com/news/forex-news/sterling-today-pound-climbs-on-hot-uk-cpi-as-dollar-weakens-5644591",
+   "published": "2026-10-21 09:12 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -164,23 +164,16 @@
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA By Reuters",
-   "url": "https://ca.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4892140",
-   "published": "2026-10-21 07:06 UTC",
+   "title": "Silver Gains As US Treasury Yields Ease Near One-Month Lows On Weak Housing Data By Kedia Advisory",
+   "url": "https://in.investing.com/news/commodities-news/silver-gains-as-us-treasury-yields-ease-near-onemonth-lows-on-weak-housing-data-5644100",
+   "published": "2026-10-21 04:11 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Netanyahu pushes for renewed large-scale strikes on Iran, FT reports",
-   "url": "https://www.investing.com/news/economy-news/netanyahu-pushes-for-renewed-largescale-strikes-on-iran-ft-reports-4961577",
-   "published": "2026-10-21 05:28 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Silver Gains As US Treasury Yields Ease Near One-Month Lows On Weak Housing Data By Kedia Advisory",
-   "url": "https://in.investing.com/news/commodities-news/silver-gains-as-us-treasury-yields-ease-near-onemonth-lows-on-weak-housing-data-5644100",
-   "published": "2026-10-21 04:11 UTC",
+   "title": "Gold turns higher as oil prices dip, investors eye Fed rate outlook",
+   "url": "https://www.investing.com/news/commodities-news/gold-falls-near-4110-as-iran-peace-hopes-fade-fed-rate-outlook-clouds-demand-4961463",
+   "published": "2026-10-21 01:30 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -220,16 +213,16 @@
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Raymond James raises Constellation Energy stock price target on nuclear monetization",
-   "url": "https://uk.investing.com/news/stock-market-news/raymond-james-raises-constellation-energy-stock-price-target-on-nuclear-monetization-93CH-4920164",
-   "published": "2026-10-20 13:18 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
    "title": "Gold eases as higher oil prices stoke inflation concerns By Reuters",
    "url": "https://au.investing.com/news/economy-news/gold-slips-as-investors-weigh-fed-rate-outlook-4699909",
    "published": "2026-10-20 13:06 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Fed to skip October but raise rates again in December, nearly all economists say: Reuters poll By Reuters",
+   "url": "https://www.investing.com/news/economy-news/fed-to-skip-october-but-raise-rates-again-in-december-nearly-all-economists-say-reuters-poll-4960095",
+   "published": "2026-10-20 12:57 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -272,41 +265,6 @@
    "title": "Iran prolongs talks in stalemate to influence US midterms, officials say By Reuters",
    "url": "https://www.investing.com/news/commodities-news/iran-prolongs-talks-in-stalemate-to-influence-us-midterms-officials-say-4959490",
    "published": "2026-10-20 10:34 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Bitcoin slides below $82,000 as elevated oil prices, Fed outlook weigh",
-   "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-82000-as-elevated-oil-prices-fed-outlook-weigh-4958968",
-   "published": "2026-10-20 07:08 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "How safe havens stack up as tech, energy and France fears grip markets By Reuters",
-   "url": "https://www.investing.com/news/commodities-news/how-safe-havens-stack-up-as-tech-energy-and-france-fears-grip-markets-4958749",
-   "published": "2026-10-20 04:53 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Gold slips in volatile session, as choppy moves in oil outweigh weaker dollar",
-   "url": "https://www.investing.com/news/commodities-news/gold-dips-as-oil-prices-fuel-inflation-feds-outlook-in-focus-4958694",
-   "published": "2026-10-20 02:33 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Stocks mostly rise as oil, US yields ease; French stocks fall By Reuters",
-   "url": "https://www.investing.com/news/economy-news/asian-shares-tumble-oil-rises-as-markets-await-ai-sector-results-4958677",
-   "published": "2026-10-20 02:16 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Starboard targets Solstice with $100 million cost-cut push after failed deal",
-   "url": "https://in.investing.com/news/stock-market-news/starboard-targets-solstice-with-100-million-costcut-push-after-failed-deal--ft-5641509",
-   "published": "2026-10-20 02:08 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   }

@@ -661,3 +661,12 @@ grep "^## \[" log.md | tail -5
 - leads=5（持仓头条在先）：①⚠️ Raymond James 以 ERCOT 转弱下调 [[vst]] 目标价（10-21，SEC 无对应 8-K、分析师观点、无电力合约推迟/取消实证、不改 Invalidation；同日另有 Raymond James maintains Strong Buy 条目）；②Raymond James 以 nuclear monetization 上调 [[ceg]] 目标价（10-20，lead、Edge 同向）；③Reuters 调查"10 月跳过、12 月加息"；④FuelCell Energy 获 PJM 99.9% 可靠性评级（sector tape、非本仓）；⑤美债受避险买盘下行、10Y 近一月低位。均非一手。
 - 利率侧：联储证券 CPI（鹰）vs Reuters 10 月跳过/美债避险下行（鸽）＝既列利率敏感性风险双向注脚，10/28 FOMC 验证。
 - invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。`logic_changes:[]`、`opportunities_new=0`。
+
+## [2026-10-21] brief | 第二次跑（同日盘中·确认一致）：持仓零一手复跑一致（SEC 0 新增/0 flags）、唯一新一手仍＝联储证券 9 月 CPI、首跑后新增 lead＝SpaceX/Super Micro 改善 AI 情绪、全线不变
+- pages touched: [[2026-10-21]]（brief 更新）
+- sources ingested: 0（本次无新增；联储证券 9 月 CPI 首跑已入库、All-In 2 条 clip 首跑已入库）
+- filings read: 0（SEC `--since 2026-10-20` [[ceg]] 27/[[tln]] 29/[[vst]] 33 kept，均 0 新增/0 flags）
+- 外资复跑：Goldman sitemap 无 ≥10-20 insights/articles 新稿；Apollo（JS 空）；MS /ideas 最新 LatAm 10-15/UK budget 10-14（窗外）；PIMCO/KKR/Bridgewater/JPM/Blackstone 无窗口内新稿；All-In youtube 8 条 id 全已入库（10-18 Horowitz clip 已有源页）、无新视频。东财三桶 10-21 新命中多为 A 股 AI 链/中国口径（开源 AI 散热四/中航中国 PPI/东吴 AI 安全/中诚信城燃）判出范围。
+- prices（10-21 盘中刷新）：[[ceg]] $265.97（距 A $375 +41.0%）· [[vst]] $155.54（距 A $172 +10.6%）· [[tln]] $360.745（距买入线 $322 需 −10.7%·距 A $403 +11.7% 上方）均无 ⚠️。
+- leads=5（持仓头条在先）：①⚠️ Raymond James 下调 [[vst]] 目标价；②Raymond James 上调 [[ceg]] 目标价；③Nasdaq 因 SpaceX/Super Micro 业绩改善 AI 情绪回暖（首跑后新增、需求侧正向注脚）；④Reuters 10 月跳过/12 月加息；⑤美债避险下行。均非一手。
+- invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。
