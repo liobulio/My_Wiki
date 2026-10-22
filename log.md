@@ -670,3 +670,15 @@ grep "^## \[" log.md | tail -5
 - prices（10-21 盘中刷新）：[[ceg]] $265.97（距 A $375 +41.0%）· [[vst]] $155.54（距 A $172 +10.6%）· [[tln]] $360.745（距买入线 $322 需 −10.7%·距 A $403 +11.7% 上方）均无 ⚠️。
 - leads=5（持仓头条在先）：①⚠️ Raymond James 下调 [[vst]] 目标价；②Raymond James 上调 [[ceg]] 目标价；③Nasdaq 因 SpaceX/Super Micro 业绩改善 AI 情绪回暖（首跑后新增、需求侧正向注脚）；④Reuters 10 月跳过/12 月加息；⑤美债避险下行。均非一手。
 - invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。
+
+## [2026-10-22] brief | 持仓零一手事件（SEC 0 新增/0 flags、全线 ok/watch 不变、无价位 ⚠️）；今日主线＝Meta 26Q3 capex 指引上调至 $135–145B + FCF 首次转负
+- pages touched: [[2026-10-22]], [[2026-10-22-guosen-meta-q3-capex]], [[2026-10-22-guosen-ai-datacenter-irr]], [[2026-10-22-apollo-daily-spark-ai-circularity-tokens]], [[2026-10-21-all-in-krishna-arora-quantum-cyber]], [[guosen]], [[apollo]], [[ceg]], [[vst]], [[tln]], index.md, brief/2026-10-22.*
+- SEC：`sec_fetch.py --since 2026-10-21` [[ceg]]（27 kept）/[[tln]]（29 kept）/[[vst]]（33 kept）均 **0 新增 8-K/10-Q/10-K、0 flags**、`filings_read=0`。
+- sources_ingested=4：外资 1（[[2026-10-22-apollo-daily-spark-ai-circularity-tokens|Apollo·AI 循环性]]"token 支出前 1% 公司 80% VC-backed"，foreign slot）+ 内资 2（[[2026-10-22-guosen-meta-q3-capex|国信·Meta 26Q3]]/[[2026-10-22-guosen-ai-datacenter-irr|国信·数据中心 IRR]]）+ All-In 1 条新视频（[[2026-10-21-all-in-krishna-arora-quantum-cyber]]，shows、transcript:false、与持仓无关）。
+- 今日主线：**Meta 26Q3**——收入 $64.601B/+26%、剔除 $9.89B（52 州总检察长）和解金后 EPS $7.40（超一致预期 $5.94）；但 **capex $34.9B/+80%、占收入 54%、FCF 首次转负 −$2.1B、前三季回购归零、净现金骤降至 ~$15 亿、全年 capex 指引上调至 $135–145B**（下沿 $130→$135B）。超大规模云 capex 不退坡＝firm 电力需求侧正面（利好）；FCF 转负/杠杆上升属 [[ai-power-ipp-bull]] **Invalidation #1 上游（ROI/融资可持续性）**、仍无电力合约推迟/取消实证、#1 维持 ok/watch。✅ Meta 核心数据 + capex 指引外部核（Fortune/StockTitan/Motley Fool）。
+- 融资可持续性另两读数（均 Invalidation #1 上游）：国信·数据中心 IRR"CoreWeave uIRR 15.3%>WACC 11.8%、项目尚能覆盖资本成本（偏缓释）"但示警"10Y 实际收益率近 3%、Oracle 5Y CDS ~200bp 创高"；Apollo·循环性"token 支出 80% VC-backed"。
+- 利率侧：10-22 美债收益率跌至**一个月低位**（避险：法国政治 + Meta 后 AI 波动）——长端回落边际缓释长久期 PPA/混合资本折现（既列利率风险双向注脚）；中东供应扰动推油价上行＝通胀上行风险（与联储证券"天然气推电价"注脚同侧）。10/28 FOMC 验证"跳过 vs 再加"。
+- 外资复扫：Apollo Daily Spark 页今日 curl 恢复，窗口内（>10-21）唯一新稿＝10-22"循环性"（已入；10-14/16/17 三篇为先前 JS 空期 backlog、窗外不入）；Goldman sitemap 10-21/22 仅 pressroom/community、无 insights/articles；MS /ideas 无新 overseas（LatAm 10-15/UK budget 10-14 窗外）；Bridgewater/JPM/PIMCO/KKR/Blackstone 无窗口内新稿。东财三桶 10-22 命中国信 Meta/国信 IRR（入库），余为 A 股/中国口径（中诚信半导体信用/东吴 AI 安全/中航 9 月 PPI/城燃/万联通信 A 股链）判出范围。
+- prices（10-21 收盘）：[[ceg]] $270.74（距 A $375 +38.5%）· [[vst]] $156.14（距 A $172 +10.2%、远离 ≤5%）· [[tln]] $359.49（距买入线 $322 需 −10.4%·距 A $403 +12.1% 上方）均无 ⚠️。CEG/VST 锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
+- leads=5（持仓头条在先）：①⚠️ HSBC 首次覆盖 [[tln]] 给买入（非一手、无 SEC 文件、观察名）；②Meta 盘前下跌（chased 国信 Meta 源页）；③Meta 令 AI 乐观情绪降温、科技股普跌；④美债跌至近一个月低位；⑤中东紧张推油价上行。均非一手。
+- invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。
