@@ -682,3 +682,9 @@ grep "^## \[" log.md | tail -5
 - prices（10-21 收盘）：[[ceg]] $270.74（距 A $375 +38.5%）· [[vst]] $156.14（距 A $172 +10.2%、远离 ≤5%）· [[tln]] $359.49（距买入线 $322 需 −10.4%·距 A $403 +12.1% 上方）均无 ⚠️。CEG/VST 锚点基于 2026-06-30 资产负债表、11-06 Q3 10-Q 后重算。
 - leads=5（持仓头条在先）：①⚠️ HSBC 首次覆盖 [[tln]] 给买入（非一手、无 SEC 文件、观察名）；②Meta 盘前下跌（chased 国信 Meta 源页）；③Meta 令 AI 乐观情绪降温、科技股普跌；④美债跌至近一个月低位；⑤中东紧张推油价上行。均非一手。
 - invalidation flags：无变化。[[ceg]] ok/watch/ok/ok · [[vst]] ok×4 · [[tln]]（观察名）ok/watch/ok/ok。`logic_changes:[]`、`opportunities_new=0`。中选政策风险（2026-11-03）维持 Invalidation #1 上游 watch。
+
+## [2026-10-22] brief | 同日第二次跑（盘中·确认一致）：持仓零一手复跑一致，全线 ok/watch 不变；首跑后唯一新增＝盘面——Meta 后 AI/电力股普跌、TLN 逼近 $322 买入线（+1.7%、未触及）、HSBC 首次覆盖三只均买入（leads、非一手）
+- pages touched: [[wiki/briefs/2026-10-22]], [[ceg]], [[vst]], [[tln]], [[brief/2026-10-22.html]], [[brief/2026-10-22.md]]
+- sources ingested: 0 新增（首跑已入库 4 源：国信 Meta/国信 IRR/Apollo 循环性/All-In 新视频；本跑东财三桶复查余为 A 股或中国口径、出范围）
+- filings read: 0（SEC `--since 2026-10-21` CEG 27/TLN 29/VST 33 kept、均 0 新增/0 flags）
+- note: prices(10-22 盘中) CEG $256.26(距 A +46.3%)/VST $140.09(距 A +22.8%、跌破 9/14 减仓价 $141)/TLN $327.52(距买入线仅 +1.7%·距 A +23.0% 上方) 均无 ⚠️；leads=5（HSBC 覆盖 CEG/VST/TLN 三条·持仓头条在先/Meta 令 AI 情绪降温·chased 国信 Meta/美债近一月低位）均非一手；logic_changes=[]、opportunities_new=0；Invalidation 全线不变 CEG ok/watch/ok/ok·VST ok×4·TLN(观察名) ok/watch/ok/ok
