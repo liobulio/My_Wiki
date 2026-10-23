@@ -1,109 +1,249 @@
 {
- "fetched": "2026-10-22T15:38:03+00:00",
+ "fetched": "2026-10-23T13:02:21+00:00",
  "hours": 36,
  "leads": [
   {
-   "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.01%",
-   "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-001-4966885",
-   "published": "2026-10-22 15:15 UTC",
+   "title": "Form 8K Cheniere Energy Partners LP Unit For: 23 October",
+   "url": "https://uk.investing.com/news/stock-market-news/form-8k-cheniere-energy-partners-lp-unit-for-23-october-93CH-4928613",
+   "published": "2026-10-23 12:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Form 8K UWM Holdings Corp For: 23 October",
+   "url": "https://uk.investing.com/news/stock-market-news/form-8k-uwm-holdings-corp-for-23-october-93CH-4928620",
+   "published": "2026-10-23 12:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Form 4 Tidal Trust II For: 23 October",
+   "url": "https://uk.investing.com/news/stock-market-news/form-4-tidal-trust-ii-for-23-october-93CH-4928576",
+   "published": "2026-10-23 12:46 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "U.S. stock futures slide amid AI-driven tech jitters, oil price spike",
+   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nasdaq-posts-worst-day-since-june-4967865",
+   "published": "2026-10-23 12:43 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Citi says housing sector contraction deepens as rates hit 7.5%",
-   "url": "https://www.investing.com/news/stock-market-news/citi-says-housing-sector-contraction-deepens-as-rates-hit-75-93CH-4966882",
-   "published": "2026-10-22 15:13 UTC",
+   "title": "Apple fans, customers react as iPhone Duo hits stores",
+   "url": "https://www.investing.com/news/stock-market-news/apple-fans-customers-react-as-iphone-duo-hits-stores-4969372",
+   "published": "2026-10-23 12:42 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Factbox-Governments, companies take websites offline over PHP flaws",
-   "url": "https://www.investing.com/news/stock-market-news/factboxwebsites-taken-offline-over-php-risks-4963631",
-   "published": "2026-10-22 15:12 UTC",
+   "title": "AmEx lifts 2026 profit forecast as travel, entertainment spending drives growth",
+   "url": "https://www.investing.com/news/stock-market-news/american-express-raises-2026-profit-forecast-as-affluent-customers-keep-spending-4968920",
+   "published": "2026-10-23 12:42 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Alcoa shares fall after Argus downgrade warns of market headwinds",
-   "url": "https://www.investing.com/news/stock-market-news/alcoa-shares-fall-after-argus-downgrade-warns-of-market-headwinds-4966878",
-   "published": "2026-10-22 15:11 UTC",
+   "title": "Cboe Global Markets stock gains on $550M buyback boost",
+   "url": "https://www.investing.com/news/stock-market-news/cboe-global-markets-stock-gains-on-550m-buyback-boost-4969297",
+   "published": "2026-10-23 12:31 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Devon Energy faces pressure to sell more assets or entire company - Bloomberg",
-   "url": "https://www.investing.com/news/stock-market-news/devon-energy-faces-pressure-to-sell-more-assets-or-entire-company--bloomberg-93CH-4966877",
-   "published": "2026-10-22 15:11 UTC",
+   "title": "Meta’s capital-raising plans expose a major weakness in the AI boom",
+   "url": "https://www.investing.com/news/stock-market-news/metas-capitalraising-plans-expose-a-major-weakness-in-the-ai-boom-4969253",
+   "published": "2026-10-23 12:24 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "BofA sees trucking pricing gains ahead despite weak freight demand",
-   "url": "https://www.investing.com/news/stock-market-news/bofa-sees-trucking-pricing-gains-ahead-despite-weak-freight-demand-93CH-4966876",
-   "published": "2026-10-22 15:11 UTC",
+   "title": "Nokia shares analysis: Is this AI stock a buy amid oversold conditions?",
+   "url": "https://www.investing.com/news/stock-market-news/nokia-shares-analysis-is-this-ai-stock-a-buy-amid-oversold-conditions-93CH-4969226",
+   "published": "2026-10-23 12:17 UTC",
    "publisher": "Investing.com",
    "feed": "https://www.investing.com/rss/news_25.rss"
   },
   {
-   "title": "Evercore maintains oil price forecasts amid supply disruptions",
-   "url": "https://www.investing.com/news/stock-market-news/evercore-maintains-oil-price-forecasts-amid-supply-disruptions-93CH-4966870",
+   "title": "Why is LKQ stock crashing today?",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-lkq-stock-crashing-today-93CH-4969222",
+   "published": "2026-10-23 12:15 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "Is Netflix stock a buy at 52-week lows?",
+   "url": "https://www.investing.com/news/stock-market-news/is-netflix-stock-a-buy-at-52week-lows-93CH-4969205",
+   "published": "2026-10-23 12:13 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "BofA Names Preferred Picks Among European Chipmakers Ahead of Earnings",
+   "url": "https://www.investing.com/news/stock-market-news/bofa-names-preferred-picks-among-european-chipmakers-ahead-of-earnings-4969203",
+   "published": "2026-10-23 12:13 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "LKQ stock tumbles 10% on weak Q3 results, CEO departure",
+   "url": "https://www.investing.com/news/stock-market-news/lkq-stock-tumbles-10-on-weak-q3-results-ceo-departure-4969181",
+   "published": "2026-10-23 12:12 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://www.investing.com/rss/news_25.rss"
+  },
+  {
+   "title": "Studsvik Q3 2026 presentation: growth accelerates amid cash pressure",
+   "url": "https://in.investing.com/news/stock-market-news/studsvik-q3-2026-presentation-growth-accelerates-amid-cash-pressure-93CH-5650692",
+   "published": "2026-10-23 10:33 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "BofA flags further downside risk for stocks, yields and dollar",
+   "url": "https://www.investing.com/news/stock-market-news/bofa-flags-further-downside-risk-for-stocks-yields-and-dollar-4968691",
+   "published": "2026-10-23 10:26 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Earnings call transcript: Studsvik Q3 2026 sales rise, but stock slips",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-studsvik-q3-2026-sales-rise-but-stock-slips-93CH-4927946",
+   "published": "2026-10-23 10:16 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "U.S. prepared for prolonged Iran conflict, Trump envoy tells FT",
+   "url": "https://www.investing.com/news/economy-news/us-prepares-for-prolonged-iran-conflict-trump-envoy-tells-ft-4968075",
+   "published": "2026-10-23 09:50 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Tech selloff relents, oil at five-month high By Reuters",
+   "url": "https://www.investing.com/news/economy-news/asian-shares-wobble-as-tech-rout-boosts-bonds-dents-rate-hike-bets-4967929",
+   "published": "2026-10-23 09:27 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Form 4 FT 13290 For: 23 October",
+   "url": "https://ca.investing.com/news/stock-market-news/form-4-ft-13290-for-23-october-93CH-4898734",
+   "published": "2026-10-23 08:09 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Yen rallies, euro sags, dollar shrugs as AI worries drive haven bid",
+   "url": "https://www.investing.com/news/forex-news/asia-fx-steadies-as-oil-surge-weighs-on-risk-appetite-yen-holds-gains-4967999",
+   "published": "2026-10-23 08:03 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Exclusive-US, South Korean officials see little chance of Trump-Kim meeting this year By Reuters",
+   "url": "https://www.investing.com/news/world-news/exclusiveus-south-korean-officials-see-little-chance-of-trumpkim-meeting-this-year-4968005",
+   "published": "2026-10-23 07:25 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Form 4 Invesco Unit Trusts For: 23 October",
+   "url": "https://ca.investing.com/news/stock-market-news/form-4-invesco-unit-trusts-for-23-october-93CH-4898587",
+   "published": "2026-10-23 06:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Euro set for weekly drop against dollar, yen as France concerns resurface By Reuters",
+   "url": "https://www.investing.com/news/economy-news/yen-shines-as-ai-jitters-spur-safehaven-rush-4967941",
+   "published": "2026-10-23 02:18 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Gold hits 3-mth low as oil rally fuels rate concerns; set for weekly drop",
+   "url": "https://uk.investing.com/news/commodities-news/gold-hits-3mth-low-as-oil-rally-fuels-rate-concerns-set-for-weekly-drop-4927224",
+   "published": "2026-10-23 01:58 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "US nuclear power regulator allows applicants to include data from agency projects By Reuters",
+   "url": "https://www.investing.com/news/commodities-news/us-nuclear-power-regulator-allows-applicants-to-include-data-from-agency-projects-4967357",
+   "published": "2026-10-23 01:54 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Gold on track for sharp weekly drop as oil price surge fuels rate concerns",
+   "url": "https://www.investing.com/news/commodities-news/gold-hits-3mth-low-as-oil-rally-fuels-rate-concerns-set-for-weekly-drop-4967928",
+   "published": "2026-10-23 01:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "U.S. Treasury yields crater, 10-yr closes at one-month low on safe-haven demand",
+   "url": "https://www.investing.com/news/forex-news/french-yields-breach-5-amid-paris-budget-paralysis-and-nationwide-unrest-4964673",
+   "published": "2026-10-23 00:25 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "S&amp;P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff By Reuters",
+   "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180",
+   "published": "2026-10-22 21:38 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Canada, Turkey sign ’strategic partnership’ as part of Carney push to cut reliance on US By Reuters",
+   "url": "https://ca.investing.com/news/world-news/canada-turkey-sign-strategic-partnership-during-carney-visit-meant-to-boost-trade-and-investment-4897281",
+   "published": "2026-10-22 19:06 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Enova earnings on deck: Can lender rebound from bank deal collapse?",
+   "url": "https://www.investing.com/news/earnings/enova-earnings-on-deck-can-lender-rebound-from-bank-deal-collapse-93CH-4966505",
+   "published": "2026-10-22 18:10 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Nasdaq CEO flags ’modest softening’ in IPO market as macro uncertainty hits debuts By Reuters",
+   "url": "https://www.investing.com/news/economy-news/nasdaq-ceo-flags-modest-softening-in-ipo-market-as-macro-uncertainty-hits-debuts-4966976",
+   "published": "2026-10-22 16:10 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Why is Agnico Eagle stock sliding today?",
+   "url": "https://uk.investing.com/news/stock-market-news/why-is-agnico-eagle-stock-sliding-today-93CH-4926300",
+   "published": "2026-10-22 15:28 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "B.Riley cuts Armour Residential stock price target on book value drop",
+   "url": "https://uk.investing.com/news/stock-market-news/briley-cuts-armour-residential-stock-price-target-on-book-value-drop-93CH-4926262",
    "published": "2026-10-22 15:08 UTC",
    "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Jefferies sees French regulated savings outflows double in September",
-   "url": "https://www.investing.com/news/stock-market-news/jefferies-sees-french-regulated-savings-outflows-double-in-september-93CH-4966858",
-   "published": "2026-10-22 15:05 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Scotiabank Names Top Utility Stocks Amid Data Center Growth",
-   "url": "https://www.investing.com/news/stock-market-news/scotiabank-names-top-utility-stocks-amid-data-center-growth-4966855",
-   "published": "2026-10-22 15:04 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Edwards Lifesciences faces stock risk ahead of trial results says Stifel",
-   "url": "https://www.investing.com/news/stock-market-news/edwards-lifesciences-faces-stock-risk-ahead-of-trial-results-says-stifel-93CH-4966847",
-   "published": "2026-10-22 15:01 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://www.investing.com/rss/news_25.rss"
-  },
-  {
-   "title": "Why is CrowdStrike stock climbing today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-crowdstrike-stock-climbing-today-93CH-4966517",
-   "published": "2026-10-22 13:54 UTC",
-   "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Why is Applied Materials stock sliding today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-applied-materials-stock-sliding-today-93CH-4966496",
-   "published": "2026-10-22 13:54 UTC",
+   "title": "Nasdaq falls over 2% on Meta drag, slide in chip stocks; oil jumps and bonds rally",
+   "url": "https://in.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-5646791",
+   "published": "2026-10-22 14:46 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Why is Lumentum stock sliding today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-lumentum-stock-sliding-today-93CH-4966484",
-   "published": "2026-10-22 13:49 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Las Vegas Sands stock hits 52-week low at 35.24 USD",
-   "url": "https://www.investing.com/news/company-news/las-vegas-sands-stock-hits-52week-low-at-3524-usd-93CH-4966432",
-   "published": "2026-10-22 13:35 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Terra Innovatum submits 12 of 18 draft safety chapters to NRC",
-   "url": "https://uk.investing.com/news/stock-market-news/terra-innovatum-submits-12-of-18-draft-safety-chapters-to-nrc-93CH-4925828",
-   "published": "2026-10-22 13:30 UTC",
+   "title": "Oil prices rise as Mideast tensions fuel supply disruption fears",
+   "url": "https://in.investing.com/news/commodities-news/oil-prices-rise-as-meast-tensions-fuel-fears-of-supply-disruptions-5646778",
+   "published": "2026-10-22 14:19 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -115,7 +255,7 @@
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "US weekly jobless claims near 57-year lows By Reuters",
+   "title": "US weekly jobless claims near 57-year lows, underscore labor market stability By Reuters",
    "url": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-near-57year-lows-4966076",
    "published": "2026-10-22 13:11 UTC",
    "publisher": "Investing.com",
@@ -129,9 +269,23 @@
    "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "How should investors position for further equity gains, according to UBS?",
-   "url": "https://www.investing.com/news/stock-market-news/how-should-investors-position-for-further-equity-gains-according-to-ubs-4966092",
-   "published": "2026-10-22 12:46 UTC",
+   "title": "JPMorgan says tech stocks lead U.S. futures lower on risks",
+   "url": "https://uk.investing.com/news/stock-market-news/jpmorgan-says-tech-stocks-lead-us-futures-lower-on-risks-93CH-4925537",
+   "published": "2026-10-22 12:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Freedom Broker downgrades Barrick Mining stock rating on reduced estimates",
+   "url": "https://uk.investing.com/news/stock-market-news/freedom-broker-downgrades-barrick-mining-stock-rating-on-reduced-estimates-93CH-4925541",
+   "published": "2026-10-22 12:52 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "ARMOUR Q3 2026 slides: book value falls 17% amid rate surge",
+   "url": "https://uk.investing.com/news/stock-market-news/armour-q3-2026-slides-book-value-falls-17-amid-rate-surge-93CH-4925534",
+   "published": "2026-10-22 12:50 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
@@ -143,13 +297,6 @@
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "HSBC initiates Constellation Energy stock with buy rating on growth",
-   "url": "https://uk.investing.com/news/stock-market-news/hsbc-initiates-constellation-energy-stock-with-buy-rating-on-growth-93CH-4925490",
-   "published": "2026-10-22 12:38 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
    "title": "HSBC initiates Talen Energy stock coverage with buy rating",
    "url": "https://uk.investing.com/news/stock-market-news/hsbc-initiates-talen-energy-stock-coverage-with-buy-rating-93CH-4925498",
    "published": "2026-10-22 12:38 UTC",
@@ -157,22 +304,22 @@
    "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Why is Forgent Power Solutions stock sliding today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-forgent-power-solutions-stock-sliding-today-93CH-4965997",
-   "published": "2026-10-22 12:31 UTC",
+   "title": "HSBC initiates Constellation Energy stock with buy rating on growth",
+   "url": "https://uk.investing.com/news/stock-market-news/hsbc-initiates-constellation-energy-stock-with-buy-rating-on-growth-93CH-4925490",
+   "published": "2026-10-22 12:38 UTC",
+   "publisher": "Investing.com",
+   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "title": "Jobless Claims Drop Below Expectations, Indicating Labor Market Strength",
+   "url": "https://www.investing.com/news/economic-indicators/jobless-claims-drop-below-expectations-indicating-labor-market-strength-93CH-4966028",
+   "published": "2026-10-22 12:34 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Deutsche Bank names three stocks as standouts as AI usage grows",
-   "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-names-three-stocks-as-standouts-as-ai-usage-grows-4965999",
-   "published": "2026-10-22 12:31 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Goldman Sachs Preferred Picks in EU Building Materials Hinge on Pricing Power",
-   "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-preferred-picks-in-eu-building-materials-hinge-on-pricing-power-4965917",
+   "title": "TSX futures point lower following Meta, Tesla earnings",
+   "url": "https://www.investing.com/news/economy-news/tsx-futures-point-lower-following-meta-tesla-earnings-4965848",
    "published": "2026-10-22 12:25 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
@@ -185,242 +332,60 @@
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "U.S. Treasury yields drop to 1-month lows on safe-haven flows",
-   "url": "https://www.investing.com/news/forex-news/french-yields-breach-5-amid-paris-budget-paralysis-and-nationwide-unrest-4964673",
-   "published": "2026-10-22 12:19 UTC",
+   "title": "- Investing.com",
+   "url": "https://www.investing.com/news/pro/hsbc-initiates-coverage-of-vistra-corp-at-buy-with-a-price-target-of-19000-4964719",
+   "published": "2026-10-22 11:11 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "H.C. Wainwright initiates Parabilis Medicines stock coverage with buy rating",
-   "url": "https://www.investing.com/news/analyst-ratings/hc-wainwright-initiates-parabilis-medicines-stock-coverage-with-buy-rating-93CH-4965718",
-   "published": "2026-10-22 12:03 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Blackstone earnings beat by $0.03, revenue fell short of estimates",
-   "url": "https://www.investing.com/news/earnings/blackstone-earnings-beat-by-003-revenue-fell-short-of-estimates-4965781",
-   "published": "2026-10-22 12:01 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "US railroad operator Union Pacific’s quarterly profit rises By Reuters",
-   "url": "https://www.investing.com/news/stock-market-news/us-railroad-operator-union-pacifics-quarterly-profit-rises-4965779",
-   "published": "2026-10-22 12:00 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Union Pacific beats Q3 estimates but shares dip slightly on fuel costs",
-   "url": "https://www.investing.com/news/earnings/union-pacific-beats-q3-estimates-but-shares-dip-slightly-on-fuel-costs-93CH-4965764",
-   "published": "2026-10-22 11:55 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Ipsen raises 2026 guidance after third quarter sales beat",
-   "url": "https://www.investing.com/news/stock-market-news/ipsen-raises-2026-guidance-after-third-quarter-sales-beat-93CH-4965675",
-   "published": "2026-10-22 11:39 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Disco reports second quarter results above guidance",
-   "url": "https://www.investing.com/news/earnings/disco-reports-second-quarter-results-above-guidance-93CH-4965671",
-   "published": "2026-10-22 11:38 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "MSC Industrial Direct earnings beat by $0.05, revenue topped estimates",
-   "url": "https://www.investing.com/news/earnings/msc-industrial-direct-earnings-beat-by-005-revenue-topped-estimates-4965373",
-   "published": "2026-10-22 11:09 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Why is Meituan stock sliding today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-meituan-stock-sliding-today-93CH-4964660",
-   "published": "2026-10-22 10:51 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Yen surges to 3-week high as dollar wobbles ahead of c.bank meetings",
-   "url": "https://in.investing.com/news/forex-news/asia-fx-mixed-dollar-slips-near-3wk-low-as-traders-eye-central-bank-meetings-5646899",
-   "published": "2026-10-22 10:48 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Citizens cuts Alphabet stock price target on search competition risks",
-   "url": "https://www.investing.com/news/analyst-ratings/citizens-cuts-alphabet-stock-price-target-on-search-competition-risks-93CH-4965190",
-   "published": "2026-10-22 10:02 UTC",
+   "title": "Form 8K Huntington Bancshares 4.500 Depositary Rep Perp Prf Series H For: 22 October",
+   "url": "https://uk.investing.com/news/stock-market-news/form-8k-huntington-bancshares-4500-depositary-rep-perp-prf-series-h-for-22-october-93CH-4924804",
+   "published": "2026-10-22 10:32 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
    "title": "Sterling today: Pound edges higher on U.S. tech drag",
-   "url": "https://uk.investing.com/news/forex-news/sterling-today-pound-edges-higher-on-us-tech-drag-4924614",
-   "published": "2026-10-22 09:18 UTC",
+   "url": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-higher-on-us-tech-drag-4965127",
+   "published": "2026-10-22 09:24 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Why is J Sainsbury stock sliding today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-j-sainsbury-stock-sliding-today-93CH-4964807",
-   "published": "2026-10-22 07:18 UTC",
+   "title": "Meta’s revenue beat; Tesla’s lower annual sales goal - what’s moving markets",
+   "url": "https://www.investing.com/news/economy-news/metas-revenue-beat-teslas-lower-annual-sales-goal--whats-moving-markets-4964928",
+   "published": "2026-10-22 08:09 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Stocks fall as Meta dents AI optimism; French bonds under fire By Reuters",
+   "title": "Stocks drop as Meta dampens AI optimism; Treasury yields fall By Reuters",
    "url": "https://www.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4964558",
    "published": "2026-10-22 02:22 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Yen set for biggest rally in a month as investors seek safe havens By Reuters",
-   "url": "https://www.investing.com/news/economy-news/dip-in-the-dollar-takes-a-breather-with-fed-in-focus-4964546",
-   "published": "2026-10-22 02:17 UTC",
+   "title": "Canada’s Carney visits Turkey in push to ease US trade dependence By Reuters",
+   "url": "https://www.investing.com/news/world-news/canadas-carney-visits-turkey-in-push-to-ease-us-trade-dependence-4964545",
+   "published": "2026-10-22 02:08 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
+   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally",
+   "title": "Nasdaq posts worst day since June as AI financing worries batter risk sentiment",
    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498",
    "published": "2026-10-22 01:12 UTC",
    "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   },
   {
-   "title": "Gold slides as Middle East tensions fuel oil price jump, inflation fears",
+   "title": "Spot gold hits three-month low amid risk-off moves, climb in oil prices",
    "url": "https://www.investing.com/news/commodities-news/gold-falls-near-4115-as-saudi-attacks-fuel-inflation-fed-outlook-in-focus-4964496",
    "published": "2026-10-22 01:04 UTC",
    "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Oil prices rise as Mideast tensions fuel supply disruption fears",
-   "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-tensions-fuel-fears-of-supply-disruptions-4964479",
-   "published": "2026-10-22 00:44 UTC",
-   "publisher": "Investing.com",
    "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "U.S., Israel prepare for renewed Iran strikes after midterm elections - NYT",
-   "url": "https://www.investing.com/news/economy-news/us-israel-prepare-for-renewed-iran-strikes-after-midterm-elections--nyt-4964461",
-   "published": "2026-10-22 00:29 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Rudy C. Yakym III purchases Treasury Bill via Schwab",
-   "url": "https://www.investing.com/news/company-news/rudy-c-yakym-iii-purchases-treasury-bill-via-schwab-93CH-4963837",
-   "published": "2026-10-21 19:08 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "NextEra Energy Q3 2026 slides: 9.7% EPS growth, mixed results",
-   "url": "https://uk.investing.com/news/stock-market-news/nextera-energy-q3-2026-slides-97-eps-growth-mixed-results-93CH-4923146",
-   "published": "2026-10-21 14:30 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Exclusive-Hungary considers replacing Russia’s Rosatom in nuclear project By Reuters",
-   "url": "https://www.investing.com/news/commodities-news/exclusivehungary-considers-replacing-russias-rosatom-in-nuclear-project-4963463",
-   "published": "2026-10-21 14:19 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "FuelCell Energy system receives 99.9% reliability rating from PJM",
-   "url": "https://uk.investing.com/news/stock-market-news/fuelcell-energy-system-receives-999-reliability-rating-from-pjm-93CH-4922701",
-   "published": "2026-10-21 12:38 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "NANO Nuclear partners with IMPSA on reactor component engineering",
-   "url": "https://uk.investing.com/news/stock-market-news/nano-nuclear-partners-with-impsa-on-reactor-component-engineering-93CH-4922499",
-   "published": "2026-10-21 12:06 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "- Investing.com",
-   "url": "https://www.investing.com/news/pro/raymond-james-maintains-vistra-corp-at-strong-buy-with-a-price-target-of-17600-4962174",
-   "published": "2026-10-21 11:43 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "U.S. Treasury yields drop on safe-haven flows; French yields hit 5% mark",
-   "url": "https://www.investing.com/news/forex-news/french-yields-hover-near-2002-highs-hotter-uk-inflation-sparks-gilt-pressure-4961706",
-   "published": "2026-10-21 10:46 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Raymond James lowers Vistra Energy stock price target on weaker ERCOT",
-   "url": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-vistra-energy-stock-price-target-on-weaker-ercot-93CH-4922064",
-   "published": "2026-10-21 10:38 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=%22Constellation+Energy%22+OR+Vistra+OR+%22Talen+Energy%22+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Dollar holds near 3-week low; euro and yen consolidate as markets gauge Iran war",
-   "url": "https://ca.investing.com/news/forex-news/asia-fx-subdued-as-dollar-hovers-near-3week-low-rupee-extends-rally-4892236",
-   "published": "2026-10-21 10:26 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Why is Capital One Financial stock rallying today?",
-   "url": "https://www.investing.com/news/stock-market-news/why-is-capital-one-financial-stock-rallying-today-93CH-4962163",
-   "published": "2026-10-21 09:54 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Netanyahu pushes for renewed large-scale strikes on Iran, FT reports",
-   "url": "https://www.investing.com/news/economy-news/netanyahu-pushes-for-renewed-largescale-strikes-on-iran-ft-reports-4961577",
-   "published": "2026-10-21 09:47 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "BMO raises Solstice Advanced Materials stock price target on cost cuts",
-   "url": "https://uk.investing.com/news/stock-market-news/bmo-raises-solstice-advanced-materials-stock-price-target-on-cost-cuts-93CH-4921864",
-   "published": "2026-10-21 09:42 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Sterling today: Pound climbs on hot UK CPI as dollar weakens",
-   "url": "https://uk.investing.com/news/forex-news/sterling-today-pound-climbs-on-hot-uk-cpi-as-dollar-weakens-4921796",
-   "published": "2026-10-21 09:12 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Canada, Turkey to agree during Carney visit to deepen defence and energy ties, source says By Reuters",
-   "url": "https://www.investing.com/news/world-news/canada-turkey-set-to-sign-pledge-during-carney-visit-to-deepen-defence-energy-ties-source-says-4960723",
-   "published": "2026-10-21 04:30 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(nuclear+OR+%22power+purchase%22+OR+PJM+OR+FERC+OR+NRC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
-  },
-  {
-   "title": "Silver Gains As US Treasury Yields Ease Near One-Month Lows On Weak Housing Data By Kedia Advisory",
-   "url": "https://in.investing.com/news/commodities-news/silver-gains-as-us-treasury-yields-ease-near-onemonth-lows-on-weak-housing-data-5644100",
-   "published": "2026-10-21 04:11 UTC",
-   "publisher": "Investing.com",
-   "feed": "https://news.google.com/rss/search?q=(%22Federal+Reserve%22+OR+%22Treasury+yields%22+OR+FOMC)+site:investing.com+when:3d&hl=en-US&gl=US&ceid=US:en"
   }
  ]
 }
